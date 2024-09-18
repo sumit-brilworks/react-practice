@@ -1,4 +1,4 @@
-import { StrictMode } from "react";
+import { StrictMode, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
@@ -11,11 +11,13 @@ import {
 } from "react-router-dom";
 import ErrorBoundary from "./components/ErrorBoundary.jsx";
 import SpecificTeam from "./components/SpecificTeam.jsx";
+import SomeLAzyComponent from "./components/SomeLAzyComponent.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromChildren(
     <>
       <Route path="/" element={<App />}></Route>
+
       <Route
         path="/:teamId"
         loader={async ({ params, request }) => {
@@ -43,6 +45,27 @@ const router = createBrowserRouter(
         }}
         element={<SpecificTeam />}
         errorElement={<ErrorBoundary />}
+      ></Route>
+      <Route
+        path="/lazy"
+        lazy={() =>
+          import("./components/SomeLAzyComponent.jsx").then((a) => {
+            console.log("Generally an import consists", a);
+            return {
+              element: (
+                <Suspense fallback={<div>Loading...</div>}>
+                  <a.default />
+                </Suspense>
+              ),
+            };
+          })
+        }
+        // lazy={async () => {
+        //   let SomeLAzyComponent = await import(
+        //     "./components/SomeLAzyComponent.jsx"
+        //   );
+        //   return { element: SomeLAzyComponent };
+        // }}
       ></Route>
     </>
   )
