@@ -10,7 +10,8 @@ function CountriesList({ query }) {
         .map((element, index) => {
           return (
             <CountryCard
-              key={index}
+              key={element.id}
+              id={element.id}
               countryName={element.name.common}
               capital={element.capital?.[0]}
               imageUrl={element.flags.svg}

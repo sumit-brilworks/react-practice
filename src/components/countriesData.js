@@ -49,12 +49,12 @@ export default [
     },
     latlng: [13.16666666, -59.53333333],
     landlocked: false,
-    area: 430.0,
+    area: 430,
     demonyms: {
       eng: { f: "Barbadian", m: "Barbadian" },
       fra: { f: "Barbadienne", m: "Barbadien" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDE7",
+    flag: "🇧🇧",
     maps: {
       googleMaps: "https://goo.gl/maps/2m36v8STvbGAWd9c7",
       openStreetMaps: "https://www.openstreetmap.org/relation/547511",
@@ -76,6 +76,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [13.1, -59.62] },
     postalCode: { format: "BB#####", regex: "^(?:BB)*(\\d{5})$" },
+    id: 1,
   },
   {
     name: {
@@ -118,7 +119,10 @@ export default [
       pol: { official: "Reunion", common: "Reunion" },
       por: { official: "Ilha da Reunião", common: "Reunião" },
       rus: { official: "Реюньон", common: "Реюньон" },
-      slk: { official: "Réunionský zámorský departmán", common: "Réunion" },
+      slk: {
+        official: "Réunionský zámorský departmán",
+        common: "Réunion",
+      },
       spa: { official: "Isla de la Reunión", common: "Reunión" },
       srp: { official: "Реинион", common: "Реинион" },
       swe: { official: "Réunion", common: "Réunion" },
@@ -128,12 +132,12 @@ export default [
     },
     latlng: [-21.15, 55.5],
     landlocked: false,
-    area: 2511.0,
+    area: 2511,
     demonyms: {
       eng: { f: "Réunionese", m: "Réunionese" },
       fra: { f: "Réunionnaise", m: "Réunionnais" },
     },
-    flag: "\uD83C\uDDF7\uD83C\uDDEA",
+    flag: "🇷🇪",
     maps: {
       googleMaps: "https://goo.gl/maps/wWpBrXsp8UHVbah29",
       openStreetMaps: "https://www.openstreetmap.org/relation/1785276",
@@ -150,6 +154,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-20.88, 55.45] },
     postalCode: { format: "#####", regex: "^((97|98)(4|7|8)\\d{2})$" },
+    id: 2,
   },
   {
     name: {
@@ -207,15 +212,15 @@ export default [
       urd: { official: "جمہوریہ سرینام", common: "سرینام" },
       zho: { official: "苏里南共和国", common: "苏里南" },
     },
-    latlng: [4.0, -56.0],
+    latlng: [4, -56],
     landlocked: false,
     borders: ["BRA", "GUF", "GUY"],
-    area: 163820.0,
+    area: 163820,
     demonyms: {
       eng: { f: "Surinamer", m: "Surinamer" },
       fra: { f: "Surinamaise", m: "Surinamais" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDF7",
+    flag: "🇸🇷",
     maps: {
       googleMaps: "https://goo.gl/maps/iy7TuQLSi4qgoBoG7",
       openStreetMaps: "https://www.openstreetmap.org/relation/287082",
@@ -237,6 +242,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [5.83, -55.17] },
+    id: 3,
   },
   {
     name: {
@@ -309,15 +315,15 @@ export default [
       urd: { official: "جمہوریہ نمیبیا", common: "نمیبیا" },
       zho: { official: "纳米比亚共和国", common: "纳米比亚" },
     },
-    latlng: [-22.0, 17.0],
+    latlng: [-22, 17],
     landlocked: false,
     borders: ["AGO", "BWA", "ZAF", "ZMB"],
-    area: 825615.0,
+    area: 825615,
     demonyms: {
       eng: { f: "Namibian", m: "Namibian" },
       fra: { f: "Namibienne", m: "Namibien" },
     },
-    flag: "\uD83C\uDDF3\uD83C\uDDE6",
+    flag: "🇳🇦",
     maps: {
       googleMaps: "https://goo.gl/maps/oR1i8BFEYX3EY83WA",
       openStreetMaps: "https://www.openstreetmap.org/relation/195266",
@@ -339,6 +345,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-22.57, 17.08] },
+    id: 4,
   },
   {
     name: {
@@ -378,27 +385,33 @@ export default [
       jpn: { official: "ギニア共和国", common: "ギニア" },
       kor: { official: "기니 공화국", common: "기니" },
       nld: { official: "Republiek Guinee", common: "Guinee" },
-      per: { official: "مملکت مستقل پاپوآ گینه نو", common: "پاپوآ گینه نو" },
+      per: {
+        official: "مملکت مستقل پاپوآ گینه نو",
+        common: "پاپوآ گینه نو",
+      },
       pol: { official: "Republika Gwinei", common: "Gwinea" },
       por: { official: "República da Guiné", common: "Guiné" },
       rus: { official: "Республика Гвинея", common: "Гвинея" },
       slk: { official: "Guinejská republika", common: "Guinea" },
       spa: { official: "República de Guinea", common: "Guinea" },
-      srp: { official: "Кооперативна Република Гвајана", common: "Гвајана" },
+      srp: {
+        official: "Кооперативна Република Гвајана",
+        common: "Гвајана",
+      },
       swe: { official: "Republiken Guinea", common: "Guinea" },
       tur: { official: "Gine Cumhuriyeti", common: "Gine" },
       urd: { official: "جمہوریہ گنی", common: "گنی" },
       zho: { official: "几内亚共和国", common: "几内亚" },
     },
-    latlng: [11.0, -10.0],
+    latlng: [11, -10],
     landlocked: false,
     borders: ["CIV", "GNB", "LBR", "MLI", "SEN", "SLE"],
-    area: 245857.0,
+    area: 245857,
     demonyms: {
       eng: { f: "Guinean", m: "Guinean" },
       fra: { f: "Guinéenne", m: "Guinéen" },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDF3",
+    flag: "🇬🇳",
     maps: {
       googleMaps: "https://goo.gl/maps/8J5oM5sA4Ayr1ZYGA",
       openStreetMaps: "https://www.openstreetmap.org/relation/192778",
@@ -420,6 +433,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [9.5, -13.7] },
+    id: 5,
   },
   {
     name: {
@@ -478,14 +492,14 @@ export default [
       urd: { official: "جمہوریہ وانواتو", common: "وانواتو" },
       zho: { official: "瓦努阿图共和国", common: "瓦努阿图" },
     },
-    latlng: [-16.0, 167.0],
+    latlng: [-16, 167],
     landlocked: false,
-    area: 12189.0,
+    area: 12189,
     demonyms: {
       eng: { f: "Ni-Vanuatu", m: "Ni-Vanuatu" },
       fra: { f: "Vanuatuane", m: "Vanuatuan" },
     },
-    flag: "\uD83C\uDDFB\uD83C\uDDFA",
+    flag: "🇻🇺",
     maps: {
       googleMaps: "https://goo.gl/maps/hwAjehcT7VfvP5zJ8",
       openStreetMaps: "https://www.openstreetmap.org/relation/2177246",
@@ -507,6 +521,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-17.73, 168.32] },
+    id: 6,
   },
   {
     name: {
@@ -514,7 +529,10 @@ export default [
       official: "Independent State of Samoa",
       nativeName: {
         eng: { official: "Independent State of Samoa", common: "Samoa" },
-        smo: { official: "Malo Saʻoloto Tutoʻatasi o Sāmoa", common: "Sāmoa" },
+        smo: {
+          official: "Malo Saʻoloto Tutoʻatasi o Sāmoa",
+          common: "Sāmoa",
+        },
       },
     },
     tld: [".ws"],
@@ -568,12 +586,12 @@ export default [
     },
     latlng: [-13.58333333, -172.33333333],
     landlocked: false,
-    area: 2842.0,
+    area: 2842,
     demonyms: {
       eng: { f: "Samoan", m: "Samoan" },
       fra: { f: "Samoane", m: "Samoan" },
     },
-    flag: "\uD83C\uDDFC\uD83C\uDDF8",
+    flag: "🇼🇸",
     maps: {
       googleMaps: "https://goo.gl/maps/CFC9fEFP9cfkYUBF9",
       openStreetMaps: "https://www.openstreetmap.org/relation/1872673",
@@ -595,6 +613,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-13.82, -171.77] },
+    id: 7,
   },
   {
     name: {
@@ -646,15 +665,15 @@ export default [
       urd: { official: "جمہوریہ فرانس", common: "فرانس" },
       zho: { official: "法兰西共和国", common: "法国" },
     },
-    latlng: [46.0, 2.0],
+    latlng: [46, 2],
     landlocked: false,
     borders: ["AND", "BEL", "DEU", "ITA", "LUX", "MCO", "ESP", "CHE"],
-    area: 551695.0,
+    area: 551695,
     demonyms: {
       eng: { f: "French", m: "French" },
       fra: { f: "Française", m: "Français" },
     },
-    flag: "\uD83C\uDDEB\uD83C\uDDF7",
+    flag: "🇫🇷",
     maps: {
       googleMaps: "https://goo.gl/maps/g7QxxSFsWyTPKuzd7",
       openStreetMaps: "https://www.openstreetmap.org/relation/1403916",
@@ -692,6 +711,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [48.87, 2.33] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 8,
   },
   {
     name: {
@@ -746,12 +766,12 @@ export default [
     latlng: [42.5, 1.5],
     landlocked: true,
     borders: ["FRA", "ESP"],
-    area: 468.0,
+    area: 468,
     demonyms: {
       eng: { f: "Andorran", m: "Andorran" },
       fra: { f: "Andorrane", m: "Andorran" },
     },
-    flag: "\uD83C\uDDE6\uD83C\uDDE9",
+    flag: "🇦🇩",
     maps: {
       googleMaps: "https://goo.gl/maps/JqAnacWE2qEznKgw7",
       openStreetMaps: "https://www.openstreetmap.org/relation/9407",
@@ -773,14 +793,21 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [42.5, 1.52] },
     postalCode: { format: "AD###", regex: "^(?:AD)*(\\d{3})$" },
+    id: 9,
   },
   {
     name: {
       common: "Azerbaijan",
       official: "Republic of Azerbaijan",
       nativeName: {
-        aze: { official: "Azərbaycan Respublikası", common: "Azərbaycan" },
-        rus: { official: "Азербайджанская Республика", common: "Азербайджан" },
+        aze: {
+          official: "Azərbaycan Respublikası",
+          common: "Azərbaycan",
+        },
+        rus: {
+          official: "Азербайджанская Республика",
+          common: "Азербайджан",
+        },
       },
     },
     tld: [".az"],
@@ -801,26 +828,47 @@ export default [
     translations: {
       ara: { official: "جمهورية أذربيجان", common: "أذربيجان" },
       bre: { official: "Republik Azerbaidjan", common: "Azerbaidjan" },
-      ces: { official: "Ázerbájdžánská republika", common: "Ázerbájdžán" },
+      ces: {
+        official: "Ázerbájdžánská republika",
+        common: "Ázerbájdžán",
+      },
       cym: { official: "Gweriniaeth Aserbaijan", common: "Aserbaijan" },
-      deu: { official: "Republik Aserbaidschan", common: "Aserbaidschan" },
+      deu: {
+        official: "Republik Aserbaidschan",
+        common: "Aserbaidschan",
+      },
       est: { official: "Aserbaidžaani Vabariik", common: "Aserbaidžaan" },
       fin: { official: "Azerbaidzanin tasavalta", common: "Azerbaidzan" },
-      fra: { official: "République d'Azerbaïdjan", common: "Azerbaïdjan" },
+      fra: {
+        official: "République d'Azerbaïdjan",
+        common: "Azerbaïdjan",
+      },
       hrv: { official: "Republika Azerbajdžan", common: "Azerbajdžan" },
       hun: { official: "Azerbajdzsán", common: "Azerbajdzsán" },
-      ita: { official: "Repubblica dell'Azerbaigian", common: "Azerbaijan" },
-      jpn: { official: "アゼルバイジャン共和国", common: "アゼルバイジャン" },
+      ita: {
+        official: "Repubblica dell'Azerbaigian",
+        common: "Azerbaijan",
+      },
+      jpn: {
+        official: "アゼルバイジャン共和国",
+        common: "アゼルバイジャン",
+      },
       kor: { official: "아제르바이잔 공화국", common: "아제르바이잔" },
       nld: { official: "Republiek Azerbeidzjan", common: "Azerbeidzjan" },
       per: { official: "جمهوری آذربایجان", common: "جمهوری آذربایجان" },
       pol: { official: "Republika Azerbejdżanu", common: "Azerbejdżan" },
       por: { official: "República do Azerbaijão", common: "Azerbeijão" },
-      rus: { official: "Азербайджанская Республика", common: "Азербайджан" },
+      rus: {
+        official: "Азербайджанская Республика",
+        common: "Азербайджан",
+      },
       slk: { official: "Azerbajǆanská republika", common: "AzerbajǇan" },
       spa: { official: "República de Azerbaiyán", common: "Azerbaiyán" },
       srp: { official: "Азербејџанска Република", common: "Азербејџан" },
-      swe: { official: "Republiken Azerbajdzjan", common: "Azerbajdzjan" },
+      swe: {
+        official: "Republiken Azerbajdzjan",
+        common: "Azerbajdzjan",
+      },
       tur: { official: "Azerbaycan Cumhuriyeti", common: "Azerbaycan" },
       urd: { official: "جمہوریہ آذربائیجان", common: "آذربائیجان" },
       zho: { official: "阿塞拜疆共和国", common: "阿塞拜疆" },
@@ -828,12 +876,12 @@ export default [
     latlng: [40.5, 47.5],
     landlocked: true,
     borders: ["ARM", "GEO", "IRN", "RUS", "TUR"],
-    area: 86600.0,
+    area: 86600,
     demonyms: {
       eng: { f: "Azerbaijani", m: "Azerbaijani" },
       fra: { f: "Azerbaïdjanaise", m: "Azerbaïdjanais" },
     },
-    flag: "\uD83C\uDDE6\uD83C\uDDFF",
+    flag: "🇦🇿",
     maps: {
       googleMaps: "https://goo.gl/maps/az3Zz7ar2aoB9AUc6",
       openStreetMaps: "https://www.openstreetmap.org/relation/364110",
@@ -856,6 +904,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [40.38, 49.87] },
     postalCode: { format: "AZ ####", regex: "^(?:AZ)*(\\d{4})$" },
+    id: 10,
   },
   {
     name: {
@@ -915,14 +964,14 @@ export default [
       urd: { official: "جمہوریہ مالدیپ", common: "مالدیپ" },
       zho: { official: "马尔代夫共和国", common: "马尔代夫" },
     },
-    latlng: [3.25, 73.0],
+    latlng: [3.25, 73],
     landlocked: false,
-    area: 300.0,
+    area: 300,
     demonyms: {
       eng: { f: "Maldivan", m: "Maldivan" },
       fra: { f: "Maldivienne", m: "Maldivien" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDFB",
+    flag: "🇲🇻",
     maps: {
       googleMaps: "https://goo.gl/maps/MNAWGq9vEdbZ9vUV7",
       openStreetMaps: "https://www.openstreetmap.org/relation/536773",
@@ -945,13 +994,17 @@ export default [
     startOfWeek: "sunday",
     capitalInfo: { latlng: [4.17, 73.51] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 11,
   },
   {
     name: {
       common: "French Polynesia",
       official: "French Polynesia",
       nativeName: {
-        fra: { official: "Polynésie française", common: "Polynésie française" },
+        fra: {
+          official: "Polynésie française",
+          common: "Polynésie française",
+        },
       },
     },
     tld: [".pf"],
@@ -985,38 +1038,80 @@ export default [
         official: "Französisch-Polynesien",
         common: "Französisch-Polynesien",
       },
-      est: { official: "Prantsuse Polüneesia", common: "Prantsuse Polüneesia" },
+      est: {
+        official: "Prantsuse Polüneesia",
+        common: "Prantsuse Polüneesia",
+      },
       fin: { official: "Ranskan Polynesia", common: "Ranskan Polynesia" },
-      fra: { official: "Polynésie française", common: "Polynésie française" },
-      hrv: { official: "Francuska Polinezija", common: "Francuska Polinezija" },
+      fra: {
+        official: "Polynésie française",
+        common: "Polynésie française",
+      },
+      hrv: {
+        official: "Francuska Polinezija",
+        common: "Francuska Polinezija",
+      },
       hun: { official: "Francia Polinézia", common: "Francia Polinézia" },
-      ita: { official: "Polinesia Francese", common: "Polinesia Francese" },
-      jpn: { official: "フランス領ポリネシア", common: "フランス領ポリネシア" },
-      kor: { official: "프랑스령 폴리네시아", common: "프랑스령 폴리네시아" },
+      ita: {
+        official: "Polinesia Francese",
+        common: "Polinesia Francese",
+      },
+      jpn: {
+        official: "フランス領ポリネシア",
+        common: "フランス領ポリネシア",
+      },
+      kor: {
+        official: "프랑스령 폴리네시아",
+        common: "프랑스령 폴리네시아",
+      },
       nld: { official: "Frans-Polynesië", common: "Frans-Polynesië" },
       per: { official: "پُلی‌نِزی فرانسه", common: "پُلی‌نِزی فرانسه" },
-      pol: { official: "Polinezja Francuska", common: "Polinezja Francuska" },
-      por: { official: "Polinésia Francesa", common: "Polinésia Francesa" },
+      pol: {
+        official: "Polinezja Francuska",
+        common: "Polinezja Francuska",
+      },
+      por: {
+        official: "Polinésia Francesa",
+        common: "Polinésia Francesa",
+      },
       rus: {
         official: "Французская Полинезия",
         common: "Французская Полинезия",
       },
-      slk: { official: "Francúzska Polynézia", common: "Francúzska Polynézia" },
-      spa: { official: "Polinesia francés", common: "Polinesia Francesa" },
-      srp: { official: "Француска Полинезија", common: "Француска Полинезија" },
-      swe: { official: "Franska Polynesien", common: "Franska Polynesien" },
-      tur: { official: "Fransız Polinezyası", common: "Fransız Polinezyası" },
-      urd: { official: "فرانسیسی پولینیشیا", common: "فرانسیسی پولینیشیا" },
+      slk: {
+        official: "Francúzska Polynézia",
+        common: "Francúzska Polynézia",
+      },
+      spa: {
+        official: "Polinesia francés",
+        common: "Polinesia Francesa",
+      },
+      srp: {
+        official: "Француска Полинезија",
+        common: "Француска Полинезија",
+      },
+      swe: {
+        official: "Franska Polynesien",
+        common: "Franska Polynesien",
+      },
+      tur: {
+        official: "Fransız Polinezyası",
+        common: "Fransız Polinezyası",
+      },
+      urd: {
+        official: "فرانسیسی پولینیشیا",
+        common: "فرانسیسی پولینیشیا",
+      },
       zho: { official: "法属波利尼西亚", common: "法属波利尼西亚" },
     },
     latlng: [17.6797, 149.4068],
     landlocked: false,
-    area: 4167.0,
+    area: 4167,
     demonyms: {
       eng: { f: "French Polynesian", m: "French Polynesian" },
       fra: { f: "Polynésienne", m: "Polynésien" },
     },
-    flag: "\uD83C\uDDF5\uD83C\uDDEB",
+    flag: "🇵🇫",
     maps: {
       googleMaps: "https://goo.gl/maps/xgg6BQTRyeQg4e1m6",
       openStreetMaps: "https://www.openstreetmap.org/relation/3412620",
@@ -1036,12 +1131,15 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-17.53, -149.56] },
     postalCode: { format: "#####", regex: "^((97|98)7\\d{2})$" },
+    id: 12,
   },
   {
     name: {
       common: "Saint Lucia",
       official: "Saint Lucia",
-      nativeName: { eng: { official: "Saint Lucia", common: "Saint Lucia" } },
+      nativeName: {
+        eng: { official: "Saint Lucia", common: "Saint Lucia" },
+      },
     },
     tld: [".lc"],
     cca2: "LC",
@@ -1051,7 +1149,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XCD: { name: "Eastern Caribbean dollar", symbol: "$" } },
+    currencies: {
+      XCD: { name: "Eastern Caribbean dollar", symbol: "$" },
+    },
     idd: { root: "+1", suffixes: ["758"] },
     capital: ["Castries"],
     altSpellings: ["LC"],
@@ -1087,12 +1187,12 @@ export default [
     },
     latlng: [13.88333333, -60.96666666],
     landlocked: false,
-    area: 616.0,
+    area: 616,
     demonyms: {
       eng: { f: "Saint Lucian", m: "Saint Lucian" },
       fra: { f: "Saint-Lucienne", m: "Saint-Lucien" },
     },
-    flag: "\uD83C\uDDF1\uD83C\uDDE8",
+    flag: "🇱🇨",
     maps: {
       googleMaps: "https://goo.gl/maps/4HhJ2jkPdSL9BPRcA",
       openStreetMaps: "https://www.openstreetmap.org/relation/550728",
@@ -1113,7 +1213,8 @@ export default [
       svg: "https://mainfacts.com/media/images/coats_of_arms/lc.svg",
     },
     startOfWeek: "monday",
-    capitalInfo: { latlng: [14.0, -61.0] },
+    capitalInfo: { latlng: [14, -61] },
+    id: 13,
   },
   {
     name: {
@@ -1168,15 +1269,15 @@ export default [
       urd: { official: "جمہوریہ پاناما", common: "پاناما" },
       zho: { official: "巴拿马共和国", common: "巴拿马" },
     },
-    latlng: [9.0, -80.0],
+    latlng: [9, -80],
     landlocked: false,
     borders: ["COL", "CRI"],
-    area: 75417.0,
+    area: 75417,
     demonyms: {
       eng: { f: "Panamanian", m: "Panamanian" },
       fra: { f: "Panaméenne", m: "Panaméen" },
     },
-    flag: "\uD83C\uDDF5\uD83C\uDDE6",
+    flag: "🇵🇦",
     maps: {
       googleMaps: "https://goo.gl/maps/sEN7sKqeawa5oPNLA",
       openStreetMaps: "https://www.openstreetmap.org/relation/287668",
@@ -1198,6 +1299,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [8.97, -79.53] },
+    id: 14,
   },
   {
     name: {
@@ -1288,7 +1390,10 @@ export default [
         official: "Democratische Republiek Oost-Timor",
         common: "Oost-Timor",
       },
-      per: { official: "جمهوری دموکراتیک تیمور شرقی", common: "تیمور شرقی" },
+      per: {
+        official: "جمهوری دموکراتیک تیمور شرقی",
+        common: "تیمور شرقی",
+      },
       pol: {
         official: "Demokratyczna Republika Timoru Wschodniego",
         common: "Timor Wschodni",
@@ -1313,23 +1418,29 @@ export default [
         official: "Демократска Република Источни Тимор",
         common: "Источни Тимор",
       },
-      swe: { official: "Demokratiska republiken Östtimor", common: "Östtimor" },
+      swe: {
+        official: "Demokratiska republiken Östtimor",
+        common: "Östtimor",
+      },
       tur: {
         official: "Doğu Timor Demokratik Cumhuriyeti",
         common: "Doğu Timor",
       },
-      urd: { official: "جمہوری جمہوریہ مشرقی تیمور", common: "مشرقی تیمور" },
+      urd: {
+        official: "جمہوری جمہوریہ مشرقی تیمور",
+        common: "مشرقی تیمور",
+      },
       zho: { official: "东帝汶民主共和国", common: "东帝汶" },
     },
     latlng: [-8.83333333, 125.91666666],
     landlocked: false,
     borders: ["IDN"],
-    area: 14874.0,
+    area: 14874,
     demonyms: {
       eng: { f: "East Timorese", m: "East Timorese" },
       fra: { f: "Est-timoraise", m: "Est-timorais" },
     },
-    flag: "\uD83C\uDDF9\uD83C\uDDF1",
+    flag: "🇹🇱",
     maps: {
       googleMaps: "https://goo.gl/maps/sFqBC9zjgUXPR1iTA",
       openStreetMaps: "https://www.openstreetmap.org/relation/305142",
@@ -1348,13 +1459,17 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: { latlng: [-8.58, 125.6] },
+    id: 15,
   },
   {
     name: {
       common: "North Macedonia",
       official: "Republic of North Macedonia",
       nativeName: {
-        mkd: { official: "Република Северна Македонија", common: "Македонија" },
+        mkd: {
+          official: "Република Северна Македонија",
+          common: "Македонија",
+        },
       },
     },
     tld: [".mk"],
@@ -1392,7 +1507,10 @@ export default [
         official: "Republic of North Macedonia",
         common: "North Macedonia",
       },
-      deu: { official: "Republik Nordmazedonien", common: "Nordmazedonien" },
+      deu: {
+        official: "Republik Nordmazedonien",
+        common: "Nordmazedonien",
+      },
       est: {
         official: "Põhja-Makedoonia Vabariik",
         common: "Põhja-Makedoonia",
@@ -1409,14 +1527,20 @@ export default [
         official: "Republika Sjeverna Makedonija",
         common: "Sjeverna Makedonija",
       },
-      hun: { official: "Észak-macedón Köztársaság", common: "Észak-Macedónia" },
+      hun: {
+        official: "Észak-macedón Köztársaság",
+        common: "Észak-Macedónia",
+      },
       ita: {
         official: "Repubblica di Macedonia del Nord",
         common: "Macedonia del Nord",
       },
       jpn: { official: "北マケドニア共和国", common: "北マケドニア " },
       kor: { official: "북마케도니아 공화국", common: "북마케도니아" },
-      nld: { official: "Republiek Noord-Macedonië", common: "Noord-Macedonië" },
+      nld: {
+        official: "Republiek Noord-Macedonië",
+        common: "Noord-Macedonië",
+      },
       per: { official: "جمهوری مقدونیه شمالی", common: "مقدونیه شمالی" },
       pol: {
         official: "Republika Macedonii Północnej",
@@ -1442,7 +1566,10 @@ export default [
         official: "Република Северна Македонија",
         common: "Северна Македонија",
       },
-      swe: { official: "Republiken Nordmakedonien", common: "Nordmakedonien" },
+      swe: {
+        official: "Republiken Nordmakedonien",
+        common: "Nordmakedonien",
+      },
       tur: {
         official: "Kuzey Makedonya Cumhuriyeti",
         common: "Kuzey Makedonya",
@@ -1450,21 +1577,21 @@ export default [
       urd: { official: "جمہوریہ مقدونیہ", common: "شمالی مقدونیہ" },
       zho: { official: "北馬其頓共和國", common: "北馬其頓" },
     },
-    latlng: [41.83333333, 22.0],
+    latlng: [41.83333333, 22],
     landlocked: true,
     borders: ["ALB", "BGR", "GRC", "UNK", "SRB"],
-    area: 25713.0,
+    area: 25713,
     demonyms: {
       eng: { f: "Macedonian", m: "Macedonian" },
       fra: { f: "Macédonienne", m: "Macédonien" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDF0",
+    flag: "🇲🇰",
     maps: {
       googleMaps: "https://goo.gl/maps/55Q8MEnF6ACdu3q79",
       openStreetMaps: "https://www.openstreetmap.org/relation/53293",
     },
     population: 2077132,
-    gini: { 2018: 33.0 },
+    gini: { 2018: 33 },
     fifa: "MKD",
     car: { signs: ["MK"], side: "right" },
     timezones: ["UTC+01:00"],
@@ -1479,8 +1606,9 @@ export default [
       svg: "https://mainfacts.com/media/images/coats_of_arms/mk.svg",
     },
     startOfWeek: "monday",
-    capitalInfo: { latlng: [42.0, 21.43] },
+    capitalInfo: { latlng: [42, 21.43] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 16,
   },
   {
     name: {
@@ -1532,15 +1660,15 @@ export default [
       urd: { official: "مملکتِ ڈنمارک", common: "ڈنمارک" },
       zho: { official: "丹麦王国", common: "丹麦" },
     },
-    latlng: [56.0, 10.0],
+    latlng: [56, 10],
     landlocked: false,
     borders: ["DEU"],
-    area: 43094.0,
+    area: 43094,
     demonyms: {
       eng: { f: "Danish", m: "Danish" },
       fra: { f: "Danoise", m: "Danois" },
     },
-    flag: "\uD83C\uDDE9\uD83C\uDDF0",
+    flag: "🇩🇰",
     maps: {
       googleMaps: "https://goo.gl/maps/UddGPN7hAyrtpFiT6",
       openStreetMaps: "https://www.openstreetmap.org/relation/50046",
@@ -1563,12 +1691,15 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [55.67, 12.58] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 17,
   },
   {
     name: {
       common: "Egypt",
       official: "Arab Republic of Egypt",
-      nativeName: { ara: { official: "جمهورية مصر العربية", common: "مصر" } },
+      nativeName: {
+        ara: { official: "جمهورية مصر العربية", common: "مصر" },
+      },
     },
     tld: [".eg", ".مصر"],
     cca2: "EG",
@@ -1589,7 +1720,10 @@ export default [
       ara: { official: "جمهورية مصر العربية", common: "مصر" },
       bre: { official: "Republik arab Egipt", common: "Egipt" },
       ces: { official: "Egyptská arabská republika", common: "Egypt" },
-      cym: { official: "Gweriniaeth Arabaidd yr Aifft", common: "Yr Aifft" },
+      cym: {
+        official: "Gweriniaeth Arabaidd yr Aifft",
+        common: "Yr Aifft",
+      },
       deu: { official: "Arabische Republik Ägypten", common: "Ägypten" },
       est: { official: "Egiptuse Araabia Vabariik", common: "Egiptus" },
       fin: { official: "Egyptin arabitasavalta", common: "Egypti" },
@@ -1612,15 +1746,15 @@ export default [
       urd: { official: "مصری عرب جمہوریہ", common: "مصر" },
       zho: { official: "阿拉伯埃及共和国", common: "埃及" },
     },
-    latlng: [27.0, 30.0],
+    latlng: [27, 30],
     landlocked: false,
     borders: ["ISR", "LBY", "PSE", "SDN"],
-    area: 1002450.0,
+    area: 1002450,
     demonyms: {
       eng: { f: "Egyptian", m: "Egyptian" },
       fra: { f: "Égyptienne", m: "Égyptien" },
     },
-    flag: "\uD83C\uDDEA\uD83C\uDDEC",
+    flag: "🇪🇬",
     maps: {
       googleMaps: "https://goo.gl/maps/uoDRhXbsqjG6L7VG7",
       openStreetMaps: "https://www.openstreetmap.org/relation/1473947",
@@ -1643,12 +1777,15 @@ export default [
     startOfWeek: "sunday",
     capitalInfo: { latlng: [30.05, 31.25] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 18,
   },
   {
     name: {
       common: "Estonia",
       official: "Republic of Estonia",
-      nativeName: { est: { official: "Eesti Vabariik", common: "Eesti" } },
+      nativeName: {
+        est: { official: "Eesti Vabariik", common: "Eesti" },
+      },
     },
     tld: [".ee"],
     cca2: "EE",
@@ -1692,15 +1829,15 @@ export default [
       urd: { official: "جمہوریہ اسٹونیا", common: "اسٹونیا" },
       zho: { official: "爱沙尼亚共和国", common: "爱沙尼亚" },
     },
-    latlng: [59.0, 26.0],
+    latlng: [59, 26],
     landlocked: false,
     borders: ["LVA", "RUS"],
-    area: 45227.0,
+    area: 45227,
     demonyms: {
       eng: { f: "Estonian", m: "Estonian" },
       fra: { f: "Estonienne", m: "Estonien" },
     },
-    flag: "\uD83C\uDDEA\uD83C\uDDEA",
+    flag: "🇪🇪",
     maps: {
       googleMaps: "https://goo.gl/maps/6SsynwGUodL1sDvq8",
       openStreetMaps: "https://www.openstreetmap.org/relation/79510",
@@ -1723,6 +1860,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [59.43, 24.72] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 19,
   },
   {
     name: {
@@ -1752,7 +1890,10 @@ export default [
       ara: { official: "جمهورية التشيك", common: "التشيك" },
       bre: { official: "Republik Tchek", common: "Tchekia" },
       ces: { official: "Česká republika", common: "Česko" },
-      cym: { official: "Y Weriniaeth Tsiec", common: "Y Weriniaeth Tsiec" },
+      cym: {
+        official: "Y Weriniaeth Tsiec",
+        common: "Y Weriniaeth Tsiec",
+      },
       deu: { official: "Tschechische Republik", common: "Tschechien" },
       est: { official: "Tšehhi Vabariik", common: "Tšehhi" },
       fin: { official: "Tšekin tasavalta", common: "Tšekki" },
@@ -1778,18 +1919,18 @@ export default [
     latlng: [49.75, 15.5],
     landlocked: true,
     borders: ["AUT", "DEU", "POL", "SVK"],
-    area: 78865.0,
+    area: 78865,
     demonyms: {
       eng: { f: "Czech", m: "Czech" },
       fra: { f: "Tchèque", m: "Tchèque" },
     },
-    flag: "\uD83C\uDDE8\uD83C\uDDFF",
+    flag: "🇨🇿",
     maps: {
       googleMaps: "https://goo.gl/maps/47dmgeXMZyhDHyQW8",
       openStreetMaps: "https://www.openstreetmap.org/relation/51684",
     },
     population: 10698896,
-    gini: { 2018: 25.0 },
+    gini: { 2018: 25 },
     fifa: "CZE",
     car: { signs: ["CZ"], side: "right" },
     timezones: ["UTC+01:00"],
@@ -1806,13 +1947,17 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [50.08, 14.47] },
     postalCode: { format: "### ##", regex: "^(\\d{5})$" },
+    id: 20,
   },
   {
     name: {
       common: "Bahamas",
       official: "Commonwealth of the Bahamas",
       nativeName: {
-        eng: { official: "Commonwealth of the Bahamas", common: "Bahamas" },
+        eng: {
+          official: "Commonwealth of the Bahamas",
+          common: "Bahamas",
+        },
       },
     },
     tld: [".bs"],
@@ -1859,18 +2004,21 @@ export default [
       spa: { official: "Commonwealth de las Bahamas", common: "Bahamas" },
       srp: { official: "Комонвелт Бахама", common: "Бахами" },
       swe: { official: "Samväldet Bahamas", common: "Bahamas" },
-      tur: { official: "Bahama Milletler Topluluğu", common: "Bahamalar" },
+      tur: {
+        official: "Bahama Milletler Topluluğu",
+        common: "Bahamalar",
+      },
       urd: { official: "دولتِ مشترکہ بہاماس", common: "بہاماس" },
       zho: { official: "巴哈马联邦", common: "巴哈马" },
     },
     latlng: [25.0343, 77.3963],
     landlocked: false,
-    area: 13943.0,
+    area: 13943,
     demonyms: {
       eng: { f: "Bahamian", m: "Bahamian" },
       fra: { f: "Bahamienne", m: "Bahamien" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDF8",
+    flag: "🇧🇸",
     maps: {
       googleMaps: "https://goo.gl/maps/1YzRs1BZrG8p8pmVA",
       openStreetMaps: "https://www.openstreetmap.org/relation/547469",
@@ -1891,13 +2039,17 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [25.08, -77.35] },
+    id: 21,
   },
   {
     name: {
       common: "Uruguay",
       official: "Oriental Republic of Uruguay",
       nativeName: {
-        spa: { official: "República Oriental del Uruguay", common: "Uruguay" },
+        spa: {
+          official: "República Oriental del Uruguay",
+          common: "Uruguay",
+        },
       },
     },
     tld: [".uy"],
@@ -1920,41 +2072,77 @@ export default [
     subregion: "South America",
     languages: { spa: "Spanish" },
     translations: {
-      ara: { official: "جمهورية الأوروغواي الشرقية", common: "الأوروغواي" },
+      ara: {
+        official: "جمهورية الأوروغواي الشرقية",
+        common: "الأوروغواي",
+      },
       bre: { official: "Republik Reter Uruguay", common: "Uruguay" },
-      ces: { official: "Uruguayská východní republika", common: "Uruguay" },
-      cym: { official: "Oriental Republic of Uruguay", common: "Uruguay" },
-      deu: { official: "Republik Östlich des Uruguay", common: "Uruguay" },
+      ces: {
+        official: "Uruguayská východní republika",
+        common: "Uruguay",
+      },
+      cym: {
+        official: "Oriental Republic of Uruguay",
+        common: "Uruguay",
+      },
+      deu: {
+        official: "Republik Östlich des Uruguay",
+        common: "Uruguay",
+      },
       est: { official: "Uruguay Idavabariik", common: "Uruguay" },
       fin: { official: "Uruguayn itäinen tasavalta", common: "Uruguay" },
-      fra: { official: "République orientale de l'Uruguay", common: "Uruguay" },
-      hrv: { official: "Orijentalna Republika Urugvaj", common: "Urugvaj" },
+      fra: {
+        official: "République orientale de l'Uruguay",
+        common: "Uruguay",
+      },
+      hrv: {
+        official: "Orijentalna Republika Urugvaj",
+        common: "Urugvaj",
+      },
       hun: { official: "Uruguayi Keleti Köztársaság", common: "Uruguay" },
-      ita: { official: "Repubblica Orientale dell'Uruguay", common: "Uruguay" },
+      ita: {
+        official: "Repubblica Orientale dell'Uruguay",
+        common: "Uruguay",
+      },
       jpn: { official: "ウルグアイ東方共和国", common: "ウルグアイ" },
       kor: { official: "우루과이 동방 공화국", common: "우루과이" },
       nld: { official: "Oosterse Republiek Uruguay", common: "Uruguay" },
       per: { official: "جمهوری اروگوئه", common: "اروگوئه" },
-      pol: { official: "Wschodnia Republika Urugwaju", common: "Urugwaj" },
-      por: { official: "República Oriental do Uruguai", common: "Uruguai" },
-      rus: { official: "Восточной Республики Уругвай", common: "Уругвай" },
-      slk: { official: "Uruguajská východná republika", common: "Uruguaj" },
-      spa: { official: "República Oriental del Uruguay", common: "Uruguay" },
+      pol: {
+        official: "Wschodnia Republika Urugwaju",
+        common: "Urugwaj",
+      },
+      por: {
+        official: "República Oriental do Uruguai",
+        common: "Uruguai",
+      },
+      rus: {
+        official: "Восточной Республики Уругвай",
+        common: "Уругвай",
+      },
+      slk: {
+        official: "Uruguajská východná republika",
+        common: "Uruguaj",
+      },
+      spa: {
+        official: "República Oriental del Uruguay",
+        common: "Uruguay",
+      },
       srp: { official: "Источна Република Уругвај", common: "Уругвај" },
       swe: { official: "Republiken Uruguay", common: "Uruguay" },
       tur: { official: "Uruguay Doğu Cumhuriyeti", common: "Uruguay" },
       urd: { official: "جمہوریہ شرقیہ یوراگوئے", common: "یوراگوئے" },
       zho: { official: "乌拉圭东岸共和国", common: "乌拉圭" },
     },
-    latlng: [-33.0, -56.0],
+    latlng: [-33, -56],
     landlocked: false,
     borders: ["ARG", "BRA"],
-    area: 181034.0,
+    area: 181034,
     demonyms: {
       eng: { f: "Uruguayan", m: "Uruguayan" },
       fra: { f: "Uruguayenne", m: "Uruguayen" },
     },
-    flag: "\uD83C\uDDFA\uD83C\uDDFE",
+    flag: "🇺🇾",
     maps: {
       googleMaps: "https://goo.gl/maps/tiQ9Baekb1jQtDSD9",
       openStreetMaps: "https://www.openstreetmap.org/relation/287072",
@@ -1977,12 +2165,15 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-34.85, -56.17] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 22,
   },
   {
     name: {
       common: "Åland Islands",
       official: "Åland Islands",
-      nativeName: { swe: { official: "Landskapet Åland", common: "Åland" } },
+      nativeName: {
+        swe: { official: "Landskapet Åland", common: "Åland" },
+      },
     },
     tld: [".ax"],
     cca2: "AX",
@@ -2027,12 +2218,12 @@ export default [
     },
     latlng: [60.116667, 19.9],
     landlocked: false,
-    area: 1580.0,
+    area: 1580,
     demonyms: {
       eng: { f: "Ålandish", m: "Ålandish" },
       fra: { f: "Ålandaise", m: "Ålandais" },
     },
-    flag: "\uD83C\uDDE6\uD83C\uDDFD",
+    flag: "🇦🇽",
     maps: {
       googleMaps: "https://goo.gl/maps/ewFb3vYsfUmVCoSb8",
       openStreetMaps: "https://www.openstreetmap.org/relation/1650407",
@@ -2051,6 +2242,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [60.12, 19.9] },
+    id: 23,
   },
   {
     name: {
@@ -2093,7 +2285,10 @@ export default [
       fin: { official: "Komorien liitto", common: "Komorit" },
       fra: { official: "Union des Comores", common: "Comores" },
       hrv: { official: "Savez Komori", common: "Komori" },
-      hun: { official: "Comore-szigeteki Unió", common: "Comore-szigetek" },
+      hun: {
+        official: "Comore-szigeteki Unió",
+        common: "Comore-szigetek",
+      },
       ita: { official: "Unione delle Comore", common: "Comore" },
       jpn: { official: "コモロ連合", common: "コモロ" },
       kor: { official: "코모로 연방", common: "코모로" },
@@ -2112,12 +2307,12 @@ export default [
     },
     latlng: [-12.16666666, 44.25],
     landlocked: false,
-    area: 1862.0,
+    area: 1862,
     demonyms: {
       eng: { f: "Comoran", m: "Comoran" },
       fra: { f: "Comorienne", m: "Comorien" },
     },
-    flag: "\uD83C\uDDF0\uD83C\uDDF2",
+    flag: "🇰🇲",
     maps: {
       googleMaps: "https://goo.gl/maps/eas4GP28C1GyStnu6",
       openStreetMaps: "https://www.openstreetmap.org/relation/535790",
@@ -2139,6 +2334,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-11.7, 43.23] },
+    id: 24,
   },
   {
     name: {
@@ -2196,12 +2392,12 @@ export default [
     },
     latlng: [-21.23333333, -159.76666666],
     landlocked: false,
-    area: 236.0,
+    area: 236,
     demonyms: {
       eng: { f: "Cook Islander", m: "Cook Islander" },
       fra: { f: "Cookienne", m: "Cookien" },
     },
-    flag: "\uD83C\uDDE8\uD83C\uDDF0",
+    flag: "🇨🇰",
     maps: {
       googleMaps: "https://goo.gl/maps/nrGZrvWRGB4WHgDC9",
       openStreetMaps: "https://www.openstreetmap.org/relation/2184233",
@@ -2221,6 +2417,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-21.2, -159.77] },
+    id: 25,
   },
   {
     name: {
@@ -2272,15 +2469,15 @@ export default [
       urd: { official: "جمہوریہ کوسٹاریکا", common: "کوسٹاریکا" },
       zho: { official: "哥斯达黎加共和国", common: "哥斯达黎加" },
     },
-    latlng: [10.0, -84.0],
+    latlng: [10, -84],
     landlocked: false,
     borders: ["NIC", "PAN"],
-    area: 51100.0,
+    area: 51100,
     demonyms: {
       eng: { f: "Costa Rican", m: "Costa Rican" },
       fra: { f: "Costaricaine", m: "Costaricain" },
     },
-    flag: "\uD83C\uDDE8\uD83C\uDDF7",
+    flag: "🇨🇷",
     maps: {
       googleMaps: "https://goo.gl/maps/RFiwytjvNrpfKN7k6",
       openStreetMaps: "https://www.openstreetmap.org/relation/287667",
@@ -2303,12 +2500,15 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [9.93, -84.09] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 26,
   },
   {
     name: {
       common: "Togo",
       official: "Togolese Republic",
-      nativeName: { fra: { official: "République togolaise", common: "Togo" } },
+      nativeName: {
+        fra: { official: "République togolaise", common: "Togo" },
+      },
     },
     tld: [".tg"],
     cca2: "TG",
@@ -2318,7 +2518,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XOF: { name: "West African CFA franc", symbol: "Fr" } },
+    currencies: {
+      XOF: { name: "West African CFA franc", symbol: "Fr" },
+    },
     idd: { root: "+2", suffixes: ["28"] },
     capital: ["Lomé"],
     altSpellings: [
@@ -2357,15 +2559,15 @@ export default [
       urd: { official: "جمہوریہ ٹوگو", common: "ٹوگو" },
       zho: { official: "多哥共和国", common: "多哥" },
     },
-    latlng: [8.0, 1.16666666],
+    latlng: [8, 1.16666666],
     landlocked: false,
     borders: ["BEN", "BFA", "GHA"],
-    area: 56785.0,
+    area: 56785,
     demonyms: {
       eng: { f: "Togolese", m: "Togolese" },
       fra: { f: "Togolaise", m: "Togolais" },
     },
-    flag: "\uD83C\uDDF9\uD83C\uDDEC",
+    flag: "🇹🇬",
     maps: {
       googleMaps: "https://goo.gl/maps/jzAa9feXuXPrKVb89",
       openStreetMaps: "https://www.openstreetmap.org/relation/192782",
@@ -2387,6 +2589,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [6.14, 1.21] },
+    id: 27,
   },
   {
     name: {
@@ -2407,7 +2610,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { STN: { name: "São Tomé and Príncipe dobra", symbol: "Db" } },
+    currencies: {
+      STN: { name: "São Tomé and Príncipe dobra", symbol: "Db" },
+    },
     idd: { root: "+2", suffixes: ["39"] },
     capital: ["São Tomé"],
     altSpellings: [
@@ -2521,14 +2726,14 @@ export default [
         common: "圣多美和普林西比",
       },
     },
-    latlng: [1.0, 7.0],
+    latlng: [1, 7],
     landlocked: false,
-    area: 964.0,
+    area: 964,
     demonyms: {
       eng: { f: "Sao Tomean", m: "Sao Tomean" },
       fra: { f: "Santoméenne", m: "Santoméen" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDF9",
+    flag: "🇸🇹",
     maps: {
       googleMaps: "https://goo.gl/maps/9EUppm13RtPX9oF46",
       openStreetMaps: "https://www.openstreetmap.org/relation/535880",
@@ -2550,13 +2755,17 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [0.34, 6.73] },
+    id: 28,
   },
   {
     name: {
       common: "Netherlands",
       official: "Kingdom of the Netherlands",
       nativeName: {
-        nld: { official: "Koninkrijk der Nederlanden", common: "Nederland" },
+        nld: {
+          official: "Koninkrijk der Nederlanden",
+          common: "Nederland",
+        },
       },
     },
     tld: [".nl"],
@@ -2576,9 +2785,15 @@ export default [
     languages: { nld: "Dutch" },
     translations: {
       ara: { official: "مملكة هولندا", common: "هولندا" },
-      bre: { official: "Rouantelezh an Izelvroioù", common: "Izelvroioù" },
+      bre: {
+        official: "Rouantelezh an Izelvroioù",
+        common: "Izelvroioù",
+      },
       ces: { official: "Nizozemské království", common: "Nizozemsko" },
-      cym: { official: "Kingdom of the Netherlands", common: "Netherlands" },
+      cym: {
+        official: "Kingdom of the Netherlands",
+        common: "Netherlands",
+      },
       deu: { official: "Niederlande", common: "Niederlande" },
       est: { official: "Madalmaade Kuningriik", common: "Holland" },
       fin: { official: "Alankomaat", common: "Alankomaat" },
@@ -2604,12 +2819,12 @@ export default [
     latlng: [52.5, 5.75],
     landlocked: false,
     borders: ["BEL", "DEU"],
-    area: 41850.0,
+    area: 41850,
     demonyms: {
       eng: { f: "Dutch", m: "Dutch" },
       fra: { f: "Néerlandaise", m: "Néerlandais" },
     },
-    flag: "\uD83C\uDDF3\uD83C\uDDF1",
+    flag: "🇳🇱",
     maps: {
       googleMaps: "https://goo.gl/maps/Hv6zQswGhFxoVVBm6",
       openStreetMaps: "https://www.openstreetmap.org/relation/47796",
@@ -2632,6 +2847,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [52.35, 4.92] },
     postalCode: { format: "#### @@", regex: "^(\\d{4}[A-Z]{2})$" },
+    id: 29,
   },
   {
     name: {
@@ -2686,8 +2902,14 @@ export default [
         official: "Sonderverwaltungszone Hongkong der Volksrepublik China",
         common: "Hongkong",
       },
-      est: { official: "Hongkongi erihalduspiirkond", common: "Hongkong" },
-      fin: { official: "Hong Kongin erityishallintoalue", common: "Hongkong" },
+      est: {
+        official: "Hongkongi erihalduspiirkond",
+        common: "Hongkong",
+      },
+      fin: {
+        official: "Hong Kongin erityishallintoalue",
+        common: "Hongkong",
+      },
       fra: {
         official:
           "Région administrative spéciale de Hong Kong de la République populaire de Chine",
@@ -2754,12 +2976,12 @@ export default [
     latlng: [22.267, 114.188],
     landlocked: false,
     borders: ["CHN"],
-    area: 1104.0,
+    area: 1104,
     demonyms: {
       eng: { f: "Hong Konger", m: "Hong Konger" },
       fra: { f: "Hongkongaise", m: "Hongkongais" },
     },
-    flag: "\uD83C\uDDED\uD83C\uDDF0",
+    flag: "🇭🇰",
     maps: {
       googleMaps: "https://goo.gl/maps/1sEnNmT47ffrC8MU8",
       openStreetMaps: "https://www.openstreetmap.org/relation/913110",
@@ -2779,13 +3001,17 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [22.267, 114.188] },
+    id: 30,
   },
   {
     name: {
       common: "Australia",
       official: "Commonwealth of Australia",
       nativeName: {
-        eng: { official: "Commonwealth of Australia", common: "Australia" },
+        eng: {
+          official: "Commonwealth of Australia",
+          common: "Australia",
+        },
       },
     },
     tld: [".au"],
@@ -2812,9 +3038,15 @@ export default [
       est: { official: "Austraalia Ühendus", common: "Austraalia" },
       fin: { official: "Australian liittovaltio", common: "Australia" },
       fra: { official: "Australie", common: "Australie" },
-      hrv: { official: "Commonwealth of Australia", common: "Australija" },
+      hrv: {
+        official: "Commonwealth of Australia",
+        common: "Australija",
+      },
       hun: { official: "Ausztrál Államszövetség", common: "Ausztrália" },
-      ita: { official: "Commonwealth dell'Australia", common: "Australia" },
+      ita: {
+        official: "Commonwealth dell'Australia",
+        common: "Australia",
+      },
       jpn: { official: "オーストラリア連邦", common: "オーストラリア" },
       kor: { official: "오스트레일리아 연방", common: "호주" },
       nld: { official: "Gemenebest van Australië", common: "Australië" },
@@ -2825,19 +3057,25 @@ export default [
       slk: { official: "Austrálsky zväz", common: "Austrália" },
       spa: { official: "Mancomunidad de Australia", common: "Australia" },
       srp: { official: "Комонвелт Аустралија", common: "Аустралија" },
-      swe: { official: "Australiska statsförbundet", common: "Australien" },
-      tur: { official: "Avustralya Federal Devleti", common: "Avustralya" },
+      swe: {
+        official: "Australiska statsförbundet",
+        common: "Australien",
+      },
+      tur: {
+        official: "Avustralya Federal Devleti",
+        common: "Avustralya",
+      },
       urd: { official: "دولتِ مشترکہ آسٹریلیا", common: "آسٹریلیا" },
       zho: { official: "澳大利亚联邦", common: "澳大利亚" },
     },
-    latlng: [-27.0, 133.0],
+    latlng: [-27, 133],
     landlocked: false,
-    area: 7692024.0,
+    area: 7692024,
     demonyms: {
       eng: { f: "Australian", m: "Australian" },
       fra: { f: "Australienne", m: "Australien" },
     },
-    flag: "\uD83C\uDDE6\uD83C\uDDFA",
+    flag: "🇦🇺",
     maps: {
       googleMaps: "https://goo.gl/maps/DcjaDa7UbhnZTndH6",
       openStreetMaps: "https://www.openstreetmap.org/relation/80500",
@@ -2869,6 +3107,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-35.27, 149.13] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 31,
   },
   {
     name: {
@@ -2924,12 +3163,12 @@ export default [
     latlng: [2.5, 112.5],
     landlocked: false,
     borders: ["BRN", "IDN", "THA"],
-    area: 330803.0,
+    area: 330803,
     demonyms: {
       eng: { f: "Malaysian", m: "Malaysian" },
       fra: { f: "Malaisienne", m: "Malaisien" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDFE",
+    flag: "🇲🇾",
     maps: {
       googleMaps: "https://goo.gl/maps/qrY1PNeUXGyXDcPy6",
       openStreetMaps: "https://www.openstreetmap.org/relation/2108121",
@@ -2952,13 +3191,17 @@ export default [
     startOfWeek: "sunday",
     capitalInfo: { latlng: [3.17, 101.7] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 32,
   },
   {
     name: {
       common: "Nepal",
       official: "Federal Democratic Republic of Nepal",
       nativeName: {
-        nep: { official: "नेपाल संघीय लोकतान्त्रिक गणतन्त्र", common: "नेपाल" },
+        nep: {
+          official: "नेपाल संघीय लोकतान्त्रिक गणतन्त्र",
+          common: "नेपाल",
+        },
       },
     },
     tld: [".np"],
@@ -2981,8 +3224,14 @@ export default [
     subregion: "Southern Asia",
     languages: { nep: "Nepali" },
     translations: {
-      ara: { official: "جمهورية نيبال الديمقراطية الاتحادية", common: "نيبال" },
-      bre: { official: "Republik Demokratel Kevreadel Nepal", common: "Nepal" },
+      ara: {
+        official: "جمهورية نيبال الديمقراطية الاتحادية",
+        common: "نيبال",
+      },
+      bre: {
+        official: "Republik Demokratel Kevreadel Nepal",
+        common: "Nepal",
+      },
       ces: {
         official: "Federativní demokratická republika Nepál",
         common: "Nepál",
@@ -2991,14 +3240,23 @@ export default [
         official: "Federal Democratic Republic of Nepal",
         common: "Nepal",
       },
-      deu: { official: "Demokratische Bundesrepublik Nepal", common: "Nepal" },
-      est: { official: "Nepali Demokraatlik Liitvabariik", common: "Nepal" },
+      deu: {
+        official: "Demokratische Bundesrepublik Nepal",
+        common: "Nepal",
+      },
+      est: {
+        official: "Nepali Demokraatlik Liitvabariik",
+        common: "Nepal",
+      },
       fin: {
         official: "Nepalin demokraattinen liittotasavalta",
         common: "Nepal",
       },
       fra: { official: "République du Népal", common: "Népal" },
-      hrv: { official: "Savezna Demokratska Republika Nepal", common: "Nepal" },
+      hrv: {
+        official: "Savezna Demokratska Republika Nepal",
+        common: "Nepal",
+      },
       hun: {
         official: "Nepáli Szövetségi Demokratikus Köztársaság",
         common: "Nepál",
@@ -3034,7 +3292,10 @@ export default [
         official: "República Democrática Federal de Nepal",
         common: "Nepal",
       },
-      srp: { official: "Савезна Демократска Република Непал", common: "Непал" },
+      srp: {
+        official: "Савезна Демократска Република Непал",
+        common: "Непал",
+      },
       swe: {
         official: "Demokratiska förbundsrepubliken Nepal",
         common: "Nepal",
@@ -3046,15 +3307,15 @@ export default [
       urd: { official: "وفاقی جمہوری جمہوریہ نیپال", common: "نیپال" },
       zho: { official: "尼泊尔联邦民主共和国", common: "尼泊尔" },
     },
-    latlng: [28.0, 84.0],
+    latlng: [28, 84],
     landlocked: true,
     borders: ["CHN", "IND"],
-    area: 147181.0,
+    area: 147181,
     demonyms: {
       eng: { f: "Nepalese", m: "Nepalese" },
       fra: { f: "Népalaise", m: "Népalais" },
     },
-    flag: "\uD83C\uDDF3\uD83C\uDDF5",
+    flag: "🇳🇵",
     maps: {
       googleMaps: "https://goo.gl/maps/UMj2zpbQp7B5c3yT7",
       openStreetMaps: "https://www.openstreetmap.org/relation/184633",
@@ -3077,12 +3338,15 @@ export default [
     startOfWeek: "sunday",
     capitalInfo: { latlng: [27.72, 85.32] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 33,
   },
   {
     name: {
       common: "Cuba",
       official: "Republic of Cuba",
-      nativeName: { spa: { official: "República de Cuba", common: "Cuba" } },
+      nativeName: {
+        spa: { official: "República de Cuba", common: "Cuba" },
+      },
     },
     tld: [".cu"],
     cca2: "CU",
@@ -3129,14 +3393,14 @@ export default [
       urd: { official: "جمہوریہ کیوبا", common: "کیوبا" },
       zho: { official: "古巴共和国", common: "古巴" },
     },
-    latlng: [21.5, -80.0],
+    latlng: [21.5, -80],
     landlocked: false,
-    area: 109884.0,
+    area: 109884,
     demonyms: {
       eng: { f: "Cuban", m: "Cuban" },
       fra: { f: "Cubaine", m: "Cubain" },
     },
-    flag: "\uD83C\uDDE8\uD83C\uDDFA",
+    flag: "🇨🇺",
     maps: {
       googleMaps: "https://goo.gl/maps/1dDw1QfZspfMUTm99",
       openStreetMaps: "https://www.openstreetmap.org/relation/307833",
@@ -3158,6 +3422,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [23.12, -82.35] },
     postalCode: { format: "CP #####", regex: "^(?:CP)*(\\d{5})$" },
+    id: 34,
   },
   {
     name: {
@@ -3278,18 +3543,21 @@ export default [
         official: "Kore Demokratik Halk Cumhuriyeti",
         common: "Kuzey Kore",
       },
-      urd: { official: "جمہوری عوامی جمہوریہ کوریا", common: "شمالی کوریا" },
+      urd: {
+        official: "جمہوری عوامی جمہوریہ کوریا",
+        common: "شمالی کوریا",
+      },
       zho: { official: "朝鲜人民民主共和国", common: "朝鲜" },
     },
-    latlng: [40.0, 127.0],
+    latlng: [40, 127],
     landlocked: false,
     borders: ["CHN", "KOR", "RUS"],
-    area: 120538.0,
+    area: 120538,
     demonyms: {
       eng: { f: "North Korean", m: "North Korean" },
       fra: { f: "Nord-coréenne", m: "Nord-coréen" },
     },
-    flag: "\uD83C\uDDF0\uD83C\uDDF5",
+    flag: "🇰🇵",
     maps: {
       googleMaps: "https://goo.gl/maps/9q5T2DMeH5JL7Tky6",
       openStreetMaps: "https://www.openstreetmap.org/relation/192734",
@@ -3311,12 +3579,15 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [39.02, 125.75] },
     postalCode: { format: "###-###", regex: "^(\\d{6})$" },
+    id: 35,
   },
   {
     name: {
       common: "French Guiana",
       official: "Guiana",
-      nativeName: { fra: { official: "Guyane", common: "Guyane française" } },
+      nativeName: {
+        fra: { official: "Guyane", common: "Guyane française" },
+      },
     },
     tld: [".gf"],
     cca2: "GF",
@@ -3335,10 +3606,19 @@ export default [
     translations: {
       ara: { official: "غويانا الفرنسية", common: "غويانا" },
       bre: { official: "Gwiana C'hall", common: "Gwiana C'hall" },
-      ces: { official: "Francouzská Guyana", common: "Francouzská Guyana" },
+      ces: {
+        official: "Francouzská Guyana",
+        common: "Francouzská Guyana",
+      },
       cym: { official: "Guiana", common: "French Guiana" },
-      deu: { official: "Französisch-Guayana", common: "Französisch-Guayana" },
-      est: { official: "Guajaana departemang", common: "Prantsuse Guajaana" },
+      deu: {
+        official: "Französisch-Guayana",
+        common: "Französisch-Guayana",
+      },
+      est: {
+        official: "Guajaana departemang",
+        common: "Prantsuse Guajaana",
+      },
       fin: { official: "Ranskan Guayana", common: "Ranskan Guayana" },
       fra: { official: "Guyane", common: "Guyane" },
       hrv: { official: "Gijana", common: "Francuska Gvajana" },
@@ -3359,15 +3639,15 @@ export default [
       urd: { official: "گیانا", common: "فرانسیسی گیانا" },
       zho: { official: "法属圭亚那", common: "法属圭亚那" },
     },
-    latlng: [4.0, -53.0],
+    latlng: [4, -53],
     landlocked: false,
     borders: ["BRA", "SUR"],
-    area: 83534.0,
+    area: 83534,
     demonyms: {
       eng: { f: "Guianan", m: "Guianan" },
       fra: { f: "Guyanaise", m: "Guyanais" },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDEB",
+    flag: "🇬🇫",
     maps: {
       googleMaps: "https://goo.gl/maps/NJawFwMzG7YtCrVP7",
       openStreetMaps: "https://www.openstreetmap.org/relation/2502058",
@@ -3387,12 +3667,15 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [4.94, -52.33] },
     postalCode: { format: "#####", regex: "^((97|98)3\\d{2})$" },
+    id: 36,
   },
   {
     name: {
       common: "Moldova",
       official: "Republic of Moldova",
-      nativeName: { ron: { official: "Republica Moldova", common: "Moldova" } },
+      nativeName: {
+        ron: { official: "Republica Moldova", common: "Moldova" },
+      },
     },
     tld: [".md"],
     cca2: "MD",
@@ -3441,15 +3724,15 @@ export default [
       urd: { official: "جمہوریہ مالدووا", common: "مالدووا" },
       zho: { official: "摩尔多瓦共和国", common: "摩尔多瓦" },
     },
-    latlng: [47.0, 29.0],
+    latlng: [47, 29],
     landlocked: true,
     borders: ["ROU", "UKR"],
-    area: 33846.0,
+    area: 33846,
     demonyms: {
       eng: { f: "Moldovan", m: "Moldovan" },
       fra: { f: "Moldave", m: "Moldave" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDE9",
+    flag: "🇲🇩",
     maps: {
       googleMaps: "https://goo.gl/maps/JjmyUuULujnDeFPf7",
       openStreetMaps: "https://www.openstreetmap.org/relation/58974",
@@ -3472,12 +3755,15 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [47.01, 28.9] },
     postalCode: { format: "MD-####", regex: "^(?:MD)*(\\d{4})$" },
+    id: 37,
   },
   {
     name: {
       common: "Zambia",
       official: "Republic of Zambia",
-      nativeName: { eng: { official: "Republic of Zambia", common: "Zambia" } },
+      nativeName: {
+        eng: { official: "Republic of Zambia", common: "Zambia" },
+      },
     },
     tld: [".zm"],
     cca2: "ZM",
@@ -3521,15 +3807,15 @@ export default [
       urd: { official: "جمہوریہ زیمبیا", common: "زیمبیا" },
       zho: { official: "赞比亚共和国", common: "赞比亚" },
     },
-    latlng: [-15.0, 30.0],
+    latlng: [-15, 30],
     landlocked: true,
     borders: ["AGO", "BWA", "COD", "MWI", "MOZ", "NAM", "TZA", "ZWE"],
-    area: 752612.0,
+    area: 752612,
     demonyms: {
       eng: { f: "Zambian", m: "Zambian" },
       fra: { f: "Zambienne", m: "Zambien" },
     },
-    flag: "\uD83C\uDDFF\uD83C\uDDF2",
+    flag: "🇿🇲",
     maps: {
       googleMaps: "https://goo.gl/maps/mweBcqvW8TppZW6q9",
       openStreetMaps: "https://www.openstreetmap.org/relation/195271",
@@ -3552,6 +3838,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-15.42, 28.28] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 38,
   },
   {
     name: {
@@ -3569,7 +3856,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XCD: { name: "Eastern Caribbean dollar", symbol: "$" } },
+    currencies: {
+      XCD: { name: "Eastern Caribbean dollar", symbol: "$" },
+    },
     idd: { root: "+1", suffixes: ["767"] },
     capital: ["Roseau"],
     altSpellings: [
@@ -3589,9 +3878,15 @@ export default [
       deu: { official: "Commonwealth von Dominica", common: "Dominica" },
       est: { official: "Dominica Ühendus", common: "Dominica" },
       fin: { official: "Dominican liittovaltio", common: "Dominica" },
-      fra: { official: "Commonwealth de la Dominique", common: "Dominique" },
+      fra: {
+        official: "Commonwealth de la Dominique",
+        common: "Dominique",
+      },
       hrv: { official: "Zajednica Dominika", common: "Dominika" },
-      hun: { official: "Dominikai Közösség", common: "Dominikai Közösség" },
+      hun: {
+        official: "Dominikai Közösség",
+        common: "Dominikai Közösség",
+      },
       ita: { official: "Commonwealth di Dominica", common: "Dominica" },
       jpn: { official: "ドミニカ国", common: "ドミニカ国" },
       kor: { official: "도미니카 공화국", common: "도미니카 공화국" },
@@ -3610,12 +3905,12 @@ export default [
     },
     latlng: [15.41666666, -61.33333333],
     landlocked: false,
-    area: 751.0,
+    area: 751,
     demonyms: {
       eng: { f: "Dominican", m: "Dominican" },
       fra: { f: "Dominiquaise", m: "Dominiquais" },
     },
-    flag: "\uD83C\uDDE9\uD83C\uDDF2",
+    flag: "🇩🇲",
     maps: {
       googleMaps: "https://goo.gl/maps/HSKdHYpFC8oHHuyV7",
       openStreetMaps: "https://www.openstreetmap.org/relation/307823",
@@ -3636,6 +3931,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [15.3, -61.4] },
+    id: 39,
   },
   {
     name: {
@@ -3646,7 +3942,10 @@ export default [
           official: "Republic of the Marshall Islands",
           common: "Marshall Islands",
         },
-        mah: { official: "Republic of the Marshall Islands", common: "M̧ajeļ" },
+        mah: {
+          official: "Republic of the Marshall Islands",
+          common: "M̧ajeļ",
+        },
       },
     },
     tld: [".mh"],
@@ -3670,7 +3969,10 @@ export default [
     languages: { eng: "English", mah: "Marshallese" },
     translations: {
       ara: { official: "جمهورية جزر مارشال", common: "جزر مارشال" },
-      bre: { official: "Republik Inizi Marshall", common: "Inizi Marshall" },
+      bre: {
+        official: "Republik Inizi Marshall",
+        common: "Inizi Marshall",
+      },
       ces: {
         official: "Republika Marshallovy ostrovy",
         common: "Marshallovy ostrovy",
@@ -3679,7 +3981,10 @@ export default [
         official: "Republic of the Marshall Islands",
         common: "Marshall Islands",
       },
-      deu: { official: "Republik Marshallinseln", common: "Marshallinseln" },
+      deu: {
+        official: "Republik Marshallinseln",
+        common: "Marshallinseln",
+      },
       est: {
         official: "Marshalli Saarte Vabariik",
         common: "Marshalli Saared",
@@ -3692,7 +3997,10 @@ export default [
         official: "République des Îles Marshall",
         common: "Îles Marshall",
       },
-      hrv: { official: "Republika Maršalovi Otoci", common: "Maršalovi Otoci" },
+      hrv: {
+        official: "Republika Maršalovi Otoci",
+        common: "Maršalovi Otoci",
+      },
       hun: { official: "Marshall-szigetek", common: "Marshall-szigetek" },
       ita: {
         official: "Repubblica delle Isole Marshall",
@@ -3705,7 +4013,10 @@ export default [
         common: "Marshalleilanden",
       },
       per: { official: "جمهوری جزایر مارشال", common: "جزایر مارشال" },
-      pol: { official: "Republika Wysp Marshalla", common: "Wyspy Marshalla" },
+      pol: {
+        official: "Republika Wysp Marshalla",
+        common: "Wyspy Marshalla",
+      },
       por: {
         official: "República das Ilhas Marshall",
         common: "Ilhas Marshall",
@@ -3726,7 +4037,10 @@ export default [
         official: "Република Маршалска Острва",
         common: "Маршалска Острва",
       },
-      swe: { official: "Republiken Marshallöarna", common: "Marshallöarna" },
+      swe: {
+        official: "Republiken Marshallöarna",
+        common: "Marshallöarna",
+      },
       tur: {
         official: "Marshall Adaları Cumhuriyeti",
         common: "Marshall Adaları",
@@ -3734,14 +4048,14 @@ export default [
       urd: { official: "جمہوریہ جزائر مارشل", common: "جزائر مارشل" },
       zho: { official: "马绍尔群岛共和国", common: "马绍尔群岛" },
     },
-    latlng: [9.0, 168.0],
+    latlng: [9, 168],
     landlocked: false,
-    area: 181.0,
+    area: 181,
     demonyms: {
       eng: { f: "Marshallese", m: "Marshallese" },
       fra: { f: "Marshallaise", m: "Marshallais" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDED",
+    flag: "🇲🇭",
     maps: {
       googleMaps: "https://goo.gl/maps/A4xLi1XvcX88gi3W8",
       openStreetMaps: "https://www.openstreetmap.org/relation/571771",
@@ -3761,6 +4075,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [7.1, 171.38] },
+    id: 40,
   },
   {
     name: {
@@ -3813,14 +4128,14 @@ export default [
       urd: { official: "مملکتِ ٹونگا", common: "ٹونگا" },
       zho: { official: "汤加王国", common: "汤加" },
     },
-    latlng: [-20.0, -175.0],
+    latlng: [-20, -175],
     landlocked: false,
-    area: 747.0,
+    area: 747,
     demonyms: {
       eng: { f: "Tongan", m: "Tongan" },
       fra: { f: "Tonguienne", m: "Tonguien" },
     },
-    flag: "\uD83C\uDDF9\uD83C\uDDF4",
+    flag: "🇹🇴",
     maps: {
       googleMaps: "https://goo.gl/maps/p5YALBY2QdEzswRo7",
       openStreetMaps: "https://www.openstreetmap.org/relation/2186665",
@@ -3842,6 +4157,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-21.13, -175.2] },
+    id: 41,
   },
   {
     name: {
@@ -3895,15 +4211,15 @@ export default [
       urd: { official: "جمہوریہ پیرو", common: "پیرو" },
       zho: { official: "秘鲁共和国", common: "秘鲁" },
     },
-    latlng: [-10.0, -76.0],
+    latlng: [-10, -76],
     landlocked: false,
     borders: ["BOL", "BRA", "CHL", "COL", "ECU"],
-    area: 1285216.0,
+    area: 1285216,
     demonyms: {
       eng: { f: "Peruvian", m: "Peruvian" },
       fra: { f: "Péruvienne", m: "Péruvien" },
     },
-    flag: "\uD83C\uDDF5\uD83C\uDDEA",
+    flag: "🇵🇪",
     maps: {
       googleMaps: "https://goo.gl/maps/uDWEUaXNcZTng1fP6",
       openStreetMaps: "https://www.openstreetmap.org/relation/288247",
@@ -3926,6 +4242,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-12.05, -77.05] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 42,
   },
   {
     name: {
@@ -3954,11 +4271,17 @@ export default [
       ara: { official: "جمهورية كابو فيردي", common: "كابو فيردي" },
       bre: { official: "Republik Kab Glas", common: "Kab Glas" },
       ces: { official: "Kapverdská republika", common: "Kapverdy" },
-      cym: { official: "Gweriniaeth Cabo Verde", common: "Penrhyn Verde" },
+      cym: {
+        official: "Gweriniaeth Cabo Verde",
+        common: "Penrhyn Verde",
+      },
       deu: { official: "Republik Cabo Verde", common: "Kap Verde" },
       est: { official: "Cabo Verde Vabariik", common: "Roheneemesaared" },
       fin: { official: "Kap Verden tasavalta", common: "Kap Verde" },
-      fra: { official: "République du Cap-Vert", common: "Îles du Cap-Vert" },
+      fra: {
+        official: "République du Cap-Vert",
+        common: "Îles du Cap-Vert",
+      },
       hrv: {
         official: "Republika Cabo Verde",
         common: "Zelenortska Republika",
@@ -3980,7 +4303,10 @@ export default [
       rus: { official: "Республика Кабо -Верде", common: "Кабо-Верде" },
       slk: { official: "Kapverdská republika", common: "Kapverdy" },
       spa: { official: "República de Cabo Verde", common: "Cabo Verde" },
-      srp: { official: "Зеленортска Република", common: "Зеленортска Острва" },
+      srp: {
+        official: "Зеленортска Република",
+        common: "Зеленортска Острва",
+      },
       swe: { official: "Republiken Kap Verde", common: "Kap Verde" },
       tur: { official: "Yeşil Burun Cumhuriyeti", common: "Yeşil Burun" },
       urd: { official: "جمہوریہ کیپ ورڈی", common: "کیپ ورڈی" },
@@ -3988,12 +4314,12 @@ export default [
     },
     latlng: [16.5388, 23.0418],
     landlocked: false,
-    area: 4033.0,
+    area: 4033,
     demonyms: {
       eng: { f: "Cape Verdian", m: "Cape Verdian" },
       fra: { f: "Cap-verdienne", m: "Cap-verdien" },
     },
-    flag: "\uD83C\uDDE8\uD83C\uDDFB",
+    flag: "🇨🇻",
     maps: {
       googleMaps: "https://goo.gl/maps/Kc9vy5ChjuiAgMfXA",
       openStreetMaps: "https://www.openstreetmap.org/relation/535774",
@@ -4016,6 +4342,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [14.92, -23.52] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 43,
   },
   {
     name: {
@@ -4095,23 +4422,26 @@ export default [
       },
       swe: { official: "Republiken Kiribati", common: "Kiribati" },
       tur: { official: "Kiribati Cumhuriyeti", common: "Kiribati" },
-      urd: { official: "سلطنت آزاد جمہوریہ کیریباتی", common: "کیریباتی" },
+      urd: {
+        official: "سلطنت آزاد جمہوریہ کیریباتی",
+        common: "کیریباتی",
+      },
       zho: { official: "基里巴斯共和国", common: "基里巴斯" },
     },
-    latlng: [1.41666666, 173.0],
+    latlng: [1.41666666, 173],
     landlocked: false,
-    area: 811.0,
+    area: 811,
     demonyms: {
       eng: { f: "I-Kiribati", m: "I-Kiribati" },
       fra: { f: "Kiribatienne", m: "Kiribatien" },
     },
-    flag: "\uD83C\uDDF0\uD83C\uDDEE",
+    flag: "🇰🇮",
     maps: {
       googleMaps: "https://goo.gl/maps/NBfYvrndW4skAimw9",
       openStreetMaps: "https://www.openstreetmap.org/relation/571178",
     },
     population: 119446,
-    gini: { 2006: 37.0 },
+    gini: { 2006: 37 },
     car: { signs: ["KIR"], side: "left" },
     timezones: ["UTC+12:00", "UTC+13:00", "UTC+14:00"],
     continents: ["Oceania"],
@@ -4126,6 +4456,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [1.33, 172.98] },
+    id: 44,
   },
   {
     name: {
@@ -4184,15 +4515,15 @@ export default [
       urd: { official: "جمہوریہ فن لینڈ", common: "فن لینڈ" },
       zho: { official: "芬兰共和国", common: "芬兰" },
     },
-    latlng: [64.0, 26.0],
+    latlng: [64, 26],
     landlocked: false,
     borders: ["NOR", "SWE", "RUS"],
-    area: 338424.0,
+    area: 338424,
     demonyms: {
       eng: { f: "Finnish", m: "Finnish" },
       fra: { f: "Finlandaise", m: "Finlandais" },
     },
-    flag: "\uD83C\uDDEB\uD83C\uDDEE",
+    flag: "🇫🇮",
     maps: {
       googleMaps: "https://goo.gl/maps/HjgWDCNKRAYHrkMn8",
       openStreetMaps: "openstreetmap.org/relation/54224",
@@ -4215,6 +4546,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [60.17, 24.93] },
     postalCode: { format: "#####", regex: "^(?:FI)*(\\d{5})$" },
+    id: 45,
   },
   {
     name: {
@@ -4235,7 +4567,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XOF: { name: "West African CFA franc", symbol: "Fr" } },
+    currencies: {
+      XOF: { name: "West African CFA franc", symbol: "Fr" },
+    },
     idd: { root: "+2", suffixes: ["25"] },
     capital: ["Yamoussoukro"],
     altSpellings: [
@@ -4250,13 +4584,22 @@ export default [
     languages: { fra: "French" },
     translations: {
       ara: { official: "جمهورية ساحل العاج", common: "ساحل العاج" },
-      bre: { official: "Republik Aod an Olifant", common: "Aod an Olifant" },
+      bre: {
+        official: "Republik Aod an Olifant",
+        common: "Aod an Olifant",
+      },
       ces: {
         official: "Republika Pobřeží slonoviny",
         common: "Pobřeží slonoviny",
       },
-      cym: { official: "Republic of Côte d'Ivoire", common: "Ivory Coast" },
-      deu: { official: "Republik Côte d'Ivoire", common: "Elfenbeinküste" },
+      cym: {
+        official: "Republic of Côte d'Ivoire",
+        common: "Ivory Coast",
+      },
+      deu: {
+        official: "Republik Côte d'Ivoire",
+        common: "Elfenbeinküste",
+      },
       est: {
         official: "Côte d’Ivoire’i Vabariik",
         common: "Elevandiluurannik",
@@ -4269,7 +4612,10 @@ export default [
         official: "République de Côte d' Ivoire",
         common: "Côte d'Ivoire",
       },
-      hrv: { official: "Republika Côte d'Ivoire", common: "Obala Bjelokosti" },
+      hrv: {
+        official: "Republika Côte d'Ivoire",
+        common: "Obala Bjelokosti",
+      },
       hun: {
         official: "Elefántcsontparti Köztársaság",
         common: "Elefántcsontpart",
@@ -4278,7 +4624,10 @@ export default [
         official: "Repubblica della Costa d'Avorio",
         common: "Costa d'Avorio",
       },
-      jpn: { official: "コートジボワール共和国", common: "コートジボワール" },
+      jpn: {
+        official: "コートジボワール共和国",
+        common: "コートジボワール",
+      },
       kor: { official: "코트디부아르 공화국", common: "코트디부아르" },
       nld: { official: "Republiek Ivoorkust", common: "Ivoorkust" },
       per: { official: "جمهوری ساحل عاج", common: "ساحل عاج" },
@@ -4299,7 +4648,10 @@ export default [
         official: "República de Côte d'Ivoire",
         common: "Costa de Marfil",
       },
-      srp: { official: "Република Обала Слоноваче", common: "Обала Слоноваче" },
+      srp: {
+        official: "Република Обала Слоноваче",
+        common: "Обала Слоноваче",
+      },
       swe: {
         official: "Republiken Elfenbenskusten",
         common: "Elfenbenskusten",
@@ -4308,15 +4660,15 @@ export default [
       urd: { official: "جمہوریہ کوت دیواغ", common: "آئیوری کوسٹ" },
       zho: { official: "科特迪瓦共和国", common: "科特迪瓦" },
     },
-    latlng: [8.0, -5.0],
+    latlng: [8, -5],
     landlocked: false,
     borders: ["BFA", "GHA", "GIN", "LBR", "MLI"],
-    area: 322463.0,
+    area: 322463,
     demonyms: {
       eng: { f: "Ivorian", m: "Ivorian" },
       fra: { f: "Ivoirienne", m: "Ivoirien" },
     },
-    flag: "\uD83C\uDDE8\uD83C\uDDEE",
+    flag: "🇨🇮",
     maps: {
       googleMaps: "https://goo.gl/maps/wKsmN7f5qAeNtGjP6",
       openStreetMaps: "https://www.openstreetmap.org/relation/192779",
@@ -4338,12 +4690,15 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [6.82, -5.27] },
+    id: 46,
   },
   {
     name: {
       common: "Martinique",
       official: "Martinique",
-      nativeName: { fra: { official: "Martinique", common: "Martinique" } },
+      nativeName: {
+        fra: { official: "Martinique", common: "Martinique" },
+      },
     },
     tld: [".mq"],
     cca2: "MQ",
@@ -4386,14 +4741,14 @@ export default [
       urd: { official: "مارٹینیک", common: "مارٹینیک" },
       zho: { official: "马提尼克", common: "马提尼克" },
     },
-    latlng: [14.666667, -61.0],
+    latlng: [14.666667, -61],
     landlocked: false,
-    area: 1128.0,
+    area: 1128,
     demonyms: {
       eng: { f: "Martinican", m: "Martinican" },
       fra: { f: "Martiniquaise", m: "Martiniquais" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDF6",
+    flag: "🇲🇶",
     maps: {
       googleMaps: "https://goo.gl/maps/87ER7sDAFU7JjcvR6",
       openStreetMaps: "https://www.openstreetmap.org/relation/2473088",
@@ -4413,13 +4768,17 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [14.6, -61.08] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 47,
   },
   {
     name: {
       common: "Pakistan",
       official: "Islamic Republic of Pakistan",
       nativeName: {
-        eng: { official: "Islamic Republic of Pakistan", common: "Pakistan" },
+        eng: {
+          official: "Islamic Republic of Pakistan",
+          common: "Pakistan",
+        },
         urd: { official: "اسلامی جمہوریۂ پاكستان", common: "پاكستان" },
       },
     },
@@ -4446,42 +4805,84 @@ export default [
     translations: {
       ara: { official: "جمهورية باكستان الإسلامية", common: "باكستان" },
       bre: { official: "Republik islamek Pakistan", common: "Pakistan" },
-      ces: { official: "Pákistánská islámská republika", common: "Pákistán" },
-      cym: { official: "Islamic Republic of Pakistan", common: "Pakistan" },
-      deu: { official: "Islamische Republik Pakistan", common: "Pakistan" },
+      ces: {
+        official: "Pákistánská islámská republika",
+        common: "Pákistán",
+      },
+      cym: {
+        official: "Islamic Republic of Pakistan",
+        common: "Pakistan",
+      },
+      deu: {
+        official: "Islamische Republik Pakistan",
+        common: "Pakistan",
+      },
       est: { official: "Pakistani Islamivabariik", common: "Pakistan" },
       fin: {
         official: "Pakistanin islamilainen tasavalta",
         common: "Pakistan",
       },
-      fra: { official: "République islamique du Pakistan", common: "Pakistan" },
-      hrv: { official: "Islamska Republika Pakistan", common: "Pakistan" },
+      fra: {
+        official: "République islamique du Pakistan",
+        common: "Pakistan",
+      },
+      hrv: {
+        official: "Islamska Republika Pakistan",
+        common: "Pakistan",
+      },
       hun: { official: "Pakisztán", common: "Pakisztán" },
-      ita: { official: "Repubblica islamica del Pakistan", common: "Pakistan" },
+      ita: {
+        official: "Repubblica islamica del Pakistan",
+        common: "Pakistan",
+      },
       jpn: { official: "パキスタン", common: "パキスタン" },
       kor: { official: "파키스탄 이슬람 공화국", common: "파키스탄" },
-      nld: { official: "Islamitische Republiek Pakistan", common: "Pakistan" },
+      nld: {
+        official: "Islamitische Republiek Pakistan",
+        common: "Pakistan",
+      },
       per: { official: "جمهوری اسلامی پاکستان", common: "پاکستان" },
-      pol: { official: "Islamska Republika Pakistanu", common: "Pakistan" },
-      por: { official: "República Islâmica do Paquistão", common: "Paquistão" },
-      rus: { official: "Исламская Республика Пакистан", common: "Пакистан" },
-      slk: { official: "Pakistanská islamská republika", common: "Pakistan" },
-      spa: { official: "República Islámica de Pakistán", common: "Pakistán" },
-      srp: { official: "Исламска Република Пакистан", common: "Пакистан" },
-      swe: { official: "Islamiska republiken Pakistan", common: "Pakistan" },
+      pol: {
+        official: "Islamska Republika Pakistanu",
+        common: "Pakistan",
+      },
+      por: {
+        official: "República Islâmica do Paquistão",
+        common: "Paquistão",
+      },
+      rus: {
+        official: "Исламская Республика Пакистан",
+        common: "Пакистан",
+      },
+      slk: {
+        official: "Pakistanská islamská republika",
+        common: "Pakistan",
+      },
+      spa: {
+        official: "República Islámica de Pakistán",
+        common: "Pakistán",
+      },
+      srp: {
+        official: "Исламска Република Пакистан",
+        common: "Пакистан",
+      },
+      swe: {
+        official: "Islamiska republiken Pakistan",
+        common: "Pakistan",
+      },
       tur: { official: "Pakistan İslam Cumhuriyeti", common: "Pakistan" },
       urd: { official: "اسلامی جمہوریہ پاکستان", common: "پاکستان" },
       zho: { official: "巴基斯坦伊斯兰共和国", common: "巴基斯坦" },
     },
-    latlng: [30.0, 70.0],
+    latlng: [30, 70],
     landlocked: false,
     borders: ["AFG", "CHN", "IND", "IRN"],
-    area: 881912.0,
+    area: 881912,
     demonyms: {
       eng: { f: "Pakistani", m: "Pakistani" },
       fra: { f: "Pakistanaise", m: "Pakistanais" },
     },
-    flag: "\uD83C\uDDF5\uD83C\uDDF0",
+    flag: "🇵🇰",
     maps: {
       googleMaps: "https://goo.gl/maps/5LYujdfR5yLUXoERA",
       openStreetMaps: "https://www.openstreetmap.org/relation/307573",
@@ -4504,6 +4905,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [33.68, 73.05] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 48,
   },
   {
     name: {
@@ -4564,15 +4966,15 @@ export default [
       urd: { official: "جمہوریہ جبوتی", common: "جبوتی" },
       zho: { official: "吉布提共和国", common: "吉布提" },
     },
-    latlng: [11.5, 43.0],
+    latlng: [11.5, 43],
     landlocked: false,
     borders: ["ERI", "ETH", "SOM"],
-    area: 23200.0,
+    area: 23200,
     demonyms: {
       eng: { f: "Djibouti", m: "Djibouti" },
       fra: { f: "Djiboutienne", m: "Djiboutien" },
     },
-    flag: "\uD83C\uDDE9\uD83C\uDDEF",
+    flag: "🇩🇯",
     maps: {
       googleMaps: "https://goo.gl/maps/V1HWfzN3bS1kwf4C6",
       openStreetMaps: "https://www.openstreetmap.org/relation/192801",
@@ -4594,6 +4996,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [11.58, 43.15] },
+    id: 49,
   },
   {
     name: {
@@ -4635,7 +5038,10 @@ export default [
         official: "Turks und Caicos Inseln",
         common: "Turks-und Caicosinseln",
       },
-      est: { official: "Turksi ja Caicose saared", common: "Turks ja Caicos" },
+      est: {
+        official: "Turksi ja Caicose saared",
+        common: "Turks ja Caicos",
+      },
       fin: {
         official: "Turks-ja Caicossaaret",
         common: "Turks-ja Caicossaaret",
@@ -4644,7 +5050,10 @@ export default [
         official: "Îles Turques et Caïques",
         common: "Îles Turques-et-Caïques",
       },
-      hrv: { official: "Otoci Turks i Caicos", common: "Otoci Turks i Caicos" },
+      hrv: {
+        official: "Otoci Turks i Caicos",
+        common: "Otoci Turks i Caicos",
+      },
       hun: {
         official: "Turks- és Caicos-szigetek",
         common: "Turks- és Caicos-szigetek",
@@ -4654,21 +5063,39 @@ export default [
         official: "タークス·カイコス諸島",
         common: "タークス・カイコス諸島",
       },
-      kor: { official: "터크스 케이커스 제도", common: "터크스 케이커스 제도" },
+      kor: {
+        official: "터크스 케이커스 제도",
+        common: "터크스 케이커스 제도",
+      },
       nld: {
         official: "Turks-en Caicoseilanden",
         common: "Turks-en Caicoseilanden",
       },
-      per: { official: "جزایر تورکس و کایکوس", common: "جزایر تورکس و کایکوس" },
+      per: {
+        official: "جزایر تورکس و کایکوس",
+        common: "جزایر تورکس و کایکوس",
+      },
       pol: { official: "Turks i Caicos", common: "Turks i Caicos" },
-      por: { official: "Ilhas Turks e Caicos", common: "Ilhas Turks e Caicos" },
-      rus: { official: "Теркс и Кайкос острова", common: "Теркс и Кайкос" },
-      slk: { official: "Ostrovy Turks a Caicos", common: "Turks a Caicos" },
+      por: {
+        official: "Ilhas Turks e Caicos",
+        common: "Ilhas Turks e Caicos",
+      },
+      rus: {
+        official: "Теркс и Кайкос острова",
+        common: "Теркс и Кайкос",
+      },
+      slk: {
+        official: "Ostrovy Turks a Caicos",
+        common: "Turks a Caicos",
+      },
       spa: {
         official: "Islas Turcas y Caicos",
         common: "Islas Turks y Caicos",
       },
-      srp: { official: "Острва Теркс и Кејкос", common: "Теркс и Кејкос" },
+      srp: {
+        official: "Острва Теркс и Кејкос",
+        common: "Теркс и Кејкос",
+      },
       swe: {
         official: "Turks- och Caicosöarna",
         common: "Turks- och Caicosöarna",
@@ -4677,16 +5104,25 @@ export default [
         official: "Turks ve Caicos Adaları",
         common: "Turks ve Caicos Adaları",
       },
-      urd: { official: "جزائر کیکس و ترکیہ", common: "جزائر کیکس و ترکیہ" },
-      zho: { official: "特克斯和凯科斯群岛", common: "特克斯和凯科斯群岛" },
+      urd: {
+        official: "جزائر کیکس و ترکیہ",
+        common: "جزائر کیکس و ترکیہ",
+      },
+      zho: {
+        official: "特克斯和凯科斯群岛",
+        common: "特克斯和凯科斯群岛",
+      },
     },
     latlng: [21.75, -71.58333333],
     landlocked: false,
-    area: 948.0,
+    area: 948,
     demonyms: {
-      eng: { f: "Turks and Caicos Islander", m: "Turks and Caicos Islander" },
+      eng: {
+        f: "Turks and Caicos Islander",
+        m: "Turks and Caicos Islander",
+      },
     },
-    flag: "\uD83C\uDDF9\uD83C\uDDE8",
+    flag: "🇹🇨",
     maps: {
       googleMaps: "https://goo.gl/maps/R8VUDQfwZiFtvmyn8",
       openStreetMaps: "https://www.openstreetmap.org/relation/547479",
@@ -4704,6 +5140,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [21.46, -71.14] },
     postalCode: { format: "TKCA 1ZZ", regex: "^(TKCA 1ZZ)$" },
+    id: 50,
   },
   {
     name: {
@@ -4736,28 +5173,55 @@ export default [
     subregion: "Micronesia",
     languages: { eng: "English" },
     translations: {
-      ara: { official: "ولايات ميكرونيسيا المتحدة", common: "ميكرونيسيا" },
-      bre: { official: "Stadoù Kevreet Mikronezia", common: "Mikronezia" },
-      ces: { official: "Federativní státy Mikronésie", common: "Mikronésie" },
-      cym: { official: "Federated States of Micronesia", common: "Micronesia" },
+      ara: {
+        official: "ولايات ميكرونيسيا المتحدة",
+        common: "ميكرونيسيا",
+      },
+      bre: {
+        official: "Stadoù Kevreet Mikronezia",
+        common: "Mikronezia",
+      },
+      ces: {
+        official: "Federativní státy Mikronésie",
+        common: "Mikronésie",
+      },
+      cym: {
+        official: "Federated States of Micronesia",
+        common: "Micronesia",
+      },
       deu: {
         official: "Föderierte Staaten von Mikronesien",
         common: "Mikronesien",
       },
       est: { official: "Mikroneesia Liiduriigid", common: "Mikroneesia" },
       fin: { official: "Mikronesian liittovaltio", common: "Mikronesia" },
-      fra: { official: "États fédérés de Micronésie", common: "Micronésie" },
-      hrv: { official: "Savezne Države Mikronezije", common: "Mikronezija" },
+      fra: {
+        official: "États fédérés de Micronésie",
+        common: "Micronésie",
+      },
+      hrv: {
+        official: "Savezne Države Mikronezije",
+        common: "Mikronezija",
+      },
       hun: {
         official: "Mikronéziai Szövetségi Államok",
         common: "Mikronéziai Szövetségi Államok",
       },
-      ita: { official: "Stati federati di Micronesia", common: "Micronesia" },
+      ita: {
+        official: "Stati federati di Micronesia",
+        common: "Micronesia",
+      },
       jpn: { official: "ミクロネシア連邦", common: "ミクロネシア連邦" },
       kor: { official: "미크로네시아 연방", common: "미크로네시아" },
-      nld: { official: "Federale Staten van Micronesia", common: "Micronesië" },
+      nld: {
+        official: "Federale Staten van Micronesia",
+        common: "Micronesië",
+      },
       per: { official: "ایالات فدرال میکرونزی", common: "میکرونزی" },
-      pol: { official: "Sfederowane Stany Mikronezji", common: "Mikronezja" },
+      pol: {
+        official: "Sfederowane Stany Mikronezji",
+        common: "Mikronezja",
+      },
       por: {
         official: "Estados Federados da Micronésia",
         common: "Micronésia",
@@ -4766,28 +5230,40 @@ export default [
         official: "Федеративные Штаты Микронезии",
         common: "Федеративные Штаты Микронезии",
       },
-      slk: { official: "Mikronézske federatívne štáty", common: "Mikronézia" },
+      slk: {
+        official: "Mikronézske federatívne štáty",
+        common: "Mikronézia",
+      },
       spa: {
         official: "Estados Federados de Micronesia",
         common: "Micronesia",
       },
-      srp: { official: "Савез Држава Микронезије", common: "Микронезија" },
+      srp: {
+        official: "Савез Држава Микронезије",
+        common: "Микронезија",
+      },
       swe: {
         official: "Mikronesiska federationen",
         common: "Mikronesiska federationen",
       },
-      tur: { official: "Mikronezya Federal Devletleri", common: "Mikronezya" },
-      urd: { official: "ریاستہائے وفاقیہ مائکرونیشیا", common: "مائکرونیشیا" },
+      tur: {
+        official: "Mikronezya Federal Devletleri",
+        common: "Mikronezya",
+      },
+      urd: {
+        official: "ریاستہائے وفاقیہ مائکرونیشیا",
+        common: "مائکرونیشیا",
+      },
       zho: { official: "密克罗尼西亚联邦", common: "密克罗尼西亚" },
     },
     latlng: [6.91666666, 158.25],
     landlocked: false,
-    area: 702.0,
+    area: 702,
     demonyms: {
       eng: { f: "Micronesian", m: "Micronesian" },
       fra: { f: "Micronésienne", m: "Micronésien" },
     },
-    flag: "\uD83C\uDDEB\uD83C\uDDF2",
+    flag: "🇫🇲",
     maps: {
       googleMaps: "https://goo.gl/maps/LLcnofC5LxZsJXTo8",
       openStreetMaps: "https://www.openstreetmap.org/relation/571802",
@@ -4809,6 +5285,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [6.92, 158.15] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 51,
   },
   {
     name: {
@@ -4863,12 +5340,12 @@ export default [
     latlng: [46.11666666, 14.81666666],
     landlocked: false,
     borders: ["AUT", "HRV", "ITA", "HUN"],
-    area: 20273.0,
+    area: 20273,
     demonyms: {
       eng: { f: "Slovene", m: "Slovene" },
       fra: { f: "Slovène", m: "Slovène" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDEE",
+    flag: "🇸🇮",
     maps: {
       googleMaps: "https://goo.gl/maps/7zgFmswcCJh5L5D49",
       openStreetMaps: "https://www.openstreetmap.org/relation/218657",
@@ -4891,6 +5368,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [46.05, 14.52] },
     postalCode: { format: "SI- ####", regex: "^(?:SI)*(\\d{4})$" },
+    id: 52,
   },
   {
     name: {
@@ -4939,7 +5417,10 @@ export default [
       nld: { official: "Kirgizische Republiek", common: "Kirgizië" },
       per: { official: "جمهوری قِرقیزستان", common: "قرقیزستان" },
       pol: { official: "Republika Kirgiska", common: "Kirgistan" },
-      por: { official: "República do Quirguistão", common: "Quirguistão" },
+      por: {
+        official: "República do Quirguistão",
+        common: "Quirguistão",
+      },
       rus: { official: "Кыргызская Республика", common: "Киргизия" },
       slk: { official: "Kirgizská republika", common: "Kirgizsko" },
       spa: { official: "República Kirguisa", common: "Kirguizistán" },
@@ -4949,15 +5430,15 @@ export default [
       urd: { official: "جمہوریہ کرغیزستان", common: "کرغیزستان" },
       zho: { official: "吉尔吉斯斯坦共和国", common: "吉尔吉斯斯坦" },
     },
-    latlng: [41.0, 75.0],
+    latlng: [41, 75],
     landlocked: true,
     borders: ["CHN", "KAZ", "TJK", "UZB"],
-    area: 199951.0,
+    area: 199951,
     demonyms: {
       eng: { f: "Kirghiz", m: "Kirghiz" },
       fra: { f: "Kirghize", m: "Kirghize" },
     },
-    flag: "\uD83C\uDDF0\uD83C\uDDEC",
+    flag: "🇰🇬",
     maps: {
       googleMaps: "https://goo.gl/maps/SKG8BSMMQVvxkRkB7",
       openStreetMaps: "https://www.openstreetmap.org/relation/178009",
@@ -4980,6 +5461,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [42.87, 74.6] },
     postalCode: { format: "######", regex: "^(\\d{6})$" },
+    id: 53,
   },
   {
     name: {
@@ -5019,7 +5501,10 @@ export default [
         official: "Bonaire, Sint Eustatius ha Saba",
         common: "Bonaire, Sint Eustatius ha Saba",
       },
-      ces: { official: "Karibské Nizozemsko", common: "Karibské Nizozemsko" },
+      ces: {
+        official: "Karibské Nizozemsko",
+        common: "Karibské Nizozemsko",
+      },
       cym: {
         official: "Bonaire, Sint Eustatius and Saba",
         common: "Caribbean Netherlands",
@@ -5061,7 +5546,10 @@ export default [
         official: "Bonaire, Sint Eustatius en Saba",
         common: "Caribisch Nederland",
       },
-      per: { official: "جزایر کارائیب هلند", common: "جزایر کارائیب هلند" },
+      per: {
+        official: "جزایر کارائیب هلند",
+        common: "جزایر کارائیب هلند",
+      },
       pol: {
         official: "Bonaire, Sint Eustatius i Saba",
         common: "Antyle Holenderskie",
@@ -5090,7 +5578,10 @@ export default [
         official: "Bonaire, Sint Eustatius and Saba",
         common: "Karibiska Nederländerna",
       },
-      tur: { official: "Karayip Hollandası", common: "Karayip Hollandası" },
+      tur: {
+        official: "Karayip Hollandası",
+        common: "Karayip Hollandası",
+      },
       urd: {
         official: "بونایر، سینٹ ایوسٹائیس اور سابا",
         common: "کیریبین نیدرلینڈز",
@@ -5099,12 +5590,12 @@ export default [
     },
     latlng: [12.18, -68.25],
     landlocked: false,
-    area: 328.0,
+    area: 328,
     demonyms: {
       eng: { f: "Dutch", m: "Dutch" },
       fra: { f: "Néerlandaise", m: "Néerlandais" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDF6",
+    flag: "🇧🇶",
     maps: {
       googleMaps: "https://goo.gl/maps/4XVes1P6uEDTz77WA",
       openStreetMaps: "https://www.openstreetmap.org/relation/1216720",
@@ -5123,6 +5614,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [12.14, -68.27] },
+    id: 54,
   },
   {
     name: {
@@ -5170,7 +5662,10 @@ export default [
         official: "Gebiet der Französisch Süd- und Antarktisgebiete",
         common: "Französische Süd- und Antarktisgebiete",
       },
-      est: { official: "Prantsuse Lõunaalad", common: "Prantsuse Lõunaalad" },
+      est: {
+        official: "Prantsuse Lõunaalad",
+        common: "Prantsuse Lõunaalad",
+      },
       fin: {
         official: "Ranskan eteläiset ja antarktiset alueet",
         common: "Ranskan eteläiset ja antarktiset alueet",
@@ -5244,16 +5739,19 @@ export default [
         official: "سرزمینِ جنوبی فرانسیسیہ و انٹارکٹیکہ",
         common: "سرزمین جنوبی فرانسیسیہ و انٹارکٹیکا",
       },
-      zho: { official: "法国南部和南极土地", common: "法国南部和南极土地" },
+      zho: {
+        official: "法国南部和南极土地",
+        common: "法国南部和南极土地",
+      },
     },
     latlng: [-49.25, 69.167],
     landlocked: false,
-    area: 7747.0,
+    area: 7747,
     demonyms: {
       eng: { f: "French", m: "French" },
       fra: { f: "Française", m: "Français" },
     },
-    flag: "\uD83C\uDDF9\uD83C\uDDEB",
+    flag: "🇹🇫",
     maps: {
       googleMaps: "https://goo.gl/maps/6ua6CX1m4w1xF2Em7",
       openStreetMaps: "https://www.openstreetmap.org/relation/2186658",
@@ -5272,6 +5770,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [48.81, -1.4] },
+    id: 55,
   },
   {
     name: {
@@ -5374,12 +5873,15 @@ export default [
     },
     latlng: [18.5, -63.41666666],
     landlocked: false,
-    area: 21.0,
+    area: 21,
     demonyms: {
-      eng: { f: "Saint Barthélemy Islander", m: "Saint Barthélemy Islander" },
+      eng: {
+        f: "Saint Barthélemy Islander",
+        m: "Saint Barthélemy Islander",
+      },
       fra: { f: "Barthéloméenne", m: "Barthéloméen" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDF1",
+    flag: "🇧🇱",
     maps: {
       googleMaps: "https://goo.gl/maps/Mc7GqH466S7AAk297",
       openStreetMaps: "https://www.openstreetmap.org/relation/7552779",
@@ -5396,6 +5898,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [17.88, -62.85] },
     postalCode: { format: "### ###" },
+    id: 56,
   },
   {
     name: {
@@ -5443,7 +5946,10 @@ export default [
       bre: { official: "Kengevredad Suis", common: "Suis" },
       ces: { official: "Švýcarská konfederace", common: "Švýcarsko" },
       cym: { official: "Swiss Confederation", common: "Switzerland" },
-      deu: { official: "Schweizerische Eidgenossenschaft", common: "Schweiz" },
+      deu: {
+        official: "Schweizerische Eidgenossenschaft",
+        common: "Schweiz",
+      },
       est: { official: "Šveitsi Konföderatsioon", common: "Šveits" },
       fin: { official: "Sveitsin valaliitto", common: "Sveitsi" },
       fra: { official: "Confédération suisse", common: "Suisse" },
@@ -5457,7 +5963,10 @@ export default [
       pol: { official: "Konfederacja Szwajcarska", common: "Szwajcaria" },
       por: { official: "Confederação Suíça", common: "Suíça" },
       rus: { official: "Швейцарская Конфедерация", common: "Швейцария" },
-      slk: { official: "Švajčiarska konfederácia", common: "Švajčiarsko" },
+      slk: {
+        official: "Švajčiarska konfederácia",
+        common: "Švajčiarsko",
+      },
       spa: { official: "Confederación Suiza", common: "Suiza" },
       srp: { official: "Швајцарска Конфедерација", common: "Швајцарска" },
       swe: { official: "Schweiziska edsförbundet", common: "Schweiz" },
@@ -5465,15 +5974,15 @@ export default [
       urd: { official: "سوئیس  متحدہ", common: "سویٹذرلینڈ" },
       zho: { official: "瑞士联邦", common: "瑞士" },
     },
-    latlng: [47.0, 8.0],
+    latlng: [47, 8],
     landlocked: true,
     borders: ["AUT", "FRA", "ITA", "LIE", "DEU"],
-    area: 41284.0,
+    area: 41284,
     demonyms: {
       eng: { f: "Swiss", m: "Swiss" },
       fra: { f: "Suisse", m: "Suisse" },
     },
-    flag: "\uD83C\uDDE8\uD83C\uDDED",
+    flag: "🇨🇭",
     maps: {
       googleMaps: "https://goo.gl/maps/uVuZcXaxSx5jLyEC9",
       openStreetMaps: "https://www.openstreetmap.org/relation/51701",
@@ -5496,6 +6005,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [46.92, 7.47] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 57,
   },
   {
     name: {
@@ -5548,12 +6058,12 @@ export default [
     latlng: [29.5, 45.75],
     landlocked: false,
     borders: ["IRQ", "SAU"],
-    area: 17818.0,
+    area: 17818,
     demonyms: {
       eng: { f: "Kuwaiti", m: "Kuwaiti" },
       fra: { f: "Koweïtienne", m: "Koweïtien" },
     },
-    flag: "\uD83C\uDDF0\uD83C\uDDFC",
+    flag: "🇰🇼",
     maps: {
       googleMaps: "https://goo.gl/maps/aqr3aNQjS1BAvksJ7",
       openStreetMaps: "https://www.openstreetmap.org/relation/305099",
@@ -5575,6 +6085,7 @@ export default [
     startOfWeek: "sunday",
     capitalInfo: { latlng: [29.37, 47.97] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 58,
   },
   {
     name: {
@@ -5583,7 +6094,10 @@ export default [
       nativeName: {
         crs: { official: "Repiblik Sesel", common: "Sesel" },
         eng: { official: "Republic of Seychelles", common: "Seychelles" },
-        fra: { official: "République des Seychelles", common: "Seychelles" },
+        fra: {
+          official: "République des Seychelles",
+          common: "Seychelles",
+        },
       },
     },
     tld: [".sc"],
@@ -5605,7 +6119,11 @@ export default [
     ],
     region: "Africa",
     subregion: "Eastern Africa",
-    languages: { crs: "Seychellois Creole", eng: "English", fra: "French" },
+    languages: {
+      crs: "Seychellois Creole",
+      eng: "English",
+      fra: "French",
+    },
     translations: {
       ara: { official: "جمهورية سيشل", common: "سيشل" },
       bre: { official: "Republik Sechelez", common: "Sechelez" },
@@ -5614,10 +6132,19 @@ export default [
       deu: { official: "Republik der Seychellen", common: "Seychellen" },
       est: { official: "Seišelli Vabariik", common: "Seišellid" },
       fin: { official: "Seychellien tasavalta", common: "Seychellit" },
-      fra: { official: "République des Seychelles", common: "Seychelles" },
+      fra: {
+        official: "République des Seychelles",
+        common: "Seychelles",
+      },
       hrv: { official: "Republika Sejšeli", common: "Sejšeli" },
-      hun: { official: "Seychelle Köztársaság", common: "Seychelle-szigetek" },
-      ita: { official: "Repubblica delle Seychelles", common: "Seychelles" },
+      hun: {
+        official: "Seychelle Köztársaság",
+        common: "Seychelle-szigetek",
+      },
+      ita: {
+        official: "Repubblica delle Seychelles",
+        common: "Seychelles",
+      },
       jpn: { official: "セイシェル共和国", common: "セーシェル" },
       kor: { official: "세이셸 공화국", common: "세이셸" },
       nld: { official: "Republiek der Seychellen", common: "Seychellen" },
@@ -5629,21 +6156,27 @@ export default [
         common: "Сейшельские Острова",
       },
       slk: { official: "Seychelská republika", common: "Seychely" },
-      spa: { official: "República de las Seychelles", common: "Seychelles" },
+      spa: {
+        official: "República de las Seychelles",
+        common: "Seychelles",
+      },
       srp: { official: "Република Сејшели", common: "Сејшели" },
-      swe: { official: "Republiken Seychellerna", common: "Seychellerna" },
+      swe: {
+        official: "Republiken Seychellerna",
+        common: "Seychellerna",
+      },
       tur: { official: "Seyşeller Cumhuriyeti", common: "Seyşeller" },
       urd: { official: "جمہوریہ سیچیلیس", common: "سیچیلیس" },
       zho: { official: "塞舌尔共和国", common: "塞舌尔" },
     },
     latlng: [-4.58333333, 55.66666666],
     landlocked: false,
-    area: 452.0,
+    area: 452,
     demonyms: {
       eng: { f: "Seychellois", m: "Seychellois" },
       fra: { f: "Seychelloise", m: "Seychellois" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDE8",
+    flag: "🇸🇨",
     maps: {
       googleMaps: "https://goo.gl/maps/aqCcy2TKh5TV5MAX8",
       openStreetMaps: "https://www.openstreetmap.org/relation/536765",
@@ -5665,6 +6198,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-4.62, 55.45] },
+    id: 59,
   },
   {
     name: {
@@ -5742,7 +6276,10 @@ export default [
         official: "グレート·ブリテンおよび北アイルランド連合王国",
         common: "イギリス",
       },
-      kor: { official: "그레이트브리튼 북아일랜드 연합 왕국", common: "영국" },
+      kor: {
+        official: "그레이트브리튼 북아일랜드 연합 왕국",
+        common: "영국",
+      },
       nld: {
         official: "Verenigd Koninkrijk van Groot-Brittannië en Noord-Ierland",
         common: "Verenigd Koninkrijk",
@@ -5790,15 +6327,15 @@ export default [
       },
       zho: { official: "大不列颠及北爱尔兰联合王国", common: "英国" },
     },
-    latlng: [54.0, -2.0],
+    latlng: [54, -2],
     landlocked: false,
     borders: ["IRL"],
-    area: 242900.0,
+    area: 242900,
     demonyms: {
       eng: { f: "British", m: "British" },
       fra: { f: "Britannique", m: "Britannique" },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDE7",
+    flag: "🇬🇧",
     maps: {
       googleMaps: "https://goo.gl/maps/FoDtc3UKMkFsXAjHA",
       openStreetMaps: "https://www.openstreetmap.org/relation/62149",
@@ -5834,6 +6371,7 @@ export default [
       regex:
         "^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$",
     },
+    id: 60,
   },
   {
     name: {
@@ -5886,7 +6424,10 @@ export default [
         official: "Ühendriikide Neitsisaared",
         common: "Neitsisaared, USA",
       },
-      fin: { official: "Yhdysvaltain Neitsytsaaret", common: "Neitsytsaaret" },
+      fin: {
+        official: "Yhdysvaltain Neitsytsaaret",
+        common: "Neitsytsaaret",
+      },
       fra: {
         official: "Îles Vierges des États-Unis",
         common: "Îles Vierges des États-Unis",
@@ -5907,7 +6448,10 @@ export default [
         official: "米国のバージン諸島",
         common: "アメリカ領ヴァージン諸島",
       },
-      kor: { official: "미국령 버진아일랜드", common: "미국령 버진아일랜드" },
+      kor: {
+        official: "미국령 버진아일랜드",
+        common: "미국령 버진아일랜드",
+      },
       nld: {
         official: "Maagdeneilanden van de Verenigde Staten",
         common: "Amerikaanse Maagdeneilanden",
@@ -5953,9 +6497,9 @@ export default [
     },
     latlng: [18.35, -64.933333],
     landlocked: false,
-    area: 347.0,
+    area: 347,
     demonyms: { eng: { f: "Virgin Islander", m: "Virgin Islander" } },
-    flag: "\uD83C\uDDFB\uD83C\uDDEE",
+    flag: "🇻🇮",
     maps: {
       googleMaps: "https://goo.gl/maps/mBfreywj8dor6q4m9",
       openStreetMaps: "openstreetmap.org/relation/286898",
@@ -5972,6 +6516,7 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: { latlng: [18.35, -64.93] },
+    id: 61,
   },
   {
     name: {
@@ -6036,12 +6581,12 @@ export default [
     },
     latlng: [17.7134, 178.065],
     landlocked: false,
-    area: 18272.0,
+    area: 18272,
     demonyms: {
       eng: { f: "Fijian", m: "Fijian" },
       fra: { f: "Fidjienne", m: "Fidjien" },
     },
-    flag: "\uD83C\uDDEB\uD83C\uDDEF",
+    flag: "🇫🇯",
     maps: {
       googleMaps: "https://goo.gl/maps/r9fhDqoLZdg1zmE99",
       openStreetMaps: "https://www.openstreetmap.org/relation/571747",
@@ -6063,12 +6608,15 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-18.13, 178.42] },
+    id: 62,
   },
   {
     name: {
       common: "Yemen",
       official: "Republic of Yemen",
-      nativeName: { ara: { official: "الجمهورية اليمنية", common: "اليَمَن" } },
+      nativeName: {
+        ara: { official: "الجمهورية اليمنية", common: "اليَمَن" },
+      },
     },
     tld: [".ye"],
     cca2: "YE",
@@ -6112,15 +6660,15 @@ export default [
       urd: { official: "جمہوریہ یمن", common: "یمن" },
       zho: { official: "也门共和国", common: "也门" },
     },
-    latlng: [15.0, 48.0],
+    latlng: [15, 48],
     landlocked: false,
     borders: ["OMN", "SAU"],
-    area: 527968.0,
+    area: 527968,
     demonyms: {
       eng: { f: "Yemeni", m: "Yemeni" },
       fra: { f: "Yéménite", m: "Yéménite" },
     },
-    flag: "\uD83C\uDDFE\uD83C\uDDEA",
+    flag: "🇾🇪",
     maps: {
       googleMaps: "https://goo.gl/maps/WCmE76HKcLideQQw7",
       openStreetMaps: "https://www.openstreetmap.org/relation/305092",
@@ -6142,13 +6690,17 @@ export default [
     },
     startOfWeek: "sunday",
     capitalInfo: { latlng: [15.37, 44.19] },
+    id: 63,
   },
   {
     name: {
       common: "British Virgin Islands",
       official: "Virgin Islands",
       nativeName: {
-        eng: { official: "Virgin Islands", common: "British Virgin Islands" },
+        eng: {
+          official: "Virgin Islands",
+          common: "British Virgin Islands",
+        },
       },
     },
     tld: [".vg"],
@@ -6176,20 +6728,47 @@ export default [
         official: "Britské Panenské ostrovy",
         common: "Britské Panenské ostrovy",
       },
-      cym: { official: "Virgin Islands", common: "British Virgin Islands" },
-      deu: { official: "Jungferninseln", common: "Britische Jungferninseln" },
+      cym: {
+        official: "Virgin Islands",
+        common: "British Virgin Islands",
+      },
+      deu: {
+        official: "Jungferninseln",
+        common: "Britische Jungferninseln",
+      },
       est: { official: "Neitsisaared", common: "Briti Neitsisaared" },
-      fin: { official: "Brittiläiset Neitsytsaaret", common: "Neitsytsaaret" },
-      fra: { official: "îles Vierges", common: "Îles Vierges britanniques" },
+      fin: {
+        official: "Brittiläiset Neitsytsaaret",
+        common: "Neitsytsaaret",
+      },
+      fra: {
+        official: "îles Vierges",
+        common: "Îles Vierges britanniques",
+      },
       hrv: {
         official: "Djevičanski Otoci",
         common: "Britanski Djevičanski Otoci",
       },
-      hun: { official: "Brit Virgin-szigetek", common: "Brit Virgin-szigetek" },
-      ita: { official: "Isole Vergini", common: "Isole Vergini Britanniche" },
-      jpn: { official: "バージン諸島", common: "イギリス領ヴァージン諸島" },
-      kor: { official: "영국령 버진아일랜드", common: "영국령 버진아일랜드" },
-      nld: { official: "Maagdeneilanden", common: "Britse Maagdeneilanden" },
+      hun: {
+        official: "Brit Virgin-szigetek",
+        common: "Brit Virgin-szigetek",
+      },
+      ita: {
+        official: "Isole Vergini",
+        common: "Isole Vergini Britanniche",
+      },
+      jpn: {
+        official: "バージン諸島",
+        common: "イギリス領ヴァージン諸島",
+      },
+      kor: {
+        official: "영국령 버진아일랜드",
+        common: "영국령 버진아일랜드",
+      },
+      nld: {
+        official: "Maagdeneilanden",
+        common: "Britse Maagdeneilanden",
+      },
       per: {
         official: "جزایر ویرجین بریتانیا",
         common: "جزایر ویرجین بریتانیا",
@@ -6217,14 +6796,17 @@ export default [
         common: "Brittiska Jungfruöarna",
       },
       tur: { official: "Virjin Adaları", common: "Virjin Adaları" },
-      urd: { official: "برطانوی جزائر ورجن", common: "برطانوی جزائر ورجن" },
+      urd: {
+        official: "برطانوی جزائر ورجن",
+        common: "برطانوی جزائر ورجن",
+      },
       zho: { official: "英属维尔京群岛", common: "英属维尔京群岛" },
     },
     latlng: [18.431383, -64.62305],
     landlocked: false,
-    area: 151.0,
+    area: 151,
     demonyms: { eng: { f: "Virgin Islander", m: "Virgin Islander" } },
-    flag: "\uD83C\uDDFB\uD83C\uDDEC",
+    flag: "🇻🇬",
     maps: {
       googleMaps: "https://goo.gl/maps/49C9cSesNVAR9DQk8",
       openStreetMaps: "https://www.openstreetmap.org/relation/285454",
@@ -6244,12 +6826,15 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [18.42, -64.62] },
+    id: 64,
   },
   {
     name: {
       common: "Bouvet Island",
       official: "Bouvet Island",
-      nativeName: { nor: { official: "Bouvetøya", common: "Bouvetøya" } },
+      nativeName: {
+        nor: { official: "Bouvetøya", common: "Bouvetøya" },
+      },
     },
     tld: [".bv"],
     cca2: "BV",
@@ -6291,8 +6876,8 @@ export default [
     },
     latlng: [54.4208, 3.3464],
     landlocked: false,
-    area: 49.0,
-    flag: "\uD83C\uDDE7\uD83C\uDDFB",
+    area: 49,
+    flag: "🇧🇻",
     maps: {
       googleMaps: "https://goo.gl/maps/7WRQAEKZb4uK36yi9",
       openStreetMaps: "https://www.openstreetmap.org/way/174996681",
@@ -6308,6 +6893,7 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: {},
+    id: 65,
   },
   {
     name: {
@@ -6329,7 +6915,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XAF: { name: "Central African CFA franc", symbol: "Fr" } },
+    currencies: {
+      XAF: { name: "Central African CFA franc", symbol: "Fr" },
+    },
     idd: { root: "+2", suffixes: ["36"] },
     capital: ["Bangui"],
     altSpellings: [
@@ -6385,13 +6973,22 @@ export default [
         official: "Repubblica Centrafricana",
         common: "Repubblica Centrafricana",
       },
-      jpn: { official: "中央アフリカ共和国", common: "中央アフリカ共和国" },
-      kor: { official: "중앙아프리카 공화국", common: "중앙아프리카 공화국" },
+      jpn: {
+        official: "中央アフリカ共和国",
+        common: "中央アフリカ共和国",
+      },
+      kor: {
+        official: "중앙아프리카 공화국",
+        common: "중앙아프리카 공화국",
+      },
       nld: {
         official: "Centraal-Afrikaanse Republiek",
         common: "Centraal-Afrikaanse Republiek",
       },
-      per: { official: "جمهوری آفریقای مرکزی", common: "جمهوری آفریقای مرکزی" },
+      per: {
+        official: "جمهوری آفریقای مرکزی",
+        common: "جمهوری آفریقای مرکزی",
+      },
       pol: {
         official: "Republika Środkowoafrykańska",
         common: "Republika Środkowoafrykańska",
@@ -6424,18 +7021,21 @@ export default [
         official: "Orta Afrika Cumhuriyeti",
         common: "Orta Afrika Cumhuriyeti",
       },
-      urd: { official: "وسطی افریقی جمہوریہ", common: "وسطی افریقی جمہوریہ" },
+      urd: {
+        official: "وسطی افریقی جمہوریہ",
+        common: "وسطی افریقی جمہوریہ",
+      },
       zho: { official: "中非共和国", common: "中非共和国" },
     },
-    latlng: [7.0, 21.0],
+    latlng: [7, 21],
     landlocked: true,
     borders: ["CMR", "TCD", "COD", "COG", "SSD", "SDN"],
-    area: 622984.0,
+    area: 622984,
     demonyms: {
       eng: { f: "Central African", m: "Central African" },
       fra: { f: "Centrafricaine", m: "Centrafricain" },
     },
-    flag: "\uD83C\uDDE8\uD83C\uDDEB",
+    flag: "🇨🇫",
     maps: {
       googleMaps: "https://goo.gl/maps/51V8dsi2rGYC9n3c9",
       openStreetMaps: "https://www.openstreetmap.org/relation/192790",
@@ -6457,6 +7057,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [4.37, 18.58] },
+    id: 66,
   },
   {
     name: {
@@ -6520,15 +7121,15 @@ export default [
       urd: { official: "مملکتِ بلجئیم", common: "بلجئیم" },
       zho: { official: "比利时王国", common: "比利时" },
     },
-    latlng: [50.83333333, 4.0],
+    latlng: [50.83333333, 4],
     landlocked: false,
     borders: ["FRA", "DEU", "LUX", "NLD"],
-    area: 30528.0,
+    area: 30528,
     demonyms: {
       eng: { f: "Belgian", m: "Belgian" },
       fra: { f: "Belge", m: "Belge" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDEA",
+    flag: "🇧🇪",
     maps: {
       googleMaps: "https://goo.gl/maps/UQQzat85TCtPRXAL8",
       openStreetMaps: "https://www.openstreetmap.org/relation/52411",
@@ -6551,6 +7152,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [50.83, 4.33] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 67,
   },
   {
     name: {
@@ -6569,7 +7171,9 @@ export default [
     independent: false,
     status: "officially-assigned",
     unMember: false,
-    currencies: { ANG: { name: "Netherlands Antillean guilder", symbol: "ƒ" } },
+    currencies: {
+      ANG: { name: "Netherlands Antillean guilder", symbol: "ƒ" },
+    },
     idd: { root: "+5", suffixes: ["99"] },
     capital: ["Willemstad"],
     altSpellings: [
@@ -6610,12 +7214,12 @@ export default [
     },
     latlng: [12.116667, -68.933333],
     landlocked: false,
-    area: 444.0,
+    area: 444,
     demonyms: {
       eng: { f: "Curaçaoan", m: "Curaçaoan" },
       fra: { f: "Curacienne", m: "Curacien" },
     },
-    flag: "\uD83C\uDDE8\uD83C\uDDFC",
+    flag: "🇨🇼",
     maps: {
       googleMaps: "https://goo.gl/maps/9D3hTeA3qKaRT7S16",
       openStreetMaps: "https://www.openstreetmap.org/relation/1216719",
@@ -6635,6 +7239,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [12.1, -68.92] },
+    id: 68,
   },
   {
     name: {
@@ -6687,15 +7292,15 @@ export default [
       urd: { official: "جمہوریہ ارجنٹائن", common: "ارجنٹائن" },
       zho: { official: "阿根廷共和国", common: "阿根廷" },
     },
-    latlng: [-34.0, -64.0],
+    latlng: [-34, -64],
     landlocked: false,
     borders: ["BOL", "BRA", "CHL", "PRY", "URY"],
-    area: 2780400.0,
+    area: 2780400,
     demonyms: {
       eng: { f: "Argentine", m: "Argentine" },
       fra: { f: "Argentine", m: "Argentin" },
     },
-    flag: "\uD83C\uDDE6\uD83C\uDDF7",
+    flag: "🇦🇷",
     maps: {
       googleMaps: "https://goo.gl/maps/Z9DXNxhf2o93kvyc6",
       openStreetMaps: "https://www.openstreetmap.org/relation/286393",
@@ -6718,14 +7323,21 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-34.58, -58.67] },
     postalCode: { format: "@####@@@", regex: "^([A-Z]\\d{4}[A-Z]{3})$" },
+    id: 69,
   },
   {
     name: {
       common: "Madagascar",
       official: "Republic of Madagascar",
       nativeName: {
-        fra: { official: "République de Madagascar", common: "Madagascar" },
-        mlg: { official: "Repoblikan'i Madagasikara", common: "Madagasikara" },
+        fra: {
+          official: "République de Madagascar",
+          common: "Madagascar",
+        },
+        mlg: {
+          official: "Repoblikan'i Madagasikara",
+          common: "Madagasikara",
+        },
       },
     },
     tld: [".mg"],
@@ -6758,8 +7370,14 @@ export default [
       fin: { official: "Madagaskarin tasavalta", common: "Madagaskar" },
       fra: { official: "République de Madagascar", common: "Madagascar" },
       hrv: { official: "Republika Madagaskar", common: "Madagaskar" },
-      hun: { official: "Madagaszkári Köztársaság", common: "Madagaszkár" },
-      ita: { official: "Repubblica del Madagascar", common: "Madagascar" },
+      hun: {
+        official: "Madagaszkári Köztársaság",
+        common: "Madagaszkár",
+      },
+      ita: {
+        official: "Repubblica del Madagascar",
+        common: "Madagascar",
+      },
       jpn: { official: "マダガスカル共和国", common: "マダガスカル" },
       kor: { official: "마다가스카르 공화국", common: "마다가스카르" },
       nld: { official: "Republiek Madagaskar", common: "Madagaskar" },
@@ -6775,14 +7393,14 @@ export default [
       urd: { official: "جمہوریہ مڈغاسکر", common: "مڈغاسکر" },
       zho: { official: "马达加斯加共和国", common: "马达加斯加" },
     },
-    latlng: [-20.0, 47.0],
+    latlng: [-20, 47],
     landlocked: false,
-    area: 587041.0,
+    area: 587041,
     demonyms: {
       eng: { f: "Malagasy", m: "Malagasy" },
       fra: { f: "Malgache", m: "Malgache" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDEC",
+    flag: "🇲🇬",
     maps: {
       googleMaps: "https://goo.gl/maps/AHQh2ABBaFW6Ngj26",
       openStreetMaps: "https://www.openstreetmap.org/relation/447325",
@@ -6805,14 +7423,21 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-18.92, 47.52] },
     postalCode: { format: "###", regex: "^(\\d{3})$" },
+    id: 70,
   },
   {
     name: {
       common: "South Africa",
       official: "Republic of South Africa",
       nativeName: {
-        afr: { official: "Republiek van Suid-Afrika", common: "South Africa" },
-        eng: { official: "Republic of South Africa", common: "South Africa" },
+        afr: {
+          official: "Republiek van Suid-Afrika",
+          common: "South Africa",
+        },
+        eng: {
+          official: "Republic of South Africa",
+          common: "South Africa",
+        },
         nbl: {
           official: "IRiphabliki yeSewula Afrika",
           common: "Sewula Afrika",
@@ -6885,13 +7510,19 @@ export default [
         official: "Jihoafrická republika",
         common: "Jihoafrická republika",
       },
-      cym: { official: "Republic of South Africa", common: "South Africa" },
+      cym: {
+        official: "Republic of South Africa",
+        common: "South Africa",
+      },
       deu: { official: "Republik Südafrika", common: "Südafrika" },
       est: {
         official: "Lõuna-Aafrika Vabariik",
         common: "Lõuna-Aafrika Vabariik",
       },
-      fin: { official: "Etelä-Afrikan tasavalta", common: "Etelä-Afrikka" },
+      fin: {
+        official: "Etelä-Afrikan tasavalta",
+        common: "Etelä-Afrikka",
+      },
       fra: {
         official: "République d'Afrique du Sud",
         common: "Afrique du Sud",
@@ -6901,7 +7532,10 @@ export default [
         official: "Dél-afrikai Köztársaság",
         common: "Dél-afrikai Köztársaság",
       },
-      ita: { official: "Repubblica del Sud Africa", common: "Sud Africa" },
+      ita: {
+        official: "Repubblica del Sud Africa",
+        common: "Sud Africa",
+      },
       jpn: { official: "南アフリカ共和国", common: "南アフリカ" },
       kor: { official: "남아프리카 공화국", common: "남아프리카" },
       nld: { official: "Republiek Zuid-Afrika", common: "Zuid-Afrika" },
@@ -6910,8 +7544,14 @@ export default [
         official: "Republika Południowej Afryki",
         common: "Południowa Afryka",
       },
-      por: { official: "República da África do Sul", common: "África do Sul" },
-      rus: { official: "Южно-Африканская Республика", common: "Южная Африка" },
+      por: {
+        official: "República da África do Sul",
+        common: "África do Sul",
+      },
+      rus: {
+        official: "Южно-Африканская Республика",
+        common: "Южная Африка",
+      },
       slk: { official: "Juhoafrická republika", common: "Južná Afrika" },
       spa: { official: "República de Sudáfrica", common: "Sudáfrica" },
       srp: {
@@ -6919,25 +7559,28 @@ export default [
         common: "Јужноафричка Република",
       },
       swe: { official: "Republiken Sydafrika", common: "Sydafrika" },
-      tur: { official: "Güney Afrika Cumhuriyeti", common: "Güney Afrika" },
+      tur: {
+        official: "Güney Afrika Cumhuriyeti",
+        common: "Güney Afrika",
+      },
       urd: { official: "جمہوریہ جنوبی افریقا", common: "جنوبی افریقا" },
       zho: { official: "南非共和国", common: "南非" },
     },
-    latlng: [-29.0, 24.0],
+    latlng: [-29, 24],
     landlocked: false,
     borders: ["BWA", "LSO", "MOZ", "NAM", "SWZ", "ZWE"],
-    area: 1221037.0,
+    area: 1221037,
     demonyms: {
       eng: { f: "South African", m: "South African" },
       fra: { f: "Sud-africaine", m: "Sud-africain" },
     },
-    flag: "\uD83C\uDDFF\uD83C\uDDE6",
+    flag: "🇿🇦",
     maps: {
       googleMaps: "https://goo.gl/maps/CLCZ1R8Uz1KpYhRv6",
       openStreetMaps: "https://www.openstreetmap.org/relation/87565",
     },
     population: 59308690,
-    gini: { 2014: 63.0 },
+    gini: { 2014: 63 },
     fifa: "RSA",
     car: { signs: ["ZA"], side: "left" },
     timezones: ["UTC+02:00"],
@@ -6954,6 +7597,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-25.7, 28.22] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 71,
   },
   {
     name: {
@@ -7005,15 +7649,15 @@ export default [
       urd: { official: "جمہوریہ لٹویا", common: "لٹویا" },
       zho: { official: "拉脱维亚共和国", common: "拉脱维亚" },
     },
-    latlng: [57.0, 25.0],
+    latlng: [57, 25],
     landlocked: false,
     borders: ["BLR", "EST", "LTU", "RUS"],
-    area: 64559.0,
+    area: 64559,
     demonyms: {
       eng: { f: "Latvian", m: "Latvian" },
       fra: { f: "Lettone", m: "Letton" },
     },
-    flag: "\uD83C\uDDF1\uD83C\uDDFB",
+    flag: "🇱🇻",
     maps: {
       googleMaps: "https://goo.gl/maps/iQpUkH7ghq31ZtXe9",
       openStreetMaps: "https://www.openstreetmap.org/relation/72594",
@@ -7036,6 +7680,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [56.95, 24.1] },
     postalCode: { format: "LV-####", regex: "^(?:LV)*(\\d{4})$" },
+    id: 72,
   },
   {
     name: {
@@ -7117,15 +7762,15 @@ export default [
       urd: { official: "جمہوریہ زمبابوے", common: "زمبابوے" },
       zho: { official: "津巴布韦共和国", common: "津巴布韦" },
     },
-    latlng: [-20.0, 30.0],
+    latlng: [-20, 30],
     landlocked: true,
     borders: ["BWA", "MOZ", "ZAF", "ZMB"],
-    area: 390757.0,
+    area: 390757,
     demonyms: {
       eng: { f: "Zimbabwean", m: "Zimbabwean" },
       fra: { f: "Zimbabwéenne", m: "Zimbabwéen" },
     },
-    flag: "\uD83C\uDDFF\uD83C\uDDFC",
+    flag: "🇿🇼",
     maps: {
       googleMaps: "https://goo.gl/maps/M26BqdwQctqxXS65A",
       openStreetMaps: "https://www.openstreetmap.org/relation/195272",
@@ -7147,6 +7792,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-17.82, 31.03] },
+    id: 73,
   },
   {
     name: { common: "Antarctica", official: "Antarctica" },
@@ -7187,14 +7833,14 @@ export default [
       urd: { official: "انٹارکٹکا", common: "انٹارکٹکا" },
       zho: { official: "南极洲", common: "南极洲" },
     },
-    latlng: [-90.0, 0.0],
+    latlng: [-90, 0],
     landlocked: false,
-    area: 1.4e7,
+    area: 14000000,
     demonyms: {
       eng: { f: "Antarctican", m: "Antarctican" },
       fra: { f: "Antarcticaine", m: "Antarcticain" },
     },
-    flag: "\uD83C\uDDE6\uD83C\uDDF6",
+    flag: "🇦🇶",
     maps: {
       googleMaps: "https://goo.gl/maps/kyBuJriu4itiXank7",
       openStreetMaps: "https://www.openstreetmap.org/node/36966060",
@@ -7222,6 +7868,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: {},
+    id: 74,
   },
   {
     name: {
@@ -7279,12 +7926,12 @@ export default [
     },
     latlng: [49.46666666, -2.58333333],
     landlocked: false,
-    area: 78.0,
+    area: 78,
     demonyms: {
       eng: { f: "Channel Islander", m: "Channel Islander" },
       fra: { f: "Guernesiaise", m: "Guernesiais" },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDEC",
+    flag: "🇬🇬",
     maps: {
       googleMaps: "https://goo.gl/maps/6kXnQU5QvEZMD9VB7",
       openStreetMaps: "https://www.openstreetmap.org/relation/270009",
@@ -7308,6 +7955,7 @@ export default [
       regex:
         "^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$",
     },
+    id: 75,
   },
   {
     name: {
@@ -7325,7 +7973,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XAF: { name: "Central African CFA franc", symbol: "Fr" } },
+    currencies: {
+      XAF: { name: "Central African CFA franc", symbol: "Fr" },
+    },
     idd: { root: "+2", suffixes: ["41"] },
     capital: ["Libreville"],
     altSpellings: ["GA", "Gabonese Republic", "République Gabonaise"],
@@ -7359,21 +8009,21 @@ export default [
       urd: { official: "جمہوریہ گیبون", common: "گیبون" },
       zho: { official: "加蓬共和国", common: "加蓬" },
     },
-    latlng: [-1.0, 11.75],
+    latlng: [-1, 11.75],
     landlocked: false,
     borders: ["CMR", "COG", "GNQ"],
-    area: 267668.0,
+    area: 267668,
     demonyms: {
       eng: { f: "Gabonese", m: "Gabonese" },
       fra: { f: "Gabonaise", m: "Gabonais" },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDE6",
+    flag: "🇬🇦",
     maps: {
       googleMaps: "https://goo.gl/maps/vyRSkqw1H1fnq4ry6",
       openStreetMaps: "https://www.openstreetmap.org/relation/192793",
     },
     population: 2225728,
-    gini: { 2017: 38.0 },
+    gini: { 2017: 38 },
     fifa: "GAB",
     car: { signs: ["G"], side: "right" },
     timezones: ["UTC+01:00"],
@@ -7389,6 +8039,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [0.38, 9.45] },
+    id: 76,
   },
   {
     name: {
@@ -7438,15 +8089,15 @@ export default [
       urd: { official: "رومانیہ", common: "رومانیہ" },
       zho: { official: "罗马尼亚", common: "罗马尼亚" },
     },
-    latlng: [46.0, 25.0],
+    latlng: [46, 25],
     landlocked: false,
     borders: ["BGR", "HUN", "MDA", "SRB", "UKR"],
-    area: 238391.0,
+    area: 238391,
     demonyms: {
       eng: { f: "Romanian", m: "Romanian" },
       fra: { f: "Roumaine", m: "Roumain" },
     },
-    flag: "\uD83C\uDDF7\uD83C\uDDF4",
+    flag: "🇷🇴",
     maps: {
       googleMaps: "https://goo.gl/maps/845hAgCf1mDkN3vr7",
       openStreetMaps: "https://www.openstreetmap.org/relation/90689",
@@ -7469,13 +8120,17 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [44.43, 26.1] },
     postalCode: { format: "######", regex: "^(\\d{6})$" },
+    id: 77,
   },
   {
     name: {
       common: "Germany",
       official: "Federal Republic of Germany",
       nativeName: {
-        deu: { official: "Bundesrepublik Deutschland", common: "Deutschland" },
+        deu: {
+          official: "Bundesrepublik Deutschland",
+          common: "Deutschland",
+        },
       },
     },
     tld: [".de"],
@@ -7502,37 +8157,64 @@ export default [
       bre: { official: "Republik Kevreadel Alamagn", common: "Alamagn" },
       ces: { official: "Spolková republika Německo", common: "Německo" },
       cym: { official: "Federal Republic of Germany", common: "Germany" },
-      deu: { official: "Bundesrepublik Deutschland", common: "Deutschland" },
+      deu: {
+        official: "Bundesrepublik Deutschland",
+        common: "Deutschland",
+      },
       est: { official: "Saksamaa Liitvabariik", common: "Saksamaa" },
       fin: { official: "Saksan liittotasavalta", common: "Saksa" },
-      fra: { official: "République fédérale d'Allemagne", common: "Allemagne" },
-      hrv: { official: "Njemačka Federativna Republika", common: "Njemačka" },
-      hun: { official: "Német Szövetségi Köztársaság", common: "Németország" },
-      ita: { official: "Repubblica federale di Germania", common: "Germania" },
+      fra: {
+        official: "République fédérale d'Allemagne",
+        common: "Allemagne",
+      },
+      hrv: {
+        official: "Njemačka Federativna Republika",
+        common: "Njemačka",
+      },
+      hun: {
+        official: "Német Szövetségi Köztársaság",
+        common: "Németország",
+      },
+      ita: {
+        official: "Repubblica federale di Germania",
+        common: "Germania",
+      },
       jpn: { official: "ドイツ連邦共和国", common: "ドイツ" },
       kor: { official: "독일 연방 공화국", common: "독일" },
       nld: { official: "Bondsrepubliek Duitsland", common: "Duitsland" },
       per: { official: "جمهوری فدرال آلمان", common: "آلمان" },
       pol: { official: "Republika Federalna Niemiec", common: "Niemcy" },
-      por: { official: "República Federal da Alemanha", common: "Alemanha" },
-      rus: { official: "Федеративная Республика Германия", common: "Германия" },
+      por: {
+        official: "República Federal da Alemanha",
+        common: "Alemanha",
+      },
+      rus: {
+        official: "Федеративная Республика Германия",
+        common: "Германия",
+      },
       slk: { official: "Nemecká spolková republika", common: "Nemecko" },
-      spa: { official: "República Federal de Alemania", common: "Alemania" },
+      spa: {
+        official: "República Federal de Alemania",
+        common: "Alemania",
+      },
       srp: { official: "Савезна Република Немачка", common: "Немачка" },
-      swe: { official: "Förbundsrepubliken Tyskland", common: "Tyskland" },
+      swe: {
+        official: "Förbundsrepubliken Tyskland",
+        common: "Tyskland",
+      },
       tur: { official: "Almanya Federal Cumhuriyeti", common: "Almanya" },
       urd: { official: "وفاقی جمہوریہ جرمنی", common: "جرمنی" },
       zho: { official: "德意志联邦共和国", common: "德国" },
     },
-    latlng: [51.0, 9.0],
+    latlng: [51, 9],
     landlocked: false,
     borders: ["AUT", "BEL", "CZE", "DNK", "FRA", "LUX", "NLD", "POL", "CHE"],
-    area: 357114.0,
+    area: 357114,
     demonyms: {
       eng: { f: "German", m: "German" },
       fra: { f: "Allemande", m: "Allemand" },
     },
-    flag: "\uD83C\uDDE9\uD83C\uDDEA",
+    flag: "🇩🇪",
     maps: {
       googleMaps: "https://goo.gl/maps/mD9FBMq1nvXUBrkv6",
       openStreetMaps: "https://www.openstreetmap.org/relation/51477",
@@ -7555,6 +8237,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [52.52, 13.4] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 78,
   },
   {
     name: {
@@ -7586,51 +8269,93 @@ export default [
     translations: {
       ara: { official: "جمهورية بنغلاديش الشعبية", common: "بنغلاديش" },
       bre: { official: "Republik pobl Bangladesh", common: "Bangladesh" },
-      ces: { official: "Bangladéšská lidová republika", common: "Bangladéš" },
-      cym: { official: "Gweriniaeth Pobl Bangladesh", common: "Bangladesh" },
-      deu: { official: "Volksrepublik Bangladesch", common: "Bangladesch" },
-      est: { official: "Bangladeshi Rahvavabariik", common: "Bangladesh" },
-      fin: { official: "Bangladeshin kansantasavalta", common: "Bangladesh" },
+      ces: {
+        official: "Bangladéšská lidová republika",
+        common: "Bangladéš",
+      },
+      cym: {
+        official: "Gweriniaeth Pobl Bangladesh",
+        common: "Bangladesh",
+      },
+      deu: {
+        official: "Volksrepublik Bangladesch",
+        common: "Bangladesch",
+      },
+      est: {
+        official: "Bangladeshi Rahvavabariik",
+        common: "Bangladesh",
+      },
+      fin: {
+        official: "Bangladeshin kansantasavalta",
+        common: "Bangladesh",
+      },
       fra: {
         official: "La République populaire du Bangladesh",
         common: "Bangladesh",
       },
-      hrv: { official: "Narodna Republika Bangladeš", common: "Bangladeš" },
+      hrv: {
+        official: "Narodna Republika Bangladeš",
+        common: "Bangladeš",
+      },
       hun: { official: "Banglades", common: "Banglades" },
       ita: {
         official: "Repubblica popolare del Bangladesh",
         common: "Bangladesh",
       },
-      jpn: { official: "バングラデシュ人民共和国", common: "バングラデシュ" },
+      jpn: {
+        official: "バングラデシュ人民共和国",
+        common: "バングラデシュ",
+      },
       kor: { official: "방글라데시 인민 공화국", common: "방글라데시" },
-      nld: { official: "Volksrepubliek Bangladesh", common: "Bangladesh" },
+      nld: {
+        official: "Volksrepubliek Bangladesh",
+        common: "Bangladesh",
+      },
       per: { official: "جمهوری خلق بنگلادش", common: "بنگلادش" },
-      pol: { official: "Ludowa Republika Bangladeszu", common: "Bangladesz" },
+      pol: {
+        official: "Ludowa Republika Bangladeszu",
+        common: "Bangladesz",
+      },
       por: {
         official: "República Popular do Bangladesh",
         common: "Bangladesh",
       },
-      rus: { official: "Народная Республика Бангладеш", common: "Бангладеш" },
-      slk: { official: "Bangladéšska ľudová republika", common: "Bangladéš" },
+      rus: {
+        official: "Народная Республика Бангладеш",
+        common: "Бангладеш",
+      },
+      slk: {
+        official: "Bangladéšska ľudová republika",
+        common: "Bangladéš",
+      },
       spa: {
         official: "República Popular de Bangladesh",
         common: "Bangladesh",
       },
-      srp: { official: "Народна Република Бангладеш", common: "Бангладеш" },
-      swe: { official: "Folkrepubliken Bangladesh", common: "Bangladesh" },
-      tur: { official: "Bangladeş Halk Cumhuriyeti", common: "Bangladeş" },
+      srp: {
+        official: "Народна Република Бангладеш",
+        common: "Бангладеш",
+      },
+      swe: {
+        official: "Folkrepubliken Bangladesh",
+        common: "Bangladesh",
+      },
+      tur: {
+        official: "Bangladeş Halk Cumhuriyeti",
+        common: "Bangladeş",
+      },
       urd: { official: "عوامی جمہوریہ بنگلہ دیش", common: "بنگلہ دیش" },
       zho: { official: "孟加拉人民共和国", common: "孟加拉国" },
     },
-    latlng: [24.0, 90.0],
+    latlng: [24, 90],
     landlocked: false,
     borders: ["MMR", "IND"],
-    area: 147570.0,
+    area: 147570,
     demonyms: {
       eng: { f: "Bangladeshi", m: "Bangladeshi" },
       fra: { f: "Bangladaise", m: "Bangladais" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDE9",
+    flag: "🇧🇩",
     maps: {
       googleMaps: "https://goo.gl/maps/op6gmLbHcvv6rLhH6",
       openStreetMaps: "https://www.openstreetmap.org/relation/184640",
@@ -7653,12 +8378,15 @@ export default [
     startOfWeek: "sunday",
     capitalInfo: { latlng: [23.72, 90.4] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 79,
   },
   {
     name: {
       common: "Montserrat",
       official: "Montserrat",
-      nativeName: { eng: { official: "Montserrat", common: "Montserrat" } },
+      nativeName: {
+        eng: { official: "Montserrat", common: "Montserrat" },
+      },
     },
     tld: [".ms"],
     cca2: "MS",
@@ -7667,7 +8395,9 @@ export default [
     independent: false,
     status: "officially-assigned",
     unMember: false,
-    currencies: { XCD: { name: "Eastern Caribbean dollar", symbol: "$" } },
+    currencies: {
+      XCD: { name: "Eastern Caribbean dollar", symbol: "$" },
+    },
     idd: { root: "+1", suffixes: ["664"] },
     capital: ["Plymouth"],
     altSpellings: ["MS"],
@@ -7703,12 +8433,12 @@ export default [
     },
     latlng: [16.75, -62.2],
     landlocked: false,
-    area: 102.0,
+    area: 102,
     demonyms: {
       eng: { f: "Montserratian", m: "Montserratian" },
       fra: { f: "Montserratienne", m: "Montserratien" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDF8",
+    flag: "🇲🇸",
     maps: {
       googleMaps: "https://goo.gl/maps/CSbe7UmxPmiwQB7GA",
       openStreetMaps: "https://www.openstreetmap.org/relation/537257",
@@ -7728,6 +8458,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [16.7, -62.22] },
+    id: 80,
   },
   {
     name: {
@@ -7758,37 +8489,64 @@ export default [
     languages: { ara: "Arabic" },
     translations: {
       ara: { official: "المملكة الأردنية الهاشمية", common: "الأردن" },
-      bre: { official: "Rouantelezh hachemit Jordania", common: "Jordania" },
-      ces: { official: "Jordánské hášimovské království", common: "Jordánsko" },
+      bre: {
+        official: "Rouantelezh hachemit Jordania",
+        common: "Jordania",
+      },
+      ces: {
+        official: "Jordánské hášimovské království",
+        common: "Jordánsko",
+      },
       cym: { official: "Hashemite Kingdom of Jordan", common: "Jordan" },
       deu: {
         official: "Haschemitisches Königreich Jordanien",
         common: "Jordanien",
       },
-      est: { official: "Jordaania Hašimiidi Kuningriik", common: "Jordaania" },
+      est: {
+        official: "Jordaania Hašimiidi Kuningriik",
+        common: "Jordaania",
+      },
       fin: {
         official: "Jordanian hašemiittinen kunigaskunta",
         common: "Jordania",
       },
-      fra: { official: "Royaume hachémite de Jordanie", common: "Jordanie" },
+      fra: {
+        official: "Royaume hachémite de Jordanie",
+        common: "Jordanie",
+      },
       hrv: { official: "Hašemitske Kraljevine Jordan", common: "Jordan" },
       hun: { official: "Jordánia", common: "Jordánia" },
-      ita: { official: "Regno hascemita di Giordania", common: "Giordania" },
+      ita: {
+        official: "Regno hascemita di Giordania",
+        common: "Giordania",
+      },
       jpn: { official: "ヨルダン·ハシミテ王国", common: "ヨルダン" },
       kor: { official: "요르단 하심 왕국", common: "요르단" },
-      nld: { official: "Hasjemitisch Koninkrijk Jordanië", common: "Jordanië" },
+      nld: {
+        official: "Hasjemitisch Koninkrijk Jordanië",
+        common: "Jordanië",
+      },
       per: { official: "پادشاهی اُردُن هاشمی", common: "اردن" },
       pol: {
         official: "Jordańskie Królestwo Haszymidzkie",
         common: "Jordania",
       },
-      por: { official: "Reino Hachemita da Jordânia", common: "Jordânia" },
+      por: {
+        official: "Reino Hachemita da Jordânia",
+        common: "Jordânia",
+      },
       rus: {
         official: "Иорданского Хашимитского Королевства",
         common: "Иордания",
       },
-      slk: { official: "Jordánske hášimovské kráľovstvo", common: "Jordánsko" },
-      spa: { official: "Reino Hachemita de Jordania", common: "Jordania" },
+      slk: {
+        official: "Jordánske hášimovské kráľovstvo",
+        common: "Jordánsko",
+      },
+      spa: {
+        official: "Reino Hachemita de Jordania",
+        common: "Jordania",
+      },
       srp: { official: "Хашемитска Краљевина Јордан", common: "Јордан" },
       swe: {
         official: "Hashimitiska kungadömet Jordanien",
@@ -7798,15 +8556,15 @@ export default [
       urd: { official: "ھاشمی مملکتِ اردن", common: "اردن" },
       zho: { official: "约旦哈希姆王国", common: "约旦" },
     },
-    latlng: [31.0, 36.0],
+    latlng: [31, 36],
     landlocked: false,
     borders: ["IRQ", "ISR", "PSE", "SAU", "SYR"],
-    area: 89342.0,
+    area: 89342,
     demonyms: {
       eng: { f: "Jordanian", m: "Jordanian" },
       fra: { f: "Jordanienne", m: "Jordanien" },
     },
-    flag: "\uD83C\uDDEF\uD83C\uDDF4",
+    flag: "🇯🇴",
     maps: {
       googleMaps: "https://goo.gl/maps/ko1dzSDKg8Gsi9A98",
       openStreetMaps: "https://www.openstreetmap.org/relation/184818",
@@ -7829,6 +8587,7 @@ export default [
     startOfWeek: "sunday",
     capitalInfo: { latlng: [31.95, 35.93] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 81,
   },
   {
     name: {
@@ -7880,21 +8639,21 @@ export default [
       urd: { official: "جمہوریہ موزمبیق", common: "موزمبیق" },
       zho: { official: "莫桑比克共和国", common: "莫桑比克" },
     },
-    latlng: [-18.25, 35.0],
+    latlng: [-18.25, 35],
     landlocked: false,
     borders: ["MWI", "ZAF", "SWZ", "TZA", "ZMB", "ZWE"],
-    area: 801590.0,
+    area: 801590,
     demonyms: {
       eng: { f: "Mozambican", m: "Mozambican" },
       fra: { f: "Mozambicaine", m: "Mozambicain" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDFF",
+    flag: "🇲🇿",
     maps: {
       googleMaps: "https://goo.gl/maps/xCLcY9fzU6x4Pueu5",
       openStreetMaps: "https://www.openstreetmap.org/relation/195273",
     },
     population: 31255435,
-    gini: { 2014: 54.0 },
+    gini: { 2014: 54 },
     fifa: "MOZ",
     car: { signs: ["MOC"], side: "left" },
     timezones: ["UTC+02:00"],
@@ -7911,6 +8670,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-25.95, 32.58] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 82,
   },
   {
     name: {
@@ -7966,18 +8726,18 @@ export default [
     latlng: [31.47, 35.13],
     landlocked: false,
     borders: ["EGY", "JOR", "LBN", "PSE", "SYR"],
-    area: 20770.0,
+    area: 20770,
     demonyms: {
       eng: { f: "Israeli", m: "Israeli" },
       fra: { f: "Israélienne", m: "Israélien" },
     },
-    flag: "\uD83C\uDDEE\uD83C\uDDF1",
+    flag: "🇮🇱",
     maps: {
       googleMaps: "https://goo.gl/maps/6UY1AH8XeafVwdC97",
       openStreetMaps: "https://www.openstreetmap.org/relation/1473946",
     },
     population: 9216900,
-    gini: { 2016: 39.0 },
+    gini: { 2016: 39 },
     fifa: "ISR",
     car: { signs: ["IL"], side: "right" },
     timezones: ["UTC+02:00"],
@@ -7994,6 +8754,7 @@ export default [
     startOfWeek: "sunday",
     capitalInfo: { latlng: [31.77, 35.23] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 83,
   },
   {
     name: {
@@ -8054,15 +8815,15 @@ export default [
       urd: { official: "ریاستِ ارتریا", common: "ارتریا" },
       zho: { official: "厄立特里亚", common: "厄立特里亚" },
     },
-    latlng: [15.0, 39.0],
+    latlng: [15, 39],
     landlocked: false,
     borders: ["DJI", "ETH", "SDN"],
-    area: 117600.0,
+    area: 117600,
     demonyms: {
       eng: { f: "Eritrean", m: "Eritrean" },
       fra: { f: "Érythréenne", m: "Érythréen" },
     },
-    flag: "\uD83C\uDDEA\uD83C\uDDF7",
+    flag: "🇪🇷",
     maps: {
       googleMaps: "https://goo.gl/maps/HRyqUpnPwwG6jY5j6",
       openStreetMaps: "https://www.openstreetmap.org/relation/296961",
@@ -8083,6 +8844,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [15.33, 38.93] },
+    id: 84,
   },
   {
     name: {
@@ -8134,15 +8896,15 @@ export default [
       urd: { official: "جمہوریہ انڈونیشیا", common: "انڈونیشیا" },
       zho: { official: "印度尼西亚共和国", common: "印度尼西亚" },
     },
-    latlng: [-5.0, 120.0],
+    latlng: [-5, 120],
     landlocked: false,
     borders: ["TLS", "MYS", "PNG"],
-    area: 1904569.0,
+    area: 1904569,
     demonyms: {
       eng: { f: "Indonesian", m: "Indonesian" },
       fra: { f: "Indonésienne", m: "Indonésien" },
     },
-    flag: "\uD83C\uDDEE\uD83C\uDDE9",
+    flag: "🇮🇩",
     maps: {
       googleMaps: "https://goo.gl/maps/9gfPupm5bffixiFJ6",
       openStreetMaps: "https://www.openstreetmap.org/relation/21335",
@@ -8165,6 +8927,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-6.17, 106.82] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 85,
   },
   {
     name: {
@@ -8221,9 +8984,9 @@ export default [
     },
     latlng: [54.25, -4.5],
     landlocked: false,
-    area: 572.0,
+    area: 572,
     demonyms: { eng: { f: "Manx", m: "Manx" } },
-    flag: "\uD83C\uDDEE\uD83C\uDDF2",
+    flag: "🇮🇲",
     maps: {
       googleMaps: "https://goo.gl/maps/4DqVHDgVaFgnh8ZV8",
       openStreetMaps: "https://www.openstreetmap.org/relation/62269",
@@ -8247,6 +9010,7 @@ export default [
       regex:
         "^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$",
     },
+    id: 86,
   },
   {
     name: {
@@ -8296,14 +9060,14 @@ export default [
       urd: { official: "جاپان", common: "جاپان" },
       zho: { official: "日本国", common: "日本" },
     },
-    latlng: [36.0, 138.0],
+    latlng: [36, 138],
     landlocked: false,
-    area: 377930.0,
+    area: 377930,
     demonyms: {
       eng: { f: "Japanese", m: "Japanese" },
       fra: { f: "Japonaise", m: "Japonais" },
     },
-    flag: "\uD83C\uDDEF\uD83C\uDDF5",
+    flag: "🇯🇵",
     maps: {
       googleMaps: "https://goo.gl/maps/NGTLSCSrA8bMrvnX9",
       openStreetMaps: "https://www.openstreetmap.org/relation/382313",
@@ -8326,12 +9090,15 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [35.68, 139.75] },
     postalCode: { format: "###-####", regex: "^(\\d{7})$" },
+    id: 87,
   },
   {
     name: {
       common: "Spain",
       official: "Kingdom of Spain",
-      nativeName: { spa: { official: "Reino de España", common: "España" } },
+      nativeName: {
+        spa: { official: "Reino de España", common: "España" },
+      },
     },
     tld: [".es"],
     cca2: "ES",
@@ -8375,15 +9142,15 @@ export default [
       urd: { official: "مملکتِ ہسپانیہ", common: "ہسپانیہ" },
       zho: { official: "西班牙王国", common: "西班牙" },
     },
-    latlng: [40.0, -4.0],
+    latlng: [40, -4],
     landlocked: false,
     borders: ["AND", "FRA", "GIB", "PRT", "MAR"],
-    area: 505992.0,
+    area: 505992,
     demonyms: {
       eng: { f: "Spanish", m: "Spanish" },
       fra: { f: "Espagnole", m: "Espagnol" },
     },
-    flag: "\uD83C\uDDEA\uD83C\uDDF8",
+    flag: "🇪🇸",
     maps: {
       googleMaps: "https://goo.gl/maps/138JaXW8EZzRVitY9",
       openStreetMaps: "https://www.openstreetmap.org/relation/1311341",
@@ -8406,6 +9173,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [40.4, -3.68] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 88,
   },
   {
     name: {
@@ -8413,7 +9181,10 @@ export default [
       official: "Islamic Republic of Afghanistan",
       nativeName: {
         prs: { official: "جمهوری اسلامی افغانستان", common: "افغانستان" },
-        pus: { official: "د افغانستان اسلامي جمهوریت", common: "افغانستان" },
+        pus: {
+          official: "د افغانستان اسلامي جمهوریت",
+          common: "افغانستان",
+        },
         tuk: {
           official: "Owganystan Yslam Respublikasy",
           common: "Owganystan",
@@ -8436,9 +9207,18 @@ export default [
     subregion: "Southern Asia",
     languages: { prs: "Dari", pus: "Pashto", tuk: "Turkmen" },
     translations: {
-      ara: { official: "جمهورية أففانستان الإسلامية", common: "أفغانستان" },
-      bre: { official: "Republik Islamek Afghanistan", common: "Afghanistan" },
-      ces: { official: "Afghánská islámská republika", common: "Afghánistán" },
+      ara: {
+        official: "جمهورية أففانستان الإسلامية",
+        common: "أفغانستان",
+      },
+      bre: {
+        official: "Republik Islamek Afghanistan",
+        common: "Afghanistan",
+      },
+      ces: {
+        official: "Afghánská islámská republika",
+        common: "Afghánistán",
+      },
       cym: {
         official: "Gweriniaeth Islamaidd Affganistan",
         common: "Affganistan",
@@ -8447,7 +9227,10 @@ export default [
         official: "Islamische Republik Afghanistan",
         common: "Afghanistan",
       },
-      est: { official: "Afganistani Islamivabariik", common: "Afganistan" },
+      est: {
+        official: "Afganistani Islamivabariik",
+        common: "Afganistan",
+      },
       fin: {
         official: "Afganistanin islamilainen tasavalta",
         common: "Afganistan",
@@ -8456,7 +9239,10 @@ export default [
         official: "République islamique d'Afghanistan",
         common: "Afghanistan",
       },
-      hrv: { official: "Islamska Republika Afganistan", common: "Afganistan" },
+      hrv: {
+        official: "Islamska Republika Afganistan",
+        common: "Afganistan",
+      },
       hun: {
         official: "Afganisztáni Iszlám Köztársaság",
         common: "Afganisztán",
@@ -8469,13 +9255,19 @@ export default [
         official: "アフガニスタン·イスラム共和国",
         common: "アフガニスタン",
       },
-      kor: { official: "아프가니스탄 이슬람 공화국", common: "아프가니스탄" },
+      kor: {
+        official: "아프가니스탄 이슬람 공화국",
+        common: "아프가니스탄",
+      },
       nld: {
         official: "Islamitische Republiek Afghanistan",
         common: "Afghanistan",
       },
       per: { official: "جمهوری اسلامی افغانستان", common: "افغانستان" },
-      pol: { official: "Islamska Republika Afganistanu", common: "Afganistan" },
+      pol: {
+        official: "Islamska Republika Afganistanu",
+        common: "Afganistan",
+      },
       por: {
         official: "República Islâmica do Afeganistão",
         common: "Afeganistão",
@@ -8489,24 +9281,30 @@ export default [
         official: "República Islámica de Afganistán",
         common: "Afganistán",
       },
-      srp: { official: "Исламска Република Авганистан", common: "Авганистан" },
+      srp: {
+        official: "Исламска Република Авганистан",
+        common: "Авганистан",
+      },
       swe: {
         official: "Islamiska republiken Afghanistan",
         common: "Afghanistan",
       },
-      tur: { official: "Afganistan İslam Cumhuriyeti", common: "Afganistan" },
+      tur: {
+        official: "Afganistan İslam Cumhuriyeti",
+        common: "Afganistan",
+      },
       urd: { official: "اسلامی جمہوریہ افغانستان", common: "افغانستان" },
       zho: { official: "阿富汗伊斯兰共和国", common: "阿富汗" },
     },
-    latlng: [33.0, 65.0],
+    latlng: [33, 65],
     landlocked: true,
     borders: ["IRN", "PAK", "TKM", "UZB", "TJK", "CHN"],
-    area: 652230.0,
+    area: 652230,
     demonyms: {
       eng: { f: "Afghan", m: "Afghan" },
       fra: { f: "Afghane", m: "Afghan" },
     },
-    flag: "\uD83C\uDDE6\uD83C\uDDEB",
+    flag: "🇦🇫",
     maps: {
       googleMaps: "https://goo.gl/maps/BXBGw7yUUFknCfva9",
       openStreetMaps: "https://www.openstreetmap.org/relation/303427",
@@ -8527,6 +9325,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [34.52, 69.18] },
+    id: 89,
   },
   {
     name: {
@@ -8547,7 +9346,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { AED: { name: "United Arab Emirates dirham", symbol: "د.إ" } },
+    currencies: {
+      AED: { name: "United Arab Emirates dirham", symbol: "د.إ" },
+    },
     idd: { root: "+9", suffixes: ["71"] },
     capital: ["Abu Dhabi"],
     altSpellings: ["AE", "UAE", "Emirates"],
@@ -8563,8 +9364,14 @@ export default [
         official: "Emirelezhioù Arab Unanet",
         common: "Emirelezhioù Arab Unanet",
       },
-      ces: { official: "Spojené arabské emiráty", common: "Arabské emiráty" },
-      cym: { official: "United Arab Emirates", common: "United Arab Emirates" },
+      ces: {
+        official: "Spojené arabské emiráty",
+        common: "Arabské emiráty",
+      },
+      cym: {
+        official: "United Arab Emirates",
+        common: "United Arab Emirates",
+      },
       deu: {
         official: "Vereinigte Arabische Emirate",
         common: "Vereinigte Arabische Emirate",
@@ -8577,7 +9384,10 @@ export default [
         official: "Yhdistyneet arabiemiirikunnat",
         common: "Arabiemiraatit",
       },
-      fra: { official: "Émirats arabes unis", common: "Émirats arabes unis" },
+      fra: {
+        official: "Émirats arabes unis",
+        common: "Émirats arabes unis",
+      },
       hrv: {
         official: "Ujedinjeni Arapski Emirati",
         common: "Arapski Emirati",
@@ -8586,7 +9396,10 @@ export default [
         official: "Egyesült Arab Emírségek",
         common: "Egyesült Arab Emírségek",
       },
-      ita: { official: "Emirati Arabi Uniti", common: "Emirati Arabi Uniti" },
+      ita: {
+        official: "Emirati Arabi Uniti",
+        common: "Emirati Arabi Uniti",
+      },
       jpn: { official: "アラブ首長国連邦", common: "アラブ首長国連邦" },
       kor: { official: "아랍 토후국 연방", common: "아랍에미리트" },
       nld: {
@@ -8606,7 +9419,10 @@ export default [
         official: "Объединенные Арабские Эмираты",
         common: "Объединённые Арабские Эмираты",
       },
-      slk: { official: "Spojené arabské emiráty", common: "Arabské emiráty" },
+      slk: {
+        official: "Spojené arabské emiráty",
+        common: "Arabské emiráty",
+      },
       spa: {
         official: "Emiratos Árabes Unidos",
         common: "Emiratos Árabes Unidos",
@@ -8626,21 +9442,21 @@ export default [
       urd: { official: "متحدہ عرب امارات", common: "متحدہ عرب امارات" },
       zho: { official: "阿拉伯联合酋长国", common: "阿拉伯联合酋长国" },
     },
-    latlng: [24.0, 54.0],
+    latlng: [24, 54],
     landlocked: false,
     borders: ["OMN", "SAU"],
-    area: 83600.0,
+    area: 83600,
     demonyms: {
       eng: { f: "Emirati", m: "Emirati" },
       fra: { f: "Emirienne", m: "Emirien" },
     },
-    flag: "\uD83C\uDDE6\uD83C\uDDEA",
+    flag: "🇦🇪",
     maps: {
       googleMaps: "https://goo.gl/maps/AZZTDA6GzVAnKMVd8",
       openStreetMaps: "https://www.openstreetmap.org/relation/307763",
     },
     population: 9890400,
-    gini: { 2018: 26.0 },
+    gini: { 2018: 26 },
     fifa: "UAE",
     car: { signs: ["UAE"], side: "right" },
     timezones: ["UTC+04:00"],
@@ -8656,6 +9472,7 @@ export default [
     },
     startOfWeek: "sunday",
     capitalInfo: { latlng: [24.47, 54.37] },
+    id: 90,
   },
   {
     name: {
@@ -8711,15 +9528,15 @@ export default [
       urd: { official: "جمہوریہ ملاوی", common: "ملاوی" },
       zho: { official: "马拉维共和国", common: "马拉维" },
     },
-    latlng: [-13.5, 34.0],
+    latlng: [-13.5, 34],
     landlocked: true,
     borders: ["MOZ", "TZA", "ZMB"],
-    area: 118484.0,
+    area: 118484,
     demonyms: {
       eng: { f: "Malawian", m: "Malawian" },
       fra: { f: "Malawienne", m: "Malawien" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDFC",
+    flag: "🇲🇼",
     maps: {
       googleMaps: "https://goo.gl/maps/mc6z83pW9m98X2Ef6",
       openStreetMaps: "https://www.openstreetmap.org/relation/195290",
@@ -8741,6 +9558,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-13.97, 33.78] },
+    id: 91,
   },
   {
     name: {
@@ -8797,15 +9615,15 @@ export default [
       urd: { official: "جمہوریہ ترکی", common: "ترکی" },
       zho: { official: "土耳其共和国", common: "土耳其" },
     },
-    latlng: [39.0, 35.0],
+    latlng: [39, 35],
     landlocked: false,
     borders: ["ARM", "AZE", "BGR", "GEO", "GRC", "IRN", "IRQ", "SYR"],
-    area: 783562.0,
+    area: 783562,
     demonyms: {
       eng: { f: "Turkish", m: "Turkish" },
       fra: { f: "Turque", m: "Turc" },
     },
-    flag: "\uD83C\uDDF9\uD83C\uDDF7",
+    flag: "🇹🇷",
     maps: {
       googleMaps: "https://goo.gl/maps/dXFFraiUDfcB6Quk6",
       openStreetMaps: "https://www.openstreetmap.org/relation/174737",
@@ -8828,6 +9646,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [39.93, 32.87] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 92,
   },
   {
     name: {
@@ -8866,17 +9685,29 @@ export default [
       cym: { official: "Gweriniaeth Belarws", common: "Belarws" },
       deu: { official: "Republik Belarus", common: "Weißrussland" },
       est: { official: "Valgevene Vabariik", common: "Valgevene" },
-      fin: { official: "Valko-Venäjän tasavalta", common: "Valko-Venäjä" },
-      fra: { official: "République de Biélorussie", common: "Biélorussie" },
+      fin: {
+        official: "Valko-Venäjän tasavalta",
+        common: "Valko-Venäjä",
+      },
+      fra: {
+        official: "République de Biélorussie",
+        common: "Biélorussie",
+      },
       hrv: { official: "Republika Bjelorusija", common: "Bjelorusija" },
-      hun: { official: "Fehérorosz Köztársaság", common: "Fehéroroszország" },
+      hun: {
+        official: "Fehérorosz Köztársaság",
+        common: "Fehéroroszország",
+      },
       ita: { official: "Repubblica di Belarus", common: "Bielorussia" },
       jpn: { official: "ベラルーシ共和国", common: "ベラルーシ" },
       kor: { official: "벨라루스 공화국", common: "벨라루스" },
       nld: { official: "Republiek Belarus", common: "Wit-Rusland" },
       per: { official: "جمهوری بلاروس", common: "بلاروس" },
       pol: { official: "Republika Białorusi", common: "Białoruś" },
-      por: { official: "República da Bielorrússia", common: "Bielorússia" },
+      por: {
+        official: "República da Bielorrússia",
+        common: "Bielorússia",
+      },
       rus: { official: "Республика Беларусь", common: "Беларусь" },
       slk: { official: "Bieloruská republika", common: "Bielorusko" },
       spa: { official: "República de Belarús", common: "Bielorrusia" },
@@ -8886,15 +9717,15 @@ export default [
       urd: { official: "جمہوریہ بیلاروس", common: "بیلاروس" },
       zho: { official: "白俄罗斯共和国", common: "白俄罗斯" },
     },
-    latlng: [53.0, 28.0],
+    latlng: [53, 28],
     landlocked: true,
     borders: ["LVA", "LTU", "POL", "RUS", "UKR"],
-    area: 207600.0,
+    area: 207600,
     demonyms: {
       eng: { f: "Belarusian", m: "Belarusian" },
       fra: { f: "Biélorusse", m: "Biélorusse" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDFE",
+    flag: "🇧🇾",
     maps: {
       googleMaps: "https://goo.gl/maps/PJUDU3EBPSszCQcu6",
       openStreetMaps: "https://www.openstreetmap.org/relation/59065",
@@ -8917,12 +9748,15 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [53.9, 27.57] },
     postalCode: { format: "######", regex: "^(\\d{6})$" },
+    id: 93,
   },
   {
     name: {
       common: "Montenegro",
       official: "Montenegro",
-      nativeName: { cnr: { official: "Црна Гора", common: "Црна Гора" } },
+      nativeName: {
+        cnr: { official: "Црна Гора", common: "Црна Гора" },
+      },
     },
     tld: [".me"],
     cca2: "ME",
@@ -8969,12 +9803,12 @@ export default [
     latlng: [42.5, 19.3],
     landlocked: false,
     borders: ["ALB", "BIH", "HRV", "UNK", "SRB"],
-    area: 13812.0,
+    area: 13812,
     demonyms: {
       eng: { f: "Montenegrin", m: "Montenegrin" },
       fra: { f: "Monténégrine", m: "Monténégrin" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDEA",
+    flag: "🇲🇪",
     maps: {
       googleMaps: "https://goo.gl/maps/4THX1fM7WqANuPbB8",
       openStreetMaps: "https://www.openstreetmap.org/relation/53296",
@@ -8997,15 +9831,25 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [42.43, 19.27] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 94,
   },
   {
     name: {
       common: "Bosnia and Herzegovina",
       official: "Bosnia and Herzegovina",
       nativeName: {
-        bos: { official: "Bosna i Hercegovina", common: "Bosna i Hercegovina" },
-        hrv: { official: "Bosna i Hercegovina", common: "Bosna i Hercegovina" },
-        srp: { official: "Босна и Херцеговина", common: "Босна и Херцеговина" },
+        bos: {
+          official: "Bosna i Hercegovina",
+          common: "Bosna i Hercegovina",
+        },
+        hrv: {
+          official: "Bosna i Hercegovina",
+          common: "Bosna i Hercegovina",
+        },
+        srp: {
+          official: "Босна и Херцеговина",
+          common: "Босна и Херцеговина",
+        },
       },
     },
     tld: [".ba"],
@@ -9016,7 +9860,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { BAM: { name: "Bosnia and Herzegovina convertible mark" } },
+    currencies: {
+      BAM: { name: "Bosnia and Herzegovina convertible mark" },
+    },
     idd: { root: "+3", suffixes: ["87"] },
     capital: ["Sarajevo"],
     altSpellings: ["BA", "Bosnia-Herzegovina", "Босна и Херцеговина"],
@@ -9024,13 +9870,22 @@ export default [
     subregion: "Southeast Europe",
     languages: { bos: "Bosnian", hrv: "Croatian", srp: "Serbian" },
     translations: {
-      ara: { official: "جمهورية البوسنة والهرسك", common: "البوسنة والهرسك" },
+      ara: {
+        official: "جمهورية البوسنة والهرسك",
+        common: "البوسنة والهرسك",
+      },
       bre: {
         official: "Bosnia-ha-Herzegovina",
         common: "Bosnia-ha-Herzegovina",
       },
-      ces: { official: "Bosna a Hercegovina", common: "Bosna a Hercegovina" },
-      cym: { official: "Bosnia a Hercegovina", common: "Bosnia a Hercegovina" },
+      ces: {
+        official: "Bosna a Hercegovina",
+        common: "Bosna a Hercegovina",
+      },
+      cym: {
+        official: "Bosnia a Hercegovina",
+        common: "Bosnia a Hercegovina",
+      },
       deu: {
         official: "Bosnien und Herzegowina",
         common: "Bosnien und Herzegowina",
@@ -9043,10 +9898,22 @@ export default [
         official: "Bosnia ja Hertsegovina",
         common: "Bosnia ja Hertsegovina",
       },
-      fra: { official: "Bosnie-et-Herzégovine", common: "Bosnie-Herzégovine" },
-      hrv: { official: "Bosna i Hercegovina", common: "Bosna i Hercegovina" },
-      hun: { official: "Bosznia-Hercegovina", common: "Bosznia-Hercegovina" },
-      ita: { official: "Bosnia-Erzegovina", common: "Bosnia ed Erzegovina" },
+      fra: {
+        official: "Bosnie-et-Herzégovine",
+        common: "Bosnie-Herzégovine",
+      },
+      hrv: {
+        official: "Bosna i Hercegovina",
+        common: "Bosna i Hercegovina",
+      },
+      hun: {
+        official: "Bosznia-Hercegovina",
+        common: "Bosznia-Hercegovina",
+      },
+      ita: {
+        official: "Bosnia-Erzegovina",
+        common: "Bosnia ed Erzegovina",
+      },
       jpn: {
         official: "ボスニア·ヘルツェゴビナ",
         common: "ボスニア・ヘルツェゴビナ",
@@ -9055,40 +9922,64 @@ export default [
         official: "보스니아 헤르체고비나",
         common: "보스니아 헤르체고비나",
       },
-      nld: { official: "Bosnië-Herzegovina", common: "Bosnië en Herzegovina" },
+      nld: {
+        official: "Bosnië-Herzegovina",
+        common: "Bosnië en Herzegovina",
+      },
       per: { official: "بوسنی و هرزگوین", common: "بوسنی و هرزگوین" },
-      pol: { official: "Bośnia i Hercegowina", common: "Bośnia i Hercegowina" },
-      por: { official: "Bósnia e Herzegovina", common: "Bósnia e Herzegovina" },
-      rus: { official: "Босния и Герцеговина", common: "Босния и Герцеговина" },
+      pol: {
+        official: "Bośnia i Hercegowina",
+        common: "Bośnia i Hercegowina",
+      },
+      por: {
+        official: "Bósnia e Herzegovina",
+        common: "Bósnia e Herzegovina",
+      },
+      rus: {
+        official: "Босния и Герцеговина",
+        common: "Босния и Герцеговина",
+      },
       slk: {
         official: "Republika Bosny a Hercegoviny",
         common: "Bosna a Hercegovina",
       },
-      spa: { official: "Bosnia y Herzegovina", common: "Bosnia y Herzegovina" },
-      srp: { official: "Босна и Херцеговина", common: "Босна и Херцеговина" },
+      spa: {
+        official: "Bosnia y Herzegovina",
+        common: "Bosnia y Herzegovina",
+      },
+      srp: {
+        official: "Босна и Херцеговина",
+        common: "Босна и Херцеговина",
+      },
       swe: {
         official: "Bosnien och Hercegovina",
         common: "Bosnien och Hercegovina",
       },
       tur: { official: "Bosna ve Hersek", common: "Bosna-Hersek" },
-      urd: { official: "بوسنیا و ہرزیگووینا", common: "بوسنیا و ہرزیگووینا" },
-      zho: { official: "波斯尼亚和黑塞哥维那", common: "波斯尼亚和黑塞哥维那" },
+      urd: {
+        official: "بوسنیا و ہرزیگووینا",
+        common: "بوسنیا و ہرزیگووینا",
+      },
+      zho: {
+        official: "波斯尼亚和黑塞哥维那",
+        common: "波斯尼亚和黑塞哥维那",
+      },
     },
-    latlng: [44.0, 18.0],
+    latlng: [44, 18],
     landlocked: false,
     borders: ["HRV", "MNE", "SRB"],
-    area: 51209.0,
+    area: 51209,
     demonyms: {
       eng: { f: "Bosnian, Herzegovinian", m: "Bosnian, Herzegovinian" },
       fra: { f: "Bosnienne", m: "Bosnien" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDE6",
+    flag: "🇧🇦",
     maps: {
       googleMaps: "https://www.google.com/maps/place/Bosnia+and+Herzegovina",
       openStreetMaps: "https://www.openstreetmap.org/relation/2528142",
     },
     population: 3280815,
-    gini: { 2011: 33.0 },
+    gini: { 2011: 33 },
     fifa: "BIH",
     car: { signs: ["BIH"], side: "right" },
     timezones: ["UTC+01:00"],
@@ -9105,6 +9996,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [43.87, 18.42] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 95,
   },
   {
     name: {
@@ -9171,12 +10063,12 @@ export default [
     latlng: [-26.5, 31.5],
     landlocked: true,
     borders: ["MOZ", "ZAF"],
-    area: 17364.0,
+    area: 17364,
     demonyms: {
       eng: { f: "Swazi", m: "Swazi" },
       fra: { f: "Swazie", m: "Swazie" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDFF",
+    flag: "🇸🇿",
     maps: {
       googleMaps: "https://goo.gl/maps/cUY79eqQihFSE8hV6",
       openStreetMaps: "https://www.openstreetmap.org/relation/88210",
@@ -9196,6 +10088,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-26.32, 31.13] },
     postalCode: { format: "@###", regex: "^([A-Z]\\d{3})$" },
+    id: 96,
   },
   {
     name: {
@@ -9247,15 +10140,15 @@ export default [
       urd: { official: "جمہوریہ لتھووینیا", common: "لتھووینیا" },
       zho: { official: "立陶宛共和国", common: "立陶宛" },
     },
-    latlng: [56.0, 24.0],
+    latlng: [56, 24],
     landlocked: false,
     borders: ["BLR", "LVA", "POL", "RUS"],
-    area: 65300.0,
+    area: 65300,
     demonyms: {
       eng: { f: "Lithuanian", m: "Lithuanian" },
       fra: { f: "Lituanienne", m: "Lituanien" },
     },
-    flag: "\uD83C\uDDF1\uD83C\uDDF9",
+    flag: "🇱🇹",
     maps: {
       googleMaps: "https://goo.gl/maps/dd1s9rrLjrK2G8yY6",
       openStreetMaps: "https://www.openstreetmap.org/relation/72596",
@@ -9278,6 +10171,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [54.68, 25.32] },
     postalCode: { format: "LT-#####", regex: "^(?:LT)*(\\d{5})$" },
+    id: 97,
   },
   {
     name: {
@@ -9319,7 +10213,10 @@ export default [
       kor: { official: "투르크메니스탄", common: "투르크메니스탄" },
       nld: { official: "Turkmenistan", common: "Turkmenistan" },
       per: { official: "جمهوری خلق ترکمنستان", common: "ترکمنستان" },
-      pol: { official: "Republika Turkmenistanu", common: "Turkmenistan" },
+      pol: {
+        official: "Republika Turkmenistanu",
+        common: "Turkmenistan",
+      },
       por: { official: "Turcomenistão", common: "Turquemenistão" },
       rus: { official: "Туркменистан", common: "Туркмения" },
       slk: { official: "Turkménsko", common: "Turkménsko" },
@@ -9330,15 +10227,15 @@ export default [
       urd: { official: "ترکمانستان", common: "ترکمانستان" },
       zho: { official: "土库曼斯坦", common: "土库曼斯坦" },
     },
-    latlng: [40.0, 60.0],
+    latlng: [40, 60],
     landlocked: true,
     borders: ["AFG", "IRN", "KAZ", "UZB"],
-    area: 488100.0,
+    area: 488100,
     demonyms: {
       eng: { f: "Turkmen", m: "Turkmen" },
       fra: { f: "Turkmène", m: "Turkmène" },
     },
-    flag: "\uD83C\uDDF9\uD83C\uDDF2",
+    flag: "🇹🇲",
     maps: {
       googleMaps: "https://goo.gl/maps/cgfUcaQHSWKuqeKk9",
       openStreetMaps: "https://www.openstreetmap.org/relation/223026",
@@ -9361,6 +10258,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [37.95, 58.38] },
     postalCode: { format: "######", regex: "^(\\d{6})$" },
+    id: 98,
   },
   {
     name: {
@@ -9436,12 +10334,18 @@ export default [
         common: "Etiopia",
       },
       jpn: { official: "エチオピア連邦民主共和国", common: "エチオピア" },
-      kor: { official: "에티오피아 연방 민주 공화국", common: "에티오피아" },
+      kor: {
+        official: "에티오피아 연방 민주 공화국",
+        common: "에티오피아",
+      },
       nld: {
         official: "Federale Democratische Republiek Ethiopië",
         common: "Ethiopië",
       },
-      per: { official: "جمهوری فدرال دموکراتیک اتیوپی", common: "اِتیوپی" },
+      per: {
+        official: "جمهوری فدرال دموکراتیک اتیوپی",
+        common: "اِتیوپی",
+      },
       pol: {
         official: "Federalna Demokratyczna Republika Etiopii",
         common: "Etiopia",
@@ -9474,24 +10378,27 @@ export default [
         official: "Etiyopya Federal Demokratik Cumhuriyeti",
         common: "Etiyopya",
       },
-      urd: { official: "وفاقی جمہوری جمہوریہ ایتھوپیا", common: "ایتھوپیا" },
+      urd: {
+        official: "وفاقی جمہوری جمہوریہ ایتھوپیا",
+        common: "ایتھوپیا",
+      },
       zho: { official: "埃塞俄比亚联邦民主共和国", common: "埃塞俄比亚" },
     },
-    latlng: [8.0, 38.0],
+    latlng: [8, 38],
     landlocked: true,
     borders: ["DJI", "ERI", "KEN", "SOM", "SSD", "SDN"],
-    area: 1104300.0,
+    area: 1104300,
     demonyms: {
       eng: { f: "Ethiopian", m: "Ethiopian" },
       fra: { f: "Éthiopienne", m: "Éthiopien" },
     },
-    flag: "\uD83C\uDDEA\uD83C\uDDF9",
+    flag: "🇪🇹",
     maps: {
       googleMaps: "https://goo.gl/maps/2Q4hQWCbhuZLj3fG6",
       openStreetMaps: "https://www.openstreetmap.org/relation/192800",
     },
     population: 114963583,
-    gini: { 2015: 35.0 },
+    gini: { 2015: 35 },
     fifa: "ETH",
     car: { signs: ["ETH"], side: "right" },
     timezones: ["UTC+03:00"],
@@ -9508,6 +10415,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [9.03, 38.7] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 99,
   },
   {
     name: {
@@ -9522,7 +10430,9 @@ export default [
     independent: false,
     status: "officially-assigned",
     unMember: false,
-    currencies: { XCD: { name: "Eastern Caribbean dollar", symbol: "$" } },
+    currencies: {
+      XCD: { name: "Eastern Caribbean dollar", symbol: "$" },
+    },
     idd: { root: "+1", suffixes: ["264"] },
     capital: ["The Valley"],
     altSpellings: ["AI"],
@@ -9558,12 +10468,12 @@ export default [
     },
     latlng: [18.25, -63.16666666],
     landlocked: false,
-    area: 91.0,
+    area: 91,
     demonyms: {
       eng: { f: "Anguillian", m: "Anguillian" },
       fra: { f: "Anguillane", m: "Anguillan" },
     },
-    flag: "\uD83C\uDDE6\uD83C\uDDEE",
+    flag: "🇦🇮",
     maps: {
       googleMaps: "https://goo.gl/maps/3KgLnEyN7amdno2p9",
       openStreetMaps: "https://www.openstreetmap.org/relation/2177161",
@@ -9583,12 +10493,15 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [18.22, -63.05] },
+    id: 100,
   },
   {
     name: {
       common: "Hungary",
       official: "Hungary",
-      nativeName: { hun: { official: "Magyarország", common: "Magyarország" } },
+      nativeName: {
+        hun: { official: "Magyarország", common: "Magyarország" },
+      },
     },
     tld: [".hu"],
     cca2: "HU",
@@ -9632,15 +10545,15 @@ export default [
       urd: { official: "مجارستان", common: "مجارستان" },
       zho: { official: "匈牙利", common: "匈牙利" },
     },
-    latlng: [47.0, 20.0],
+    latlng: [47, 20],
     landlocked: true,
     borders: ["AUT", "HRV", "ROU", "SRB", "SVK", "SVN", "UKR"],
-    area: 93028.0,
+    area: 93028,
     demonyms: {
       eng: { f: "Hungarian", m: "Hungarian" },
       fra: { f: "Hongroise", m: "Hongrois" },
     },
-    flag: "\uD83C\uDDED\uD83C\uDDFA",
+    flag: "🇭🇺",
     maps: {
       googleMaps: "https://goo.gl/maps/9gfPupm5bffixiFJ6",
       openStreetMaps: "https://www.openstreetmap.org/relation/21335",
@@ -9663,6 +10576,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [47.5, 19.08] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 101,
   },
   {
     name: {
@@ -9693,7 +10607,10 @@ export default [
       bre: { official: "Samoa Amerikan", common: "Samoa Amerikan" },
       ces: { official: "Americká Samoa", common: "Americká Samoa" },
       cym: { official: "American Samoa", common: "American Samoa" },
-      deu: { official: "Amerikanisch-Samoa", common: "Amerikanisch-Samoa" },
+      deu: {
+        official: "Amerikanisch-Samoa",
+        common: "Amerikanisch-Samoa",
+      },
       est: { official: "Ameerika Samoa", common: "Ameerika Samoa" },
       fin: { official: "Amerikan Samoa", common: "Amerikan Samoa" },
       fra: { official: "Samoa américaines", common: "Samoa américaines" },
@@ -9704,9 +10621,15 @@ export default [
       kor: { official: "아메리칸사모아", common: "아메리칸사모아" },
       nld: { official: "Amerikaans Samoa", common: "Amerikaans Samoa" },
       per: { official: "ساموآی آمریکا", common: "ساموآی آمریکا" },
-      pol: { official: "Samoa Amerykańskie", common: "Samoa Amerykańskie" },
+      pol: {
+        official: "Samoa Amerykańskie",
+        common: "Samoa Amerykańskie",
+      },
       por: { official: "Samoa americana", common: "Samoa Americana" },
-      rus: { official: "американское Самоа", common: "Американское Самоа" },
+      rus: {
+        official: "американское Самоа",
+        common: "Американское Самоа",
+      },
       slk: { official: "Americká Samoa", common: "Americká Samoa" },
       spa: { official: "Samoa Americana", common: "Samoa Americana" },
       srp: { official: "Америчка Самоа", common: "Америчка Самоа" },
@@ -9715,14 +10638,14 @@ export default [
       urd: { official: "امریکی سمووا", common: "امریکی سمووا" },
       zho: { official: "美属萨摩亚", common: "美属萨摩亚" },
     },
-    latlng: [-14.33333333, -170.0],
+    latlng: [-14.33333333, -170],
     landlocked: false,
-    area: 199.0,
+    area: 199,
     demonyms: {
       eng: { f: "American Samoan", m: "American Samoan" },
       fra: { f: "Samoane", m: "Samoan" },
     },
-    flag: "\uD83C\uDDE6\uD83C\uDDF8",
+    flag: "🇦🇸",
     maps: {
       googleMaps: "https://goo.gl/maps/Re9ePMjwP1sFCBFA6",
       openStreetMaps: "https://www.openstreetmap.org/relation/2177187",
@@ -9739,6 +10662,7 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: { latlng: [-14.27, -170.7] },
+    id: 102,
   },
   {
     name: {
@@ -9757,7 +10681,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XAF: { name: "Central African CFA franc", symbol: "Fr" } },
+    currencies: {
+      XAF: { name: "Central African CFA franc", symbol: "Fr" },
+    },
     idd: { root: "+2", suffixes: ["35"] },
     capital: ["N'Djamena"],
     altSpellings: ["TD", "Tchad", "Republic of Chad", "République du Tchad"],
@@ -9791,15 +10717,15 @@ export default [
       urd: { official: "جمہوریہ چاڈ", common: "چاڈ" },
       zho: { official: "乍得共和国", common: "乍得" },
     },
-    latlng: [15.0, 19.0],
+    latlng: [15, 19],
     landlocked: true,
     borders: ["CMR", "CAF", "LBY", "NER", "NGA", "SDN"],
-    area: 1284000.0,
+    area: 1284000,
     demonyms: {
       eng: { f: "Chadian", m: "Chadian" },
       fra: { f: "Tchadienne", m: "Tchadien" },
     },
-    flag: "\uD83C\uDDF9\uD83C\uDDE9",
+    flag: "🇹🇩",
     maps: {
       googleMaps: "https://goo.gl/maps/ziUdAZ8skuNfx5Hx7",
       openStreetMaps: "https://www.openstreetmap.org/relation/2361304",
@@ -9821,12 +10747,15 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [12.1, 15.03] },
+    id: 103,
   },
   {
     name: {
       common: "Guadeloupe",
       official: "Guadeloupe",
-      nativeName: { fra: { official: "Guadeloupe", common: "Guadeloupe" } },
+      nativeName: {
+        fra: { official: "Guadeloupe", common: "Guadeloupe" },
+      },
     },
     tld: [".gp"],
     cca2: "GP",
@@ -9874,12 +10803,12 @@ export default [
     },
     latlng: [16.25, -61.583333],
     landlocked: false,
-    area: 1628.0,
+    area: 1628,
     demonyms: {
       eng: { f: "Guadeloupian", m: "Guadeloupian" },
       fra: { f: "Guadeloupéenne", m: "Guadeloupéen" },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDF5",
+    flag: "🇬🇵",
     maps: {
       googleMaps: "https://goo.gl/maps/Dy9R2EufJtoWm8UN9",
       openStreetMaps: "https://www.openstreetmap.org/relation/7109289",
@@ -9899,13 +10828,17 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [16.03, -61.73] },
     postalCode: { format: "#####", regex: "^((97|98)\\d{3})$" },
+    id: 104,
   },
   {
     name: {
       common: "Nigeria",
       official: "Federal Republic of Nigeria",
       nativeName: {
-        eng: { official: "Federal Republic of Nigeria", common: "Nigeria" },
+        eng: {
+          official: "Federal Republic of Nigeria",
+          common: "Nigeria",
+        },
       },
     },
     tld: [".ng"],
@@ -9926,39 +10859,63 @@ export default [
     translations: {
       ara: { official: "جمهورية نيجيريا الاتحادية", common: "نيجيريا" },
       bre: { official: "Republik Kevreadel Nigeria", common: "Nigeria" },
-      ces: { official: "Nigerijská federativní republika", common: "Nigérie" },
+      ces: {
+        official: "Nigerijská federativní republika",
+        common: "Nigérie",
+      },
       cym: { official: "Federal Republic of Nigeria", common: "Nigeria" },
       deu: { official: "Bundesrepublik Nigeria", common: "Nigeria" },
       est: { official: "Nigeeria Liitvabariik", common: "Nigeeria" },
       fin: { official: "Nigerian liittotasavalta", common: "Nigeria" },
-      fra: { official: "République fédérale du Nigeria", common: "Nigéria" },
+      fra: {
+        official: "République fédérale du Nigeria",
+        common: "Nigéria",
+      },
       hrv: { official: "Savezna Republika Nigerija", common: "Nigerija" },
       hun: { official: "Nigéria", common: "Nigéria" },
-      ita: { official: "Repubblica federale di Nigeria", common: "Nigeria" },
+      ita: {
+        official: "Repubblica federale di Nigeria",
+        common: "Nigeria",
+      },
       jpn: { official: "ナイジェリア連邦共和国", common: "ナイジェリア" },
       kor: { official: "나이지리아 연방 공화국", common: "나이지리아" },
       nld: { official: "Federale Republiek Nigeria", common: "Nigeria" },
       per: { official: "جمهوری فدرال نیجریه", common: "نیجریه" },
       pol: { official: "Federalna Republika Nigerii", common: "Nigeria" },
-      por: { official: "República Federal da Nigéria", common: "Nigéria" },
-      rus: { official: "Федеративная Республика Нигерия", common: "Нигерия" },
-      slk: { official: "Nigérijská federatívna republika", common: "Nigéria" },
-      spa: { official: "República Federal de Nigeria", common: "Nigeria" },
-      srp: { official: "Савезна Република Нигерија", common: "Нигерија " },
+      por: {
+        official: "República Federal da Nigéria",
+        common: "Nigéria",
+      },
+      rus: {
+        official: "Федеративная Республика Нигерия",
+        common: "Нигерия",
+      },
+      slk: {
+        official: "Nigérijská federatívna republika",
+        common: "Nigéria",
+      },
+      spa: {
+        official: "República Federal de Nigeria",
+        common: "Nigeria",
+      },
+      srp: {
+        official: "Савезна Република Нигерија",
+        common: "Нигерија ",
+      },
       swe: { official: "Förbundsrepubliken Nigeria", common: "Nigeria" },
       tur: { official: "Nijerya Federal Cumhuriyeti", common: "Nijerya" },
       urd: { official: "وفاقی جمہوریہ نائجیریا", common: "نائجیریا" },
       zho: { official: "尼日利亚联邦共和国", common: "尼日利亚" },
     },
-    latlng: [10.0, 8.0],
+    latlng: [10, 8],
     landlocked: false,
     borders: ["BEN", "CMR", "TCD", "NER"],
-    area: 923768.0,
+    area: 923768,
     demonyms: {
       eng: { f: "Nigerian", m: "Nigerian" },
       fra: { f: "Nigériane", m: "Nigérian" },
     },
-    flag: "\uD83C\uDDF3\uD83C\uDDEC",
+    flag: "🇳🇬",
     maps: {
       googleMaps: "https://goo.gl/maps/LTn417qWwBPFszuV9",
       openStreetMaps: "https://www.openstreetmap.org/relation/192787",
@@ -9981,13 +10938,17 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [9.08, 7.53] },
     postalCode: { format: "######", regex: "^(\\d{6})$" },
+    id: 105,
   },
   {
     name: {
       common: "San Marino",
       official: "Republic of San Marino",
       nativeName: {
-        ita: { official: "Repubblica di San Marino", common: "San Marino" },
+        ita: {
+          official: "Repubblica di San Marino",
+          common: "San Marino",
+        },
       },
     },
     tld: [".sm"],
@@ -10016,7 +10977,10 @@ export default [
         official: "San Marinon seesteinen tasavalta",
         common: "San Marino",
       },
-      fra: { official: "République de Saint-Marin", common: "Saint-Marin" },
+      fra: {
+        official: "République de Saint-Marin",
+        common: "Saint-Marin",
+      },
       hrv: {
         official: "Većina Serene Republika San Marino",
         common: "San Marino",
@@ -10062,12 +11026,12 @@ export default [
     latlng: [43.76666666, 12.41666666],
     landlocked: true,
     borders: ["ITA"],
-    area: 61.0,
+    area: 61,
     demonyms: {
       eng: { f: "Sammarinese", m: "Sammarinese" },
       fra: { f: "Saint-Marinaise", m: "Saint-Marinais" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDF2",
+    flag: "🇸🇲",
     maps: {
       googleMaps: "https://goo.gl/maps/rxCVJjm8dVY93RPY8",
       openStreetMaps: "https://www.openstreetmap.org/relation/54624",
@@ -10089,6 +11053,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [43.94, 12.45] },
     postalCode: { format: "4789#", regex: "^(4789\\d)$" },
+    id: 106,
   },
   {
     name: {
@@ -10138,15 +11103,15 @@ export default [
       urd: { official: "یوکرین", common: "یوکرین" },
       zho: { official: "乌克兰", common: "乌克兰" },
     },
-    latlng: [49.0, 32.0],
+    latlng: [49, 32],
     landlocked: false,
     borders: ["BLR", "HUN", "MDA", "POL", "ROU", "RUS", "SVK"],
-    area: 603500.0,
+    area: 603500,
     demonyms: {
       eng: { f: "Ukrainian", m: "Ukrainian" },
       fra: { f: "Ukrainienne", m: "Ukrainien" },
     },
-    flag: "\uD83C\uDDFA\uD83C\uDDE6",
+    flag: "🇺🇦",
     maps: {
       googleMaps: "https://goo.gl/maps/DvgJMiPJ7aozKFZv7",
       openStreetMaps: "https://www.openstreetmap.org/relation/60199",
@@ -10169,6 +11134,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [50.43, 30.52] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 107,
   },
   {
     name: {
@@ -10226,15 +11192,15 @@ export default [
       urd: { official: "جمہوریہ ہیٹی", common: "ہیٹی" },
       zho: { official: "海地共和国", common: "海地" },
     },
-    latlng: [19.0, -72.41666666],
+    latlng: [19, -72.41666666],
     landlocked: false,
     borders: ["DOM"],
-    area: 27750.0,
+    area: 27750,
     demonyms: {
       eng: { f: "Haitian", m: "Haitian" },
       fra: { f: "Haïtienne", m: "Haïtien" },
     },
-    flag: "\uD83C\uDDED\uD83C\uDDF9",
+    flag: "🇭🇹",
     maps: {
       googleMaps: "https://goo.gl/maps/9o13xtjuUdqFnHbn9",
       openStreetMaps: "https://www.openstreetmap.org/relation/307829",
@@ -10257,6 +11223,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [18.53, -72.33] },
     postalCode: { format: "HT####", regex: "^(?:HT)*(\\d{4})$" },
+    id: 108,
   },
   {
     name: {
@@ -10309,15 +11276,15 @@ export default [
       urd: { official: "جمہوریہ بوٹسوانا", common: "بوٹسوانا" },
       zho: { official: "博茨瓦纳共和国", common: "博茨瓦纳" },
     },
-    latlng: [-22.0, 24.0],
+    latlng: [-22, 24],
     landlocked: true,
     borders: ["NAM", "ZAF", "ZMB", "ZWE"],
-    area: 582000.0,
+    area: 582000,
     demonyms: {
       eng: { f: "Motswana", m: "Motswana" },
       fra: { f: "Botswanaise", m: "Botswanais" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDFC",
+    flag: "🇧🇼",
     maps: {
       googleMaps: "https://goo.gl/maps/E364KeLy6N4JwxwQ8",
       openStreetMaps: "https://www.openstreetmap.org/relation/1889339",
@@ -10339,6 +11306,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-24.63, 25.9] },
+    id: 109,
   },
   {
     name: {
@@ -10395,15 +11363,15 @@ export default [
       urd: { official: "جمہوریہ پرتگال", common: "پرتگال" },
       zho: { official: "葡萄牙共和国", common: "葡萄牙" },
     },
-    latlng: [39.5, -8.0],
+    latlng: [39.5, -8],
     landlocked: false,
     borders: ["ESP"],
-    area: 92090.0,
+    area: 92090,
     demonyms: {
       eng: { f: "Portuguese", m: "Portuguese" },
       fra: { f: "Portugaise", m: "Portugais" },
     },
-    flag: "\uD83C\uDDF5\uD83C\uDDF9",
+    flag: "🇵🇹",
     maps: {
       googleMaps: "https://goo.gl/maps/BaTBSyc4GWMmbAKB8",
       openStreetMaps: "https://www.openstreetmap.org/relation/295480",
@@ -10426,13 +11394,17 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [38.72, -9.13] },
     postalCode: { format: "####-###", regex: "^(\\d{7})$" },
+    id: 110,
   },
   {
     name: {
       common: "Guyana",
       official: "Co-operative Republic of Guyana",
       nativeName: {
-        eng: { official: "Co-operative Republic of Guyana", common: "Guyana" },
+        eng: {
+          official: "Co-operative Republic of Guyana",
+          common: "Guyana",
+        },
       },
     },
     tld: [".gy"],
@@ -10453,42 +11425,84 @@ export default [
     translations: {
       ara: { official: "جمهورية غيانا التعاونية", common: "غيانا" },
       bre: { official: "Republik Kevelourel Gwiana", common: "Guyana" },
-      ces: { official: "Kooperativní republika Guyana", common: "Guyana" },
-      cym: { official: "Co-operative Republic of Guyana", common: "Guyana" },
+      ces: {
+        official: "Kooperativní republika Guyana",
+        common: "Guyana",
+      },
+      cym: {
+        official: "Co-operative Republic of Guyana",
+        common: "Guyana",
+      },
       deu: { official: "Kooperative Republik Guyana", common: "Guyana" },
       est: { official: "Guyana Vabariik", common: "Guyana" },
       fin: {
         official: "Guayanan osuustoiminnallinen tasavalta",
         common: "Guayana",
       },
-      fra: { official: "République coopérative de Guyana", common: "Guyana" },
+      fra: {
+        official: "République coopérative de Guyana",
+        common: "Guyana",
+      },
       hrv: { official: "Zadruga Republika Gvajana", common: "Gvajana" },
-      hun: { official: "Guyanai Szövetkezeti Köztársaság", common: "Guyana" },
-      ita: { official: "Co -operative Republic of Guyana", common: "Guyana" },
+      hun: {
+        official: "Guyanai Szövetkezeti Köztársaság",
+        common: "Guyana",
+      },
+      ita: {
+        official: "Co -operative Republic of Guyana",
+        common: "Guyana",
+      },
       jpn: { official: "ガイアナの協同共和国", common: "ガイアナ" },
       kor: { official: "가이아나 협동 공화국", common: "가이아나" },
-      nld: { official: "Coöperatieve Republiek Guyana", common: "Guyana" },
+      nld: {
+        official: "Coöperatieve Republiek Guyana",
+        common: "Guyana",
+      },
       per: { official: "جمهوری تعاونی گویان", common: "گویان" },
-      pol: { official: "Kooperacyjna Republika Gujany", common: "Gujana" },
-      por: { official: "Co -operative República da Guiana", common: "Guiana" },
-      rus: { official: "Кооперативная Республика Гайана", common: "Гайана" },
-      slk: { official: "Guyanská kooperatívna republika", common: "Guyana" },
-      spa: { official: "República Cooperativa de Guyana", common: "Guyana" },
-      srp: { official: "Кооперативна Република Гвајана", common: "Гвајана" },
-      swe: { official: "Kooperativa republiken Guyana", common: "Guyana" },
-      tur: { official: "Guyana Kooperatif Cumhuriyeti", common: "Guyana" },
+      pol: {
+        official: "Kooperacyjna Republika Gujany",
+        common: "Gujana",
+      },
+      por: {
+        official: "Co -operative República da Guiana",
+        common: "Guiana",
+      },
+      rus: {
+        official: "Кооперативная Республика Гайана",
+        common: "Гайана",
+      },
+      slk: {
+        official: "Guyanská kooperatívna republika",
+        common: "Guyana",
+      },
+      spa: {
+        official: "República Cooperativa de Guyana",
+        common: "Guyana",
+      },
+      srp: {
+        official: "Кооперативна Република Гвајана",
+        common: "Гвајана",
+      },
+      swe: {
+        official: "Kooperativa republiken Guyana",
+        common: "Guyana",
+      },
+      tur: {
+        official: "Guyana Kooperatif Cumhuriyeti",
+        common: "Guyana",
+      },
       urd: { official: "تعاونی جمہوریہ گیانا", common: "گیانا" },
       zho: { official: "圭亚那共和国", common: "圭亚那" },
     },
-    latlng: [5.0, -59.0],
+    latlng: [5, -59],
     landlocked: false,
     borders: ["BRA", "SUR", "VEN"],
-    area: 214969.0,
+    area: 214969,
     demonyms: {
       eng: { f: "Guyanese", m: "Guyanese" },
       fra: { f: "Guyanienne", m: "Guyanien" },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDFE",
+    flag: "🇬🇾",
     maps: {
       googleMaps: "https://goo.gl/maps/DFsme2xEeugUAsCx5",
       openStreetMaps: "https://www.openstreetmap.org/relation/287083",
@@ -10510,6 +11524,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [6.8, -58.15] },
+    id: 111,
   },
   {
     name: {
@@ -10562,15 +11577,15 @@ export default [
       urd: { official: "جمہوریہ جزیرہ آئرلینڈ", common: "جزیرہ آئرلینڈ" },
       zho: { official: "爱尔兰共和国", common: "爱尔兰" },
     },
-    latlng: [53.0, -8.0],
+    latlng: [53, -8],
     landlocked: false,
     borders: ["GBR"],
-    area: 70273.0,
+    area: 70273,
     demonyms: {
       eng: { f: "Irish", m: "Irish" },
       fra: { f: "Irlandaise", m: "Irlandais" },
     },
-    flag: "\uD83C\uDDEE\uD83C\uDDEA",
+    flag: "🇮🇪",
     maps: {
       googleMaps: "https://goo.gl/maps/hxd1BKxgpchStzQC6",
       openStreetMaps: "https://www.openstreetmap.org/relation/62273",
@@ -10592,13 +11607,17 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [53.32, -6.23] },
+    id: 112,
   },
   {
     name: {
       common: "New Caledonia",
       official: "New Caledonia",
       nativeName: {
-        fra: { official: "Nouvelle-Calédonie", common: "Nouvelle-Calédonie" },
+        fra: {
+          official: "Nouvelle-Calédonie",
+          common: "Nouvelle-Calédonie",
+        },
       },
     },
     tld: [".nc"],
@@ -10623,7 +11642,10 @@ export default [
       deu: { official: "Neukaledonien", common: "Neukaledonien" },
       est: { official: "Uus-Kaledoonia", common: "Uus-Kaledoonia" },
       fin: { official: "Uusi-Kaledonia", common: "Uusi-Kaledonia" },
-      fra: { official: "Nouvelle-Calédonie", common: "Nouvelle-Calédonie" },
+      fra: {
+        official: "Nouvelle-Calédonie",
+        common: "Nouvelle-Calédonie",
+      },
       hrv: { official: "Nova Kaledonija", common: "Nova Kaledonija" },
       hun: { official: "Új-Kaledónia", common: "Új-Kaledónia" },
       ita: { official: "Nuova Caledonia", common: "Nuova Caledonia" },
@@ -10644,12 +11666,12 @@ export default [
     },
     latlng: [-21.5, 165.5],
     landlocked: false,
-    area: 18575.0,
+    area: 18575,
     demonyms: {
       eng: { f: "New Caledonian", m: "New Caledonian" },
       fra: { f: "Néo-Calédonienne", m: "Néo-Calédonien" },
     },
-    flag: "\uD83C\uDDF3\uD83C\uDDE8",
+    flag: "🇳🇨",
     maps: {
       googleMaps: "https://goo.gl/maps/cBhtCeMdob4U7FRU9",
       openStreetMaps: "https://www.openstreetmap.org/relation/3407643",
@@ -10670,12 +11692,15 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-22.27, 166.45] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 113,
   },
   {
     name: {
       common: "Saint Martin",
       official: "Saint Martin",
-      nativeName: { fra: { official: "Saint-Martin", common: "Saint-Martin" } },
+      nativeName: {
+        fra: { official: "Saint-Martin", common: "Saint-Martin" },
+      },
     },
     tld: [".fr", ".gp"],
     cca2: "MF",
@@ -10732,12 +11757,12 @@ export default [
     latlng: [18.0708, 63.0501],
     landlocked: false,
     borders: ["SXM"],
-    area: 53.0,
+    area: 53,
     demonyms: {
       eng: { f: "Saint Martin Islander", m: "Saint Martin Islander" },
       fra: { f: "Saint-Martinoise", m: "Saint-Martinois" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDEB",
+    flag: "🇲🇫",
     maps: {
       googleMaps: "https://goo.gl/maps/P9ho9QuJ9EAR28JEA",
       openStreetMaps: "https://www.openstreetmap.org/relation/63064",
@@ -10754,6 +11779,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [18.07, -63.08] },
     postalCode: { format: "### ###" },
+    id: 114,
   },
   {
     name: {
@@ -10779,7 +11805,11 @@ export default [
     altSpellings: ["MU", "Republic of Mauritius", "République de Maurice"],
     region: "Africa",
     subregion: "Eastern Africa",
-    languages: { eng: "English", fra: "French", mfe: "Mauritian Creole" },
+    languages: {
+      eng: "English",
+      fra: "French",
+      mfe: "Mauritian Creole",
+    },
     translations: {
       ara: { official: "جمهورية موريشيوس", common: "موريشيوس" },
       bre: { official: "Republik Moris", common: "Moris" },
@@ -10809,12 +11839,12 @@ export default [
     },
     latlng: [-20.28333333, 57.55],
     landlocked: false,
-    area: 2040.0,
+    area: 2040,
     demonyms: {
       eng: { f: "Mauritian", m: "Mauritian" },
       fra: { f: "Mauricienne", m: "Mauricien" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDFA",
+    flag: "🇲🇺",
     maps: {
       googleMaps: "https://goo.gl/maps/PpKtZ4W3tir5iGrz7",
       openStreetMaps: "https://www.openstreetmap.org/relation/535828",
@@ -10836,12 +11866,15 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-20.15, 57.48] },
+    id: 115,
   },
   {
     name: {
       common: "Gibraltar",
       official: "Gibraltar",
-      nativeName: { eng: { official: "Gibraltar", common: "Gibraltar" } },
+      nativeName: {
+        eng: { official: "Gibraltar", common: "Gibraltar" },
+      },
     },
     tld: [".gi"],
     cca2: "GI",
@@ -10887,12 +11920,12 @@ export default [
     latlng: [36.13333333, -5.35],
     landlocked: false,
     borders: ["ESP"],
-    area: 6.0,
+    area: 6,
     demonyms: {
       eng: { f: "Gibraltar", m: "Gibraltar" },
       fra: { f: "Gibraltarienne", m: "Gibraltarien" },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDEE",
+    flag: "🇬🇮",
     maps: {
       googleMaps: "https://goo.gl/maps/CEoHAs1t6byCBhHFA",
       openStreetMaps: "https://www.openstreetmap.org/relation/1278736",
@@ -10912,6 +11945,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [36.13, -5.35] },
+    id: 116,
   },
   {
     name: {
@@ -10932,7 +11966,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XCD: { name: "Eastern Caribbean dollar", symbol: "$" } },
+    currencies: {
+      XCD: { name: "Eastern Caribbean dollar", symbol: "$" },
+    },
     idd: { root: "+1", suffixes: ["869"] },
     capital: ["Basseterre"],
     altSpellings: ["KN", "Federation of Saint Christopher and Nevis"],
@@ -10988,12 +12024,18 @@ export default [
         official: "セントクリストファーNevis連盟",
         common: "セントクリストファー・ネイビス",
       },
-      kor: { official: "세인트키츠 네비스 연방", common: "세인트키츠 네비스" },
+      kor: {
+        official: "세인트키츠 네비스 연방",
+        common: "세인트키츠 네비스",
+      },
       nld: {
         official: "Federatie van Saint Kitts en Nevis",
         common: "Saint Kitts en Nevis",
       },
-      per: { official: "فدراسیون سنت کیتس و نویس", common: "سنت کیتس و نویس" },
+      per: {
+        official: "فدراسیون سنت کیتس و نویس",
+        common: "سنت کیتس و نویس",
+      },
       pol: {
         official: "Federacja Saint Kitts i Nevis",
         common: "Saint Kitts i Nevis",
@@ -11026,17 +12068,23 @@ export default [
         official: "Saint Kitts ve Nevis Federasyonu",
         common: "Saint Kitts ve Nevis",
       },
-      urd: { official: "وفاقِ سینٹ کیٹز و ناویس", common: "سینٹ کیٹز و ناویس" },
-      zho: { official: "圣克里斯托弗和尼维斯联邦", common: "圣基茨和尼维斯" },
+      urd: {
+        official: "وفاقِ سینٹ کیٹز و ناویس",
+        common: "سینٹ کیٹز و ناویس",
+      },
+      zho: {
+        official: "圣克里斯托弗和尼维斯联邦",
+        common: "圣基茨和尼维斯",
+      },
     },
     latlng: [17.33333333, -62.75],
     landlocked: false,
-    area: 261.0,
+    area: 261,
     demonyms: {
       eng: { f: "Kittitian or Nevisian", m: "Kittitian or Nevisian" },
       fra: { f: "Kittitienne-et-nevicienne", m: "Kittitien-et-nevicien" },
     },
-    flag: "\uD83C\uDDF0\uD83C\uDDF3",
+    flag: "🇰🇳",
     maps: {
       googleMaps: "https://goo.gl/maps/qiaVwcLVTXX3eoTNA",
       openStreetMaps: "https://www.openstreetmap.org/relation/536899",
@@ -11057,6 +12105,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [17.3, -62.72] },
+    id: 117,
   },
   {
     name: {
@@ -11106,14 +12155,14 @@ export default [
       urd: { official: "آئس لینڈ", common: "آئس لینڈ" },
       zho: { official: "冰岛", common: "冰岛" },
     },
-    latlng: [65.0, -18.0],
+    latlng: [65, -18],
     landlocked: false,
-    area: 103000.0,
+    area: 103000,
     demonyms: {
       eng: { f: "Icelander", m: "Icelander" },
       fra: { f: "Islandaise", m: "Islandais" },
     },
-    flag: "\uD83C\uDDEE\uD83C\uDDF8",
+    flag: "🇮🇸",
     maps: {
       googleMaps: "https://goo.gl/maps/WxFWSQuc3oamNxoE6",
       openStreetMaps: "https://www.openstreetmap.org/relation/299133",
@@ -11136,6 +12185,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [64.15, -21.95] },
     postalCode: { format: "###", regex: "^(\\d{3})$" },
+    id: 118,
   },
   {
     name: {
@@ -11163,7 +12213,10 @@ export default [
     subregion: "Northern Europe",
     languages: { nor: "Norwegian" },
     translations: {
-      ara: { official: "سفالبارد ويان ماين", common: "سفالبارد ويان ماين" },
+      ara: {
+        official: "سفالبارد ويان ماين",
+        common: "سفالبارد ويان ماين",
+      },
       bre: {
         official: "Svalbard ha Jan Mayen",
         common: "Svalbard ha Jan Mayen",
@@ -11182,7 +12235,10 @@ export default [
       },
       est: { official: "Svalbard", common: "Svalbard" },
       fin: { official: "Huippuvuoret", common: "Huippuvuoret" },
-      fra: { official: "Jan Mayen Svalbard", common: "Svalbard et Jan Mayen" },
+      fra: {
+        official: "Jan Mayen Svalbard",
+        common: "Svalbard et Jan Mayen",
+      },
       hrv: {
         official: "Svalbard og Jan Mayen",
         common: "Svalbard i Jan Mayen",
@@ -11199,13 +12255,22 @@ export default [
         official: "スバールバル諸島OGヤンマイエン",
         common: "スヴァールバル諸島およびヤンマイエン島",
       },
-      kor: { official: "스발바르 얀마옌 제도", common: "스발바르 얀마옌 제도" },
+      kor: {
+        official: "스발바르 얀마옌 제도",
+        common: "스발바르 얀마옌 제도",
+      },
       nld: {
         official: "Svalbard og Jan Mayen",
         common: "Svalbard en Jan Mayen",
       },
-      per: { official: "سوالبارد و یان ماین", common: "سوالبارد و یان ماین" },
-      pol: { official: "Svalbard i Jan Mayen", common: "Svalbard i Jan Mayen" },
+      per: {
+        official: "سوالبارد و یان ماین",
+        common: "سوالبارد و یان ماین",
+      },
+      pol: {
+        official: "Svalbard i Jan Mayen",
+        common: "Svalbard i Jan Mayen",
+      },
       por: {
         official: "Svalbard og Jan Mayen",
         common: "Ilhas Svalbard e Jan Mayen",
@@ -11214,12 +12279,18 @@ export default [
         official: "Свальбарда ог Ян-Майен",
         common: "Шпицберген и Ян-Майен",
       },
-      slk: { official: "Svalbard a Jan Mayen", common: "Svalbard a Jan Mayen" },
+      slk: {
+        official: "Svalbard a Jan Mayen",
+        common: "Svalbard a Jan Mayen",
+      },
       spa: {
         official: "Svalbard og Jan Mayen",
         common: "Islas Svalbard y Jan Mayen",
       },
-      srp: { official: "Свалбард и Јан Мајен", common: "Свалбард и Јан Мајен" },
+      srp: {
+        official: "Свалбард и Јан Мајен",
+        common: "Свалбард и Јан Мајен",
+      },
       swe: {
         official: "Svalbard och Jan Mayen",
         common: "Svalbard och Jan Mayen",
@@ -11234,11 +12305,11 @@ export default [
       },
       zho: { official: "斯瓦尔巴特", common: "斯瓦尔巴特" },
     },
-    latlng: [78.0, 20.0],
+    latlng: [78, 20],
     landlocked: false,
-    area: -1.0,
+    area: -1,
     demonyms: { eng: { f: "Norwegian", m: "Norwegian" } },
-    flag: "\uD83C\uDDF8\uD83C\uDDEF",
+    flag: "🇸🇯",
     maps: {
       googleMaps: "https://goo.gl/maps/L2wyyn3cQ16PzQ5J8",
       openStreetMaps: "https://www.openstreetmap.org/relation/1337397",
@@ -11254,12 +12325,15 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: { latlng: [78.22, 15.63] },
+    id: 119,
   },
   {
     name: {
       common: "Chile",
       official: "Republic of Chile",
-      nativeName: { spa: { official: "República de Chile", common: "Chile" } },
+      nativeName: {
+        spa: { official: "República de Chile", common: "Chile" },
+      },
     },
     tld: [".cl"],
     cca2: "CL",
@@ -11303,15 +12377,15 @@ export default [
       urd: { official: "جمہوریہ چلی", common: "چلی" },
       zho: { official: "智利共和国", common: "智利" },
     },
-    latlng: [-30.0, -71.0],
+    latlng: [-30, -71],
     landlocked: false,
     borders: ["ARG", "BOL", "PER"],
-    area: 756102.0,
+    area: 756102,
     demonyms: {
       eng: { f: "Chilean", m: "Chilean" },
       fra: { f: "Chilienne", m: "Chilien" },
     },
-    flag: "\uD83C\uDDE8\uD83C\uDDF1",
+    flag: "🇨🇱",
     maps: {
       googleMaps: "https://goo.gl/maps/XboxyNHh2fAjCPNn9",
       openStreetMaps: "https://www.openstreetmap.org/relation/167454",
@@ -11334,6 +12408,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-33.45, -70.67] },
     postalCode: { format: "#######", regex: "^(\\d{7})$" },
+    id: 120,
   },
   {
     name: {
@@ -11405,7 +12480,10 @@ export default [
         official: "Stati Uniti Isole Minori",
         common: "Isole minori esterne degli Stati Uniti d'America",
       },
-      jpn: { official: "アメリカ合衆国外諸島", common: "合衆国領有小離島" },
+      jpn: {
+        official: "アメリカ合衆国外諸島",
+        common: "合衆国領有小離島",
+      },
       kor: { official: "미국령 군소 제도", common: "미국령 군소 제도" },
       nld: {
         official: "Kleine afgelegen eilanden van de Verenigde Staten",
@@ -11456,8 +12534,10 @@ export default [
     latlng: [19.3, 166.633333],
     landlocked: false,
     area: 34.2,
-    demonyms: { eng: { f: "American Islander", m: "American Islander" } },
-    flag: "\uD83C\uDDFA\uD83C\uDDF2",
+    demonyms: {
+      eng: { f: "American Islander", m: "American Islander" },
+    },
+    flag: "🇺🇲",
     maps: {
       googleMaps: "https://goo.gl/maps/hZKnrzgeK69dDyPF8",
       openStreetMaps: "https://www.openstreetmap.org/relation/6430384",
@@ -11473,6 +12553,7 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: {},
+    id: 121,
   },
   {
     name: {
@@ -11518,13 +12599,19 @@ export default [
       fra: { official: "République du Kazakhstan", common: "Kazakhstan" },
       hrv: { official: "Republika Kazahstan", common: "Kazahstan" },
       hun: { official: "Kazah Köztársaság", common: "Kazahsztán" },
-      ita: { official: "Repubblica del Kazakhstan", common: "Kazakistan" },
+      ita: {
+        official: "Repubblica del Kazakhstan",
+        common: "Kazakistan",
+      },
       jpn: { official: "カザフスタン共和国", common: "カザフスタン" },
       kor: { official: "카자흐스탄 공화국", common: "카자흐스탄" },
       nld: { official: "Republiek Kazachstan", common: "Kazachstan" },
       per: { official: "جمهوری قزاقستان", common: "قزاقستان" },
       pol: { official: "Republika Kazachstanu", common: "Kazachstan" },
-      por: { official: "República do Cazaquistão", common: "Cazaquistão" },
+      por: {
+        official: "República do Cazaquistão",
+        common: "Cazaquistão",
+      },
       rus: { official: "Республика Казахстан", common: "Казахстан" },
       slk: { official: "Kazašská republika", common: "Kazachstan" },
       spa: { official: "República de Kazajstán", common: "Kazajistán" },
@@ -11537,12 +12624,12 @@ export default [
     latlng: [48.0196, 66.9237],
     landlocked: true,
     borders: ["CHN", "KGZ", "RUS", "TKM", "UZB"],
-    area: 2724900.0,
+    area: 2724900,
     demonyms: {
       eng: { f: "Kazakhstani", m: "Kazakhstani" },
       fra: { f: "Kazakhstanaise", m: "Kazakhstanais" },
     },
-    flag: "\uD83C\uDDF0\uD83C\uDDFF",
+    flag: "🇰🇿",
     maps: {
       googleMaps: "https://goo.gl/maps/8VohJGu7ShuzZYyeA",
       openStreetMaps: "https://www.openstreetmap.org/relation/214665",
@@ -11565,12 +12652,15 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [51.16, 71.45] },
     postalCode: { format: "######", regex: "^(\\d{6})$" },
+    id: 122,
   },
   {
     name: {
       common: "China",
       official: "People's Republic of China",
-      nativeName: { zho: { official: "中华人民共和国", common: "中国" } },
+      nativeName: {
+        zho: { official: "中华人民共和国", common: "中国" },
+      },
     },
     tld: [".cn", ".中国", ".中國", ".公司", ".网络"],
     cca2: "CN",
@@ -11621,7 +12711,7 @@ export default [
       tur: { official: "Çin Halk Cumhuriyeti", common: "Çin" },
       urd: { official: "عوامی جمہوریہ چین", common: "چین" },
     },
-    latlng: [35.0, 105.0],
+    latlng: [35, 105],
     landlocked: false,
     borders: [
       "AFG",
@@ -11641,12 +12731,12 @@ export default [
       "TJK",
       "VNM",
     ],
-    area: 9706961.0,
+    area: 9706961,
     demonyms: {
       eng: { f: "Chinese", m: "Chinese" },
       fra: { f: "Chinoise", m: "Chinois" },
     },
-    flag: "\uD83C\uDDE8\uD83C\uDDF3",
+    flag: "🇨🇳",
     maps: {
       googleMaps: "https://goo.gl/maps/p9qC6vgiFRRXzvGi7",
       openStreetMaps: "https://www.openstreetmap.org/relation/270056",
@@ -11669,6 +12759,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [39.92, 116.38] },
     postalCode: { format: "######", regex: "^(\\d{6})$" },
+    id: 123,
   },
   {
     name: {
@@ -11746,8 +12837,14 @@ export default [
           "Macao Regione amministrativa speciale della Repubblica Popolare Cinese",
         common: "Macao",
       },
-      jpn: { official: "中華人民共和国マカオ特別行政区", common: "マカオ" },
-      kor: { official: "중화인민공화국 마카오 특별행정구", common: "마카오" },
+      jpn: {
+        official: "中華人民共和国マカオ特別行政区",
+        common: "マカオ",
+      },
+      kor: {
+        official: "중화인민공화국 마카오 특별행정구",
+        common: "마카오",
+      },
       nld: {
         official:
           "Speciale Administratieve Regio Macau van de Volksrepubliek China",
@@ -11796,12 +12893,12 @@ export default [
     latlng: [22.16666666, 113.55],
     landlocked: false,
     borders: ["CHN"],
-    area: 30.0,
+    area: 30,
     demonyms: {
       eng: { f: "Macanese", m: "Macanese" },
       fra: { f: "Macanaise", m: "Macanais" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDF4",
+    flag: "🇲🇴",
     maps: {
       googleMaps: "https://goo.gl/maps/whymRdk3dZFfAAs4A",
       openStreetMaps: "https://www.openstreetmap.org/relation/1867188",
@@ -11821,6 +12918,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: {},
+    id: 124,
   },
   {
     name: {
@@ -11877,15 +12975,15 @@ export default [
       urd: { official: "جمہوریہ آرمینیا", common: "آرمینیا" },
       zho: { official: "亚美尼亚共和国", common: "亚美尼亚" },
     },
-    latlng: [40.0, 45.0],
+    latlng: [40, 45],
     landlocked: true,
     borders: ["AZE", "GEO", "IRN", "TUR"],
-    area: 29743.0,
+    area: 29743,
     demonyms: {
       eng: { f: "Armenian", m: "Armenian" },
       fra: { f: "Arménienne", m: "Arménien" },
     },
-    flag: "\uD83C\uDDE6\uD83C\uDDF2",
+    flag: "🇦🇲",
     maps: {
       googleMaps: "https://goo.gl/maps/azWUtK9bUQYEyccbA",
       openStreetMaps: "https://www.openstreetmap.org/relation/364066",
@@ -11908,6 +13006,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [40.17, 44.5] },
     postalCode: { format: "######", regex: "^(\\d{6})$" },
+    id: 125,
   },
   {
     name: {
@@ -11917,7 +13016,10 @@ export default [
         aym: { official: "Wuliwya Suyu", common: "Wuliwya" },
         grn: { official: "Tetã Volívia", common: "Volívia" },
         que: { official: "Buliwya Mamallaqta", common: "Buliwya" },
-        spa: { official: "Estado Plurinacional de Bolivia", common: "Bolivia" },
+        spa: {
+          official: "Estado Plurinacional de Bolivia",
+          common: "Bolivia",
+        },
       },
     },
     tld: [".bo"],
@@ -11951,47 +13053,89 @@ export default [
       spa: "Spanish",
     },
     translations: {
-      ara: { official: "دولة بوليفيا المتعددة القوميات", common: "بوليفيا" },
+      ara: {
+        official: "دولة بوليفيا المتعددة القوميات",
+        common: "بوليفيا",
+      },
       bre: { official: "Stad Liesvroadel Bolivia", common: "Bolivia" },
-      ces: { official: "Mnohonárodnostní stát Bolívie", common: "Bolívie" },
+      ces: {
+        official: "Mnohonárodnostní stát Bolívie",
+        common: "Bolívie",
+      },
       cym: { official: "Gweriniaeth Bolifia", common: "Bolifia" },
-      deu: { official: "Plurinationaler Staat Bolivien", common: "Bolivien" },
-      est: { official: "Boliivia Paljurahvuseline Riik", common: "Boliivia" },
-      fin: { official: "Bolivian monikansainen valtio", common: "Bolivia" },
-      fra: { official: "État plurinational de Bolivie", common: "Bolivie" },
-      hrv: { official: "Plurinational State of Bolivia", common: "Bolivija" },
-      hun: { official: "Bolíviai Többnemzetiségű Állam", common: "Bolívia" },
+      deu: {
+        official: "Plurinationaler Staat Bolivien",
+        common: "Bolivien",
+      },
+      est: {
+        official: "Boliivia Paljurahvuseline Riik",
+        common: "Boliivia",
+      },
+      fin: {
+        official: "Bolivian monikansainen valtio",
+        common: "Bolivia",
+      },
+      fra: {
+        official: "État plurinational de Bolivie",
+        common: "Bolivie",
+      },
+      hrv: {
+        official: "Plurinational State of Bolivia",
+        common: "Bolivija",
+      },
+      hun: {
+        official: "Bolíviai Többnemzetiségű Állam",
+        common: "Bolívia",
+      },
       ita: {
         official: "Stato Plurinazionale della Bolivia",
         common: "Bolivia",
       },
       jpn: { official: "ボリビアの多民族国", common: "ボリビア多民族国" },
       kor: { official: "볼리비아 다민족국", common: "볼리비아" },
-      nld: { official: "Plurinationale Staat van Bolivia", common: "Bolivia" },
+      nld: {
+        official: "Plurinationale Staat van Bolivia",
+        common: "Bolivia",
+      },
       per: { official: "جمهوری بولیوی", common: "بولیوی" },
-      pol: { official: "Wielonarodowe Państwo Boliwia", common: "Boliwia" },
-      por: { official: "Estado Plurinacional da Bolívia", common: "Bolívia" },
+      pol: {
+        official: "Wielonarodowe Państwo Boliwia",
+        common: "Boliwia",
+      },
+      por: {
+        official: "Estado Plurinacional da Bolívia",
+        common: "Bolívia",
+      },
       rus: {
         official: "Многонациональное Государство Боливия",
         common: "Боливия",
       },
       slk: { official: "Bolívijská republika", common: "Bolívia" },
-      spa: { official: "Estado Plurinacional de Bolivia", common: "Bolivia" },
-      srp: { official: "Вишенационална Држава Боливија", common: "Боливија" },
-      swe: { official: "Mångnationella staten Bolivia", common: "Bolivia" },
+      spa: {
+        official: "Estado Plurinacional de Bolivia",
+        common: "Bolivia",
+      },
+      srp: {
+        official: "Вишенационална Држава Боливија",
+        common: "Боливија",
+      },
+      swe: {
+        official: "Mångnationella staten Bolivia",
+        common: "Bolivia",
+      },
       tur: { official: "Bolivya Çokuluslu Devleti", common: "Bolivya" },
       urd: { official: "جمہوریہ بولیویا", common: "بولیویا" },
       zho: { official: "多民族玻利维亚国", common: "玻利维亚" },
     },
-    latlng: [-17.0, -65.0],
+    latlng: [-17, -65],
     landlocked: true,
     borders: ["ARG", "BRA", "CHL", "PRY", "PER"],
-    area: 1098581.0,
+    area: 1098581,
     demonyms: {
       eng: { f: "Bolivian", m: "Bolivian" },
       fra: { f: "Bolivienne", m: "Bolivien" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDF4",
+    flag: "🇧🇴",
     maps: {
       googleMaps: "https://goo.gl/maps/9DfnyfbxNM2g5U9b9",
       openStreetMaps: "https://www.openstreetmap.org/relation/252645",
@@ -12013,6 +13157,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-19.02, -65.26] },
+    id: 126,
   },
   {
     name: {
@@ -12065,15 +13210,15 @@ export default [
       urd: { official: "جمہوریہ سودان", common: "سودان" },
       zho: { official: "苏丹共和国", common: "苏丹" },
     },
-    latlng: [15.0, 30.0],
+    latlng: [15, 30],
     landlocked: false,
     borders: ["CAF", "TCD", "EGY", "ERI", "ETH", "LBY", "SSD"],
-    area: 1886068.0,
+    area: 1886068,
     demonyms: {
       eng: { f: "Sudanese", m: "Sudanese" },
       fra: { f: "Soudanaise", m: "Soudanais" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDE9",
+    flag: "🇸🇩",
     maps: {
       googleMaps: "https://goo.gl/maps/bNW7YUJCaqR8zcXn7",
       openStreetMaps: "https://www.openstreetmap.org/relation/192789",
@@ -12096,6 +13241,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [15.6, 32.53] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 127,
   },
   {
     name: {
@@ -12130,15 +13276,30 @@ export default [
     languages: { vie: "Vietnamese" },
     translations: {
       ara: { official: "جمهورية فيتنام الاشتراكية", common: "فيتنام" },
-      bre: { official: "Republik Sokialour Viêt Nam", common: "Viêt Nam" },
+      bre: {
+        official: "Republik Sokialour Viêt Nam",
+        common: "Viêt Nam",
+      },
       ces: {
         official: "Vietnamská socialistická republika",
         common: "Vietnam",
       },
-      cym: { official: "Socialist Republic of Vietnam", common: "Vietnam" },
-      deu: { official: "Sozialistische Republik Vietnam", common: "Vietnam" },
-      est: { official: "Vietnami Sotsialistlik Vabariik", common: "Vietnam" },
-      fin: { official: "Vietnamin sosialistinen tasavalta", common: "Vietnam" },
+      cym: {
+        official: "Socialist Republic of Vietnam",
+        common: "Vietnam",
+      },
+      deu: {
+        official: "Sozialistische Republik Vietnam",
+        common: "Vietnam",
+      },
+      est: {
+        official: "Vietnami Sotsialistlik Vabariik",
+        common: "Vietnam",
+      },
+      fin: {
+        official: "Vietnamin sosialistinen tasavalta",
+        common: "Vietnam",
+      },
       fra: {
         official: "République socialiste du Viêt Nam",
         common: "Viêt Nam",
@@ -12147,14 +13308,29 @@ export default [
         official: "Socijalistička Republika Vijetnam",
         common: "Vijetnam",
       },
-      hun: { official: "Vietnámi Szocialista Köztársaság", common: "Vietnám" },
-      ita: { official: "Repubblica socialista del Vietnam", common: "Vietnam" },
+      hun: {
+        official: "Vietnámi Szocialista Köztársaság",
+        common: "Vietnám",
+      },
+      ita: {
+        official: "Repubblica socialista del Vietnam",
+        common: "Vietnam",
+      },
       jpn: { official: "ベトナム社会主義共和国", common: "ベトナム" },
       kor: { official: "베트남 사회주의 공화국", common: "베트남" },
-      nld: { official: "Socialistische Republiek Vietnam", common: "Vietnam" },
+      nld: {
+        official: "Socialistische Republiek Vietnam",
+        common: "Vietnam",
+      },
       per: { official: "جمهوری سوسیالیستی ویتنام", common: "ویتنام" },
-      pol: { official: "Socjalistyczna Republika Wietnamu", common: "Wietnam" },
-      por: { official: "República Socialista do Vietname", common: "Vietname" },
+      pol: {
+        official: "Socjalistyczna Republika Wietnamu",
+        common: "Wietnam",
+      },
+      por: {
+        official: "República Socialista do Vietname",
+        common: "Vietname",
+      },
       rus: {
         official: "Социалистическая Республика Вьетнам",
         common: "Вьетнам",
@@ -12163,25 +13339,34 @@ export default [
         official: "Vietnamská socialistická republika",
         common: "Vietnam",
       },
-      spa: { official: "República Socialista de Vietnam", common: "Vietnam" },
+      spa: {
+        official: "República Socialista de Vietnam",
+        common: "Vietnam",
+      },
       srp: {
         official: "Социјалистичка Република Вијетнам",
         common: "Вијетнам",
       },
-      swe: { official: "Socialistiska republiken Vietnam", common: "Vietnam" },
-      tur: { official: "Vietnam Sosyalist Cumhuriyeti", common: "Vietnam" },
+      swe: {
+        official: "Socialistiska republiken Vietnam",
+        common: "Vietnam",
+      },
+      tur: {
+        official: "Vietnam Sosyalist Cumhuriyeti",
+        common: "Vietnam",
+      },
       urd: { official: "اشتراکی جمہوریہ ویتنام", common: "ویتنام" },
       zho: { official: "越南社会主义共和国", common: "越南" },
     },
     latlng: [16.16666666, 107.83333333],
     landlocked: false,
     borders: ["KHM", "CHN", "LAO"],
-    area: 331212.0,
+    area: 331212,
     demonyms: {
       eng: { f: "Vietnamese", m: "Vietnamese" },
       fra: { f: "Vietnamienne", m: "Vietnamien" },
     },
-    flag: "\uD83C\uDDFB\uD83C\uDDF3",
+    flag: "🇻🇳",
     maps: {
       googleMaps: "https://goo.gl/maps/PCpVt9WzdJ9A9nEZ9",
       openStreetMaps: "https://www.openstreetmap.org/relation/49915",
@@ -12204,6 +13389,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [21.03, 105.85] },
     postalCode: { format: "######", regex: "^(\\d{6})$" },
+    id: 128,
   },
   {
     name: {
@@ -12235,7 +13421,10 @@ export default [
     subregion: "Polynesia",
     languages: { fra: "French" },
     translations: {
-      ara: { official: "إقليم جزر واليس وفوتونا", common: "واليس وفوتونا" },
+      ara: {
+        official: "إقليم جزر واليس وفوتونا",
+        common: "واليس وفوتونا",
+      },
       bre: {
         official: "Tiriad Inizi Wallis ha Futuna",
         common: "Wallis ha Futuna",
@@ -12252,7 +13441,10 @@ export default [
         official: "Gebiet der Wallis und Futuna",
         common: "Wallis und Futuna",
       },
-      est: { official: "Wallise ja Futuna ala", common: "Wallis ja Futuna" },
+      est: {
+        official: "Wallise ja Futuna ala",
+        common: "Wallis ja Futuna",
+      },
       fin: {
         official: "Wallisin ja Futunan yhteisö",
         common: "Wallis ja Futuna",
@@ -12312,16 +13504,25 @@ export default [
         official: "Wallis ve Futuna Adaları Bölgesi",
         common: "Wallis ve Futuna Adaları Bölgesi",
       },
-      urd: { official: "سر زمینِ والس و فتونہ جزائر", common: "والس و فتونہ" },
-      zho: { official: "瓦利斯和富图纳群岛", common: "瓦利斯和富图纳群岛" },
+      urd: {
+        official: "سر زمینِ والس و فتونہ جزائر",
+        common: "والس و فتونہ",
+      },
+      zho: {
+        official: "瓦利斯和富图纳群岛",
+        common: "瓦利斯和富图纳群岛",
+      },
     },
     latlng: [-13.3, -176.2],
     landlocked: false,
-    area: 142.0,
+    area: 142,
     demonyms: {
-      eng: { f: "Wallis and Futuna Islander", m: "Wallis and Futuna Islander" },
+      eng: {
+        f: "Wallis and Futuna Islander",
+        m: "Wallis and Futuna Islander",
+      },
     },
-    flag: "\uD83C\uDDFC\uD83C\uDDEB",
+    flag: "🇼🇫",
     maps: {
       googleMaps: "https://goo.gl/maps/CzVqK74QYtbHv65r5",
       openStreetMaps: "https://www.openstreetmap.org/relation/3412448",
@@ -12338,6 +13539,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-13.95, -171.93] },
     postalCode: { format: "#####", regex: "^(986\\d{2})$" },
+    id: 129,
   },
   {
     name: {
@@ -12395,15 +13597,15 @@ export default [
       urd: { official: "جمہوریہ برونڈی", common: "برونڈی" },
       zho: { official: "布隆迪共和国", common: "布隆迪" },
     },
-    latlng: [-3.5, 30.0],
+    latlng: [-3.5, 30],
     landlocked: true,
     borders: ["COD", "RWA", "TZA"],
-    area: 27834.0,
+    area: 27834,
     demonyms: {
       eng: { f: "Burundian", m: "Burundian" },
       fra: { f: "Burundaise", m: "Burundais" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDEE",
+    flag: "🇧🇮",
     maps: {
       googleMaps: "https://goo.gl/maps/RXPWoRrB9tfrJpUG7",
       openStreetMaps: "https://www.openstreetmap.org/relation/195269",
@@ -12425,6 +13627,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-3.43, 29.93] },
+    id: 130,
   },
   {
     name: {
@@ -12477,15 +13680,15 @@ export default [
       urd: { official: "کینیڈا", common: "کینیڈا" },
       zho: { official: "加拿大", common: "加拿大" },
     },
-    latlng: [60.0, -95.0],
+    latlng: [60, -95],
     landlocked: false,
     borders: ["USA"],
-    area: 9984670.0,
+    area: 9984670,
     demonyms: {
       eng: { f: "Canadian", m: "Canadian" },
       fra: { f: "Canadienne", m: "Canadien" },
     },
-    flag: "\uD83C\uDDE8\uD83C\uDDE6",
+    flag: "🇨🇦",
     maps: {
       googleMaps: "https://goo.gl/maps/jmEVLugreeqiZXxbA",
       openStreetMaps: "https://www.openstreetmap.org/relation/1428125",
@@ -12519,6 +13722,7 @@ export default [
       regex:
         "^([ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJKLMNPRSTVWXYZ]) ?(\\d[ABCEGHJKLMNPRSTVWXYZ]\\d)$ ",
     },
+    id: 131,
   },
   {
     name: {
@@ -12570,15 +13774,15 @@ export default [
       urd: { official: "جمہوریہ کولمبیا", common: "کولمبیا" },
       zho: { official: "哥伦比亚共和国", common: "哥伦比亚" },
     },
-    latlng: [4.0, -72.0],
+    latlng: [4, -72],
     landlocked: false,
     borders: ["BRA", "ECU", "PAN", "PER", "VEN"],
-    area: 1141748.0,
+    area: 1141748,
     demonyms: {
       eng: { f: "Colombian", m: "Colombian" },
       fra: { f: "Colombienne", m: "Colombien" },
     },
-    flag: "\uD83C\uDDE8\uD83C\uDDF4",
+    flag: "🇨🇴",
     maps: {
       googleMaps: "https://goo.gl/maps/RdwTG8e7gPwS62oR6",
       openStreetMaps: "https://www.openstreetmap.org/relation/120027",
@@ -12600,6 +13804,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [4.71, -74.07] },
+    id: 132,
   },
   {
     name: {
@@ -12658,12 +13863,12 @@ export default [
     latlng: [-29.5, 28.5],
     landlocked: true,
     borders: ["ZAF"],
-    area: 30355.0,
+    area: 30355,
     demonyms: {
       eng: { f: "Mosotho", m: "Mosotho" },
       fra: { f: "Lésothienne", m: "Lésothien" },
     },
-    flag: "\uD83C\uDDF1\uD83C\uDDF8",
+    flag: "🇱🇸",
     maps: {
       googleMaps: "https://goo.gl/maps/H8gJi5mL4Cmd1SF28",
       openStreetMaps: "https://www.openstreetmap.org/relation/2093234",
@@ -12686,6 +13891,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-29.32, 27.48] },
     postalCode: { format: "###", regex: "^(\\d{3})$" },
+    id: 133,
   },
   {
     name: {
@@ -12731,7 +13937,10 @@ export default [
       per: { official: "جزایر برمودا", common: "برمودا" },
       pol: { official: "Bermudy", common: "Bermudy" },
       por: { official: "Bermudas", common: "Bermudas" },
-      rus: { official: "Бермудские острова", common: "Бермудские Острова" },
+      rus: {
+        official: "Бермудские острова",
+        common: "Бермудские Острова",
+      },
       slk: { official: "Bermudy", common: "Bermudy" },
       spa: { official: "Bermuda", common: "Bermudas" },
       srp: { official: "Бермуда", common: "Бермуда" },
@@ -12742,12 +13951,12 @@ export default [
     },
     latlng: [32.33333333, -64.75],
     landlocked: false,
-    area: 54.0,
+    area: 54,
     demonyms: {
       eng: { f: "Bermudian", m: "Bermudian" },
       fra: { f: "Bermudienne", m: "Bermudien" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDF2",
+    flag: "🇧🇲",
     maps: {
       googleMaps: "https://goo.gl/maps/NLsRGNjTzDghTtAJA",
       openStreetMaps: "https://www.openstreetmap.org/relation/1993208",
@@ -12768,6 +13977,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [32.28, -64.78] },
     postalCode: { format: "@@ ##", regex: "^([A-Z]{2}\\d{2})$" },
+    id: 134,
   },
   {
     name: {
@@ -12822,12 +14032,12 @@ export default [
     latlng: [15.5, -90.25],
     landlocked: false,
     borders: ["BLZ", "SLV", "HND", "MEX"],
-    area: 108889.0,
+    area: 108889,
     demonyms: {
       eng: { f: "Guatemalan", m: "Guatemalan" },
       fra: { f: "Guatémaltèque", m: "Guatémaltèque" },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDF9",
+    flag: "🇬🇹",
     maps: {
       googleMaps: "https://goo.gl/maps/JoRAbem4Hxb9FYbVA",
       openStreetMaps: "https://www.openstreetmap.org/relation/1521463",
@@ -12850,6 +14060,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [14.62, -90.52] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 135,
   },
   {
     name: {
@@ -12857,7 +14068,10 @@ export default [
       official: "Republic of Uzbekistan",
       nativeName: {
         rus: { official: "Республика Узбекистан", common: "Узбекистан" },
-        uzb: { official: "O'zbekiston Respublikasi", common: "O‘zbekiston" },
+        uzb: {
+          official: "O'zbekiston Respublikasi",
+          common: "O‘zbekiston",
+        },
       },
     },
     tld: [".uz"],
@@ -12888,7 +14102,10 @@ export default [
       deu: { official: "Republik Usbekistan", common: "Usbekistan" },
       est: { official: "Usbekistani Vabariik", common: "Usbekistan" },
       fin: { official: "Uzbekistanin tasavalta", common: "Uzbekistan" },
-      fra: { official: "République d'Ouzbékistan", common: "Ouzbékistan" },
+      fra: {
+        official: "République d'Ouzbékistan",
+        common: "Ouzbékistan",
+      },
       hrv: { official: "Republika Uzbekistan", common: "Uzbekistan" },
       hun: { official: "Üzbég Köztársaság", common: "Üzbegisztán" },
       ita: { official: "Repubblica di Uzbekistan", common: "Uzbekistan" },
@@ -12897,7 +14114,10 @@ export default [
       nld: { official: "Republiek Oezbekistan", common: "Oezbekistan" },
       per: { official: "جمهوری ازبکستان", common: "ازبکستان" },
       pol: { official: "Republika Uzbekistanu", common: "Uzbekistan" },
-      por: { official: "República do Usbequistão", common: "Uzbequistão" },
+      por: {
+        official: "República do Usbequistão",
+        common: "Uzbequistão",
+      },
       rus: { official: "Республика Узбекистан", common: "Узбекистан" },
       slk: { official: "Uzbecká republika", common: "Uzbekistan" },
       spa: { official: "República de Uzbekistán", common: "Uzbekistán" },
@@ -12907,15 +14127,15 @@ export default [
       urd: { official: "جمہوریہ ازبکستان", common: "ازبکستان" },
       zho: { official: "乌兹别克斯坦共和国", common: "乌兹别克斯坦" },
     },
-    latlng: [41.0, 64.0],
+    latlng: [41, 64],
     landlocked: true,
     borders: ["AFG", "KAZ", "KGZ", "TJK", "TKM"],
-    area: 447400.0,
+    area: 447400,
     demonyms: {
       eng: { f: "Uzbekistani", m: "Uzbekistani" },
       fra: { f: "Ouzbèke", m: "Ouzbèke" },
     },
-    flag: "\uD83C\uDDFA\uD83C\uDDFF",
+    flag: "🇺🇿",
     maps: {
       googleMaps: "https://goo.gl/maps/AJpo6MjMx23qSWCz8",
       openStreetMaps: "https://www.openstreetmap.org/relation/196240",
@@ -12938,6 +14158,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [41.32, 69.25] },
     postalCode: { format: "######", regex: "^(\\d{6})$" },
+    id: 136,
   },
   {
     name: {
@@ -12991,12 +14212,12 @@ export default [
     },
     latlng: [19.3133, 81.2546],
     landlocked: false,
-    area: 264.0,
+    area: 264,
     demonyms: {
       eng: { f: "Caymanian", m: "Caymanian" },
       fra: { f: "Caïmanienne", m: "Caïmanien" },
     },
-    flag: "\uD83C\uDDF0\uD83C\uDDFE",
+    flag: "🇰🇾",
     maps: {
       googleMaps: "https://goo.gl/maps/P3ZVXX3LH63t91hL8",
       openStreetMaps: "https://www.openstreetmap.org/relation/7269765",
@@ -13016,6 +14237,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [19.3, -81.38] },
+    id: 137,
   },
   {
     name: {
@@ -13033,7 +14255,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XOF: { name: "West African CFA franc", symbol: "Fr" } },
+    currencies: {
+      XOF: { name: "West African CFA franc", symbol: "Fr" },
+    },
     idd: { root: "+2", suffixes: ["21"] },
     capital: ["Dakar"],
     altSpellings: ["SN", "Republic of Senegal", "République du Sénégal"],
@@ -13067,15 +14291,15 @@ export default [
       urd: { official: "جمہوریہ سینیگال", common: "سینیگال" },
       zho: { official: "塞内加尔共和国", common: "塞内加尔" },
     },
-    latlng: [14.0, -14.0],
+    latlng: [14, -14],
     landlocked: false,
     borders: ["GMB", "GIN", "GNB", "MLI", "MRT"],
-    area: 196722.0,
+    area: 196722,
     demonyms: {
       eng: { f: "Senegalese", m: "Senegalese" },
       fra: { f: "Sénégalaise", m: "Sénégalais" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDF3",
+    flag: "🇸🇳",
     maps: {
       googleMaps: "https://goo.gl/maps/o5f1uD5nyihCL3HCA",
       openStreetMaps: "https://www.openstreetmap.org/relation/192775",
@@ -13098,6 +14322,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [14.73, -17.63] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 138,
   },
   {
     name: {
@@ -13152,12 +14377,12 @@ export default [
     latlng: [13.46666666, -16.56666666],
     landlocked: false,
     borders: ["SEN"],
-    area: 10689.0,
+    area: 10689,
     demonyms: {
       eng: { f: "Gambian", m: "Gambian" },
       fra: { f: "Gambienne", m: "Gambien" },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDF2",
+    flag: "🇬🇲",
     maps: {
       googleMaps: "https://goo.gl/maps/bbGBCxxtfD2A9Z4m6",
       openStreetMaps: "https://www.openstreetmap.org/relation/192774",
@@ -13179,13 +14404,17 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [13.45, -16.57] },
+    id: 139,
   },
   {
     name: {
       common: "Liechtenstein",
       official: "Principality of Liechtenstein",
       nativeName: {
-        deu: { official: "Fürstentum Liechtenstein", common: "Liechtenstein" },
+        deu: {
+          official: "Fürstentum Liechtenstein",
+          common: "Liechtenstein",
+        },
       },
     },
     tld: [".li"],
@@ -13209,39 +14438,78 @@ export default [
     languages: { deu: "German" },
     translations: {
       ara: { official: "إمارة ليختنشتاين", common: "ليختنشتاين" },
-      bre: { official: "Priñselezh Liechtenstein", common: "Liechtenstein" },
-      ces: { official: "Knížectví Lichtenštejnské", common: "Lichtenštejnsko" },
+      bre: {
+        official: "Priñselezh Liechtenstein",
+        common: "Liechtenstein",
+      },
+      ces: {
+        official: "Knížectví Lichtenštejnské",
+        common: "Lichtenštejnsko",
+      },
       cym: {
         official: "Principality of Liechtenstein",
         common: "Liechtenstein",
       },
-      deu: { official: "Fürstentum Liechtenstein", common: "Liechtenstein" },
-      est: { official: "Liechtensteini Vürstiriik", common: "Liechtenstein" },
-      fin: { official: "Liechensteinin ruhtinaskunta", common: "Liechenstein" },
+      deu: {
+        official: "Fürstentum Liechtenstein",
+        common: "Liechtenstein",
+      },
+      est: {
+        official: "Liechtensteini Vürstiriik",
+        common: "Liechtenstein",
+      },
+      fin: {
+        official: "Liechensteinin ruhtinaskunta",
+        common: "Liechenstein",
+      },
       fra: {
         official: "Principauté du Liechtenstein",
         common: "Liechtenstein",
       },
       hrv: { official: "Kneževina Lihtenštajn", common: "Lihtenštajn" },
-      hun: { official: "Liechtensteini Hercegség", common: "Liechtenstein" },
+      hun: {
+        official: "Liechtensteini Hercegség",
+        common: "Liechtenstein",
+      },
       ita: {
         official: "Principato del Liechtenstein",
         common: "Liechtenstein",
       },
-      jpn: { official: "リヒテンシュタイン公国", common: "リヒテンシュタイン" },
+      jpn: {
+        official: "リヒテンシュタイン公国",
+        common: "リヒテンシュタイン",
+      },
       kor: { official: "리히텐슈타인 공국", common: "리히텐슈타인" },
-      nld: { official: "Vorstendom Liechtenstein", common: "Liechtenstein" },
-      per: { official: "شاهزاده‌نشین لیختن‌اشتاین", common: "لیختن‌اشتاین" },
-      pol: { official: "Księstwo Liechtensteinu", common: "Liechtenstein" },
-      por: { official: "Principado de Liechtenstein", common: "Liechtenstein" },
+      nld: {
+        official: "Vorstendom Liechtenstein",
+        common: "Liechtenstein",
+      },
+      per: {
+        official: "شاهزاده‌نشین لیختن‌اشتاین",
+        common: "لیختن‌اشتاین",
+      },
+      pol: {
+        official: "Księstwo Liechtensteinu",
+        common: "Liechtenstein",
+      },
+      por: {
+        official: "Principado de Liechtenstein",
+        common: "Liechtenstein",
+      },
       rus: { official: "Княжество Лихтенштейн", common: "Лихтенштейн" },
       slk: {
         official: "Lichtenštajnské kniežatstvo",
         common: "Lichtenštajnsko",
       },
-      spa: { official: "Principado de Liechtenstein", common: "Liechtenstein" },
+      spa: {
+        official: "Principado de Liechtenstein",
+        common: "Liechtenstein",
+      },
       srp: { official: "Кнежевина Лихтенштајн", common: "Лихтенштајн" },
-      swe: { official: "Furstendömet Liechtenstein", common: "Liechtenstein" },
+      swe: {
+        official: "Furstendömet Liechtenstein",
+        common: "Liechtenstein",
+      },
       tur: { official: "Lihtenştayn Prensliği", common: "Lihtenştayn" },
       urd: { official: "امارات لیختینستائن", common: "لیختینستائن" },
       zho: { official: "列支敦士登公国", common: "列支敦士登" },
@@ -13249,12 +14517,12 @@ export default [
     latlng: [47.26666666, 9.53333333],
     landlocked: true,
     borders: ["AUT", "CHE"],
-    area: 160.0,
+    area: 160,
     demonyms: {
       eng: { f: "Liechtensteiner", m: "Liechtensteiner" },
       fra: { f: "Liechtensteinoise", m: "Liechtensteinois" },
     },
-    flag: "\uD83C\uDDF1\uD83C\uDDEE",
+    flag: "🇱🇮",
     maps: {
       googleMaps: "https://goo.gl/maps/KNuHeiJzAPodwM7y6",
       openStreetMaps: "https://www.openstreetmap.org/relation/1155955",
@@ -13276,6 +14544,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [47.13, 9.52] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 140,
   },
   {
     name: {
@@ -13312,7 +14581,10 @@ export default [
         official: "Inizi Pitcairn, Henderson, Ducie hag Oeno",
         common: "Inizi Pitcairn",
       },
-      ces: { official: "Pitcairnovy ostrovy", common: "Pitcairnovy ostrovy" },
+      ces: {
+        official: "Pitcairnovy ostrovy",
+        common: "Pitcairnovy ostrovy",
+      },
       cym: {
         official: "Pitcairn Group of Islands",
         common: "Pitcairn Islands",
@@ -13323,22 +14595,46 @@ export default [
         common: "Pitcairn",
       },
       fin: { official: "Pitcairn", common: "Pitcairn" },
-      fra: { official: "Groupe d'îles Pitcairn", common: "Îles Pitcairn" },
-      hrv: { official: "Pitcairn skupine otoka", common: "Pitcairnovo otočje" },
+      fra: {
+        official: "Groupe d'îles Pitcairn",
+        common: "Îles Pitcairn",
+      },
+      hrv: {
+        official: "Pitcairn skupine otoka",
+        common: "Pitcairnovo otočje",
+      },
       hun: { official: "Pitcairn-szigetek", common: "Pitcairn-szigetek" },
-      ita: { official: "Pitcairn gruppo di isole", common: "Isole Pitcairn" },
+      ita: {
+        official: "Pitcairn gruppo di isole",
+        common: "Isole Pitcairn",
+      },
       jpn: { official: "島のピトケアングループ", common: "ピトケアン" },
       kor: { official: "핏케언 제도", common: "핏케언 제도" },
-      nld: { official: "Pitcairn groep eilanden", common: "Pitcairneilanden" },
+      nld: {
+        official: "Pitcairn groep eilanden",
+        common: "Pitcairneilanden",
+      },
       per: { official: "جزایر پیت‌کرن", common: "جزایر پیت‌کرن" },
       pol: {
         official: "Wyspy Pitcairn, Henderson, Ducie i Oeno",
         common: "Pitcairn",
       },
-      por: { official: "Pitcairn grupo de ilhas", common: "Ilhas Pitcairn" },
-      rus: { official: "Питкэрн группа островов", common: "Острова Питкэрн" },
-      slk: { official: "Pitcairnove ostrovy", common: "Pitcairnove ostrovy" },
-      spa: { official: "Grupo de Islas Pitcairn", common: "Islas Pitcairn" },
+      por: {
+        official: "Pitcairn grupo de ilhas",
+        common: "Ilhas Pitcairn",
+      },
+      rus: {
+        official: "Питкэрн группа островов",
+        common: "Острова Питкэрн",
+      },
+      slk: {
+        official: "Pitcairnove ostrovy",
+        common: "Pitcairnove ostrovy",
+      },
+      spa: {
+        official: "Grupo de Islas Pitcairn",
+        common: "Islas Pitcairn",
+      },
       srp: {
         official: "Острва Питкерн, Хендерсон, Дуци и Оин",
         common: "Острва Питкерн",
@@ -13353,12 +14649,12 @@ export default [
     },
     latlng: [-25.06666666, -130.1],
     landlocked: false,
-    area: 47.0,
+    area: 47,
     demonyms: {
       eng: { f: "Pitcairn Islander", m: "Pitcairn Islander" },
       fra: { f: "Pitcairnaise", m: "Pitcairnais" },
     },
-    flag: "\uD83C\uDDF5\uD83C\uDDF3",
+    flag: "🇵🇳",
     maps: {
       googleMaps: "https://goo.gl/maps/XGJMnMAigXjXcxSa7",
       openStreetMaps: "https://www.openstreetmap.org/relation/2185375",
@@ -13374,6 +14670,7 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: { latlng: [-25.07, -130.08] },
+    id: 141,
   },
   {
     name: {
@@ -13429,14 +14726,14 @@ export default [
       urd: { official: "تووالو", common: "تووالو" },
       zho: { official: "图瓦卢", common: "图瓦卢" },
     },
-    latlng: [-8.0, 178.0],
+    latlng: [-8, 178],
     landlocked: false,
-    area: 26.0,
+    area: 26,
     demonyms: {
       eng: { f: "Tuvaluan", m: "Tuvaluan" },
       fra: { f: "Tuvaluane", m: "Tuvaluan" },
     },
-    flag: "\uD83C\uDDF9\uD83C\uDDFB",
+    flag: "🇹🇻",
     maps: {
       googleMaps: "https://goo.gl/maps/LbuUxtkgm1dfN1Pn6",
       openStreetMaps: "https://www.openstreetmap.org/relation/2177266",
@@ -13457,6 +14754,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-8.52, 179.22] },
+    id: 142,
   },
   {
     name: {
@@ -13485,7 +14783,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XAF: { name: "Central African CFA franc", symbol: "Fr" } },
+    currencies: {
+      XAF: { name: "Central African CFA franc", symbol: "Fr" },
+    },
     idd: { root: "+2", suffixes: ["40"] },
     capital: ["Malabo"],
     altSpellings: [
@@ -13499,7 +14799,10 @@ export default [
     subregion: "Middle Africa",
     languages: { fra: "French", por: "Portuguese", spa: "Spanish" },
     translations: {
-      ara: { official: "جمهورية غينيا الاستوائية", common: "غينيا الاستوائية" },
+      ara: {
+        official: "جمهورية غينيا الاستوائية",
+        common: "غينيا الاستوائية",
+      },
       bre: {
         official: "Republik Ginea ar C'heheder",
         common: "Ginea ar C'heheder",
@@ -13575,19 +14878,22 @@ export default [
         official: "Republiken Ekvatorialguinea",
         common: "Ekvatorialguinea",
       },
-      tur: { official: "Ekvator Ginesi Cumhuriyeti", common: "Ekvator Ginesi" },
+      tur: {
+        official: "Ekvator Ginesi Cumhuriyeti",
+        common: "Ekvator Ginesi",
+      },
       urd: { official: "جمہوریہ استوائی گنی", common: "استوائی گنی" },
       zho: { official: "赤道几内亚共和国", common: "赤道几内亚" },
     },
-    latlng: [2.0, 10.0],
+    latlng: [2, 10],
     landlocked: false,
     borders: ["CMR", "GAB"],
-    area: 28051.0,
+    area: 28051,
     demonyms: {
       eng: { f: "Equatorial Guinean", m: "Equatorial Guinean" },
       fra: { f: "Équato-guinéenne", m: "Équato-guinéen" },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDF6",
+    flag: "🇬🇶",
     maps: {
       googleMaps: "https://goo.gl/maps/ucWfFd8aW1FbGMva9",
       openStreetMaps: "https://www.openstreetmap.org/relation/192791",
@@ -13608,12 +14914,15 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [3.75, 8.78] },
+    id: 143,
   },
   {
     name: {
       common: "Bhutan",
       official: "Kingdom of Bhutan",
-      nativeName: { dzo: { official: "འབྲུག་རྒྱལ་ཁབ་", common: "འབྲུག་ཡུལ་" } },
+      nativeName: {
+        dzo: { official: "འབྲུག་རྒྱལ་ཁབ་", common: "འབྲུག་ཡུལ་" },
+      },
     },
     tld: [".bt"],
     cca2: "BT",
@@ -13663,12 +14972,12 @@ export default [
     latlng: [27.5, 90.5],
     landlocked: true,
     borders: ["CHN", "IND"],
-    area: 38394.0,
+    area: 38394,
     demonyms: {
       eng: { f: "Bhutanese", m: "Bhutanese" },
       fra: { f: "Bhoutanaise", m: "Bhoutanais" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDF9",
+    flag: "🇧🇹",
     maps: {
       googleMaps: "https://goo.gl/maps/VEfXXBftTFLUpNgp8",
       openStreetMaps: "https://www.openstreetmap.org/relation/184629",
@@ -13690,6 +14999,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [27.47, 89.63] },
+    id: 144,
   },
   {
     name: {
@@ -13744,12 +15054,12 @@ export default [
     },
     latlng: [12.5, -69.96666666],
     landlocked: false,
-    area: 180.0,
+    area: 180,
     demonyms: {
       eng: { f: "Aruban", m: "Aruban" },
       fra: { f: "Arubaise", m: "Arubais" },
     },
-    flag: "\uD83C\uDDE6\uD83C\uDDFC",
+    flag: "🇦🇼",
     maps: {
       googleMaps: "https://goo.gl/maps/8hopbQqifHAgyZyg8",
       openStreetMaps: "https://www.openstreetmap.org/relation/1231749",
@@ -13769,6 +15079,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [12.52, -70.03] },
+    id: 145,
   },
   {
     name: {
@@ -13826,15 +15137,15 @@ export default [
       urd: { official: "جمہوریہ پیراگوئے", common: "پیراگوئے" },
       zho: { official: "巴拉圭共和国", common: "巴拉圭" },
     },
-    latlng: [-23.0, -58.0],
+    latlng: [-23, -58],
     landlocked: true,
     borders: ["ARG", "BOL", "BRA"],
-    area: 406752.0,
+    area: 406752,
     demonyms: {
       eng: { f: "Paraguayan", m: "Paraguayan" },
       fra: { f: "Paraguayenne", m: "Paraguayen" },
     },
-    flag: "\uD83C\uDDF5\uD83C\uDDFE",
+    flag: "🇵🇾",
     maps: {
       googleMaps: "https://goo.gl/maps/JtnqG73WJn1Gx6mz6",
       openStreetMaps: "https://www.openstreetmap.org/relation/287077",
@@ -13857,6 +15168,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-25.28, -57.57] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 146,
   },
   {
     name: {
@@ -13872,7 +15184,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XCD: { name: "Eastern Caribbean dollar", symbol: "$" } },
+    currencies: {
+      XCD: { name: "Eastern Caribbean dollar", symbol: "$" },
+    },
     idd: { root: "+1", suffixes: ["473"] },
     capital: ["St. George's"],
     altSpellings: ["GD"],
@@ -13908,12 +15222,12 @@ export default [
     },
     latlng: [12.11666666, -61.66666666],
     landlocked: false,
-    area: 344.0,
+    area: 344,
     demonyms: {
       eng: { f: "Grenadian", m: "Grenadian" },
       fra: { f: "Grenadienne", m: "Grenadien" },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDE9",
+    flag: "🇬🇩",
     maps: {
       googleMaps: "https://goo.gl/maps/rqWyfUAt4xhvk1Zy9",
       openStreetMaps: "https://www.openstreetmap.org/relation/550727",
@@ -13934,6 +15248,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [32.38, -64.68] },
+    id: 147,
   },
   {
     name: {
@@ -13962,7 +15277,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { PGK: { name: "Papua New Guinean kina", symbol: "K" } },
+    currencies: {
+      PGK: { name: "Papua New Guinean kina", symbol: "K" },
+    },
     idd: { root: "+6", suffixes: ["75"] },
     capital: ["Port Moresby"],
     altSpellings: [
@@ -14027,7 +15344,10 @@ export default [
         official: "Onafhankelijke Staat Papoea -Nieuw-Guinea",
         common: "Papoea-Nieuw-Guinea",
       },
-      per: { official: "مملکت مستقل پاپوآ گینهٔ نو", common: "پاپوآ گینه نو" },
+      per: {
+        official: "مملکت مستقل پاپوآ گینهٔ نو",
+        common: "پاپوآ گینه نو",
+      },
       pol: {
         official: "Niezależne Państwo Papui-Nowej Gwinei",
         common: "Papua-Nowa Gwinea",
@@ -14060,18 +15380,21 @@ export default [
         official: "Papua Yeni Gine Bağımsız Devleti",
         common: "Papua Yeni Gine",
       },
-      urd: { official: "آزاد ریاستِ پاپوا نیو گنی", common: "پاپوا نیو گنی" },
+      urd: {
+        official: "آزاد ریاستِ پاپوا نیو گنی",
+        common: "پاپوا نیو گنی",
+      },
       zho: { official: "巴布亚新几内亚", common: "巴布亚新几内亚" },
     },
-    latlng: [-6.0, 147.0],
+    latlng: [-6, 147],
     landlocked: false,
     borders: ["IDN"],
-    area: 462840.0,
+    area: 462840,
     demonyms: {
       eng: { f: "Papua New Guinean", m: "Papua New Guinean" },
       fra: { f: "Papouasienne", m: "Papouasien" },
     },
-    flag: "\uD83C\uDDF5\uD83C\uDDEC",
+    flag: "🇵🇬",
     maps: {
       googleMaps: "https://goo.gl/maps/ChGmzZBjZ3vnBwR2A",
       openStreetMaps: "https://goo.gl/maps/ChGmzZBjZ3vnBwR2A",
@@ -14094,6 +15417,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-9.45, 147.18] },
     postalCode: { format: "###", regex: "^(\\d{3})$" },
+    id: 148,
   },
   {
     name: {
@@ -14148,12 +15472,12 @@ export default [
     },
     latlng: [18.25, -77.5],
     landlocked: false,
-    area: 10991.0,
+    area: 10991,
     demonyms: {
       eng: { f: "Jamaican", m: "Jamaican" },
       fra: { f: "Jamaïcaine", m: "Jamaïcain" },
     },
-    flag: "\uD83C\uDDEF\uD83C\uDDF2",
+    flag: "🇯🇲",
     maps: {
       googleMaps: "https://goo.gl/maps/Z8mQ6jxnRQKFwJy9A",
       openStreetMaps: "https://www.openstreetmap.org/relation/555017",
@@ -14175,15 +15499,25 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [17.99702, -76.79358] },
+    id: 149,
   },
   {
     name: {
       common: "Republic of the Congo",
       official: "Republic of the Congo",
       nativeName: {
-        fra: { official: "République du Congo", common: "République du Congo" },
-        kon: { official: "Repubilika ya Kongo", common: "Repubilika ya Kongo" },
-        lin: { official: "Republíki ya Kongó", common: "Republíki ya Kongó" },
+        fra: {
+          official: "République du Congo",
+          common: "République du Congo",
+        },
+        kon: {
+          official: "Repubilika ya Kongo",
+          common: "Repubilika ya Kongo",
+        },
+        lin: {
+          official: "Republíki ya Kongó",
+          common: "Republíki ya Kongó",
+        },
       },
     },
     tld: [".cg"],
@@ -14194,7 +15528,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XAF: { name: "Central African CFA franc", symbol: "Fr" } },
+    currencies: {
+      XAF: { name: "Central African CFA franc", symbol: "Fr" },
+    },
     idd: { root: "+2", suffixes: ["42"] },
     capital: ["Brazzaville"],
     altSpellings: ["CG", "Congo", "Congo-Brazzaville"],
@@ -14205,13 +15541,19 @@ export default [
       ara: { official: "جمهورية الكونغو", common: "جمهورية الكونفو" },
       bre: { official: "Republik Kongo", common: "Kongo-Brazzaville" },
       ces: { official: "Konžská republika", common: "Kongo" },
-      cym: { official: "Gweriniaeth y Congo", common: "Gweriniaeth y Congo" },
+      cym: {
+        official: "Gweriniaeth y Congo",
+        common: "Gweriniaeth y Congo",
+      },
       deu: { official: "Republik Kongo", common: "Kongo" },
       est: { official: "Kongo Vabariik", common: "Kongo Vabariik" },
       fin: { official: "Kongon tasavalta", common: "Kongo-Brazzaville" },
       fra: { official: "République du Congo", common: "Congo" },
       hrv: { official: "Republika Kongo", common: "Kongo" },
-      hun: { official: "Kongói Köztársaság", common: "Kongói Köztársaság" },
+      hun: {
+        official: "Kongói Köztársaság",
+        common: "Kongói Köztársaság",
+      },
       ita: { official: "Repubblica del Congo", common: "Congo" },
       jpn: { official: "コンゴ共和国", common: "コンゴ共和国" },
       kor: { official: "콩고", common: "콩고" },
@@ -14228,15 +15570,15 @@ export default [
       urd: { official: "جمہوریہ کانگو", common: "جمہوریہ کانگو" },
       zho: { official: "刚果共和国", common: "刚果" },
     },
-    latlng: [-1.0, 15.0],
+    latlng: [-1, 15],
     landlocked: false,
     borders: ["AGO", "CMR", "CAF", "COD", "GAB"],
-    area: 342000.0,
+    area: 342000,
     demonyms: {
       eng: { f: "Congolese", m: "Congolese" },
       fra: { f: "Congolaise", m: "Congolais" },
     },
-    flag: "\uD83C\uDDE8\uD83C\uDDEC",
+    flag: "🇨🇬",
     maps: {
       googleMaps: "https://goo.gl/maps/Phf5dDDKdfCtuBTb6",
       openStreetMaps: "https://www.openstreetmap.org/relation/192794",
@@ -14255,6 +15597,7 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: { latlng: [-4.25, 15.28] },
+    id: 150,
   },
   {
     name: {
@@ -14306,15 +15649,15 @@ export default [
       urd: { official: "جمہوریہ پولینڈ", common: "پولینڈ" },
       zho: { official: "波兰共和国", common: "波兰" },
     },
-    latlng: [52.0, 20.0],
+    latlng: [52, 20],
     landlocked: false,
     borders: ["BLR", "CZE", "DEU", "LTU", "RUS", "SVK", "UKR"],
-    area: 312679.0,
+    area: 312679,
     demonyms: {
       eng: { f: "Polish", m: "Polish" },
       fra: { f: "Polonaise", m: "Polonais" },
     },
-    flag: "\uD83C\uDDF5\uD83C\uDDF1",
+    flag: "🇵🇱",
     maps: {
       googleMaps: "https://goo.gl/maps/gY9Xw4Sf4415P4949",
       openStreetMaps: "https://www.openstreetmap.org/relation/49715",
@@ -14335,8 +15678,9 @@ export default [
       svg: "https://mainfacts.com/media/images/coats_of_arms/pl.svg",
     },
     startOfWeek: "monday",
-    capitalInfo: { latlng: [52.25, 21.0] },
+    capitalInfo: { latlng: [52.25, 21] },
     postalCode: { format: "##-###", regex: "^(\\d{5})$" },
+    id: 151,
   },
   {
     name: {
@@ -14388,7 +15732,7 @@ export default [
       urd: { official: "روسی وفاق", common: "روس" },
       zho: { official: "俄罗斯联邦", common: "俄罗斯" },
     },
-    latlng: [60.0, 100.0],
+    latlng: [60, 100],
     landlocked: false,
     borders: [
       "AZE",
@@ -14406,12 +15750,12 @@ export default [
       "POL",
       "UKR",
     ],
-    area: 1.7098242e7,
+    area: 17098242,
     demonyms: {
       eng: { f: "Russian", m: "Russian" },
       fra: { f: "Russe", m: "Russe" },
     },
-    flag: "\uD83C\uDDF7\uD83C\uDDFA",
+    flag: "🇷🇺",
     maps: {
       googleMaps: "https://goo.gl/maps/4F4PpDhGJgVvLby57",
       openStreetMaps:
@@ -14445,6 +15789,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [55.75, 37.6] },
     postalCode: { format: "######", regex: "^(\\d{6})$" },
+    id: 152,
   },
   {
     name: {
@@ -14477,15 +15822,30 @@ export default [
     subregion: "Western Africa",
     languages: { ara: "Arabic" },
     translations: {
-      ara: { official: "الجمهورية الإسلامية الموريتانية", common: "موريتانيا" },
-      bre: { official: "Republik islamek Maouritania", common: "Maouritania" },
-      ces: { official: "Mauritánská islámská republika", common: "Mauritánie" },
-      cym: { official: "Islamic Republic of Mauritania", common: "Mauritania" },
+      ara: {
+        official: "الجمهورية الإسلامية الموريتانية",
+        common: "موريتانيا",
+      },
+      bre: {
+        official: "Republik islamek Maouritania",
+        common: "Maouritania",
+      },
+      ces: {
+        official: "Mauritánská islámská republika",
+        common: "Mauritánie",
+      },
+      cym: {
+        official: "Islamic Republic of Mauritania",
+        common: "Mauritania",
+      },
       deu: {
         official: "Islamische Republik Mauretanien",
         common: "Mauretanien",
       },
-      est: { official: "Mauritaania Islamivabariik", common: "Mauritaania" },
+      est: {
+        official: "Mauritaania Islamivabariik",
+        common: "Mauritaania",
+      },
       fin: {
         official: "Mauritanian islamilainen tasavalta",
         common: "Mauritania",
@@ -14498,19 +15858,28 @@ export default [
         official: "Islamska Republika Mauritanija",
         common: "Mauritanija",
       },
-      hun: { official: "Mauritániai Iszlám Köztársaság", common: "Mauritánia" },
+      hun: {
+        official: "Mauritániai Iszlám Köztársaság",
+        common: "Mauritánia",
+      },
       ita: {
         official: "Repubblica islamica di Mauritania",
         common: "Mauritania",
       },
-      jpn: { official: "モーリタニア·イスラム共和国", common: "モーリタニア" },
+      jpn: {
+        official: "モーリタニア·イスラム共和国",
+        common: "モーリタニア",
+      },
       kor: { official: "모리타니 이슬람 공화국", common: "모리타니" },
       nld: {
         official: "Islamitische Republiek Mauritanië",
         common: "Mauritanië",
       },
       per: { official: "جمهوری اسلامی موریتانی", common: "موریتانی" },
-      pol: { official: "Islamska Republika Mauretańska", common: "Mauretania" },
+      pol: {
+        official: "Islamska Republika Mauretańska",
+        common: "Mauretania",
+      },
       por: {
         official: "República Islâmica da Mauritânia",
         common: "Mauritânia",
@@ -14519,7 +15888,10 @@ export default [
         official: "Исламская Республика Мавритания",
         common: "Мавритания",
       },
-      slk: { official: "Mauritánska islamská republika", common: "Mauritánia" },
+      slk: {
+        official: "Mauritánska islamská republika",
+        common: "Mauritánia",
+      },
       spa: {
         official: "República Islámica de Mauritania",
         common: "Mauritania",
@@ -14532,19 +15904,22 @@ export default [
         official: "Islamiska republiken Mauretanien",
         common: "Mauretanien",
       },
-      tur: { official: "Moritanya İslam Cumhuriyeti", common: "Moritanya" },
+      tur: {
+        official: "Moritanya İslam Cumhuriyeti",
+        common: "Moritanya",
+      },
       urd: { official: "اسلامی جمہوریہ موریتانیہ", common: "موریتانیہ" },
       zho: { official: "毛里塔尼亚伊斯兰共和国", common: "毛里塔尼亚" },
     },
-    latlng: [20.0, -12.0],
+    latlng: [20, -12],
     landlocked: false,
     borders: ["DZA", "MLI", "SEN", "ESH"],
-    area: 1030700.0,
+    area: 1030700,
     demonyms: {
       eng: { f: "Mauritanian", m: "Mauritanian" },
       fra: { f: "Mauritanienne", m: "Mauritanien" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDF7",
+    flag: "🇲🇷",
     maps: {
       googleMaps: "https://goo.gl/maps/im2MmQ5jFjzxWBks5",
       openStreetMaps: "https://www.openstreetmap.org/relation/192763",
@@ -14566,6 +15941,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [18.07, -15.97] },
+    id: 153,
   },
   {
     name: {
@@ -14670,15 +16046,18 @@ export default [
         official: "Sahra Demokratik Arap Cumhuriyeti",
         common: "Sahra Demokratik Arap Cumhuriyeti",
       },
-      urd: { official: "صحراوی عرب عوامی جمہوریہ", common: "مغربی صحارا" },
+      urd: {
+        official: "صحراوی عرب عوامی جمہوریہ",
+        common: "مغربی صحارا",
+      },
       zho: { official: "阿拉伯撒哈拉民主共和国", common: "西撒哈拉" },
     },
-    latlng: [24.5, -13.0],
+    latlng: [24.5, -13],
     landlocked: false,
     borders: ["DZA", "MRT", "MAR"],
-    area: 266000.0,
+    area: 266000,
     demonyms: { eng: { f: "Sahrawi", m: "Sahrawi" } },
-    flag: "\uD83C\uDDEA\uD83C\uDDED",
+    flag: "🇪🇭",
     maps: {
       googleMaps: "https://goo.gl/maps/7nU3mB69vP6zQp7A8",
       openStreetMaps: "https://www.openstreetmap.org/relation/5441968",
@@ -14694,6 +16073,7 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: { latlng: [-13.28, 27.14] },
+    id: 154,
   },
   {
     name: {
@@ -14711,7 +16091,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XOF: { name: "West African CFA franc", symbol: "Fr" } },
+    currencies: {
+      XOF: { name: "West African CFA franc", symbol: "Fr" },
+    },
     idd: { root: "+2", suffixes: ["26"] },
     capital: ["Ouagadougou"],
     altSpellings: ["BF"],
@@ -14745,15 +16127,15 @@ export default [
       urd: { official: "برکینا فاسو", common: "برکینا فاسو" },
       zho: { official: "布基纳法索", common: "布基纳法索" },
     },
-    latlng: [13.0, -2.0],
+    latlng: [13, -2],
     landlocked: true,
     borders: ["BEN", "CIV", "GHA", "MLI", "NER", "TGO"],
-    area: 272967.0,
+    area: 272967,
     demonyms: {
       eng: { f: "Burkinabe", m: "Burkinabe" },
       fra: { f: "Burkinabée", m: "Burkinabé" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDEB",
+    flag: "🇧🇫",
     maps: {
       googleMaps: "https://goo.gl/maps/rKRmpcMbFher2ozb7",
       openStreetMaps: "https://www.openstreetmap.org/relation/192783",
@@ -14775,6 +16157,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [12.37, -1.52] },
+    id: 155,
   },
   {
     name: {
@@ -14832,8 +16215,14 @@ export default [
     },
     translations: {
       ara: { official: "جمهورية الكونغو الديمقراطية", common: "الكونغو" },
-      bre: { official: "Republik Demokratel Kongo", common: "Kongo-Kinshasa" },
-      ces: { official: "Demokratická republika Kongo", common: "DR Kongo" },
+      bre: {
+        official: "Republik Demokratel Kongo",
+        common: "Kongo-Kinshasa",
+      },
+      ces: {
+        official: "Demokratická republika Kongo",
+        common: "DR Kongo",
+      },
       cym: {
         official: "Gweriniaeth Ddemocrataidd Congo",
         common: "Gweriniaeth Ddemocrataidd Congo",
@@ -14842,7 +16231,10 @@ export default [
         official: "Demokratische Republik Kongo",
         common: "Kongo (Dem. Rep.)",
       },
-      est: { official: "Kongo Demokraatlik Vabariik", common: "Kongo DV" },
+      est: {
+        official: "Kongo Demokraatlik Vabariik",
+        common: "Kongo DV",
+      },
       fin: {
         official: "Kongon demokraattinen tasavalta",
         common: "Kongon demokraattinen tasavalta",
@@ -14865,8 +16257,14 @@ export default [
       },
       jpn: { official: "コンゴ民主共和国", common: "コンゴ民主共和国" },
       kor: { official: "콩고 민주 공화국", common: "콩고 민주 공화국" },
-      nld: { official: "Democratische Republiek Congo", common: "Congo (DRC)" },
-      per: { official: "جمهوری دموکراتیک کنگو", common: "کنگو دموکراتیک" },
+      nld: {
+        official: "Democratische Republiek Congo",
+        common: "Congo (DRC)",
+      },
+      per: {
+        official: "جمهوری دموکراتیک کنگو",
+        common: "کنگو دموکراتیک",
+      },
       pol: {
         official: "Demokratyczna Republika Konga",
         common: "Demokratyczna Republika Konga",
@@ -14879,12 +16277,18 @@ export default [
         official: "Демократическая Республика Конго",
         common: "Демократическая Республика Конго",
       },
-      slk: { official: "Konžská demokratická republika", common: "Kongo" },
+      slk: {
+        official: "Konžská demokratická republika",
+        common: "Kongo",
+      },
       spa: {
         official: "República Democrática del Congo",
         common: "Congo (Rep. Dem.)",
       },
-      srp: { official: "Демократска Република Конго", common: "ДР Конго" },
+      srp: {
+        official: "Демократска Република Конго",
+        common: "ДР Конго",
+      },
       swe: {
         official: "Demokratiska republiken Kongo",
         common: "Kongo-Kinshasa",
@@ -14896,15 +16300,15 @@ export default [
       urd: { official: "جمہوری جمہوریہ کانگو", common: "کانگو" },
       zho: { official: "刚果民主共和国", common: "民主刚果" },
     },
-    latlng: [0.0, 25.0],
+    latlng: [0, 25],
     landlocked: false,
     borders: ["AGO", "BDI", "CAF", "COG", "RWA", "SSD", "TZA", "UGA", "ZMB"],
-    area: 2344858.0,
+    area: 2344858,
     demonyms: {
       eng: { f: "Congolese", m: "Congolese" },
       fra: { f: "Congolaise", m: "Congolais" },
     },
-    flag: "\uD83C\uDDE8\uD83C\uDDE9",
+    flag: "🇨🇩",
     maps: {
       googleMaps: "https://goo.gl/maps/KfhNVn6VqdZXWu8n9",
       openStreetMaps: "https://www.openstreetmap.org/relation/192795",
@@ -14926,12 +16330,15 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-4.32, 15.3] },
+    id: 156,
   },
   {
     name: {
       common: "Benin",
       official: "Republic of Benin",
-      nativeName: { fra: { official: "République du Bénin", common: "Bénin" } },
+      nativeName: {
+        fra: { official: "République du Bénin", common: "Bénin" },
+      },
     },
     tld: [".bj"],
     cca2: "BJ",
@@ -14941,7 +16348,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XOF: { name: "West African CFA franc", symbol: "Fr" } },
+    currencies: {
+      XOF: { name: "West African CFA franc", symbol: "Fr" },
+    },
     idd: { root: "+2", suffixes: ["29"] },
     capital: ["Porto-Novo"],
     altSpellings: ["BJ", "Republic of Benin", "République du Bénin"],
@@ -14978,12 +16387,12 @@ export default [
     latlng: [9.5, 2.25],
     landlocked: false,
     borders: ["BFA", "NER", "NGA", "TGO"],
-    area: 112622.0,
+    area: 112622,
     demonyms: {
       eng: { f: "Beninese", m: "Beninese" },
       fra: { f: "Béninoise", m: "Béninois" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDEF",
+    flag: "🇧🇯",
     maps: {
       googleMaps: "https://goo.gl/maps/uMw1BsHEXQYgVFFu6",
       openStreetMaps: "https://www.openstreetmap.org/relation/192784",
@@ -15005,6 +16414,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [6.48, 2.62] },
+    id: 157,
   },
   {
     name: {
@@ -15057,15 +16467,15 @@ export default [
       urd: { official: "جمہوریہ یوگنڈا", common: "یوگنڈا" },
       zho: { official: "乌干达共和国", common: "乌干达" },
     },
-    latlng: [1.0, 32.0],
+    latlng: [1, 32],
     landlocked: true,
     borders: ["COD", "KEN", "RWA", "SSD", "TZA"],
-    area: 241550.0,
+    area: 241550,
     demonyms: {
       eng: { f: "Ugandan", m: "Ugandan" },
       fra: { f: "Ougandaise", m: "Ougandais" },
     },
-    flag: "\uD83C\uDDFA\uD83C\uDDEC",
+    flag: "🇺🇬",
     maps: {
       googleMaps: "https://goo.gl/maps/Y7812hFiGa8LD9N68",
       openStreetMaps: "https://www.openstreetmap.org/relation/192796",
@@ -15087,12 +16497,15 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [0.32, 32.55] },
+    id: 158,
   },
   {
     name: {
       common: "Mongolia",
       official: "Mongolia",
-      nativeName: { mon: { official: "Монгол улс", common: "Монгол улс" } },
+      nativeName: {
+        mon: { official: "Монгол улс", common: "Монгол улс" },
+      },
     },
     tld: [".mn"],
     cca2: "MN",
@@ -15136,15 +16549,15 @@ export default [
       urd: { official: "منگولیا", common: "منگولیا" },
       zho: { official: "蒙古", common: "蒙古" },
     },
-    latlng: [46.0, 105.0],
+    latlng: [46, 105],
     landlocked: true,
     borders: ["CHN", "RUS"],
-    area: 1564110.0,
+    area: 1564110,
     demonyms: {
       eng: { f: "Mongolian", m: "Mongolian" },
       fra: { f: "Mongole", m: "Mongol" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDF3",
+    flag: "🇲🇳",
     maps: {
       googleMaps: "https://goo.gl/maps/A1X7bMCKThBDNjzH6",
       openStreetMaps: "https://www.openstreetmap.org/relation/161033",
@@ -15167,13 +16580,17 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [47.92, 106.91] },
     postalCode: { format: "######", regex: "^(\\d{6})$" },
+    id: 159,
   },
   {
     name: {
       common: "Laos",
       official: "Lao People's Democratic Republic",
       nativeName: {
-        lao: { official: "ສາທາລະນະ ຊາທິປະໄຕ ຄົນລາວ ຂອງ", common: "ສປປລາວ" },
+        lao: {
+          official: "ສາທາລະນະ ຊາທິປະໄຕ ຄົນລາວ ຂອງ",
+          common: "ສປປລາວ",
+        },
       },
     },
     tld: [".la"],
@@ -15197,12 +16614,30 @@ export default [
     subregion: "South-Eastern Asia",
     languages: { lao: "Lao" },
     translations: {
-      ara: { official: "جمهورية لاوس الديمقراطية الشعبية", common: "لاوس" },
-      bre: { official: "Republik Demokratel ar Bobl Lao", common: "Laos" },
-      ces: { official: "Laoská lidově demokratická republika", common: "Laos" },
-      cym: { official: "Lao People's Democratic Republic", common: "Laos" },
-      deu: { official: "Demokratische Volksrepublik Laos", common: "Laos" },
-      est: { official: "Laose Demokraatlik Rahvavabariik", common: "Laos" },
+      ara: {
+        official: "جمهورية لاوس الديمقراطية الشعبية",
+        common: "لاوس",
+      },
+      bre: {
+        official: "Republik Demokratel ar Bobl Lao",
+        common: "Laos",
+      },
+      ces: {
+        official: "Laoská lidově demokratická republika",
+        common: "Laos",
+      },
+      cym: {
+        official: "Lao People's Democratic Republic",
+        common: "Laos",
+      },
+      deu: {
+        official: "Demokratische Volksrepublik Laos",
+        common: "Laos",
+      },
+      est: {
+        official: "Laose Demokraatlik Rahvavabariik",
+        common: "Laos",
+      },
       fin: {
         official: "Laosin demokraattinen kansantasavalta",
         common: "Laos",
@@ -15220,9 +16655,15 @@ export default [
         official: "Repubblica democratica popolare del Laos",
         common: "Laos",
       },
-      jpn: { official: "ラオス人民民主共和国", common: "ラオス人民民主共和国" },
+      jpn: {
+        official: "ラオス人民民主共和国",
+        common: "ラオス人民民主共和国",
+      },
       kor: { official: "라오 인민 민주 공화국", common: "라오스" },
-      nld: { official: "Lao Democratische Volksrepubliek", common: "Laos" },
+      nld: {
+        official: "Lao Democratische Volksrepubliek",
+        common: "Laos",
+      },
       per: { official: "جمهوری دموکراتیک خلق لائوس", common: "لائوس" },
       pol: {
         official: "Laotańska Republika Ludowo-Demokratyczna",
@@ -15233,23 +16674,38 @@ export default [
         official: "Лаосская Народно-Демократическая Республика",
         common: "Лаос",
       },
-      slk: { official: "Laoská ľudovodemokratická republika", common: "Laos" },
-      spa: { official: "República Democrática Popular Lao", common: "Laos" },
-      srp: { official: "Лаошка Народна Демократска Република", common: "Лаос" },
-      swe: { official: "Demokratiska folkrepubliken Laos", common: "Laos" },
-      tur: { official: "Laos Demokratik Halk Cumhuriyeti", common: "Laos" },
+      slk: {
+        official: "Laoská ľudovodemokratická republika",
+        common: "Laos",
+      },
+      spa: {
+        official: "República Democrática Popular Lao",
+        common: "Laos",
+      },
+      srp: {
+        official: "Лаошка Народна Демократска Република",
+        common: "Лаос",
+      },
+      swe: {
+        official: "Demokratiska folkrepubliken Laos",
+        common: "Laos",
+      },
+      tur: {
+        official: "Laos Demokratik Halk Cumhuriyeti",
+        common: "Laos",
+      },
       urd: { official: "عوامی جمہوری جمہوریہ لاؤ", common: "لاؤس" },
       zho: { official: "老挝人民民主共和国", common: "老挝" },
     },
-    latlng: [18.0, 105.0],
+    latlng: [18, 105],
     landlocked: true,
     borders: ["MMR", "KHM", "CHN", "THA", "VNM"],
-    area: 236800.0,
+    area: 236800,
     demonyms: {
       eng: { f: "Laotian", m: "Laotian" },
       fra: { f: "Laotienne", m: "Laotien" },
     },
-    flag: "\uD83C\uDDF1\uD83C\uDDE6",
+    flag: "🇱🇦",
     maps: {
       googleMaps: "https://goo.gl/maps/F3asVB7sRKgSnwbE7",
       openStreetMaps: "https://www.openstreetmap.org/relation/49903",
@@ -15272,6 +16728,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [17.97, 102.6] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 160,
   },
   {
     name: {
@@ -15332,7 +16789,10 @@ export default [
         official: "République démocratique et populaire d'Algérie",
         common: "Algérie",
       },
-      hrv: { official: "Narodna Demokratska Republika Alžir", common: "Alžir" },
+      hrv: {
+        official: "Narodna Demokratska Republika Alžir",
+        common: "Alžir",
+      },
       hun: {
         official: "Algériai Népi Demokratikus Köztársaság",
         common: "Algéria",
@@ -15341,13 +16801,19 @@ export default [
         official: "Repubblica popolare democratica di Algeria",
         common: "Algeria",
       },
-      jpn: { official: "アルジェリア人民民主共和国", common: "アルジェリア" },
+      jpn: {
+        official: "アルジェリア人民民主共和国",
+        common: "アルジェリア",
+      },
       kor: { official: "알제리 인민 민주 공화국", common: "알제리" },
       nld: {
         official: "Democratische Volksrepubliek Algerije",
         common: "Algerije",
       },
-      per: { official: "جمهوری دموکراتیک خلق الجزایر", common: "الجزایر" },
+      per: {
+        official: "جمهوری دموکراتیک خلق الجزایر",
+        common: "الجزایر",
+      },
       pol: {
         official: "Algierska Republika Ludowo-Demokratyczna",
         common: "Algieria",
@@ -15368,7 +16834,10 @@ export default [
         official: "República Argelina Democrática y Popular",
         common: "Argelia",
       },
-      srp: { official: "Народна Демократска Република Алжир", common: "Алжир" },
+      srp: {
+        official: "Народна Демократска Република Алжир",
+        common: "Алжир",
+      },
       swe: {
         official: "Demokratiska folkrepubliken Algeriet",
         common: "Algeriet",
@@ -15377,18 +16846,21 @@ export default [
         official: "Cezayir Demokratik Halk Cumhuriyeti",
         common: "Cezayir",
       },
-      urd: { official: "عوامی جمہوری جمہوریہ الجزائر", common: "الجزائر" },
+      urd: {
+        official: "عوامی جمہوری جمہوریہ الجزائر",
+        common: "الجزائر",
+      },
       zho: { official: "阿尔及利亚人民民主共和国", common: "阿尔及利亚" },
     },
-    latlng: [28.0, 3.0],
+    latlng: [28, 3],
     landlocked: false,
     borders: ["TUN", "LBY", "NER", "ESH", "MRT", "MLI", "MAR"],
-    area: 2381741.0,
+    area: 2381741,
     demonyms: {
       eng: { f: "Algerian", m: "Algerian" },
       fra: { f: "Algérienne", m: "Algérien" },
     },
-    flag: "\uD83C\uDDE9\uD83C\uDDFF",
+    flag: "🇩🇿",
     maps: {
       googleMaps: "https://goo.gl/maps/RsAyAfyaiNVb8DpW8",
       openStreetMaps: "https://www.openstreetmap.org/relation/192756",
@@ -15411,6 +16883,7 @@ export default [
     startOfWeek: "sunday",
     capitalInfo: { latlng: [36.75, 3.05] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 161,
   },
   {
     name: {
@@ -15472,11 +16945,20 @@ export default [
       },
       per: { official: "برونئی سرای صلح", common: "برونئی" },
       pol: { official: "Państwo Brunei Darussalam", common: "Brunei" },
-      por: { official: "Nação do Brunei, Morada da Paz", common: "Brunei" },
+      por: {
+        official: "Nação do Brunei, Morada da Paz",
+        common: "Brunei",
+      },
       rus: { official: "Нация Бруней, обитель мира", common: "Бруней" },
       slk: { official: "Brunejský sultanât", common: "Brunej" },
-      spa: { official: "Nación de Brunei, Morada de la Paz", common: "Brunei" },
-      srp: { official: "Султанат Брунеј, боравиште мира", common: "Брунеј" },
+      spa: {
+        official: "Nación de Brunei, Morada de la Paz",
+        common: "Brunei",
+      },
+      srp: {
+        official: "Султанат Брунеј, боравиште мира",
+        common: "Брунеј",
+      },
       swe: { official: "Brunei Darussalam", common: "Brunei" },
       tur: { official: "Brunei Barış Ülkesi Devleti", common: "Brunei" },
       urd: { official: "ریاستِ برونائی دارالسلام", common: "برونائی" },
@@ -15485,12 +16967,12 @@ export default [
     latlng: [4.5, 114.66666666],
     landlocked: false,
     borders: ["MYS"],
-    area: 5765.0,
+    area: 5765,
     demonyms: {
       eng: { f: "Bruneian", m: "Bruneian" },
       fra: { f: "Brunéienne", m: "Brunéien" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDF3",
+    flag: "🇧🇳",
     maps: {
       googleMaps: "https://goo.gl/maps/4jb4CqBXhr8vNh579",
       openStreetMaps: "https://www.openstreetmap.org/relation/2103120",
@@ -15512,6 +16994,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [4.88, 114.93] },
     postalCode: { format: "@@####", regex: "^([A-Z]{2}\\d{4})$" },
+    id: 162,
   },
   {
     name: {
@@ -15564,15 +17047,15 @@ export default [
       urd: { official: "جمہوریہ کینیا", common: "کینیا" },
       zho: { official: "肯尼亚共和国", common: "肯尼亚" },
     },
-    latlng: [1.0, 38.0],
+    latlng: [1, 38],
     landlocked: false,
     borders: ["ETH", "SOM", "SSD", "TZA", "UGA"],
-    area: 580367.0,
+    area: 580367,
     demonyms: {
       eng: { f: "Kenyan", m: "Kenyan" },
       fra: { f: "Kényane", m: "Kényan" },
     },
-    flag: "\uD83C\uDDF0\uD83C\uDDEA",
+    flag: "🇰🇪",
     maps: {
       googleMaps: "https://goo.gl/maps/Ni9M7wcCxf8bJHLX8",
       openStreetMaps: "https://www.openstreetmap.org/relation/192798",
@@ -15595,6 +17078,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-1.28, 36.82] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 163,
   },
   {
     name: {
@@ -15605,7 +17089,10 @@ export default [
           official: "ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය",
           common: "ශ්‍රී ලංකාව",
         },
-        tam: { official: "இலங்கை சனநாயக சோசலிசக் குடியரசு", common: "இலங்கை" },
+        tam: {
+          official: "இலங்கை சனநாயக சோசலிசக் குடியரசு",
+          common: "இலங்கை",
+        },
       },
     },
     tld: [".lk", ".இலங்கை", ".ලංකා"],
@@ -15672,8 +17159,14 @@ export default [
         official: "Repubblica democratica socialista dello Sri Lanka",
         common: "Sri Lanka",
       },
-      jpn: { official: "スリランカ民主社会主義共和国", common: "スリランカ" },
-      kor: { official: "스리랑카 민주 사회주의 공화국", common: "스리랑카" },
+      jpn: {
+        official: "スリランカ民主社会主義共和国",
+        common: "スリランカ",
+      },
+      kor: {
+        official: "스리랑카 민주 사회주의 공화국",
+        common: "스리랑카",
+      },
       nld: {
         official: "Democratische Socialistische Republiek Sri Lanka",
         common: "Sri Lanka",
@@ -15720,15 +17213,15 @@ export default [
       },
       zho: { official: "斯里兰卡民主社会主义共和国", common: "斯里兰卡" },
     },
-    latlng: [7.0, 81.0],
+    latlng: [7, 81],
     landlocked: false,
     borders: ["IND"],
-    area: 65610.0,
+    area: 65610,
     demonyms: {
       eng: { f: "Sri Lankan", m: "Sri Lankan" },
       fra: { f: "Sri-lankaise", m: "Sri-lankais" },
     },
-    flag: "\uD83C\uDDF1\uD83C\uDDF0",
+    flag: "🇱🇰",
     maps: {
       googleMaps: "https://goo.gl/maps/VkPHoeFSfgzRQCDv8",
       openStreetMaps: "https://www.openstreetmap.org/relation/536807",
@@ -15751,6 +17244,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [6.89, 79.9] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 164,
   },
   {
     name: {
@@ -15779,18 +17273,30 @@ export default [
     subregion: "Caribbean",
     languages: { spa: "Spanish" },
     translations: {
-      ara: { official: "جمهورية الدومينيكان", common: "جمهورية الدومينيكان" },
-      bre: { official: "Republik Dominikan", common: "Republik Dominikan" },
+      ara: {
+        official: "جمهورية الدومينيكان",
+        common: "جمهورية الدومينيكان",
+      },
+      bre: {
+        official: "Republik Dominikan",
+        common: "Republik Dominikan",
+      },
       ces: {
         official: "Dominikánská republika",
         common: "Dominikánská republika",
       },
-      cym: { official: "Gweriniaeth Dominica", common: "Gweriniaeth Dominica" },
+      cym: {
+        official: "Gweriniaeth Dominica",
+        common: "Gweriniaeth Dominica",
+      },
       deu: {
         official: "Dominikanische Republik",
         common: "Dominikanische Republik",
       },
-      est: { official: "Dominikaani Vabariik", common: "Dominikaani Vabariik" },
+      est: {
+        official: "Dominikaani Vabariik",
+        common: "Dominikaani Vabariik",
+      },
       fin: {
         official: "Dominikaaninen tasavalta",
         common: "Dominikaaninen tasavalta",
@@ -15819,7 +17325,10 @@ export default [
       },
       per: { official: "جمهوری دومینیکن", common: "جمهوری دومینیکن" },
       pol: { official: "Republika Dominikańska", common: "Dominikana" },
-      por: { official: "República Dominicana", common: "República Dominicana" },
+      por: {
+        official: "República Dominicana",
+        common: "República Dominicana",
+      },
       rus: {
         official: "Доминиканская Республика",
         common: "Доминиканская Республика",
@@ -15828,25 +17337,31 @@ export default [
         official: "Dominikánska republika",
         common: "Dominikánska republika",
       },
-      spa: { official: "República Dominicana", common: "República Dominicana" },
+      spa: {
+        official: "República Dominicana",
+        common: "República Dominicana",
+      },
       srp: { official: "Доминиканска Република", common: "Доминикана" },
       swe: {
         official: "Dominikanska republiken",
         common: "Dominikanska republiken",
       },
-      tur: { official: "Dominik Cumhuriyeti", common: "Dominik Cumhuriyeti" },
+      tur: {
+        official: "Dominik Cumhuriyeti",
+        common: "Dominik Cumhuriyeti",
+      },
       urd: { official: "جمہوریہ ڈومینیکن", common: "ڈومینیکن" },
       zho: { official: "多明尼加共和国", common: "多明尼加" },
     },
-    latlng: [19.0, -70.66666666],
+    latlng: [19, -70.66666666],
     landlocked: false,
     borders: ["HTI"],
-    area: 48671.0,
+    area: 48671,
     demonyms: {
       eng: { f: "Dominican", m: "Dominican" },
       fra: { f: "Dominicaine", m: "Dominicain" },
     },
-    flag: "\uD83C\uDDE9\uD83C\uDDF4",
+    flag: "🇩🇴",
     maps: {
       googleMaps: "https://goo.gl/maps/soxooTHxEeiAbn3UA",
       openStreetMaps: "https://www.openstreetmap.org/relation/307828",
@@ -15869,6 +17384,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [18.47, -69.9] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 165,
   },
   {
     name: {
@@ -15923,12 +17439,12 @@ export default [
     latlng: [47.33333333, 13.33333333],
     landlocked: true,
     borders: ["CZE", "DEU", "HUN", "ITA", "LIE", "SVK", "SVN", "CHE"],
-    area: 83871.0,
+    area: 83871,
     demonyms: {
       eng: { f: "Austrian", m: "Austrian" },
       fra: { f: "Autrichienne", m: "Autrichien" },
     },
-    flag: "\uD83C\uDDE6\uD83C\uDDF9",
+    flag: "🇦🇹",
     maps: {
       googleMaps: "https://goo.gl/maps/pCWpWQhznHyRzQcu9",
       openStreetMaps: "https://www.openstreetmap.org/relation/16239",
@@ -15951,6 +17467,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [48.2, 16.37] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 166,
   },
   {
     name: {
@@ -15958,8 +17475,14 @@ export default [
       official: "Grand Duchy of Luxembourg",
       nativeName: {
         deu: { official: "Großherzogtum Luxemburg", common: "Luxemburg" },
-        fra: { official: "Grand-Duché de Luxembourg", common: "Luxembourg" },
-        ltz: { official: "Groussherzogtum Lëtzebuerg", common: "Lëtzebuerg" },
+        fra: {
+          official: "Grand-Duché de Luxembourg",
+          common: "Luxembourg",
+        },
+        ltz: {
+          official: "Groussherzogtum Lëtzebuerg",
+          common: "Lëtzebuerg",
+        },
       },
     },
     tld: [".lu"],
@@ -15985,40 +17508,85 @@ export default [
     languages: { deu: "German", fra: "French", ltz: "Luxembourgish" },
     translations: {
       ara: { official: "دوقية لوكسمبورغ", common: "لوكسمبورغ" },
-      bre: { official: "Dugelezh Veur Luksembourg", common: "Luksembourg" },
-      ces: { official: "Lucemburské velkovévodství", common: "Lucembursko" },
-      cym: { official: "Grand Duchy of Luxembourg", common: "Luxembourg" },
+      bre: {
+        official: "Dugelezh Veur Luksembourg",
+        common: "Luksembourg",
+      },
+      ces: {
+        official: "Lucemburské velkovévodství",
+        common: "Lucembursko",
+      },
+      cym: {
+        official: "Grand Duchy of Luxembourg",
+        common: "Luxembourg",
+      },
       deu: { official: "Großherzogtum Luxemburg,", common: "Luxemburg" },
-      est: { official: "Luksemburgi Suurhertsogiriik", common: "Luksemburg" },
-      fin: { official: "Luxemburgin suurherttuakunta", common: "Luxemburg" },
-      fra: { official: "Grand-Duché de Luxembourg", common: "Luxembourg" },
-      hrv: { official: "Veliko Vojvodstvo Luksemburg", common: "Luksemburg" },
+      est: {
+        official: "Luksemburgi Suurhertsogiriik",
+        common: "Luksemburg",
+      },
+      fin: {
+        official: "Luxemburgin suurherttuakunta",
+        common: "Luxemburg",
+      },
+      fra: {
+        official: "Grand-Duché de Luxembourg",
+        common: "Luxembourg",
+      },
+      hrv: {
+        official: "Veliko Vojvodstvo Luksemburg",
+        common: "Luksemburg",
+      },
       hun: { official: "Luxemburgi Nagyhercegség", common: "Luxemburg" },
-      ita: { official: "Granducato di Lussemburgo", common: "Lussemburgo" },
+      ita: {
+        official: "Granducato di Lussemburgo",
+        common: "Lussemburgo",
+      },
       jpn: { official: "ルクセンブルク大公国", common: "ルクセンブルク" },
       kor: { official: "룩셈부르크 대공국", common: "룩셈부르크" },
       nld: { official: "Groothertogdom Luxemburg", common: "Luxemburg" },
       per: { official: "دوک‌نشین لوکزامبورگ", common: "لوکزامبورگ" },
-      pol: { official: "Wielkie Księstwo Luksemburga", common: "Luksemburg" },
-      por: { official: "Grão-Ducado do Luxemburgo", common: "Luxemburgo" },
-      rus: { official: "Великое Герцогство Люксембург", common: "Люксембург" },
-      slk: { official: "Luxemburské veľkovojvodstvo", common: "Luxembursko" },
-      spa: { official: "Gran Ducado de Luxemburgo", common: "Luxemburgo" },
-      srp: { official: "Велико Војводство Луксембург", common: "Луксембург" },
+      pol: {
+        official: "Wielkie Księstwo Luksemburga",
+        common: "Luksemburg",
+      },
+      por: {
+        official: "Grão-Ducado do Luxemburgo",
+        common: "Luxemburgo",
+      },
+      rus: {
+        official: "Великое Герцогство Люксембург",
+        common: "Люксембург",
+      },
+      slk: {
+        official: "Luxemburské veľkovojvodstvo",
+        common: "Luxembursko",
+      },
+      spa: {
+        official: "Gran Ducado de Luxemburgo",
+        common: "Luxemburgo",
+      },
+      srp: {
+        official: "Велико Војводство Луксембург",
+        common: "Луксембург",
+      },
       swe: { official: "Storhertigdömet Luxemburg", common: "Luxemburg" },
-      tur: { official: "Lüksemburg Büyük Dükalığı", common: "Lüksemburg" },
+      tur: {
+        official: "Lüksemburg Büyük Dükalığı",
+        common: "Lüksemburg",
+      },
       urd: { official: "دوقیہ کبیرلکسمبرگ", common: "لکسمبرگ" },
       zho: { official: "卢森堡大公国", common: "卢森堡" },
     },
     latlng: [49.75, 6.16666666],
     landlocked: true,
     borders: ["BEL", "FRA", "DEU"],
-    area: 2586.0,
+    area: 2586,
     demonyms: {
       eng: { f: "Luxembourger", m: "Luxembourger" },
       fra: { f: "Luxembourgeoise", m: "Luxembourgeois" },
     },
-    flag: "\uD83C\uDDF1\uD83C\uDDFA",
+    flag: "🇱🇺",
     maps: {
       googleMaps: "https://goo.gl/maps/L6b2AgndgHprt2Ko9",
       openStreetMaps:
@@ -16042,12 +17610,15 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [49.6, 6.12] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 167,
   },
   {
     name: {
       common: "Georgia",
       official: "Georgia",
-      nativeName: { kat: { official: "საქართველო", common: "საქართველო" } },
+      nativeName: {
+        kat: { official: "საქართველო", common: "საქართველო" },
+      },
     },
     tld: [".ge"],
     cca2: "GE",
@@ -16091,15 +17662,15 @@ export default [
       urd: { official: "جارجیا", common: "جارجیا" },
       zho: { official: "格鲁吉亚", common: "格鲁吉亚" },
     },
-    latlng: [42.0, 43.5],
+    latlng: [42, 43.5],
     landlocked: false,
     borders: ["ARM", "AZE", "RUS", "TUR"],
-    area: 69700.0,
+    area: 69700,
     demonyms: {
       eng: { f: "Georgian", m: "Georgian" },
       fra: { f: "Géorgienne", m: "Géorgien" },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDEA",
+    flag: "🇬🇪",
     maps: {
       googleMaps: "https://goo.gl/maps/bvCaGBePR1ZEDK5cA",
       openStreetMaps: "https://www.openstreetmap.org/relation/28699",
@@ -16122,6 +17693,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [41.68, 44.83] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 168,
   },
   {
     name: {
@@ -16166,7 +17738,10 @@ export default [
       por: { official: "República Eslovaca", common: "Eslováquia" },
       rus: { official: "Словацкая Республика", common: "Словакия" },
       slk: { official: "Slovenská republika", common: "Slovensko" },
-      spa: { official: "República Eslovaca", common: "República Eslovaca" },
+      spa: {
+        official: "República Eslovaca",
+        common: "República Eslovaca",
+      },
       srp: { official: "Словачка Република", common: "Словачка" },
       swe: { official: "Republiken Slovakien", common: "Slovakien" },
       tur: { official: "Slovak Cumhuriyeti", common: "Slovakya" },
@@ -16176,18 +17751,18 @@ export default [
     latlng: [48.66666666, 19.5],
     landlocked: true,
     borders: ["AUT", "CZE", "HUN", "POL", "UKR"],
-    area: 49037.0,
+    area: 49037,
     demonyms: {
       eng: { f: "Slovak", m: "Slovak" },
       fra: { f: "Slovaque", m: "Slovaque" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDF0",
+    flag: "🇸🇰",
     maps: {
       googleMaps: "https://goo.gl/maps/uNSH2wW4bLoZVYJj7",
       openStreetMaps: "https://www.openstreetmap.org/relation/14296",
     },
     population: 5458827,
-    gini: { 2018: 25.0 },
+    gini: { 2018: 25 },
     fifa: "SVK",
     car: { signs: ["SK"], side: "right" },
     timezones: ["UTC+01:00"],
@@ -16204,6 +17779,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [48.15, 17.12] },
     postalCode: { format: "###  ##", regex: "^(\\d{5})$" },
+    id: 169,
   },
   {
     name: {
@@ -16268,15 +17844,15 @@ export default [
       urd: { official: "مملکتِ ناروے", common: "ناروے" },
       zho: { official: "挪威王国", common: "挪威" },
     },
-    latlng: [62.0, 10.0],
+    latlng: [62, 10],
     landlocked: false,
     borders: ["FIN", "SWE", "RUS"],
-    area: 323802.0,
+    area: 323802,
     demonyms: {
       eng: { f: "Norwegian", m: "Norwegian" },
       fra: { f: "Norvégienne", m: "Norvégien" },
     },
-    flag: "\uD83C\uDDF3\uD83C\uDDF4",
+    flag: "🇳🇴",
     maps: {
       googleMaps: "https://goo.gl/maps/htWRrphA7vNgQNdSA",
       openStreetMaps: "https://www.openstreetmap.org/relation/2978650",
@@ -16299,12 +17875,15 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [59.92, 10.75] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 170,
   },
   {
     name: {
       common: "Thailand",
       official: "Kingdom of Thailand",
-      nativeName: { tha: { official: "ราชอาณาจักรไทย", common: "ประเทศไทย" } },
+      nativeName: {
+        tha: { official: "ราชอาณาจักรไทย", common: "ประเทศไทย" },
+      },
     },
     tld: [".th", ".ไทย"],
     cca2: "TH",
@@ -16355,15 +17934,15 @@ export default [
       urd: { official: "مملکتِ تھائی لینڈ", common: "تھائی لینڈ" },
       zho: { official: "泰王国", common: "泰国" },
     },
-    latlng: [15.0, 100.0],
+    latlng: [15, 100],
     landlocked: false,
     borders: ["MMR", "KHM", "LAO", "MYS"],
-    area: 513120.0,
+    area: 513120,
     demonyms: {
       eng: { f: "Thai", m: "Thai" },
       fra: { f: "Thaïlandaise", m: "Thaïlandais" },
     },
-    flag: "\uD83C\uDDF9\uD83C\uDDED",
+    flag: "🇹🇭",
     maps: {
       googleMaps: "https://goo.gl/maps/qeU6uqsfW4nCCwzw9",
       openStreetMaps: "https://www.openstreetmap.org/relation/2067731",
@@ -16386,6 +17965,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [13.75, 100.52] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 171,
   },
   {
     name: {
@@ -16502,14 +18082,17 @@ export default [
         official: "Britanya Hint Okyanusu Toprakları",
         common: "Britanya Hint Okyanusu Toprakları",
       },
-      urd: { official: "برطانوی بحرہند خطہ", common: "برطانوی بحرہند خطہ" },
+      urd: {
+        official: "برطانوی بحرہند خطہ",
+        common: "برطانوی بحرہند خطہ",
+      },
       zho: { official: "英属印度洋领地", common: "英属印度洋领地" },
     },
-    latlng: [-6.0, 71.5],
+    latlng: [-6, 71.5],
     landlocked: false,
-    area: 60.0,
+    area: 60,
     demonyms: { eng: { f: "Indian", m: "Indian" } },
-    flag: "\uD83C\uDDEE\uD83C\uDDF4",
+    flag: "🇮🇴",
     maps: {
       googleMaps: "https://goo.gl/maps/bheNucgekVEYozoi6",
       openStreetMaps: "https://www.openstreetmap.org/relation/1993867",
@@ -16525,6 +18108,7 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: { latlng: [-7.3, 72.4] },
+    id: 172,
   },
   {
     name: {
@@ -16584,15 +18168,15 @@ export default [
       urd: { official: "جمہوریہ بھارت", common: "بھارت" },
       zho: { official: "印度共和国", common: "印度" },
     },
-    latlng: [20.0, 77.0],
+    latlng: [20, 77],
     landlocked: false,
     borders: ["BGD", "BTN", "MMR", "CHN", "NPL", "PAK"],
-    area: 3287590.0,
+    area: 3287590,
     demonyms: {
       eng: { f: "Indian", m: "Indian" },
       fra: { f: "Indienne", m: "Indien" },
     },
-    flag: "\uD83C\uDDEE\uD83C\uDDF3",
+    flag: "🇮🇳",
     maps: {
       googleMaps: "https://goo.gl/maps/WSk3fLwG4vtPQetp7",
       openStreetMaps: "https://www.openstreetmap.org/relation/304716",
@@ -16615,6 +18199,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [28.6, 77.2] },
     postalCode: { format: "######", regex: "^(\\d{6})$" },
+    id: 173,
   },
   {
     name: {
@@ -16667,15 +18252,15 @@ export default [
       urd: { official: "مملکتِ مراکش", common: "مراکش" },
       zho: { official: "摩洛哥王国", common: "摩洛哥" },
     },
-    latlng: [32.0, -5.0],
+    latlng: [32, -5],
     landlocked: false,
     borders: ["DZA", "ESH", "ESP"],
-    area: 446550.0,
+    area: 446550,
     demonyms: {
       eng: { f: "Moroccan", m: "Moroccan" },
       fra: { f: "Marocaine", m: "Marocain" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDE6",
+    flag: "🇲🇦",
     maps: {
       googleMaps: "https://goo.gl/maps/6oMv3dyBZg3iaXQ5A",
       openStreetMaps: "https://www.openstreetmap.org/relation/3630439",
@@ -16698,6 +18283,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [34.02, -6.82] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 174,
   },
   {
     name: {
@@ -16729,7 +18315,10 @@ export default [
     languages: { fra: "French" },
     translations: {
       ara: { official: "سان بيير وميكلون", common: "سان بيير وميكلون" },
-      bre: { official: "Sant-Pêr-ha-Mikelon", common: "Sant-Pêr-ha-Mikelon" },
+      bre: {
+        official: "Sant-Pêr-ha-Mikelon",
+        common: "Sant-Pêr-ha-Mikelon",
+      },
       ces: {
         official: "Saint-Pierre a Miquelon",
         common: "Saint-Pierre a Miquelon",
@@ -16784,13 +18373,22 @@ export default [
         official: "Saint Pierre e Miquelon",
         common: "Saint-Pierre e Miquelon",
       },
-      rus: { official: "Сен-Пьер и Микелон", common: "Сен-Пьер и Микелон" },
+      rus: {
+        official: "Сен-Пьер и Микелон",
+        common: "Сен-Пьер и Микелон",
+      },
       slk: {
         official: "Ostrovy Saint Pierre a Miquelon",
         common: "Saint Pierre a Miquelon",
       },
-      spa: { official: "San Pedro y Miquelón", common: "San Pedro y Miquelón" },
-      srp: { official: "Сен Пјер и Микелон", common: "Сен Пјер и Микелон" },
+      spa: {
+        official: "San Pedro y Miquelón",
+        common: "San Pedro y Miquelón",
+      },
+      srp: {
+        official: "Сен Пјер и Микелон",
+        common: "Сен Пјер и Микелон",
+      },
       swe: {
         official: "Saint-Pierre och Miquelon",
         common: "Saint-Pierre och Miquelon",
@@ -16799,12 +18397,15 @@ export default [
         official: "Saint Pierre ve Miquelon",
         common: "Saint Pierre ve Miquelon",
       },
-      urd: { official: "سینٹ پیئر و میکیلون", common: "سینٹ پیئر و میکیلون" },
+      urd: {
+        official: "سینٹ پیئر و میکیلون",
+        common: "سینٹ پیئر و میکیلون",
+      },
       zho: { official: "圣皮埃尔和密克隆", common: "圣皮埃尔和密克隆" },
     },
     latlng: [46.83333333, -56.33333333],
     landlocked: false,
-    area: 242.0,
+    area: 242,
     demonyms: {
       eng: {
         f: "Saint-Pierrais, Miquelonnais",
@@ -16815,7 +18416,7 @@ export default [
         m: "Saint-Pierrais, Miquelonais",
       },
     },
-    flag: "\uD83C\uDDF5\uD83C\uDDF2",
+    flag: "🇵🇲",
     maps: {
       googleMaps: "https://goo.gl/maps/bUM8Yc8pA8ghyhmt6",
       openStreetMaps: "https://www.openstreetmap.org/relation/3406826",
@@ -16832,6 +18433,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [46.77, -56.18] },
     postalCode: { format: "#####", regex: "^(97500)$" },
+    id: 175,
   },
   {
     name: {
@@ -16882,14 +18484,14 @@ export default [
       urd: { official: "گرین لینڈ", common: "گرین لینڈ" },
       zho: { official: "格陵兰", common: "格陵兰" },
     },
-    latlng: [72.0, -40.0],
+    latlng: [72, -40],
     landlocked: false,
-    area: 2166086.0,
+    area: 2166086,
     demonyms: {
       eng: { f: "Greenlandic", m: "Greenlandic" },
       fra: { f: "Groenlandaise", m: "Groenlandais" },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDF1",
+    flag: "🇬🇱",
     maps: {
       googleMaps: "https://goo.gl/maps/j3289UPEQXt1ceSy8",
       openStreetMaps: "https://www.openstreetmap.org/relation/2184073",
@@ -16909,6 +18511,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [64.18, -51.75] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 176,
   },
   {
     name: {
@@ -16960,15 +18563,15 @@ export default [
       urd: { official: "جمہوریہ نکاراگوا", common: "نکاراگوا" },
       zho: { official: "尼加拉瓜共和国", common: "尼加拉瓜" },
     },
-    latlng: [13.0, -85.0],
+    latlng: [13, -85],
     landlocked: false,
     borders: ["CRI", "HND"],
-    area: 130373.0,
+    area: 130373,
     demonyms: {
       eng: { f: "Nicaraguan", m: "Nicaraguan" },
       fra: { f: "Nicaraguayenne", m: "Nicaraguayen" },
     },
-    flag: "\uD83C\uDDF3\uD83C\uDDEE",
+    flag: "🇳🇮",
     maps: {
       googleMaps: "https://goo.gl/maps/P77LaEVkKJKXneRC6",
       openStreetMaps: "https://www.openstreetmap.org/relation/287666",
@@ -16991,6 +18594,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [12.13, -86.25] },
     postalCode: { format: "###-###-#", regex: "^(\\d{7})$" },
+    id: 177,
   },
   {
     name: {
@@ -17043,12 +18647,12 @@ export default [
     latlng: [25.5, 51.25],
     landlocked: false,
     borders: ["SAU"],
-    area: 11586.0,
+    area: 11586,
     demonyms: {
       eng: { f: "Qatari", m: "Qatari" },
       fra: { f: "Qatarienne", m: "Qatarien" },
     },
-    flag: "\uD83C\uDDF6\uD83C\uDDE6",
+    flag: "🇶🇦",
     maps: {
       googleMaps: "https://goo.gl/maps/ZV76Y49z7LLUZ2KQ6",
       openStreetMaps: "https://www.openstreetmap.org/relation/305095",
@@ -17069,6 +18673,7 @@ export default [
     },
     startOfWeek: "sunday",
     capitalInfo: { latlng: [25.28, 51.53] },
+    id: 178,
   },
   {
     name: {
@@ -17124,14 +18729,14 @@ export default [
       tur: { official: "Çin Cumhuriyeti (Tayvan)", common: "Tayvan" },
       urd: { official: "جمہوریہ چین (تائیوان)", common: "تائیوان" },
     },
-    latlng: [23.5, 121.0],
+    latlng: [23.5, 121],
     landlocked: false,
-    area: 36193.0,
+    area: 36193,
     demonyms: {
       eng: { f: "Taiwanese", m: "Taiwanese" },
       fra: { f: "Taïwanaise", m: "Taïwanais" },
     },
-    flag: "\uD83C\uDDF9\uD83C\uDDFC",
+    flag: "🇹🇼",
     maps: {
       googleMaps: "https://goo.gl/maps/HgMKFQjNadF3Wa6B6",
       openStreetMaps: "https://www.openstreetmap.org/relation/449220",
@@ -17152,13 +18757,17 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [25.03, 121.52] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 179,
   },
   {
     name: {
       common: "Brazil",
       official: "Federative Republic of Brazil",
       nativeName: {
-        por: { official: "República Federativa do Brasil", common: "Brasil" },
+        por: {
+          official: "República Federativa do Brasil",
+          common: "Brasil",
+        },
       },
     },
     tld: [".br"],
@@ -17184,31 +18793,70 @@ export default [
     translations: {
       ara: { official: "جمهورية البرازيل الاتحادية", common: "البرازيل" },
       bre: { official: "Republik Kevreel Brazil", common: "Brazil" },
-      ces: { official: "Brazilská federativní republika", common: "Brazílie" },
+      ces: {
+        official: "Brazilská federativní republika",
+        common: "Brazílie",
+      },
       cym: { official: "Gweriniaeth Ffederal Brasil", common: "Brasil" },
-      deu: { official: "Föderative Republik Brasilien", common: "Brasilien" },
+      deu: {
+        official: "Föderative Republik Brasilien",
+        common: "Brasilien",
+      },
       est: { official: "Brasiilia Liitvabariik", common: "Brasiilia" },
       fin: { official: "Brasilian liittotasavalta", common: "Brasilia" },
-      fra: { official: "République fédérative du Brésil", common: "Brésil" },
+      fra: {
+        official: "République fédérative du Brésil",
+        common: "Brésil",
+      },
       hrv: { official: "Savezne Republike Brazil", common: "Brazil" },
-      hun: { official: "Brazil Szövetségi Köztársaság", common: "Brazília" },
-      ita: { official: "Repubblica federativa del Brasile", common: "Brasile" },
+      hun: {
+        official: "Brazil Szövetségi Köztársaság",
+        common: "Brazília",
+      },
+      ita: {
+        official: "Repubblica federativa del Brasile",
+        common: "Brasile",
+      },
       jpn: { official: "ブラジル連邦共和国", common: "ブラジル" },
       kor: { official: "브라질 연방 공화국", common: "브라질" },
-      nld: { official: "Federale Republiek Brazilië", common: "Brazilië" },
+      nld: {
+        official: "Federale Republiek Brazilië",
+        common: "Brazilië",
+      },
       per: { official: "جمهوری فدراتیو برزیل", common: "برزیل" },
-      pol: { official: "Federacyjna Republika Brazylii", common: "Brazylia" },
-      por: { official: "República Federativa do Brasil", common: "Brasil" },
-      rus: { official: "Федеративная Республика Бразилия", common: "Бразилия" },
-      slk: { official: "Brazílska federatívna republika", common: "Brazília" },
-      spa: { official: "República Federativa del Brasil", common: "Brasil" },
+      pol: {
+        official: "Federacyjna Republika Brazylii",
+        common: "Brazylia",
+      },
+      por: {
+        official: "República Federativa do Brasil",
+        common: "Brasil",
+      },
+      rus: {
+        official: "Федеративная Республика Бразилия",
+        common: "Бразилия",
+      },
+      slk: {
+        official: "Brazílska federatívna republika",
+        common: "Brazília",
+      },
+      spa: {
+        official: "República Federativa del Brasil",
+        common: "Brasil",
+      },
       srp: { official: "Савезна Република Бразил", common: "Бразил" },
-      swe: { official: "Förbundsrepubliken Brasilien", common: "Brasilien" },
-      tur: { official: "Brezilya Federal Cumhuriyeti", common: "Brezilya" },
+      swe: {
+        official: "Förbundsrepubliken Brasilien",
+        common: "Brasilien",
+      },
+      tur: {
+        official: "Brezilya Federal Cumhuriyeti",
+        common: "Brezilya",
+      },
       urd: { official: "وفاقی جمہوریہ برازیل", common: "برازیل" },
       zho: { official: "巴西联邦共和国", common: "巴西" },
     },
-    latlng: [-10.0, -55.0],
+    latlng: [-10, -55],
     landlocked: false,
     borders: [
       "ARG",
@@ -17222,12 +18870,12 @@ export default [
       "URY",
       "VEN",
     ],
-    area: 8515767.0,
+    area: 8515767,
     demonyms: {
       eng: { f: "Brazilian", m: "Brazilian" },
       fra: { f: "Brésilienne", m: "Brésilien" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDF7",
+    flag: "🇧🇷",
     maps: {
       googleMaps: "https://goo.gl/maps/waCKk21HeeqFzkNC9",
       openStreetMaps: "https://www.openstreetmap.org/relation/59470",
@@ -17250,6 +18898,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-15.79, -47.88] },
     postalCode: { format: "#####-###", regex: "^(\\d{8})$" },
+    id: 180,
   },
   {
     name: {
@@ -17307,14 +18956,14 @@ export default [
       urd: { official: "نیوزی لینڈ", common: "نیوزی لینڈ" },
       zho: { official: "新西兰", common: "新西兰" },
     },
-    latlng: [-41.0, 174.0],
+    latlng: [-41, 174],
     landlocked: false,
-    area: 270467.0,
+    area: 270467,
     demonyms: {
       eng: { f: "New Zealander", m: "New Zealander" },
       fra: { f: "Neo-Zélandaise", m: "Neo-Zélandais" },
     },
-    flag: "\uD83C\uDDF3\uD83C\uDDFF",
+    flag: "🇳🇿",
     maps: {
       googleMaps: "https://goo.gl/maps/xXiDQo65dwdpw9iu8",
       openStreetMaps:
@@ -17343,6 +18992,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-41.3, 174.78] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 181,
   },
   {
     name: {
@@ -17369,7 +19019,12 @@ export default [
     altSpellings: ["SG", "Singapura", "Republik Singapura", "新加坡共和国"],
     region: "Asia",
     subregion: "South-Eastern Asia",
-    languages: { zho: "Chinese", eng: "English", msa: "Malay", tam: "Tamil" },
+    languages: {
+      zho: "Chinese",
+      eng: "English",
+      msa: "Malay",
+      tam: "Tamil",
+    },
     translations: {
       ara: { official: "جمهورية سنغافورة", common: "سنغافورة" },
       bre: { official: "Republik Singapour", common: "Singapour" },
@@ -17398,12 +19053,12 @@ export default [
     },
     latlng: [1.36666666, 103.8],
     landlocked: false,
-    area: 710.0,
+    area: 710,
     demonyms: {
       eng: { f: "Singaporean", m: "Singaporean" },
       fra: { f: "Singapourienne", m: "Singapourien" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDEC",
+    flag: "🇸🇬",
     maps: {
       googleMaps: "https://goo.gl/maps/QbQt9Y9b5KFzsahV6",
       openStreetMaps: "https://www.openstreetmap.org/relation/536780",
@@ -17425,6 +19080,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [1.28, 103.85] },
     postalCode: { format: "######", regex: "^(\\d{6})$" },
+    id: 182,
   },
   {
     name: {
@@ -17465,7 +19121,10 @@ export default [
       hrv: { official: "Sirijska Arapska Republika", common: "Sirija" },
       hun: { official: "Szíriai Arab Köztársaság", common: "Szíria" },
       ita: { official: "Repubblica araba siriana", common: "Siria" },
-      jpn: { official: "シリアアラブ共和国", common: "シリア・アラブ共和国" },
+      jpn: {
+        official: "シリアアラブ共和国",
+        common: "シリア・アラブ共和国",
+      },
       kor: { official: "시리아 아랍 공화국", common: "시리아" },
       nld: { official: "Syrische Arabische Republiek", common: "Syrië" },
       per: { official: "جمهوری عربی سوریه", common: "سوریه" },
@@ -17480,15 +19139,15 @@ export default [
       urd: { official: "عرب جمہوریہ سوریہ", common: "سوریہ" },
       zho: { official: "叙利亚阿拉伯共和国", common: "叙利亚" },
     },
-    latlng: [35.0, 38.0],
+    latlng: [35, 38],
     landlocked: false,
     borders: ["IRQ", "ISR", "JOR", "LBN", "TUR"],
-    area: 185180.0,
+    area: 185180,
     demonyms: {
       eng: { f: "Syrian", m: "Syrian" },
       fra: { f: "Syrienne", m: "Syrien" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDFE",
+    flag: "🇸🇾",
     maps: {
       googleMaps: "https://goo.gl/maps/Xe3VnFbwdb4nv2SM9",
       openStreetMaps: "https://www.openstreetmap.org/relation/184840",
@@ -17510,6 +19169,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [33.5, 36.3] },
+    id: 183,
   },
   {
     name: {
@@ -17535,7 +19195,11 @@ export default [
     altSpellings: ["BZ"],
     region: "Americas",
     subregion: "Central America",
-    languages: { bjz: "Belizean Creole", eng: "English", spa: "Spanish" },
+    languages: {
+      bjz: "Belizean Creole",
+      eng: "English",
+      spa: "Spanish",
+    },
     translations: {
       ara: { official: "بليز", common: "بليز" },
       bre: { official: "Belize", common: "Belize" },
@@ -17566,12 +19230,12 @@ export default [
     latlng: [17.25, -88.75],
     landlocked: false,
     borders: ["GTM", "MEX"],
-    area: 22966.0,
+    area: 22966,
     demonyms: {
       eng: { f: "Belizean", m: "Belizean" },
       fra: { f: "Bélizienne", m: "Bélizien" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDFF",
+    flag: "🇧🇿",
     maps: {
       googleMaps: "https://goo.gl/maps/jdCccpdLodm1uTmo9",
       openStreetMaps: "https://www.openstreetmap.org/relation/287827",
@@ -17593,6 +19257,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [17.25, -88.77] },
+    id: 184,
   },
   {
     name: {
@@ -17609,7 +19274,9 @@ export default [
     independent: false,
     status: "officially-assigned",
     unMember: false,
-    currencies: { FKP: { name: "Falkland Islands pound", symbol: "£" } },
+    currencies: {
+      FKP: { name: "Falkland Islands pound", symbol: "£" },
+    },
     idd: { root: "+5", suffixes: ["00"] },
     capital: ["Stanley"],
     altSpellings: ["FK", "Islas Malvinas", "Falkland Islands (Malvinas)"],
@@ -17640,7 +19307,10 @@ export default [
       per: { official: "جزایر فالکلند", common: "جزایر فالکلند" },
       pol: { official: "Falklandy", common: "Falklandy" },
       por: { official: "Ilhas Malvinas", common: "Ilhas Malvinas" },
-      rus: { official: "Фолклендские острова", common: "Фолклендские острова" },
+      rus: {
+        official: "Фолклендские острова",
+        common: "Фолклендские острова",
+      },
       slk: { official: "Falklandské ostrovy", common: "Falklandy" },
       spa: { official: "islas Malvinas", common: "Islas Malvinas" },
       srp: { official: "Фолкландска Острва", common: "Фолкланди" },
@@ -17652,14 +19322,14 @@ export default [
       urd: { official: "جزائر فاکلینڈ", common: "جزائر فاکلینڈ" },
       zho: { official: "福克兰群岛", common: "福克兰群岛" },
     },
-    latlng: [-51.75, -59.0],
+    latlng: [-51.75, -59],
     landlocked: false,
-    area: 12173.0,
+    area: 12173,
     demonyms: {
       eng: { f: "Falkland Islander", m: "Falkland Islander" },
       fra: { f: "Malouinne", m: "Malouin" },
     },
-    flag: "\uD83C\uDDEB\uD83C\uDDF0",
+    flag: "🇫🇰",
     maps: {
       googleMaps: "https://goo.gl/maps/TZH1x7AGanQKifNk7",
       openStreetMaps: "https://www.openstreetmap.org/relation/2185374",
@@ -17678,6 +19348,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-51.7, -57.85] },
+    id: 185,
   },
   {
     name: {
@@ -17714,14 +19385,26 @@ export default [
     languages: { spa: "Spanish" },
     translations: {
       ara: { official: "جمهورية فنزويلا البوليفارية", common: "فنزويلا" },
-      bre: { official: "Republik Volivarian Venezuela", common: "Venezuela" },
-      ces: { official: "Bolívarská republika Venezuela", common: "Venezuela" },
+      bre: {
+        official: "Republik Volivarian Venezuela",
+        common: "Venezuela",
+      },
+      ces: {
+        official: "Bolívarská republika Venezuela",
+        common: "Venezuela",
+      },
       cym: {
         official: "Bolivarian Republic of Venezuela",
         common: "Venezuela",
       },
-      deu: { official: "Bolivarische Republik Venezuela", common: "Venezuela" },
-      est: { official: "Venezuela Bolívari Vabariik", common: "Venezuela" },
+      deu: {
+        official: "Bolivarische Republik Venezuela",
+        common: "Venezuela",
+      },
+      est: {
+        official: "Venezuela Bolívari Vabariik",
+        common: "Venezuela",
+      },
       fin: {
         official: "Venezuelan bolivariaainen tasavalta",
         common: "Venezuela",
@@ -17734,7 +19417,10 @@ export default [
         official: "BOLIVARIJANSKA Republika Venezuela",
         common: "Venezuela",
       },
-      hun: { official: "Venezuelai Bolivári Köztársaság", common: "Venezuela" },
+      hun: {
+        official: "Venezuelai Bolivári Köztársaság",
+        common: "Venezuela",
+      },
       ita: {
         official: "Repubblica Bolivariana del Venezuela",
         common: "Venezuela",
@@ -17743,7 +19429,10 @@ export default [
         official: "ベネズエラ·ボリバル共和国",
         common: "ベネズエラ・ボリバル共和国",
       },
-      kor: { official: "베네수엘라 볼리바르 공화국", common: "베네수엘라" },
+      kor: {
+        official: "베네수엘라 볼리바르 공화국",
+        common: "베네수엘라",
+      },
       nld: {
         official: "Bolivariaanse Republiek Venezuela",
         common: "Venezuela",
@@ -17769,24 +19458,30 @@ export default [
         official: "República Bolivariana de Venezuela",
         common: "Venezuela",
       },
-      srp: { official: "Боливарска Република Венецуела", common: "Венецуела" },
+      srp: {
+        official: "Боливарска Република Венецуела",
+        common: "Венецуела",
+      },
       swe: {
         official: "Bolivarianska republiken Venezuela",
         common: "Venezuela",
       },
-      tur: { official: "Bolivarcı Venezuela Cumhuriyeti", common: "Venezuela" },
+      tur: {
+        official: "Bolivarcı Venezuela Cumhuriyeti",
+        common: "Venezuela",
+      },
       urd: { official: "جمہوریہ وینیزویلا", common: "وینیزویلا" },
       zho: { official: "委内瑞拉玻利瓦尔共和国", common: "委内瑞拉" },
     },
-    latlng: [8.0, -66.0],
+    latlng: [8, -66],
     landlocked: false,
     borders: ["BRA", "COL", "GUY"],
-    area: 916445.0,
+    area: 916445,
     demonyms: {
       eng: { f: "Venezuelan", m: "Venezuelan" },
       fra: { f: "Vénézuélienne", m: "Vénézuélien" },
     },
-    flag: "\uD83C\uDDFB\uD83C\uDDEA",
+    flag: "🇻🇪",
     maps: {
       googleMaps: "https://goo.gl/maps/KLCwDN8sec7z2kse9",
       openStreetMaps: "https://www.openstreetmap.org/relation/272644",
@@ -17809,12 +19504,15 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [10.48, -66.87] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 186,
   },
   {
     name: {
       common: "Bahrain",
       official: "Kingdom of Bahrain",
-      nativeName: { ara: { official: "مملكة البحرين", common: "‏البحرين" } },
+      nativeName: {
+        ara: { official: "مملكة البحرين", common: "‏البحرين" },
+      },
     },
     tld: [".bh"],
     cca2: "BH",
@@ -17858,14 +19556,14 @@ export default [
       urd: { official: "مملکتِ بحرین", common: "بحرین" },
       zho: { official: "巴林王国", common: "巴林" },
     },
-    latlng: [26.0, 50.55],
+    latlng: [26, 50.55],
     landlocked: false,
-    area: 765.0,
+    area: 765,
     demonyms: {
       eng: { f: "Bahraini", m: "Bahraini" },
       fra: { f: "Bahreïnienne", m: "Bahreïnien" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDED",
+    flag: "🇧🇭",
     maps: {
       googleMaps: "https://goo.gl/maps/5Zue99Zc6vFBHxzJ7",
       openStreetMaps: "https://www.openstreetmap.org/relation/378734",
@@ -17887,6 +19585,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [26.23, 50.57] },
     postalCode: { format: "####|###", regex: "^(\\d{3}\\d?)$" },
+    id: 187,
   },
   {
     name: {
@@ -17943,7 +19642,10 @@ export default [
         official: "Territorio della (Keeling) Isole Cocos",
         common: "Isole Cocos e Keeling",
       },
-      jpn: { official: "ココス諸島の領土", common: "ココス（キーリング）諸島" },
+      jpn: {
+        official: "ココス諸島の領土",
+        common: "ココス（キーリング）諸島",
+      },
       kor: { official: "코코스 제도", common: "코코스 제도" },
       nld: {
         official: "Grondgebied van de Eilanden Cocos (Keeling )",
@@ -17964,7 +19666,10 @@ export default [
         official: "Territorio de los (Keeling) Islas Cocos",
         common: "Islas Cocos o Islas Keeling",
       },
-      srp: { official: "Кокосова (Килинг) Острва", common: "Кокосова Острва" },
+      srp: {
+        official: "Кокосова (Килинг) Острва",
+        common: "Кокосова Острва",
+      },
       swe: { official: "Kokosöarna", common: "Kokosöarna" },
       tur: {
         official: "Cocos (Keeling) Adaları",
@@ -17975,9 +19680,9 @@ export default [
     },
     latlng: [12.1642, 96.871],
     landlocked: false,
-    area: 14.0,
+    area: 14,
     demonyms: { eng: { f: "Cocos Islander", m: "Cocos Islander" } },
-    flag: "\uD83C\uDDE8\uD83C\uDDE8",
+    flag: "🇨🇨",
     maps: {
       googleMaps: "https://goo.gl/maps/3eCdKVpVfMcZyKcK6",
       openStreetMaps: "https://www.openstreetmap.org/relation/82636",
@@ -17993,6 +19698,7 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: { latlng: [-12.17, 96.83] },
+    id: 188,
   },
   {
     name: {
@@ -18052,7 +19758,10 @@ export default [
         official: "Commonwealth der Nördlichen Marianen",
         common: "Nördliche Marianen",
       },
-      est: { official: "Põhja-Mariaani Ühendus", common: "Põhja-Mariaanid" },
+      est: {
+        official: "Põhja-Mariaani Ühendus",
+        common: "Põhja-Mariaanid",
+      },
       fin: { official: "Pohjois-Mariaanit", common: "Pohjois-Mariaanit" },
       fra: {
         official: "Commonwealth des îles Mariannes du Nord",
@@ -18076,7 +19785,10 @@ export default [
         official: "Commonwealth van de Noordelijke Marianen",
         common: "Noordelijke Marianeneilanden",
       },
-      per: { official: "جزایر ماریانای شمالی", common: "جزایر ماریانای شمالی" },
+      per: {
+        official: "جزایر ماریانای شمالی",
+        common: "جزایر ماریانای شمالی",
+      },
       pol: {
         official: "Wspólnota Marianów Północnych",
         common: "Mariany Północne",
@@ -18114,12 +19826,12 @@ export default [
     },
     latlng: [15.2, 145.75],
     landlocked: false,
-    area: 464.0,
+    area: 464,
     demonyms: {
       eng: { f: "American", m: "American" },
       fra: { f: "Américaine", m: "Américan" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDF5",
+    flag: "🇲🇵",
     maps: {
       googleMaps: "https://goo.gl/maps/cpZ67knoRAcfu1417",
       openStreetMaps: "https://www.openstreetmap.org/relation/306004",
@@ -18135,6 +19847,7 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: { latlng: [15.2, 145.75] },
+    id: 189,
   },
   {
     name: {
@@ -18153,7 +19866,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XAF: { name: "Central African CFA franc", symbol: "Fr" } },
+    currencies: {
+      XAF: { name: "Central African CFA franc", symbol: "Fr" },
+    },
     idd: { root: "+2", suffixes: ["37"] },
     capital: ["Yaoundé"],
     altSpellings: ["CM", "Republic of Cameroon", "République du Cameroun"],
@@ -18187,15 +19902,15 @@ export default [
       urd: { official: "جمہوریہ کیمرون", common: "کیمرون" },
       zho: { official: "喀麦隆共和国", common: "喀麦隆" },
     },
-    latlng: [6.0, 12.0],
+    latlng: [6, 12],
     landlocked: false,
     borders: ["CAF", "TCD", "COG", "GNQ", "GAB", "NGA"],
-    area: 475442.0,
+    area: 475442,
     demonyms: {
       eng: { f: "Cameroonian", m: "Cameroonian" },
       fra: { f: "Camerounaise", m: "Camerounais" },
     },
-    flag: "\uD83C\uDDE8\uD83C\uDDF2",
+    flag: "🇨🇲",
     maps: {
       googleMaps: "https://goo.gl/maps/JqiipHgFboG3rBJh9",
       openStreetMaps: "https://www.openstreetmap.org/relation/192830",
@@ -18217,6 +19932,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [3.85, 11.5] },
+    id: 190,
   },
   {
     name: {
@@ -18276,14 +19992,14 @@ export default [
       urd: { official: "جمہوریہ قبرص", common: "قبرص" },
       zho: { official: "塞浦路斯共和国", common: "塞浦路斯" },
     },
-    latlng: [35.0, 33.0],
+    latlng: [35, 33],
     landlocked: false,
-    area: 9251.0,
+    area: 9251,
     demonyms: {
       eng: { f: "Cypriot", m: "Cypriot" },
       fra: { f: "Chypriote", m: "Chypriote" },
     },
-    flag: "\uD83C\uDDE8\uD83C\uDDFE",
+    flag: "🇨🇾",
     maps: {
       googleMaps: "https://goo.gl/maps/77hPBRdLid8yD5Bm7",
       openStreetMaps: "https://www.openstreetmap.org/relation/307787",
@@ -18306,13 +20022,17 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [35.17, 33.37] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 191,
   },
   {
     name: {
       common: "United States",
       official: "United States of America",
       nativeName: {
-        eng: { official: "United States of America", common: "United States" },
+        eng: {
+          official: "United States of America",
+          common: "United States",
+        },
       },
     },
     tld: [".us"],
@@ -18657,15 +20377,27 @@ export default [
         common: "الولايات المتحدة",
       },
       bre: { official: "Stadoù-Unanet Amerika", common: "Stadoù-Unanet" },
-      ces: { official: "Spojené státy americké", common: "Spojené státy" },
-      cym: { official: "United States of America", common: "United States" },
+      ces: {
+        official: "Spojené státy americké",
+        common: "Spojené státy",
+      },
+      cym: {
+        official: "United States of America",
+        common: "United States",
+      },
       deu: {
         official: "Vereinigte Staaten von Amerika",
         common: "Vereinigte Staaten",
       },
-      est: { official: "Ameerika Ühendriigid", common: "Ameerika Ühendriigid" },
+      est: {
+        official: "Ameerika Ühendriigid",
+        common: "Ameerika Ühendriigid",
+      },
       fin: { official: "Amerikan yhdysvallat", common: "Yhdysvallat" },
-      fra: { official: "Les états-unis d'Amérique", common: "États-Unis" },
+      fra: {
+        official: "Les états-unis d'Amérique",
+        common: "États-Unis",
+      },
       hrv: {
         official: "Sjedinjene Države Amerike",
         common: "Sjedinjene Američke Države",
@@ -18684,12 +20416,18 @@ export default [
         official: "Verenigde Staten van Amerika",
         common: "Verenigde Staten",
       },
-      per: { official: "ایالات متحده آمریکا", common: "ایالات متحده آمریکا" },
+      per: {
+        official: "ایالات متحده آمریکا",
+        common: "ایالات متحده آمریکا",
+      },
       pol: {
         official: "Stany Zjednoczone Ameryki",
         common: "Stany Zjednoczone",
       },
-      por: { official: "Estados Unidos da América", common: "Estados Unidos" },
+      por: {
+        official: "Estados Unidos da América",
+        common: "Estados Unidos",
+      },
       rus: {
         official: "Соединенные Штаты Америки",
         common: "Соединённые Штаты Америки",
@@ -18698,7 +20436,10 @@ export default [
         official: "Spojené štáty Americké",
         common: "Spojené štáty americké",
       },
-      spa: { official: "Estados Unidos de América", common: "Estados Unidos" },
+      spa: {
+        official: "Estados Unidos de América",
+        common: "Estados Unidos",
+      },
       srp: {
         official: "Сједињене Америчке Државе",
         common: "Сједињене Америчке Државе",
@@ -18708,18 +20449,21 @@ export default [
         official: "Amerika Birleşik Devletleri",
         common: "Amerika Birleşik Devletleri",
       },
-      urd: { official: "ریاستہائے متحدہ امریکا", common: "ریاستہائے متحدہ" },
+      urd: {
+        official: "ریاستہائے متحدہ امریکا",
+        common: "ریاستہائے متحدہ",
+      },
       zho: { official: "美利坚合众国", common: "美国" },
     },
-    latlng: [38.0, -97.0],
+    latlng: [38, -97],
     landlocked: false,
     borders: ["CAN", "MEX"],
-    area: 9372610.0,
+    area: 9372610,
     demonyms: {
       eng: { f: "American", m: "American" },
       fra: { f: "Américaine", m: "Américain" },
     },
-    flag: "\uD83C\uDDFA\uD83C\uDDF8",
+    flag: "🇺🇸",
     maps: {
       googleMaps: "https://goo.gl/maps/e8M246zY4BSjkjAv6",
       openStreetMaps:
@@ -18755,6 +20499,7 @@ export default [
     startOfWeek: "sunday",
     capitalInfo: { latlng: [38.89, -77.05] },
     postalCode: { format: "#####-####", regex: "^\\d{5}(-\\d{4})?$" },
+    id: 192,
   },
   {
     name: {
@@ -18809,12 +20554,12 @@ export default [
     latlng: [-12.5, 18.5],
     landlocked: false,
     borders: ["COG", "COD", "ZMB", "NAM"],
-    area: 1246700.0,
+    area: 1246700,
     demonyms: {
       eng: { f: "Angolan", m: "Angolan" },
       fra: { f: "Angolaise", m: "Angolais" },
     },
-    flag: "\uD83C\uDDE6\uD83C\uDDF4",
+    flag: "🇦🇴",
     maps: {
       googleMaps: "https://goo.gl/maps/q42Qbf1BmQL3fuZg9",
       openStreetMaps: "https://www.openstreetmap.org/relation/195267",
@@ -18836,12 +20581,15 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-8.83, 13.22] },
+    id: 193,
   },
   {
     name: {
       common: "Tunisia",
       official: "Tunisian Republic",
-      nativeName: { ara: { official: "الجمهورية التونسية", common: "تونس" } },
+      nativeName: {
+        ara: { official: "الجمهورية التونسية", common: "تونس" },
+      },
     },
     tld: [".tn"],
     cca2: "TN",
@@ -18885,15 +20633,15 @@ export default [
       urd: { official: "جمہوریہ تونس", common: "تونس" },
       zho: { official: "突尼斯共和国", common: "突尼斯" },
     },
-    latlng: [34.0, 9.0],
+    latlng: [34, 9],
     landlocked: false,
     borders: ["DZA", "LBY"],
-    area: 163610.0,
+    area: 163610,
     demonyms: {
       eng: { f: "Tunisian", m: "Tunisian" },
       fra: { f: "Tunisienne", m: "Tunisien" },
     },
-    flag: "\uD83C\uDDF9\uD83C\uDDF3",
+    flag: "🇹🇳",
     maps: {
       googleMaps: "https://goo.gl/maps/KgUmpZdUuNRaougs8",
       openStreetMaps: "https://www.openstreetmap.org/relation/192757",
@@ -18916,6 +20664,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [36.8, 10.18] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 194,
   },
   {
     name: {
@@ -18951,7 +20700,10 @@ export default [
       fra: { official: "Principauté de Monaco", common: "Monaco" },
       hrv: { official: "Kneževina Monako", common: "Monako" },
       hun: { official: "Monacói Hercegség", common: "Monaco" },
-      ita: { official: "Principato di Monaco", common: "Principato di Monaco" },
+      ita: {
+        official: "Principato di Monaco",
+        common: "Principato di Monaco",
+      },
       jpn: { official: "モナコ公国", common: "モナコ" },
       kor: { official: "모나코 공국", common: "모나코" },
       nld: { official: "Vorstendom Monaco", common: "Monaco" },
@@ -18975,7 +20727,7 @@ export default [
       eng: { f: "Monegasque", m: "Monegasque" },
       fra: { f: "Monégasque", m: "Monégasque" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDE8",
+    flag: "🇲🇨",
     maps: {
       googleMaps: "https://goo.gl/maps/DGpndDot28bYdXYn7",
       openStreetMaps: "https://www.openstreetmap.org/relation/1124039",
@@ -18996,6 +20748,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [43.73, 7.42] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 195,
   },
   {
     name: {
@@ -19054,15 +20807,15 @@ export default [
       urd: { official: "جمہوریہ روانڈا", common: "روانڈا" },
       zho: { official: "卢旺达共和国", common: "卢旺达" },
     },
-    latlng: [-2.0, 30.0],
+    latlng: [-2, 30],
     landlocked: true,
     borders: ["BDI", "COD", "TZA", "UGA"],
-    area: 26338.0,
+    area: 26338,
     demonyms: {
       eng: { f: "Rwandan", m: "Rwandan" },
       fra: { f: "Rwandaise", m: "Rwandais" },
     },
-    flag: "\uD83C\uDDF7\uD83C\uDDFC",
+    flag: "🇷🇼",
     maps: {
       googleMaps: "https://goo.gl/maps/j5xb5r7CLqjYbyP86",
       openStreetMaps: "https://www.openstreetmap.org/relation/171496",
@@ -19084,6 +20837,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-1.95, 30.05] },
+    id: 196,
   },
   {
     name: {
@@ -19104,7 +20858,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { TTD: { name: "Trinidad and Tobago dollar", symbol: "$" } },
+    currencies: {
+      TTD: { name: "Trinidad and Tobago dollar", symbol: "$" },
+    },
     idd: { root: "+1", suffixes: ["868"] },
     capital: ["Port of Spain"],
     altSpellings: ["TT", "Republic of Trinidad and Tobago"],
@@ -19112,7 +20868,10 @@ export default [
     subregion: "Caribbean",
     languages: { eng: "English" },
     translations: {
-      ara: { official: "جمهورية ترينيداد وتوباغو", common: "ترينيداد وتوباغو" },
+      ara: {
+        official: "جمهورية ترينيداد وتوباغو",
+        common: "ترينيداد وتوباغو",
+      },
       bre: {
         official: "Republik Trinidad ha Tobago",
         common: "Trinidad ha Tobago",
@@ -19194,21 +20953,27 @@ export default [
         official: "Republiken Trinidad och Tobago",
         common: "Trinidad och Tobago",
       },
-      tur: { official: "Trinidad ve Tobago", common: "Trinidad ve Tobago" },
+      tur: {
+        official: "Trinidad ve Tobago",
+        common: "Trinidad ve Tobago",
+      },
       urd: {
         official: "جمہوریہ ٹرینیڈاڈ و ٹوباگو",
         common: "ٹرینیڈاڈ و ٹوباگو",
       },
-      zho: { official: "特立尼达和多巴哥共和国", common: "特立尼达和多巴哥" },
+      zho: {
+        official: "特立尼达和多巴哥共和国",
+        common: "特立尼达和多巴哥",
+      },
     },
     latlng: [10.6918, 61.2225],
     landlocked: false,
-    area: 5130.0,
+    area: 5130,
     demonyms: {
       eng: { f: "Trinidadian", m: "Trinidadian" },
       fra: { f: "Trinidadienne", m: "Trinidadien" },
     },
-    flag: "\uD83C\uDDF9\uD83C\uDDF9",
+    flag: "🇹🇹",
     maps: {
       googleMaps: "https://goo.gl/maps/NrRfDEWoG8FGZqWY7",
       openStreetMaps: "https://www.openstreetmap.org/relation/555717",
@@ -19230,6 +20995,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [10.65, -61.52] },
+    id: 197,
   },
   {
     name: {
@@ -19284,12 +21050,12 @@ export default [
     },
     latlng: [35.9375, 14.3754],
     landlocked: false,
-    area: 316.0,
+    area: 316,
     demonyms: {
       eng: { f: "Maltese", m: "Maltese" },
       fra: { f: "Maltaise", m: "Maltais" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDF9",
+    flag: "🇲🇹",
     maps: {
       googleMaps: "https://goo.gl/maps/skXCqguxDxxEKVk47",
       openStreetMaps: "https://www.openstreetmap.org/relation/365307",
@@ -19311,7 +21077,11 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [35.88, 14.5] },
-    postalCode: { format: "@@@ ###|@@@ ##", regex: "^([A-Z]{3}\\d{2}\\d?)$" },
+    postalCode: {
+      format: "@@@ ###|@@@ ##",
+      regex: "^([A-Z]{3}\\d{2}\\d?)$",
+    },
+    id: 198,
   },
   {
     name: {
@@ -19346,7 +21116,10 @@ export default [
       bre: { official: "Stadoù-Unanet Mec'hiko", common: "Mec'hiko" },
       ces: { official: "Spojené státy mexické", common: "Mexiko" },
       cym: { official: "United Mexican States", common: "Mexico" },
-      deu: { official: "Vereinigte Mexikanische Staaten", common: "Mexiko" },
+      deu: {
+        official: "Vereinigte Mexikanische Staaten",
+        common: "Mexiko",
+      },
       est: { official: "Mehhiko Ühendriigid", common: "Mehhiko" },
       fin: { official: "Meksikon yhdysvallat", common: "Meksiko" },
       fra: { official: "États-Unis du Mexique", common: "Mexique" },
@@ -19357,9 +21130,15 @@ export default [
       kor: { official: "멕시코 합중국", common: "멕시코" },
       nld: { official: "Verenigde Mexicaanse Staten", common: "Mexico" },
       per: { official: "ایالات متحد مکزیک", common: "مکزیک" },
-      pol: { official: "Meksykańskie Stany Zjednoczone", common: "Meksyk" },
+      pol: {
+        official: "Meksykańskie Stany Zjednoczone",
+        common: "Meksyk",
+      },
       por: { official: "Estados Unidos Mexicanos", common: "México" },
-      rus: { official: "Мексиканские Соединённые Штаты", common: "Мексика" },
+      rus: {
+        official: "Мексиканские Соединённые Штаты",
+        common: "Мексика",
+      },
       slk: { official: "Spojené štášy mexické", common: "Mexiko" },
       spa: { official: "Estados Unidos Mexicanos", common: "México" },
       srp: { official: "Сједињене Мексичке Државе", common: "Мексико" },
@@ -19368,15 +21147,15 @@ export default [
       urd: { official: "ریاستہائے متحدہ میکسیکو", common: "میکسیکو" },
       zho: { official: "墨西哥合众国", common: "墨西哥" },
     },
-    latlng: [23.0, -102.0],
+    latlng: [23, -102],
     landlocked: false,
     borders: ["BLZ", "GTM", "USA"],
-    area: 1964375.0,
+    area: 1964375,
     demonyms: {
       eng: { f: "Mexican", m: "Mexican" },
       fra: { f: "Mexicaine", m: "Mexicain" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDFD",
+    flag: "🇲🇽",
     maps: {
       googleMaps: "https://goo.gl/maps/s5g7imNPMDEePxzbA",
       openStreetMaps: "https://www.openstreetmap.org/relation/114686",
@@ -19399,6 +21178,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [19.43, -99.13] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 199,
   },
   {
     name: {
@@ -19451,12 +21231,12 @@ export default [
     },
     latlng: [-12.83333333, 45.16666666],
     landlocked: false,
-    area: 374.0,
+    area: 374,
     demonyms: {
       eng: { f: "Mahoran", m: "Mahoran" },
       fra: { f: "Mahoraise", m: "Mahorais" },
     },
-    flag: "\uD83C\uDDFE\uD83C\uDDF9",
+    flag: "🇾🇹",
     maps: {
       googleMaps: "https://goo.gl/maps/1e7MXmfBwQv3TQGF7",
       openStreetMaps: "https://www.openstreetmap.org/relation/1259885",
@@ -19473,13 +21253,17 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-12.78, 45.22] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 200,
   },
   {
     name: {
       common: "Antigua and Barbuda",
       official: "Antigua and Barbuda",
       nativeName: {
-        eng: { official: "Antigua and Barbuda", common: "Antigua and Barbuda" },
+        eng: {
+          official: "Antigua and Barbuda",
+          common: "Antigua and Barbuda",
+        },
       },
     },
     tld: [".ag"],
@@ -19490,7 +21274,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XCD: { name: "Eastern Caribbean dollar", symbol: "$" } },
+    currencies: {
+      XCD: { name: "Eastern Caribbean dollar", symbol: "$" },
+    },
     idd: { root: "+1", suffixes: ["268"] },
     capital: ["Saint John's"],
     altSpellings: ["AG"],
@@ -19499,22 +21285,46 @@ export default [
     languages: { eng: "English" },
     translations: {
       ara: { official: "أنتيغوا وباربودا", common: "أنتيغوا وباربودا" },
-      bre: { official: "Antigua ha Barbuda", common: "Antigua ha Barbuda" },
+      bre: {
+        official: "Antigua ha Barbuda",
+        common: "Antigua ha Barbuda",
+      },
       ces: { official: "Antigua a Barbuda", common: "Antigua a Barbuda" },
-      cym: { official: "Antigwa a Barbiwda", common: "Antigwa a Barbiwda" },
-      deu: { official: "Antigua und Barbuda", common: "Antigua und Barbuda" },
-      est: { official: "Antigua ja Barbuda", common: "Antigua ja Barbuda" },
-      fin: { official: "Antigua ja Barbuda", common: "Antigua ja Barbuda" },
-      fra: { official: "Antigua-et-Barbuda", common: "Antigua-et-Barbuda" },
+      cym: {
+        official: "Antigwa a Barbiwda",
+        common: "Antigwa a Barbiwda",
+      },
+      deu: {
+        official: "Antigua und Barbuda",
+        common: "Antigua und Barbuda",
+      },
+      est: {
+        official: "Antigua ja Barbuda",
+        common: "Antigua ja Barbuda",
+      },
+      fin: {
+        official: "Antigua ja Barbuda",
+        common: "Antigua ja Barbuda",
+      },
+      fra: {
+        official: "Antigua-et-Barbuda",
+        common: "Antigua-et-Barbuda",
+      },
       hrv: { official: "Antigva i Barbuda", common: "Antigva i Barbuda" },
-      hun: { official: "Antigua és Barbuda", common: "Antigua és Barbuda" },
+      hun: {
+        official: "Antigua és Barbuda",
+        common: "Antigua és Barbuda",
+      },
       ita: { official: "Antigua e Barbuda", common: "Antigua e Barbuda" },
       jpn: {
         official: "アンチグアバーブーダ",
         common: "アンティグア・バーブーダ",
       },
       kor: { official: "앤티가 바부다", common: "앤티가 바부다" },
-      nld: { official: "Antigua en Barbuda", common: "Antigua en Barbuda" },
+      nld: {
+        official: "Antigua en Barbuda",
+        common: "Antigua en Barbuda",
+      },
       per: { official: "آنتیگوا و باربودا", common: "آنتیگوا و باربودا" },
       pol: { official: "Antigua i Barbuda", common: "Antigua i Barbuda" },
       por: { official: "Antigua e Barbuda", common: "Antígua e Barbuda" },
@@ -19522,19 +21332,31 @@ export default [
       slk: { official: "Antigua a Barbuda", common: "Antigua a Barbuda" },
       spa: { official: "Antigua y Barbuda", common: "Antigua y Barbuda" },
       srp: { official: "Антигва и Барбуда", common: "Антигва и Барбуда" },
-      swe: { official: "Antigua och Barbuda", common: "Antigua och Barbuda" },
-      tur: { official: "Antigua ve Barbuda", common: "Antigua ve Barbuda" },
-      urd: { official: "اینٹیگوا و باربوڈا", common: "اینٹیگوا و باربوڈا" },
+      swe: {
+        official: "Antigua och Barbuda",
+        common: "Antigua och Barbuda",
+      },
+      tur: {
+        official: "Antigua ve Barbuda",
+        common: "Antigua ve Barbuda",
+      },
+      urd: {
+        official: "اینٹیگوا و باربوڈا",
+        common: "اینٹیگوا و باربوڈا",
+      },
       zho: { official: "安提瓜和巴布达", common: "安提瓜和巴布达" },
     },
     latlng: [17.05, -61.8],
     landlocked: false,
-    area: 442.0,
+    area: 442,
     demonyms: {
       eng: { f: "Antiguan, Barbudan", m: "Antiguan, Barbudan" },
-      fra: { f: "Antiguaise et barbudienne", m: "Antiguaise et barbudien" },
+      fra: {
+        f: "Antiguaise et barbudienne",
+        m: "Antiguaise et barbudien",
+      },
     },
-    flag: "\uD83C\uDDE6\uD83C\uDDEC",
+    flag: "🇦🇬",
     maps: {
       googleMaps: "https://goo.gl/maps/fnye4wGJ1RzC9jpX9",
       openStreetMaps: "https://www.openstreetmap.org/relation/536900",
@@ -19555,6 +21377,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [17.12, -61.85] },
+    id: 201,
   },
   {
     name: {
@@ -19607,11 +21430,11 @@ export default [
       urd: { official: "ٹوکیلاؤ", common: "ٹوکیلاؤ" },
       zho: { official: "托克劳", common: "托克劳" },
     },
-    latlng: [-9.0, -172.0],
+    latlng: [-9, -172],
     landlocked: false,
-    area: 12.0,
+    area: 12,
     demonyms: { eng: { f: "Tokelauan", m: "Tokelauan" } },
-    flag: "\uD83C\uDDF9\uD83C\uDDF0",
+    flag: "🇹🇰",
     maps: {
       googleMaps: "https://goo.gl/maps/Ap5qN8qien6pT9UN6",
       openStreetMaps: "https://www.openstreetmap.org/relation/2186600",
@@ -19627,6 +21450,7 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: { latlng: [-9.38, -171.22] },
+    id: 202,
   },
   {
     name: {
@@ -19682,15 +21506,15 @@ export default [
       urd: { official: "جمہوریہ کوریا ", common: "جنوبی کوریا" },
       zho: { official: "大韩民国", common: "韩国" },
     },
-    latlng: [37.0, 127.5],
+    latlng: [37, 127.5],
     landlocked: false,
     borders: ["PRK"],
-    area: 100210.0,
+    area: 100210,
     demonyms: {
       eng: { f: "South Korean", m: "South Korean" },
       fra: { f: "Sud-coréenne", m: "Sud-coréen" },
     },
-    flag: "\uD83C\uDDF0\uD83C\uDDF7",
+    flag: "🇰🇷",
     maps: {
       googleMaps: "https://goo.gl/maps/7ecjaJXefjAQhxjGA",
       openStreetMaps: "https://www.openstreetmap.org/relation/307756",
@@ -19712,13 +21536,19 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [37.55, 126.98] },
-    postalCode: { format: "SEOUL ###-###", regex: "^(?:SEOUL)*(\\d{6})$" },
+    postalCode: {
+      format: "SEOUL ###-###",
+      regex: "^(?:SEOUL)*(\\d{6})$",
+    },
+    id: 203,
   },
   {
     name: {
       common: "Niger",
       official: "Republic of Niger",
-      nativeName: { fra: { official: "République du Niger", common: "Niger" } },
+      nativeName: {
+        fra: { official: "République du Niger", common: "Niger" },
+      },
     },
     tld: [".ne"],
     cca2: "NE",
@@ -19728,7 +21558,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XOF: { name: "West African CFA franc", symbol: "Fr" } },
+    currencies: {
+      XOF: { name: "West African CFA franc", symbol: "Fr" },
+    },
     idd: { root: "+2", suffixes: ["27"] },
     capital: ["Niamey"],
     altSpellings: ["NE", "Nijar"],
@@ -19762,15 +21594,15 @@ export default [
       urd: { official: "جمہوریہ نائجر", common: "نائجر" },
       zho: { official: "尼日尔共和国", common: "尼日尔" },
     },
-    latlng: [16.0, 8.0],
+    latlng: [16, 8],
     landlocked: true,
     borders: ["DZA", "BEN", "BFA", "TCD", "LBY", "MLI", "NGA"],
-    area: 1267000.0,
+    area: 1267000,
     demonyms: {
       eng: { f: "Nigerien", m: "Nigerien" },
       fra: { f: "Nigérienne", m: "Nigérien" },
     },
-    flag: "\uD83C\uDDF3\uD83C\uDDEA",
+    flag: "🇳🇪",
     maps: {
       googleMaps: "https://goo.gl/maps/VKNU2TLsZcgxM49c8",
       openStreetMaps: "https://www.openstreetmap.org/relation/192786",
@@ -19793,6 +21625,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [13.52, 2.12] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 204,
   },
   {
     name: {
@@ -19844,15 +21677,15 @@ export default [
       urd: { official: "جمہوریہ البانیا", common: "البانیا" },
       zho: { official: "阿尔巴尼亚共和国", common: "阿尔巴尼亚" },
     },
-    latlng: [41.0, 20.0],
+    latlng: [41, 20],
     landlocked: false,
     borders: ["MNE", "GRC", "MKD", "UNK"],
-    area: 28748.0,
+    area: 28748,
     demonyms: {
       eng: { f: "Albanian", m: "Albanian" },
       fra: { f: "Albanaise", m: "Albanais" },
     },
-    flag: "\uD83C\uDDE6\uD83C\uDDF1",
+    flag: "🇦🇱",
     maps: {
       googleMaps: "https://goo.gl/maps/BzN9cTuj68ZA8SyZ8",
       openStreetMaps: "https://www.openstreetmap.org/relation/53292",
@@ -19874,6 +21707,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [41.32, 19.82] },
+    id: 205,
   },
   {
     name: {
@@ -19911,39 +21745,63 @@ export default [
     translations: {
       ara: { official: "جمهورية الصومال الفيدرالية", common: "الصومال" },
       bre: { official: "Republik Kevreadel Somalia", common: "Somalia" },
-      ces: { official: "Somálská demokratická republika", common: "Somálsko" },
+      ces: {
+        official: "Somálská demokratická republika",
+        common: "Somálsko",
+      },
       cym: { official: "Federal Republic of Somalia", common: "Somalia" },
       deu: { official: "Bundesrepublik Somalia", common: "Somalia" },
       est: { official: "Somaalia Liitvabariik", common: "Somaalia" },
       fin: { official: "Somalian liittotasavalta", common: "Somalia" },
-      fra: { official: "République fédérale de Somalie", common: "Somalie" },
+      fra: {
+        official: "République fédérale de Somalie",
+        common: "Somalie",
+      },
       hrv: { official: "Savezna Republika Somaliji", common: "Somalija" },
-      hun: { official: "Szomáli Szövetségi Köztársaság", common: "Szomália" },
-      ita: { official: "Repubblica federale di Somalia", common: "Somalia" },
+      hun: {
+        official: "Szomáli Szövetségi Köztársaság",
+        common: "Szomália",
+      },
+      ita: {
+        official: "Repubblica federale di Somalia",
+        common: "Somalia",
+      },
       jpn: { official: "ソマリア連邦共和国", common: "ソマリア" },
       kor: { official: " 소말리아 연방 공화국", common: "소말리아" },
       nld: { official: "Federale Republiek Somalië", common: "Somalië" },
       per: { official: "جمهوری فدرال سومالی", common: "سومالی" },
       pol: { official: "Federalna Republika Somalii", common: "Somalia" },
-      por: { official: "República Federal da Somália", common: "Somália" },
-      rus: { official: "Федеративная Республика Сомали", common: "Сомали" },
-      slk: { official: "Somálska federatívna republika", common: "Somálsko" },
-      spa: { official: "República Federal de Somalia", common: "Somalia" },
+      por: {
+        official: "República Federal da Somália",
+        common: "Somália",
+      },
+      rus: {
+        official: "Федеративная Республика Сомали",
+        common: "Сомали",
+      },
+      slk: {
+        official: "Somálska federatívna republika",
+        common: "Somálsko",
+      },
+      spa: {
+        official: "República Federal de Somalia",
+        common: "Somalia",
+      },
       srp: { official: "Савезна Република Сомалија", common: "Сомалија" },
       swe: { official: "Förbundsrepubliken Somalia", common: "Somalia" },
       tur: { official: "Somali Federal Cumhuriyeti", common: "Somali" },
       urd: { official: "وفاقی جمہوریہ صومالیہ", common: "صومالیہ" },
       zho: { official: "索马里共和国", common: "索马里" },
     },
-    latlng: [10.0, 49.0],
+    latlng: [10, 49],
     landlocked: false,
     borders: ["DJI", "ETH", "KEN"],
-    area: 637657.0,
+    area: 637657,
     demonyms: {
       eng: { f: "Somali", m: "Somali" },
       fra: { f: "Somalienne", m: "Somalien" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDF4",
+    flag: "🇸🇴",
     maps: {
       googleMaps: "https://goo.gl/maps/8of8q7D1a8p7R6Fc9",
       openStreetMaps: "https://www.openstreetmap.org/relation/192799",
@@ -19966,6 +21824,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [2.07, 45.33] },
     postalCode: { format: "@@  #####", regex: "^([A-Z]{2}\\d{5})$" },
+    id: 206,
   },
   {
     name: {
@@ -20020,12 +21879,12 @@ export default [
     latlng: [6.5, -9.5],
     landlocked: false,
     borders: ["GIN", "CIV", "SLE"],
-    area: 111369.0,
+    area: 111369,
     demonyms: {
       eng: { f: "Liberian", m: "Liberian" },
       fra: { f: "Libérienne", m: "Libérien" },
     },
-    flag: "\uD83C\uDDF1\uD83C\uDDF7",
+    flag: "🇱🇷",
     maps: {
       googleMaps: "https://goo.gl/maps/4VsHsc2oeGeRL3wg6",
       openStreetMaps: "https://www.openstreetmap.org/relation/192780",
@@ -20048,6 +21907,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [6.3, -10.8] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 207,
   },
   {
     name: {
@@ -20084,11 +21944,17 @@ export default [
       ara: { official: "جمهورية اتحاد ميانمار", common: "ميانمار" },
       bre: { official: "Republik Unaniezh Myanmar", common: "Myanmar" },
       ces: { official: "Republika Myanmarský svaz", common: "Myanmar" },
-      cym: { official: "Republic of the Union of Myanmar", common: "Myanmar" },
+      cym: {
+        official: "Republic of the Union of Myanmar",
+        common: "Myanmar",
+      },
       deu: { official: "Republik der Union Myanmar", common: "Myanmar" },
       est: { official: "Myanmari Liidu Vabariik", common: "Myanmar" },
       fin: { official: "Myanmarin liiton tasavalta", common: "Myanmar" },
-      fra: { official: "République de l'Union du Myanmar", common: "Birmanie" },
+      fra: {
+        official: "République de l'Union du Myanmar",
+        common: "Birmanie",
+      },
       hrv: { official: "Republika Unije Mijanmar", common: "Mijanmar" },
       hun: {
         official: "Mianmari Államszövetség Köztársasága",
@@ -20100,28 +21966,40 @@ export default [
       },
       jpn: { official: "ミャンマー連邦共和国", common: "ミャンマー" },
       kor: { official: "미얀마 연방 공화국", common: "미얀마" },
-      nld: { official: "Republiek van de Unie van Myanmar", common: "Myanmar" },
+      nld: {
+        official: "Republiek van de Unie van Myanmar",
+        common: "Myanmar",
+      },
       per: { official: "اتحادیه جمهوری میانمار", common: "میانمار" },
       pol: { official: "Republika Związku Mjanmy", common: "Mjanma" },
-      por: { official: "República da União de Myanmar", common: "Myanmar" },
+      por: {
+        official: "República da União de Myanmar",
+        common: "Myanmar",
+      },
       rus: { official: "Республика Союза Мьянма", common: "Мьянма" },
-      slk: { official: "Mjanmarská zväzová republika", common: "Mjanmarsko" },
-      spa: { official: "República de la Unión de Myanmar", common: "Myanmar" },
+      slk: {
+        official: "Mjanmarská zväzová republika",
+        common: "Mjanmarsko",
+      },
+      spa: {
+        official: "República de la Unión de Myanmar",
+        common: "Myanmar",
+      },
       srp: { official: "Република Савез Мјанмара", common: "Мјанмар" },
       swe: { official: "Republiken Unionen Myanmar", common: "Myanmar" },
       tur: { official: "Myanmar Birliği Cumhuriyeti", common: "Myanmar" },
       urd: { official: "متحدہ جمہوریہ میانمار", common: "میانمار" },
       zho: { official: "缅甸联邦共和国", common: "缅甸" },
     },
-    latlng: [22.0, 98.0],
+    latlng: [22, 98],
     landlocked: false,
     borders: ["BGD", "CHN", "IND", "LAO", "THA"],
-    area: 676578.0,
+    area: 676578,
     demonyms: {
       eng: { f: "Burmese", m: "Burmese" },
       fra: { f: "Birmane", m: "Birman" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDF2",
+    flag: "🇲🇲",
     maps: {
       googleMaps: "https://goo.gl/maps/4jrZyJkDERUfHyp26",
       openStreetMaps: "https://www.openstreetmap.org/relation/50371",
@@ -20144,13 +22022,17 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [19.76, 96.07] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 208,
   },
   {
     name: {
       common: "Tanzania",
       official: "United Republic of Tanzania",
       nativeName: {
-        eng: { official: "United Republic of Tanzania", common: "Tanzania" },
+        eng: {
+          official: "United Republic of Tanzania",
+          common: "Tanzania",
+        },
         swa: {
           official: "Jamhuri ya Muungano wa Tanzania",
           common: "Tanzania",
@@ -20180,39 +22062,87 @@ export default [
     translations: {
       ara: { official: "جمهورية تنزانيا الاتحادية", common: "تنزانيا" },
       bre: { official: "Republik Unanet Tanzania", common: "Tanzania" },
-      ces: { official: "Sjednocená tanzanská republika", common: "Tanzanie" },
-      cym: { official: "United Republic of Tanzania", common: "Tanzania" },
-      deu: { official: "Vereinigte Republik Tansania", common: "Tansania" },
+      ces: {
+        official: "Sjednocená tanzanská republika",
+        common: "Tanzanie",
+      },
+      cym: {
+        official: "United Republic of Tanzania",
+        common: "Tanzania",
+      },
+      deu: {
+        official: "Vereinigte Republik Tansania",
+        common: "Tansania",
+      },
       est: { official: "Tansaania Ühendvabariik", common: "Tansaania" },
-      fin: { official: "Tansanian yhdistynyt tasavalta", common: "Tansania" },
-      fra: { official: "République -Unie de Tanzanie", common: "Tanzanie" },
-      hrv: { official: "Ujedinjena Republika Tanzanija", common: "Tanzanija" },
+      fin: {
+        official: "Tansanian yhdistynyt tasavalta",
+        common: "Tansania",
+      },
+      fra: {
+        official: "République -Unie de Tanzanie",
+        common: "Tanzanie",
+      },
+      hrv: {
+        official: "Ujedinjena Republika Tanzanija",
+        common: "Tanzanija",
+      },
       hun: { official: "Tádzsik Köztársaság", common: "Tádzsikisztán" },
-      ita: { official: "Repubblica Unita di Tanzania", common: "Tanzania" },
+      ita: {
+        official: "Repubblica Unita di Tanzania",
+        common: "Tanzania",
+      },
       jpn: { official: "タンザニア連合共和国", common: "タンザニア" },
       kor: { official: "탄자니아 연합 공화국", common: "탄자니아" },
-      nld: { official: "Verenigde Republiek Tanzania", common: "Tanzania" },
+      nld: {
+        official: "Verenigde Republiek Tanzania",
+        common: "Tanzania",
+      },
       per: { official: "جمهوری متحد تانزانیا", common: "تانزانیا" },
-      pol: { official: "Zjednoczona Republika Tanzanii", common: "Tanzania" },
-      por: { official: "República Unida da Tanzânia", common: "Tanzânia" },
-      rus: { official: "Объединенная Республика Танзания", common: "Танзания" },
-      slk: { official: "Tanzánijská zjednotená republika", common: "Tanzánia" },
-      spa: { official: "República Unida de Tanzania", common: "Tanzania" },
-      srp: { official: "Уједињена Република Танзанија", common: "Танзанија" },
-      swe: { official: "Förenade republiken Tanzania", common: "Tanzania" },
-      tur: { official: "Tanzanya Birleşik Cumhuriyeti", common: "Tanzanya" },
+      pol: {
+        official: "Zjednoczona Republika Tanzanii",
+        common: "Tanzania",
+      },
+      por: {
+        official: "República Unida da Tanzânia",
+        common: "Tanzânia",
+      },
+      rus: {
+        official: "Объединенная Республика Танзания",
+        common: "Танзания",
+      },
+      slk: {
+        official: "Tanzánijská zjednotená republika",
+        common: "Tanzánia",
+      },
+      spa: {
+        official: "República Unida de Tanzania",
+        common: "Tanzania",
+      },
+      srp: {
+        official: "Уједињена Република Танзанија",
+        common: "Танзанија",
+      },
+      swe: {
+        official: "Förenade republiken Tanzania",
+        common: "Tanzania",
+      },
+      tur: {
+        official: "Tanzanya Birleşik Cumhuriyeti",
+        common: "Tanzanya",
+      },
       urd: { official: "متحدہ جمہوریہ تنزانیہ", common: "تنزانیہ" },
       zho: { official: "坦桑尼亚联合共和国", common: "坦桑尼亚" },
     },
-    latlng: [-6.0, 35.0],
+    latlng: [-6, 35],
     landlocked: false,
     borders: ["BDI", "COD", "KEN", "MWI", "MOZ", "RWA", "UGA", "ZMB"],
-    area: 945087.0,
+    area: 945087,
     demonyms: {
       eng: { f: "Tanzanian", m: "Tanzanian" },
       fra: { f: "Tanzanienne", m: "Tanzanien" },
     },
-    flag: "\uD83C\uDDF9\uD83C\uDDFF",
+    flag: "🇹🇿",
     maps: {
       googleMaps: "https://goo.gl/maps/NWYMqZYXte4zGZ2Q8",
       openStreetMaps: "https://www.openstreetmap.org/relation/195270",
@@ -20234,6 +22164,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-6.16, 35.75] },
+    id: 209,
   },
   {
     name: {
@@ -20287,15 +22218,15 @@ export default [
       urd: { official: "جمہوریہ عراق", common: "عراق" },
       zho: { official: "伊拉克共和国", common: "伊拉克" },
     },
-    latlng: [33.0, 44.0],
+    latlng: [33, 44],
     landlocked: false,
     borders: ["IRN", "JOR", "KWT", "SAU", "SYR", "TUR"],
-    area: 438317.0,
+    area: 438317,
     demonyms: {
       eng: { f: "Iraqi", m: "Iraqi" },
       fra: { f: "Irakienne", m: "Irakien" },
     },
-    flag: "\uD83C\uDDEE\uD83C\uDDF6",
+    flag: "🇮🇶",
     maps: {
       googleMaps: "https://goo.gl/maps/iL8Bmy1sUCW9fUk18",
       openStreetMaps: "https://www.openstreetmap.org/relation/304934",
@@ -20318,6 +22249,7 @@ export default [
     startOfWeek: "sunday",
     capitalInfo: { latlng: [33.33, 44.4] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 210,
   },
   {
     name: {
@@ -20436,16 +22368,16 @@ export default [
       },
       zho: { official: "南乔治亚岛和南桑威奇群岛", common: "南乔治亚" },
     },
-    latlng: [-54.5, -37.0],
+    latlng: [-54.5, -37],
     landlocked: false,
-    area: 3903.0,
+    area: 3903,
     demonyms: {
       eng: {
         f: "South Georgian South Sandwich Islander",
         m: "South Georgian South Sandwich Islander",
       },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDF8",
+    flag: "🇬🇸",
     maps: {
       googleMaps: "https://goo.gl/maps/mJzdaBwKBbm2B81q9",
       openStreetMaps: "https://www.openstreetmap.org/relation/1983629",
@@ -20461,6 +22393,7 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: { latlng: [-54.28, -36.5] },
+    id: 211,
   },
   {
     name: {
@@ -20481,7 +22414,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XCD: { name: "Eastern Caribbean dollar", symbol: "$" } },
+    currencies: {
+      XCD: { name: "Eastern Caribbean dollar", symbol: "$" },
+    },
     idd: { root: "+1", suffixes: ["784"] },
     capital: ["Kingstown"],
     altSpellings: ["VC"],
@@ -20585,16 +22520,19 @@ export default [
         official: "سینٹ وینسینٹ و گریناڈائنز",
         common: "سینٹ وینسینٹ و گریناڈائنز",
       },
-      zho: { official: "圣文森特和格林纳丁斯", common: "圣文森特和格林纳丁斯" },
+      zho: {
+        official: "圣文森特和格林纳丁斯",
+        common: "圣文森特和格林纳丁斯",
+      },
     },
     latlng: [13.25, -61.2],
     landlocked: false,
-    area: 389.0,
+    area: 389,
     demonyms: {
       eng: { f: "Saint Vincentian", m: "Saint Vincentian" },
       fra: { f: "Vincentaise", m: "Vincentais" },
     },
-    flag: "\uD83C\uDDFB\uD83C\uDDE8",
+    flag: "🇻🇨",
     maps: {
       googleMaps: "https://goo.gl/maps/wMbnMqjG37FMnrwf7",
       openStreetMaps: "https://www.openstreetmap.org/relation/550725",
@@ -20615,12 +22553,15 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [13.13, -61.22] },
+    id: 212,
   },
   {
     name: {
       common: "Libya",
       official: "State of Libya",
-      nativeName: { ara: { official: "الدولة ليبيا", common: "‏ليبيا" } },
+      nativeName: {
+        ara: { official: "الدولة ليبيا", common: "‏ليبيا" },
+      },
     },
     tld: [".ly"],
     cca2: "LY",
@@ -20667,15 +22608,15 @@ export default [
       urd: { official: "ریاستِ لیبیا", common: "لیبیا" },
       zho: { official: "利比亚国", common: "利比亚" },
     },
-    latlng: [25.0, 17.0],
+    latlng: [25, 17],
     landlocked: false,
     borders: ["DZA", "TCD", "EGY", "NER", "SDN", "TUN"],
-    area: 1759540.0,
+    area: 1759540,
     demonyms: {
       eng: { f: "Libyan", m: "Libyan" },
       fra: { f: "Libyenne", m: "Libyen" },
     },
-    flag: "\uD83C\uDDF1\uD83C\uDDFE",
+    flag: "🇱🇾",
     maps: {
       googleMaps: "https://goo.gl/maps/eLgGnaQWcJEdYRMy5",
       openStreetMaps: "openstreetmap.org/relation/192758",
@@ -20696,13 +22637,17 @@ export default [
     },
     startOfWeek: "sunday",
     capitalInfo: { latlng: [32.88, 13.17] },
+    id: 213,
   },
   {
     name: {
       common: "Sierra Leone",
       official: "Republic of Sierra Leone",
       nativeName: {
-        eng: { official: "Republic of Sierra Leone", common: "Sierra Leone" },
+        eng: {
+          official: "Republic of Sierra Leone",
+          common: "Sierra Leone",
+        },
       },
     },
     tld: [".sl"],
@@ -20724,13 +22669,25 @@ export default [
       ara: { official: "جمهورية سيراليون", common: "سيراليون" },
       bre: { official: "Republik Sierra Leone", common: "Sierra Leone" },
       ces: { official: "Republika Sierra Leone", common: "Sierra Leone" },
-      cym: { official: "Republic of Sierra Leone", common: "Sierra Leone" },
+      cym: {
+        official: "Republic of Sierra Leone",
+        common: "Sierra Leone",
+      },
       deu: { official: "Republik Sierra Leone", common: "Sierra Leone" },
       est: { official: "Sierra Leone Vabariik", common: "Sierra Leone" },
-      fin: { official: "Sierra Leonen tasavalta", common: "Sierra Leone" },
-      fra: { official: "République de Sierra Leone", common: "Sierra Leone" },
+      fin: {
+        official: "Sierra Leonen tasavalta",
+        common: "Sierra Leone",
+      },
+      fra: {
+        official: "République de Sierra Leone",
+        common: "Sierra Leone",
+      },
       hrv: { official: "Republika Sijera Leone", common: "Sijera Leone" },
-      hun: { official: "Sierra Leone Köztársaság", common: "Sierra Leone" },
+      hun: {
+        official: "Sierra Leone Köztársaság",
+        common: "Sierra Leone",
+      },
       ita: {
         official: "Repubblica della Sierra Leone",
         common: "Sierra Leone",
@@ -20741,24 +22698,39 @@ export default [
       per: { official: "جمهوری سیرالئون", common: "سیرالئون" },
       pol: { official: "Sierra Leone", common: "Sierra Leone" },
       por: { official: "República da Serra Leoa", common: "Serra Leoa" },
-      rus: { official: "Республика Сьерра-Леоне", common: "Сьерра-Леоне" },
-      slk: { official: "Sierraleonská republika", common: "Sierra Leone" },
-      spa: { official: "República de Sierra Leona", common: "Sierra Leone" },
+      rus: {
+        official: "Республика Сьерра-Леоне",
+        common: "Сьерра-Леоне",
+      },
+      slk: {
+        official: "Sierraleonská republika",
+        common: "Sierra Leone",
+      },
+      spa: {
+        official: "República de Sierra Leona",
+        common: "Sierra Leone",
+      },
       srp: { official: "Република Сијера Леоне", common: "Сијера Леоне" },
-      swe: { official: "Republiken Sierra Leone", common: "Sierra Leone" },
-      tur: { official: "Sierra Leone Cumhuriyeti", common: "Sierra Leone" },
+      swe: {
+        official: "Republiken Sierra Leone",
+        common: "Sierra Leone",
+      },
+      tur: {
+        official: "Sierra Leone Cumhuriyeti",
+        common: "Sierra Leone",
+      },
       urd: { official: "جمہوریہ سیرالیون", common: "سیرالیون" },
       zho: { official: "塞拉利昂共和国", common: "塞拉利昂" },
     },
     latlng: [8.5, -11.5],
     landlocked: false,
     borders: ["GIN", "LBR"],
-    area: 71740.0,
+    area: 71740,
     demonyms: {
       eng: { f: "Sierra Leonean", m: "Sierra Leonean" },
       fra: { f: "Sierra-leonaise", m: "Sierra-leonais" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDF1",
+    flag: "🇸🇱",
     maps: {
       googleMaps: "https://goo.gl/maps/jhacar85oq9QaeKB7",
       openStreetMaps: "https://www.openstreetmap.org/relation/192777",
@@ -20780,6 +22752,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [8.48, -13.23] },
+    id: 214,
   },
   {
     name: {
@@ -20798,7 +22771,9 @@ export default [
     independent: false,
     status: "officially-assigned",
     unMember: false,
-    currencies: { ANG: { name: "Netherlands Antillean guilder", symbol: "ƒ" } },
+    currencies: {
+      ANG: { name: "Netherlands Antillean guilder", symbol: "ƒ" },
+    },
     idd: { root: "+1", suffixes: ["721"] },
     capital: ["Philipsburg"],
     altSpellings: ["SX", "Sint Maarten (Dutch part)"],
@@ -20808,7 +22783,10 @@ export default [
     translations: {
       ara: { official: "سينت مارتن", common: "سينت مارتن" },
       bre: { official: "Sint Maarten", common: "Sint Maarten" },
-      ces: { official: "Svatý Martin", common: "Svatý Martin (Nizozemsko)" },
+      ces: {
+        official: "Svatý Martin",
+        common: "Svatý Martin (Nizozemsko)",
+      },
       cym: { official: "Sint Maarten", common: "Sint Maarten" },
       deu: { official: "Sint Maarten", common: "Sint Maarten" },
       est: { official: "Sint Maarten", common: "Sint Maarten" },
@@ -20817,7 +22795,10 @@ export default [
       hrv: { official: "Sveti Martin", common: "Sveti Martin" },
       hun: { official: "Sint Maarten", common: "Sint Maarten" },
       ita: { official: "Sint Maarten", common: "Sint Maarten" },
-      jpn: { official: "シントマールテン島", common: "シント・マールテン" },
+      jpn: {
+        official: "シントマールテン島",
+        common: "シント・マールテン",
+      },
       kor: { official: "신트마르턴", common: "신트마르턴" },
       nld: { official: "Sint Maarten", common: "Sint Maarten" },
       per: { official: "سن مارتن", common: "سن مارتن" },
@@ -20835,12 +22816,12 @@ export default [
     latlng: [18.033333, -63.05],
     landlocked: false,
     borders: ["MAF"],
-    area: 34.0,
+    area: 34,
     demonyms: {
       eng: { f: "St. Maartener", m: "St. Maartener" },
       fra: { f: "Saint-Martinoise", m: "Saint-Martinois" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDFD",
+    flag: "🇸🇽",
     maps: {
       googleMaps: "https://goo.gl/maps/DjvcESy1a1oGEZuNA",
       openStreetMaps: "https://www.openstreetmap.org/relation/1231790",
@@ -20856,12 +22837,15 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: { latlng: [18.02, -63.03] },
+    id: 215,
   },
   {
     name: {
       common: "Serbia",
       official: "Republic of Serbia",
-      nativeName: { srp: { official: "Република Србија", common: "Србија" } },
+      nativeName: {
+        srp: { official: "Република Србија", common: "Србија" },
+      },
     },
     tld: [".rs", ".срб"],
     cca2: "RS",
@@ -20911,15 +22895,15 @@ export default [
       urd: { official: "جمہوریہ سربیا", common: "سربیا" },
       zho: { official: "塞尔维亚共和国", common: "塞尔维亚" },
     },
-    latlng: [44.0, 21.0],
+    latlng: [44, 21],
     landlocked: true,
     borders: ["BIH", "BGR", "HRV", "HUN", "UNK", "MKD", "MNE", "ROU"],
-    area: 88361.0,
+    area: 88361,
     demonyms: {
       eng: { f: "Serbian", m: "Serbian" },
       fra: { f: "Serbe", m: "Serbe" },
     },
-    flag: "\uD83C\uDDF7\uD83C\uDDF8",
+    flag: "🇷🇸",
     maps: {
       googleMaps: "https://goo.gl/maps/2Aqof7aV2Naq8YEK8",
       openStreetMaps: "https://www.openstreetmap.org/relation/1741311",
@@ -20942,6 +22926,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [44.83, 20.5] },
     postalCode: { format: "######", regex: "^(\\d{6})$" },
+    id: 216,
   },
   {
     name: {
@@ -21014,7 +22999,10 @@ export default [
         official: "ハード島とマクドナルド諸島",
         common: "ハード島とマクドナルド諸島",
       },
-      kor: { official: "허드 맥도널드 제도", common: "허드 맥도널드 제도" },
+      kor: {
+        official: "허드 맥도널드 제도",
+        common: "허드 맥도널드 제도",
+      },
       nld: {
         official: "Heard en McDonaldeilanden",
         common: "Heard-en McDonaldeilanden",
@@ -21059,18 +23047,21 @@ export default [
         official: "جزیرہ ہرڈ و جزائر مکڈونلڈ",
         common: "جزیرہ ہرڈ و جزائر مکڈونلڈ",
       },
-      zho: { official: "赫德岛和麦当劳群岛", common: "赫德岛和麦当劳群岛" },
+      zho: {
+        official: "赫德岛和麦当劳群岛",
+        common: "赫德岛和麦当劳群岛",
+      },
     },
     latlng: [53.0818, 73.5042],
     landlocked: false,
-    area: 412.0,
+    area: 412,
     demonyms: {
       eng: {
         f: "Heard and McDonald Islander",
         m: "Heard and McDonald Islander",
       },
     },
-    flag: "\uD83C\uDDED\uD83C\uDDF2",
+    flag: "🇭🇲",
     maps: {
       googleMaps: "https://goo.gl/maps/k5FBAiVaVyozuYeA7",
       openStreetMaps: "https://www.openstreetmap.org/relation/2177227",
@@ -21086,12 +23077,15 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: {},
+    id: 217,
   },
   {
     name: {
       common: "Ghana",
       official: "Republic of Ghana",
-      nativeName: { eng: { official: "Republic of Ghana", common: "Ghana" } },
+      nativeName: {
+        eng: { official: "Republic of Ghana", common: "Ghana" },
+      },
     },
     tld: [".gh"],
     cca2: "GH",
@@ -21135,15 +23129,15 @@ export default [
       urd: { official: "جمہوریہ گھانا", common: "گھانا" },
       zho: { official: "加纳共和国", common: "加纳" },
     },
-    latlng: [8.0, -2.0],
+    latlng: [8, -2],
     landlocked: false,
     borders: ["BFA", "CIV", "TGO"],
-    area: 238533.0,
+    area: 238533,
     demonyms: {
       eng: { f: "Ghanaian", m: "Ghanaian" },
       fra: { f: "Ghanéenne", m: "Ghanéen" },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDED",
+    flag: "🇬🇭",
     maps: {
       googleMaps: "https://goo.gl/maps/Avy5RSmdsXFBaiXq8",
       openStreetMaps: "https://www.openstreetmap.org/relation/192781",
@@ -21165,13 +23159,17 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [5.55, -0.22] },
+    id: 218,
   },
   {
     name: {
       common: "South Sudan",
       official: "Republic of South Sudan",
       nativeName: {
-        eng: { official: "Republic of South Sudan", common: "South Sudan" },
+        eng: {
+          official: "Republic of South Sudan",
+          common: "South Sudan",
+        },
       },
     },
     tld: [".ss"],
@@ -21197,7 +23195,10 @@ export default [
       deu: { official: "Republik Südsudan", common: "Südsudan" },
       est: { official: "Lõuna-Sudaani Vabariik", common: "Lõuna-Sudaan" },
       fin: { official: "Etelä-Sudanin tasavalta", common: "Etelä-Sudan" },
-      fra: { official: "République du Soudan du Sud", common: "Soudan du Sud" },
+      fra: {
+        official: "République du Soudan du Sud",
+        common: "Soudan du Sud",
+      },
       hrv: { official: "Republika Južni Sudan", common: "Južni Sudan" },
       hun: { official: "Dél-szudáni Köztársaság", common: "Dél-Szudán" },
       ita: {
@@ -21209,25 +23210,31 @@ export default [
       nld: { official: "Republiek Zuid-Soedan", common: "Zuid-Soedan" },
       per: { official: "جمهوری سودان جنوبی", common: "سودان جنوبی" },
       pol: { official: "Republika Sudanu", common: "Sudan" },
-      por: { official: "República do Sudão do Sul", common: "Sudão do Sul" },
+      por: {
+        official: "República do Sudão do Sul",
+        common: "Sudão do Sul",
+      },
       rus: { official: "Республика Южный Судан", common: "Южный Судан" },
       slk: { official: "Juhosudánska republika", common: "Južný Sudán" },
-      spa: { official: "República de Sudán del Sur", common: "Sudán del Sur" },
+      spa: {
+        official: "República de Sudán del Sur",
+        common: "Sudán del Sur",
+      },
       srp: { official: "Република Јужни Судан", common: "Јужни Судан" },
       swe: { official: "Republiken Sydsudan", common: "Sydsudan" },
       tur: { official: "Güney Sudan Cumhuriyeti", common: "Güney Sudan" },
       urd: { official: "جمہوریہ جنوبی سوڈان", common: "جنوبی سوڈان" },
       zho: { official: "南苏丹共和国", common: "南苏丹" },
     },
-    latlng: [7.0, 30.0],
+    latlng: [7, 30],
     landlocked: true,
     borders: ["CAF", "COD", "ETH", "KEN", "SDN", "UGA"],
-    area: 619745.0,
+    area: 619745,
     demonyms: {
       eng: { f: "South Sudanese", m: "South Sudanese" },
       fra: { f: "Sud-Soudanaise", m: "Sud-Soudanais" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDF8",
+    flag: "🇸🇸",
     maps: {
       googleMaps: "https://goo.gl/maps/Zm1AYCXb9HSNF1P27",
       openStreetMaps: "https://www.openstreetmap.org/relation/1656678",
@@ -21249,6 +23256,7 @@ export default [
     },
     startOfWeek: "sunday",
     capitalInfo: { latlng: [4.85, 31.62] },
+    id: 219,
   },
   {
     name: {
@@ -21300,21 +23308,21 @@ export default [
       urd: { official: "مملکتِ سویڈن", common: "سویڈن" },
       zho: { official: "瑞典王国", common: "瑞典" },
     },
-    latlng: [62.0, 15.0],
+    latlng: [62, 15],
     landlocked: false,
     borders: ["FIN", "NOR"],
-    area: 450295.0,
+    area: 450295,
     demonyms: {
       eng: { f: "Swedish", m: "Swedish" },
       fra: { f: "Suédoise", m: "Suédois" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDEA",
+    flag: "🇸🇪",
     maps: {
       googleMaps: "https://goo.gl/maps/iqygE491ADVgnBW39",
       openStreetMaps: "https://www.openstreetmap.org/relation/52822",
     },
     population: 10353442,
-    gini: { 2018: 30.0 },
+    gini: { 2018: 30 },
     fifa: "SWE",
     car: { signs: ["S"], side: "right" },
     timezones: ["UTC+01:00"],
@@ -21331,6 +23339,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [59.33, 18.05] },
     postalCode: { format: "SE-### ##", regex: "^(?:SE)*(\\d{5})$" },
+    id: 220,
   },
   {
     name: {
@@ -21382,15 +23391,15 @@ export default [
       urd: { official: "جمہوریہ ہیلینیہ", common: "یونان" },
       zho: { official: "希腊共和国", common: "希腊" },
     },
-    latlng: [39.0, 22.0],
+    latlng: [39, 22],
     landlocked: false,
     borders: ["ALB", "BGR", "TUR", "MKD"],
-    area: 131990.0,
+    area: 131990,
     demonyms: {
       eng: { f: "Greek", m: "Greek" },
       fra: { f: "Grecque", m: "Grec" },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDF7",
+    flag: "🇬🇷",
     maps: {
       googleMaps: "https://goo.gl/maps/LHGcAvuRyD2iKECC6",
       openStreetMaps: "https://www.openstreetmap.org/relation/192307",
@@ -21413,6 +23422,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [37.98, 23.73] },
     postalCode: { format: "### ##", regex: "^(\\d{5})$" },
+    id: 221,
   },
   {
     name: {
@@ -21467,14 +23477,14 @@ export default [
       urd: { official: "جزائر فارو", common: "جزائر فارو" },
       zho: { official: "法罗群岛", common: "法罗群岛" },
     },
-    latlng: [62.0, -7.0],
+    latlng: [62, -7],
     landlocked: false,
-    area: 1393.0,
+    area: 1393,
     demonyms: {
       eng: { f: "Faroese", m: "Faroese" },
       fra: { f: "Féroïenne", m: "Féroïen" },
     },
-    flag: "\uD83C\uDDEB\uD83C\uDDF4",
+    flag: "🇫🇴",
     maps: {
       googleMaps: "https://goo.gl/maps/6sTru4SmHdEVcNkM6",
       openStreetMaps: "https://www.openstreetmap.org/relation/52939",
@@ -21495,14 +23505,21 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [62.01, -6.77] },
     postalCode: { format: "FO-###", regex: "^(?:FO)*(\\d{3})$" },
+    id: 222,
   },
   {
     name: {
       common: "Philippines",
       official: "Republic of the Philippines",
       nativeName: {
-        eng: { official: "Republic of the Philippines", common: "Philippines" },
-        fil: { official: "Republic of the Philippines", common: "Pilipinas" },
+        eng: {
+          official: "Republic of the Philippines",
+          common: "Philippines",
+        },
+        fil: {
+          official: "Republic of the Philippines",
+          common: "Pilipinas",
+        },
       },
     },
     tld: [".ph"],
@@ -21528,17 +23545,29 @@ export default [
       ara: { official: "جمهورية الفلبين", common: "الفلبين" },
       bre: { official: "Republik Filipinez", common: "Filipinez" },
       ces: { official: "Filipínská republika", common: "Filipíny" },
-      cym: { official: "Republic of the Philippines", common: "Philippines" },
-      deu: { official: "Republik der Philippinen", common: "Philippinen" },
+      cym: {
+        official: "Republic of the Philippines",
+        common: "Philippines",
+      },
+      deu: {
+        official: "Republik der Philippinen",
+        common: "Philippinen",
+      },
       est: { official: "Filipiini Vabariik", common: "Filipiinid" },
       fin: { official: "Filippiinien tasavalta", common: "Filippiinit" },
-      fra: { official: "République des Philippines", common: "Philippines" },
+      fra: {
+        official: "République des Philippines",
+        common: "Philippines",
+      },
       hrv: { official: "Republika Filipini", common: "Filipini" },
       hun: {
         official: "Fülöp-szigeteki Köztársaság",
         common: "Fülöp-szigetek",
       },
-      ita: { official: "Repubblica delle Filippine", common: "Filippine" },
+      ita: {
+        official: "Repubblica delle Filippine",
+        common: "Filippine",
+      },
       jpn: { official: "フィリピン共和国", common: "フィリピン" },
       kor: { official: "필리핀 공화국", common: "필리핀" },
       nld: { official: "Republiek der Filipijnen", common: "Filipijnen" },
@@ -21547,21 +23576,27 @@ export default [
       por: { official: "República das Filipinas", common: "Filipinas" },
       rus: { official: "Республика Филиппины", common: "Филиппины" },
       slk: { official: "Filipínska republika", common: "Filipíny" },
-      spa: { official: "República de las Filipinas", common: "Filipinas" },
+      spa: {
+        official: "República de las Filipinas",
+        common: "Filipinas",
+      },
       srp: { official: "Република Филипини", common: "Филипини" },
-      swe: { official: "Republiken Filippinerna", common: "Filippinerna" },
+      swe: {
+        official: "Republiken Filippinerna",
+        common: "Filippinerna",
+      },
       tur: { official: "Filipinler Cumhuriyeti", common: "Filipinler" },
       urd: { official: "جمہوریہ فلپائن", common: "فلپائن" },
       zho: { official: "菲律宾共和国", common: "菲律宾" },
     },
-    latlng: [13.0, 122.0],
+    latlng: [13, 122],
     landlocked: false,
-    area: 342353.0,
+    area: 342353,
     demonyms: {
       eng: { f: "Filipino", m: "Filipino" },
       fra: { f: "Philippine", m: "Philippin" },
     },
-    flag: "\uD83C\uDDF5\uD83C\uDDED",
+    flag: "🇵🇭",
     maps: {
       googleMaps: "https://goo.gl/maps/k8T2fb5VMUfsWFX6A",
       openStreetMaps: "https://www.openstreetmap.org/relation/443174",
@@ -21584,14 +23619,21 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [14.6, 120.97] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 223,
   },
   {
     name: {
       common: "Guinea-Bissau",
       official: "Republic of Guinea-Bissau",
       nativeName: {
-        por: { official: "República da Guiné-Bissau", common: "Guiné-Bissau" },
-        pov: { official: "República da Guiné-Bissau", common: "Guiné-Bissau" },
+        por: {
+          official: "República da Guiné-Bissau",
+          common: "Guiné-Bissau",
+        },
+        pov: {
+          official: "República da Guiné-Bissau",
+          common: "Guiné-Bissau",
+        },
       },
     },
     tld: [".gw"],
@@ -21602,7 +23644,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: false,
-    currencies: { XOF: { name: "West African CFA franc", symbol: "Fr" } },
+    currencies: {
+      XOF: { name: "West African CFA franc", symbol: "Fr" },
+    },
     idd: { root: "+2", suffixes: ["45"] },
     capital: ["Bissau"],
     altSpellings: [
@@ -21616,42 +23660,90 @@ export default [
     translations: {
       ara: { official: "جمهورية غينيا بيساو", common: "غينيا بيساو" },
       bre: { official: "Republik Ginea-Bissau", common: "Ginea-Bissau" },
-      ces: { official: "Republika Guinea-Bissau", common: "Guinea-Bissau" },
-      cym: { official: "Republic of Guinea-Bissau", common: "Guinea-Bissau" },
-      deu: { official: "Republik Guinea-Bissau", common: "Guinea-Bissau" },
-      est: { official: "Guinea-Bissau Vabariik", common: "Guinea-Bissau" },
-      fin: { official: "Guinea-Bissaun tasavalta", common: "Guinea-Bissau" },
-      fra: { official: "République de Guinée-Bissau", common: "Guinée-Bissau" },
-      hrv: { official: "Republika Gvineja Bisau", common: "Gvineja Bisau" },
-      hun: { official: "Bissau-Guineai Köztársaság", common: "Bissau-Guinea" },
-      ita: { official: "Repubblica di Guinea-Bissau", common: "Guinea-Bissau" },
+      ces: {
+        official: "Republika Guinea-Bissau",
+        common: "Guinea-Bissau",
+      },
+      cym: {
+        official: "Republic of Guinea-Bissau",
+        common: "Guinea-Bissau",
+      },
+      deu: {
+        official: "Republik Guinea-Bissau",
+        common: "Guinea-Bissau",
+      },
+      est: {
+        official: "Guinea-Bissau Vabariik",
+        common: "Guinea-Bissau",
+      },
+      fin: {
+        official: "Guinea-Bissaun tasavalta",
+        common: "Guinea-Bissau",
+      },
+      fra: {
+        official: "République de Guinée-Bissau",
+        common: "Guinée-Bissau",
+      },
+      hrv: {
+        official: "Republika Gvineja Bisau",
+        common: "Gvineja Bisau",
+      },
+      hun: {
+        official: "Bissau-Guineai Köztársaság",
+        common: "Bissau-Guinea",
+      },
+      ita: {
+        official: "Repubblica di Guinea-Bissau",
+        common: "Guinea-Bissau",
+      },
       jpn: { official: "ギニアビサウ共和国", common: "ギニアビサウ" },
       kor: { official: "기니비사우 공화국", common: "기니비사우" },
-      nld: { official: "Republiek Guinee-Bissau", common: "Guinee-Bissau" },
+      nld: {
+        official: "Republiek Guinee-Bissau",
+        common: "Guinee-Bissau",
+      },
       per: { official: "جمهوری گینه بیسائو", common: "گینه بیسائو" },
-      pol: { official: "Republika Gwinei Bissau", common: "Gwinea Bissau" },
-      por: { official: "República da Guiné-Bissau", common: "Guiné-Bissau" },
-      rus: { official: "Республика Гвинея -Бисау", common: "Гвинея-Бисау" },
+      pol: {
+        official: "Republika Gwinei Bissau",
+        common: "Gwinea Bissau",
+      },
+      por: {
+        official: "República da Guiné-Bissau",
+        common: "Guiné-Bissau",
+      },
+      rus: {
+        official: "Республика Гвинея -Бисау",
+        common: "Гвинея-Бисау",
+      },
       slk: {
         official: "Guinejsko-bissauská republika",
         common: "Guinea-Bissau",
       },
-      spa: { official: "República de Guinea-Bissau", common: "Guinea-Bisáu" },
-      srp: { official: "Република Гвинеја Бисао", common: "Гвинеја Бисао" },
-      swe: { official: "Republiken Guinea-Bissau", common: "Guinea-Bissau" },
+      spa: {
+        official: "República de Guinea-Bissau",
+        common: "Guinea-Bisáu",
+      },
+      srp: {
+        official: "Република Гвинеја Бисао",
+        common: "Гвинеја Бисао",
+      },
+      swe: {
+        official: "Republiken Guinea-Bissau",
+        common: "Guinea-Bissau",
+      },
       tur: { official: "Gine-Bissau Cumhuriyeti", common: "Gine-Bissau" },
       urd: { official: "جمہوریہ گنی بساؤ", common: "گنی بساؤ" },
       zho: { official: "几内亚比绍共和国", common: "几内亚比绍" },
     },
-    latlng: [12.0, -15.0],
+    latlng: [12, -15],
     landlocked: false,
     borders: ["GIN", "SEN"],
-    area: 36125.0,
+    area: 36125,
     demonyms: {
       eng: { f: "Guinea-Bissauan", m: "Guinea-Bissauan" },
       fra: { f: "Bissau-Guinéenne", m: "Bissau-Guinéen" },
     },
-    flag: "\uD83C\uDDEC\uD83C\uDDFC",
+    flag: "🇬🇼",
     maps: {
       googleMaps: "https://goo.gl/maps/5Wyaz17miUc1zLc67",
       openStreetMaps: "https://www.openstreetmap.org/relation/192776",
@@ -21674,6 +23766,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [11.85, -15.58] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 224,
   },
   {
     name: {
@@ -21708,13 +23801,34 @@ export default [
     languages: { ara: "Arabic" },
     translations: {
       ara: { official: "المملكة العربية السعودية", common: "السعودية" },
-      bre: { official: "Rouantelezh Arabia Saoudat", common: "Arabia Saoudat" },
-      ces: { official: "Saúdskoarabské království", common: "Saúdská Arábie" },
-      cym: { official: "Kingdom of Saudi Arabia", common: "Saudi Arabia" },
-      deu: { official: "Königreich Saudi-Arabien", common: "Saudi-Arabien" },
-      est: { official: "Saudi Araabia Kuningriik", common: "Saudi Araabia" },
-      fin: { official: "Saudi-Arabian kuningaskunta", common: "Saudi-Arabia" },
-      fra: { official: "Royaume d'Arabie Saoudite", common: "Arabie Saoudite" },
+      bre: {
+        official: "Rouantelezh Arabia Saoudat",
+        common: "Arabia Saoudat",
+      },
+      ces: {
+        official: "Saúdskoarabské království",
+        common: "Saúdská Arábie",
+      },
+      cym: {
+        official: "Kingdom of Saudi Arabia",
+        common: "Saudi Arabia",
+      },
+      deu: {
+        official: "Königreich Saudi-Arabien",
+        common: "Saudi-Arabien",
+      },
+      est: {
+        official: "Saudi Araabia Kuningriik",
+        common: "Saudi Araabia",
+      },
+      fin: {
+        official: "Saudi-Arabian kuningaskunta",
+        common: "Saudi-Arabia",
+      },
+      fra: {
+        official: "Royaume d'Arabie Saoudite",
+        common: "Arabie Saoudite",
+      },
       hrv: {
         official: "Kraljevina Saudijska Arabija",
         common: "Saudijska Arabija",
@@ -21732,31 +23846,46 @@ export default [
         official: "Królestwo Arabii Saudyjskiej",
         common: "Arabia Saudyjska",
       },
-      por: { official: "Reino da Arábia Saudita", common: "Arábia Saudita" },
+      por: {
+        official: "Reino da Arábia Saudita",
+        common: "Arábia Saudita",
+      },
       rus: {
         official: "Королевство Саудовская Аравия",
         common: "Саудовская Аравия",
       },
-      slk: { official: "Saudskoarabské kráľovstvo", common: "Saudská Arábia" },
-      spa: { official: "Reino de Arabia Saudita", common: "Arabia Saudí" },
+      slk: {
+        official: "Saudskoarabské kráľovstvo",
+        common: "Saudská Arábia",
+      },
+      spa: {
+        official: "Reino de Arabia Saudita",
+        common: "Arabia Saudí",
+      },
       srp: {
         official: "Краљевина Саудијска Арабија",
         common: "Саудијска Арабија",
       },
-      swe: { official: "Kungadömet Saudiarabien", common: "Saudiarabien" },
-      tur: { official: "Suudi Arabistan Krallığı", common: "Suudi Arabistan" },
+      swe: {
+        official: "Kungadömet Saudiarabien",
+        common: "Saudiarabien",
+      },
+      tur: {
+        official: "Suudi Arabistan Krallığı",
+        common: "Suudi Arabistan",
+      },
       urd: { official: "مملکتِ سعودی عرب", common: "سعودی عرب" },
       zho: { official: "沙特阿拉伯王国", common: "沙特阿拉伯" },
     },
-    latlng: [25.0, 45.0],
+    latlng: [25, 45],
     landlocked: false,
     borders: ["IRQ", "JOR", "KWT", "OMN", "QAT", "ARE", "YEM"],
-    area: 2149690.0,
+    area: 2149690,
     demonyms: {
       eng: { f: "Saudi Arabian", m: "Saudi Arabian" },
       fra: { f: "Saoudienne", m: "Saoudien" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDE6",
+    flag: "🇸🇦",
     maps: {
       googleMaps: "https://goo.gl/maps/5PSjvdJ1AyaLFRrG9",
       openStreetMaps: "https://www.openstreetmap.org/relation/307584",
@@ -21778,6 +23907,7 @@ export default [
     startOfWeek: "sunday",
     capitalInfo: { latlng: [24.65, 46.7] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 225,
   },
   {
     name: {
@@ -21835,12 +23965,12 @@ export default [
     },
     latlng: [7.5, 134.5],
     landlocked: false,
-    area: 459.0,
+    area: 459,
     demonyms: {
       eng: { f: "Palauan", m: "Palauan" },
       fra: { f: "Paluane", m: "Paluan" },
     },
-    flag: "\uD83C\uDDF5\uD83C\uDDFC",
+    flag: "🇵🇼",
     maps: {
       googleMaps: "https://goo.gl/maps/MVasQBbUkQP7qQDR9",
       openStreetMaps: "https://www.openstreetmap.org/relation/571805",
@@ -21861,6 +23991,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [7.5, 134.62] },
     postalCode: { format: "96940", regex: "^(96940)$" },
+    id: 226,
   },
   {
     name: {
@@ -21912,15 +24043,15 @@ export default [
       urd: { official: "جمہوریہ بلغاریہ", common: "بلغاریہ" },
       zho: { official: "保加利亚共和国", common: "保加利亚" },
     },
-    latlng: [43.0, 25.0],
+    latlng: [43, 25],
     landlocked: false,
     borders: ["GRC", "MKD", "ROU", "SRB", "TUR"],
-    area: 110879.0,
+    area: 110879,
     demonyms: {
       eng: { f: "Bulgarian", m: "Bulgarian" },
       fra: { f: "Bulgare", m: "Bulgare" },
     },
-    flag: "\uD83C\uDDE7\uD83C\uDDEC",
+    flag: "🇧🇬",
     maps: {
       googleMaps: "https://goo.gl/maps/F5uAhDGWzc3BrHfm9",
       openStreetMaps: "https://www.openstreetmap.org/relation/186382",
@@ -21943,6 +24074,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [42.68, 23.32] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 227,
   },
   {
     name: {
@@ -22003,12 +24135,12 @@ export default [
     },
     latlng: [-0.53333333, 166.91666666],
     landlocked: false,
-    area: 21.0,
+    area: 21,
     demonyms: {
       eng: { f: "Nauruan", m: "Nauruan" },
       fra: { f: "Nauruane", m: "Nauruan" },
     },
-    flag: "\uD83C\uDDF3\uD83C\uDDF7",
+    flag: "🇳🇷",
     maps: {
       googleMaps: "https://goo.gl/maps/kyAGw6XEJgjSMsTK7",
       openStreetMaps: "https://www.openstreetmap.org/relation/571804",
@@ -22029,6 +24161,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-0.55, 166.92] },
+    id: 228,
   },
   {
     name: {
@@ -22083,15 +24216,15 @@ export default [
       urd: { official: "مملکتِ کمبوڈیا", common: "کمبوڈیا" },
       zho: { official: "柬埔寨王国", common: "柬埔寨" },
     },
-    latlng: [13.0, 105.0],
+    latlng: [13, 105],
     landlocked: false,
     borders: ["LAO", "THA", "VNM"],
-    area: 181035.0,
+    area: 181035,
     demonyms: {
       eng: { f: "Cambodian", m: "Cambodian" },
       fra: { f: "Cambodgienne", m: "Cambodgien" },
     },
-    flag: "\uD83C\uDDF0\uD83C\uDDED",
+    flag: "🇰🇭",
     maps: {
       googleMaps: "https://goo.gl/maps/nztQtFSrUXZymJaW8",
       openStreetMaps: "https://www.openstreetmap.org/relation/49898",
@@ -22113,6 +24246,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [11.55, 104.92] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 229,
   },
   {
     name: {
@@ -22175,12 +24309,12 @@ export default [
     },
     latlng: [49.25, -2.16666666],
     landlocked: false,
-    area: 116.0,
+    area: 116,
     demonyms: {
       eng: { f: "Channel Islander", m: "Channel Islander" },
       fra: { f: "Jersiaise", m: "Jersiais" },
     },
-    flag: "\uD83C\uDDEF\uD83C\uDDEA",
+    flag: "🇯🇪",
     maps: {
       googleMaps: "https://goo.gl/maps/rXG8GZZtsqK92kTCA",
       openStreetMaps: "https://www.openstreetmap.org/relation/367988",
@@ -22204,6 +24338,7 @@ export default [
       regex:
         "^(([A-Z]\\d{2}[A-Z]{2})|([A-Z]\\d{3}[A-Z]{2})|([A-Z]{2}\\d{2}[A-Z]{2})|([A-Z]{2}\\d{3}[A-Z]{2})|([A-Z]\\d[A-Z]\\d[A-Z]{2})|([A-Z]{2}\\d[A-Z]\\d[A-Z]{2})|(GIR0AA))$",
     },
+    id: 230,
   },
   {
     name: {
@@ -22249,7 +24384,10 @@ export default [
       ita: { official: "Stato di Palestina", common: "Palestina" },
       jpn: { official: "パレスチナ自治政府", common: "パレスチナ" },
       kor: { official: "팔레스타인국", common: "팔레스타인" },
-      nld: { official: "Staat Palestina", common: "Palestijnse gebieden" },
+      nld: {
+        official: "Staat Palestina",
+        common: "Palestijnse gebieden",
+      },
       per: { official: "دولت فلسطین", common: "فلسطین" },
       pol: { official: "Państwo Palestyna", common: "Palestyna" },
       por: { official: "Estado da Palestina", common: "Palestina" },
@@ -22265,12 +24403,12 @@ export default [
     latlng: [31.9, 35.2],
     landlocked: false,
     borders: ["ISR", "EGY", "JOR"],
-    area: 6220.0,
+    area: 6220,
     demonyms: {
       eng: { f: "Palestinian", m: "Palestinian" },
       fra: { f: "Palestinienne", m: "Palestinien" },
     },
-    flag: "\uD83C\uDDF5\uD83C\uDDF8",
+    flag: "🇵🇸",
     maps: {
       googleMaps: "https://goo.gl/maps/QvTbkRdmdWEoYAmt5",
       openStreetMaps: "https://www.openstreetmap.org/relation/1703814",
@@ -22291,6 +24429,7 @@ export default [
     },
     startOfWeek: "sunday",
     capitalInfo: { latlng: [31.9, 35.2] },
+    id: 231,
   },
   {
     name: {
@@ -22345,12 +24484,12 @@ export default [
     latlng: [42.83333333, 12.83333333],
     landlocked: false,
     borders: ["AUT", "FRA", "SMR", "SVN", "CHE", "VAT"],
-    area: 301336.0,
+    area: 301336,
     demonyms: {
       eng: { f: "Italian", m: "Italian" },
       fra: { f: "Italienne", m: "Italien" },
     },
-    flag: "\uD83C\uDDEE\uD83C\uDDF9",
+    flag: "🇮🇹",
     maps: {
       googleMaps: "https://goo.gl/maps/8M1K27TDj7StTRTq8",
       openStreetMaps: "https://www.openstreetmap.org/relation/365331",
@@ -22373,12 +24512,15 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [41.9, 12.48] },
     postalCode: { format: "#####", regex: "^(\\d{5})$" },
+    id: 232,
   },
   {
     name: {
       common: "Mali",
       official: "Republic of Mali",
-      nativeName: { fra: { official: "République du Mali", common: "Mali" } },
+      nativeName: {
+        fra: { official: "République du Mali", common: "Mali" },
+      },
     },
     tld: [".ml"],
     cca2: "ML",
@@ -22388,7 +24530,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { XOF: { name: "West African CFA franc", symbol: "Fr" } },
+    currencies: {
+      XOF: { name: "West African CFA franc", symbol: "Fr" },
+    },
     idd: { root: "+2", suffixes: ["23"] },
     capital: ["Bamako"],
     altSpellings: ["ML", "Republic of Mali", "République du Mali"],
@@ -22422,21 +24566,21 @@ export default [
       urd: { official: "جمہوریہ مالی", common: "مالی" },
       zho: { official: "马里共和国", common: "马里" },
     },
-    latlng: [17.0, -4.0],
+    latlng: [17, -4],
     landlocked: true,
     borders: ["DZA", "BFA", "GIN", "CIV", "MRT", "NER", "SEN"],
-    area: 1240192.0,
+    area: 1240192,
     demonyms: {
       eng: { f: "Malian", m: "Malian" },
       fra: { f: "Malienne", m: "Malien" },
     },
-    flag: "\uD83C\uDDF2\uD83C\uDDF1",
+    flag: "🇲🇱",
     maps: {
       googleMaps: "https://goo.gl/maps/u9mYJkCB19wyuzh27",
       openStreetMaps: "https://www.openstreetmap.org/relation/192785",
     },
     population: 20250834,
-    gini: { 2009: 33.0 },
+    gini: { 2009: 33 },
     fifa: "MLI",
     car: { signs: ["RMM"], side: "right" },
     timezones: ["UTC"],
@@ -22451,13 +24595,16 @@ export default [
       svg: "https://mainfacts.com/media/images/coats_of_arms/ml.svg",
     },
     startOfWeek: "monday",
-    capitalInfo: { latlng: [12.65, -8.0] },
+    capitalInfo: { latlng: [12.65, -8] },
+    id: 233,
   },
   {
     name: {
       common: "Iran",
       official: "Islamic Republic of Iran",
-      nativeName: { fas: { official: "جمهوری اسلامی ایران", common: "ایران" } },
+      nativeName: {
+        fas: { official: "جمهوری اسلامی ایران", common: "ایران" },
+      },
     },
     tld: [".ir", "ایران."],
     cca2: "IR",
@@ -22508,21 +24655,21 @@ export default [
       urd: { official: "جمہوریہ ایران", common: "ایران" },
       zho: { official: "伊朗伊斯兰共和国", common: "伊朗" },
     },
-    latlng: [32.0, 53.0],
+    latlng: [32, 53],
     landlocked: false,
     borders: ["AFG", "ARM", "AZE", "IRQ", "PAK", "TUR", "TKM"],
-    area: 1648195.0,
+    area: 1648195,
     demonyms: {
       eng: { f: "Iranian", m: "Iranian" },
       fra: { f: "Iranienne", m: "Iranien" },
     },
-    flag: "\uD83C\uDDEE\uD83C\uDDF7",
+    flag: "🇮🇷",
     maps: {
       googleMaps: "https://goo.gl/maps/dMgEGuacBPGYQnjY7",
       openStreetMaps: "https://www.openstreetmap.org/relation/304938",
     },
     population: 83992953,
-    gini: { 2018: 42.0 },
+    gini: { 2018: 42 },
     fifa: "IRN",
     car: { signs: ["IR"], side: "right" },
     timezones: ["UTC+03:30"],
@@ -22539,6 +24686,7 @@ export default [
     startOfWeek: "saturday",
     capitalInfo: { latlng: [35.7, 51.42] },
     postalCode: { format: "##########", regex: "^(\\d{10})$" },
+    id: 234,
   },
   {
     name: {
@@ -22592,12 +24740,12 @@ export default [
     },
     latlng: [-19.03333333, -169.86666666],
     landlocked: false,
-    area: 260.0,
+    area: 260,
     demonyms: {
       eng: { f: "Niuean", m: "Niuean" },
       fra: { f: "Niuéenne", m: "Niuéen" },
     },
-    flag: "\uD83C\uDDF3\uD83C\uDDFA",
+    flag: "🇳🇺",
     maps: {
       googleMaps: "https://goo.gl/maps/xFgdzs3E55Rk1y8P9",
       openStreetMaps: "https://www.openstreetmap.org/relation/1558556",
@@ -22613,13 +24761,17 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: { latlng: [-19.02, -169.92] },
+    id: 235,
   },
   {
     name: {
       common: "Tajikistan",
       official: "Republic of Tajikistan",
       nativeName: {
-        rus: { official: "Республика Таджикистан", common: "Таджикистан" },
+        rus: {
+          official: "Республика Таджикистан",
+          common: "Таджикистан",
+        },
         tgk: { official: "Ҷумҳурии Тоҷикистон", common: "Тоҷикистон" },
       },
     },
@@ -22649,43 +24801,58 @@ export default [
       bre: { official: "Republik Tadjikistan", common: "Tadjikistan" },
       ces: { official: "Republika Tádžikistán", common: "Tádžikistán" },
       cym: { official: "Republic of Tajikistan", common: "Tajikistan" },
-      deu: { official: "Republik Tadschikistan", common: "Tadschikistan" },
+      deu: {
+        official: "Republik Tadschikistan",
+        common: "Tadschikistan",
+      },
       est: { official: "Tadžikistani Vabariik", common: "Tadžikistan" },
       fin: { official: "Tadžikistanin tasavalta", common: "Tadžikistan" },
-      fra: { official: "République du Tadjikistan", common: "Tadjikistan" },
+      fra: {
+        official: "République du Tadjikistan",
+        common: "Tadjikistan",
+      },
       hrv: { official: "Republika Tadžikistan", common: "Tađikistan" },
       hun: { official: "Tádzsik Köztársaság", common: "Tádzsikisztán" },
-      ita: { official: "Repubblica del Tajikistan", common: "Tagikistan" },
+      ita: {
+        official: "Repubblica del Tajikistan",
+        common: "Tagikistan",
+      },
       jpn: { official: "タジキスタン共和国", common: "タジキスタン" },
       kor: { official: "타지키스탄 공화국", common: "타지키스탄" },
       nld: { official: "Tadzjikistan", common: "Tadzjikistan" },
       per: { official: "جمهوری تاجیکستان", common: "تاجیکِستان" },
       pol: { official: "Republika Tadżykistanu", common: "Tadżykistan" },
-      por: { official: "República do Tajiquistão", common: "Tajiquistão" },
+      por: {
+        official: "República do Tajiquistão",
+        common: "Tajiquistão",
+      },
       rus: { official: "Республика Таджикистан", common: "Таджикистан" },
       slk: { official: "Taǆická republika", common: "Taǆikistan" },
       spa: { official: "República de Tayikistán", common: "Tayikistán" },
       srp: { official: "Република Таџикистан", common: "Таџикистан" },
-      swe: { official: "Republiken Tadzjikistan", common: "Tadzjikistan" },
+      swe: {
+        official: "Republiken Tadzjikistan",
+        common: "Tadzjikistan",
+      },
       tur: { official: "Tacikistan Cumhuriyeti", common: "Tacikistan" },
       urd: { official: "جمہوریہ تاجکستان", common: "تاجکستان" },
       zho: { official: "塔吉克斯坦共和国", common: "塔吉克斯坦" },
     },
-    latlng: [39.0, 71.0],
+    latlng: [39, 71],
     landlocked: true,
     borders: ["AFG", "CHN", "KGZ", "UZB"],
-    area: 143100.0,
+    area: 143100,
     demonyms: {
       eng: { f: "Tadzhik", m: "Tadzhik" },
       fra: { f: "Tadjike", m: "Tadjike" },
     },
-    flag: "\uD83C\uDDF9\uD83C\uDDEF",
+    flag: "🇹🇯",
     maps: {
       googleMaps: "https://goo.gl/maps/8rQgW88jEXijhVb58",
       openStreetMaps: "https://www.openstreetmap.org/relation/214626",
     },
     population: 9537642,
-    gini: { 2015: 34.0 },
+    gini: { 2015: 34 },
     fifa: "TJK",
     car: { signs: ["TJ"], side: "right" },
     timezones: ["UTC+05:00"],
@@ -22702,6 +24869,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [38.55, 68.77] },
     postalCode: { format: "######", regex: "^(\\d{6})$" },
+    id: 236,
   },
   {
     name: {
@@ -22753,18 +24921,18 @@ export default [
     latlng: [42.666667, 21.166667],
     landlocked: true,
     borders: ["ALB", "MKD", "MNE", "SRB"],
-    area: 10908.0,
+    area: 10908,
     demonyms: {
       eng: { f: "Kosovar", m: "Kosovar" },
       fra: { f: "Kosovare", m: "Kosovar" },
     },
-    flag: "\uD83C\uDDFD\uD83C\uDDF0",
+    flag: "🇽🇰",
     maps: {
       googleMaps: "https://goo.gl/maps/CSC4Yc8SWPgburuD9",
       openStreetMaps: "https://www.openstreetmap.org/relation/2088990",
     },
     population: 1775378,
-    gini: { 2017: 29.0 },
+    gini: { 2017: 29 },
     fifa: "KVX",
     car: { signs: ["CS"], side: "right" },
     timezones: ["UTC+01:00"],
@@ -22779,6 +24947,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [42.67, 21.17] },
+    id: 237,
   },
   {
     name: {
@@ -22899,12 +25068,12 @@ export default [
     },
     latlng: [-15.95, -5.72],
     landlocked: false,
-    area: 394.0,
+    area: 394,
     demonyms: {
       eng: { f: "Saint Helenian", m: "Saint Helenian" },
       fra: { f: "Sainte-Hélénoise", m: "Sainte-Hélènois" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDED",
+    flag: "🇸🇭",
     maps: {
       googleMaps: "https://goo.gl/maps/iv4VxnPzHkjLCJuc6",
       openStreetMaps:
@@ -22922,6 +25091,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-15.93, -5.72] },
     postalCode: { format: "STHL 1ZZ", regex: "^(STHL1ZZ)$" },
+    id: 238,
   },
   {
     name: {
@@ -22932,7 +25102,10 @@ export default [
           official: "Territory of Norfolk Island",
           common: "Norfolk Island",
         },
-        pih: { official: "Teratri of Norf'k Ailen", common: "Norf'k Ailen" },
+        pih: {
+          official: "Teratri of Norf'k Ailen",
+          common: "Norf'k Ailen",
+        },
       },
     },
     tld: [".nf"],
@@ -22961,11 +25134,23 @@ export default [
         official: "Territory of Norfolk Island",
         common: "Norfolk Island",
       },
-      deu: { official: "Gebiet der Norfolkinsel", common: "Norfolkinsel" },
+      deu: {
+        official: "Gebiet der Norfolkinsel",
+        common: "Norfolkinsel",
+      },
       est: { official: "Norfolki saare ala", common: "Norfolk" },
-      fin: { official: "Norfolkinsaaren territorio", common: "Norfolkinsaari" },
-      fra: { official: "Territoire de l'île Norfolk", common: "Île Norfolk" },
-      hrv: { official: "Teritorij Norfolk Island", common: "Otok Norfolk" },
+      fin: {
+        official: "Norfolkinsaaren territorio",
+        common: "Norfolkinsaari",
+      },
+      fra: {
+        official: "Territoire de l'île Norfolk",
+        common: "Île Norfolk",
+      },
+      hrv: {
+        official: "Teritorij Norfolk Island",
+        common: "Otok Norfolk",
+      },
       hun: { official: "Norfolk-sziget", common: "Norfolk-sziget" },
       ita: {
         official: "Territorio di Norfolk Island",
@@ -22978,8 +25163,14 @@ export default [
         common: "Norfolkeiland",
       },
       per: { official: "قلمرو جزایر نورفک", common: "جزیره نورفک" },
-      pol: { official: "Terytorium Wyspy Norfolk", common: "Wyspa Norfolk" },
-      por: { official: "Território da Ilha Norfolk", common: "Ilha Norfolk" },
+      pol: {
+        official: "Terytorium Wyspy Norfolk",
+        common: "Wyspa Norfolk",
+      },
+      por: {
+        official: "Território da Ilha Norfolk",
+        common: "Ilha Norfolk",
+      },
       rus: { official: "Территория острова Норфолк", common: "Норфолк" },
       slk: { official: "Teritórium ostrova Norfolk", common: "Norfolk" },
       spa: {
@@ -22994,12 +25185,12 @@ export default [
     },
     latlng: [-29.03333333, 167.95],
     landlocked: false,
-    area: 36.0,
+    area: 36,
     demonyms: {
       eng: { f: "Norfolk Islander", m: "Norfolk Islander" },
       fra: { f: "Norfolkaise", m: "Norfolkais" },
     },
-    flag: "\uD83C\uDDF3\uD83C\uDDEB",
+    flag: "🇳🇫",
     maps: {
       googleMaps: "https://goo.gl/maps/pbvtm6XYd1iZbjky5",
       openStreetMaps: "https://www.openstreetmap.org/relation/2574988",
@@ -23015,6 +25206,7 @@ export default [
     coatOfArms: {},
     startOfWeek: "monday",
     capitalInfo: { latlng: [-29.05, 167.97] },
+    id: 239,
   },
   {
     name: {
@@ -23064,15 +25256,15 @@ export default [
       urd: { official: "سلطنت عمان", common: "عمان" },
       zho: { official: "阿曼苏丹国", common: "阿曼" },
     },
-    latlng: [21.0, 57.0],
+    latlng: [21, 57],
     landlocked: false,
     borders: ["SAU", "ARE", "YEM"],
-    area: 309500.0,
+    area: 309500,
     demonyms: {
       eng: { f: "Omani", m: "Omani" },
       fra: { f: "Omanaise", m: "Omanais" },
     },
-    flag: "\uD83C\uDDF4\uD83C\uDDF2",
+    flag: "🇴🇲",
     maps: {
       googleMaps: "https://goo.gl/maps/L2BoXoAwDDwWecnw5",
       openStreetMaps: "https://www.openstreetmap.org/relation/305138",
@@ -23094,13 +25286,17 @@ export default [
     startOfWeek: "sunday",
     capitalInfo: { latlng: [23.62, 58.58] },
     postalCode: { format: "###", regex: "^(\\d{3})$" },
+    id: 240,
   },
   {
     name: {
       common: "El Salvador",
       official: "Republic of El Salvador",
       nativeName: {
-        spa: { official: "República de El Salvador", common: "El Salvador" },
+        spa: {
+          official: "República de El Salvador",
+          common: "El Salvador",
+        },
       },
     },
     tld: [".sv"],
@@ -23129,16 +25325,25 @@ export default [
       fra: { official: "République du Salvador", common: "Salvador" },
       hrv: { official: "Republika El Salvador", common: "Salvador" },
       hun: { official: "Salvadori Köztársaság", common: "Salvador" },
-      ita: { official: "Repubblica di El Salvador", common: "El Salvador" },
+      ita: {
+        official: "Repubblica di El Salvador",
+        common: "El Salvador",
+      },
       jpn: { official: "エルサルバドル共和国", common: "エルサルバドル" },
       kor: { official: "엘살바도르 공화국", common: "엘살바도르" },
       nld: { official: "Republiek El Salvador", common: "El Salvador" },
       per: { official: "جمهوری السالوادور", common: "السالوادور" },
       pol: { official: "Republika Salwadoru", common: "Salwador" },
-      por: { official: "República de El Salvador", common: "El Salvador" },
+      por: {
+        official: "República de El Salvador",
+        common: "El Salvador",
+      },
       rus: { official: "Республика Эль-Сальвадор", common: "Сальвадор" },
       slk: { official: "Salvádorská republika", common: "Salvádor" },
-      spa: { official: "República de El Salvador", common: "El Salvador" },
+      spa: {
+        official: "República de El Salvador",
+        common: "El Salvador",
+      },
       srp: { official: "Република Ел Салвадор", common: "Салвадор" },
       swe: { official: "Republiken El Salvador", common: "El Salvador" },
       tur: { official: "El Salvador Cumhuriyeti", common: "El Salvador" },
@@ -23148,12 +25353,12 @@ export default [
     latlng: [13.83333333, -88.91666666],
     landlocked: false,
     borders: ["GTM", "HND"],
-    area: 21041.0,
+    area: 21041,
     demonyms: {
       eng: { f: "Salvadoran", m: "Salvadoran" },
       fra: { f: "Salvadorienne", m: "Salvadorien" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDFB",
+    flag: "🇸🇻",
     maps: {
       googleMaps: "https://goo.gl/maps/cZnCEi5sEMQtKKcB7",
       openStreetMaps: "https://www.openstreetmap.org/relation/1520612",
@@ -23176,6 +25381,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [13.7, -89.2] },
     postalCode: { format: "CP ####", regex: "^(?:CP)*(\\d{4})$" },
+    id: 241,
   },
   {
     name: {
@@ -23231,12 +25437,12 @@ export default [
     latlng: [33.83333333, 35.83333333],
     landlocked: false,
     borders: ["ISR", "SYR"],
-    area: 10452.0,
+    area: 10452,
     demonyms: {
       eng: { f: "Lebanese", m: "Lebanese" },
       fra: { f: "Libanaise", m: "Libanais" },
     },
-    flag: "\uD83C\uDDF1\uD83C\uDDE7",
+    flag: "🇱🇧",
     maps: {
       googleMaps: "https://goo.gl/maps/Sz5VCU8UFBqMyTdc9",
       openStreetMaps: "https://www.openstreetmap.org/relation/184843",
@@ -23258,14 +25464,21 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [33.87, 35.5] },
-    postalCode: { format: "#### ####|####", regex: "^(\\d{4}(\\d{4})?)$" },
+    postalCode: {
+      format: "#### ####|####",
+      regex: "^(\\d{4}(\\d{4})?)$",
+    },
+    id: 242,
   },
   {
     name: {
       common: "Vatican City",
       official: "Vatican City State",
       nativeName: {
-        ita: { official: "Stato della Città del Vaticano", common: "Vaticano" },
+        ita: {
+          official: "Stato della Città del Vaticano",
+          common: "Vaticano",
+        },
         lat: { official: "Status Civitatis Vaticanæ", common: "Vaticanæ" },
       },
     },
@@ -23289,7 +25502,10 @@ export default [
     subregion: "Southern Europe",
     languages: { ita: "Italian", lat: "Latin" },
     translations: {
-      ara: { official: "دولة مدينة الفاتيكان", common: "مدينة الفاتيكان" },
+      ara: {
+        official: "دولة مدينة الفاتيكان",
+        common: "مدينة الفاتيكان",
+      },
       bre: { official: "Riez Keoded ar Vatikan", common: "Vatikan" },
       ces: { official: "Městský stát Vatikán", common: "Vatikán" },
       cym: { official: "Vatican City State", common: "Vatican City" },
@@ -23299,19 +25515,28 @@ export default [
       fra: { official: "Cité du Vatican", common: "Cité du Vatican" },
       hrv: { official: "Vatikan", common: "Vatikan" },
       hun: { official: "Vatikán Állam", common: "Vatikán" },
-      ita: { official: "Città del Vaticano", common: "Città del Vaticano" },
+      ita: {
+        official: "Città del Vaticano",
+        common: "Città del Vaticano",
+      },
       jpn: { official: "バチカン市国の状態", common: "バチカン市国" },
       kor: { official: "바티칸 시국", common: "바티칸" },
       nld: { official: "Vaticaanstad", common: "Vaticaanstad" },
       per: { official: "دولت‌شهر واتیکان", common: "واتیکان" },
       pol: { official: "Państwo Watykańskie", common: "Watykan" },
-      por: { official: "Cidade do Vaticano", common: "Cidade do Vaticano" },
+      por: {
+        official: "Cidade do Vaticano",
+        common: "Cidade do Vaticano",
+      },
       rus: { official: "Город-государство Ватикан", common: "Ватикан" },
       slk: {
         official: "Svätá stolica (Vatikánsky mestský štát",
         common: "Vatikán",
       },
-      spa: { official: "Ciudad del Vaticano", common: "Ciudad del Vaticano" },
+      spa: {
+        official: "Ciudad del Vaticano",
+        common: "Ciudad del Vaticano",
+      },
       srp: { official: "Град Ватикан", common: "Ватикан" },
       swe: { official: "Vatikanstaten", common: "Vatikanstaten" },
       tur: { official: "Vatikan Şehir Devleti", common: "Vatikan" },
@@ -23326,7 +25551,7 @@ export default [
       eng: { f: "Vatican", m: "Vatican" },
       fra: { f: "Vaticane", m: "Vatican" },
     },
-    flag: "\uD83C\uDDFB\uD83C\uDDE6",
+    flag: "🇻🇦",
     maps: {
       googleMaps: "https://goo.gl/maps/DTKvw5Bd1QZaDZmE8",
       openStreetMaps: "https://www.openstreetmap.org/relation/36989",
@@ -23346,6 +25571,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [41.9, 12.45] },
+    id: 243,
   },
   {
     name: {
@@ -23397,15 +25623,15 @@ export default [
       urd: { official: "جمہوریہ ایکوڈور", common: "ایکواڈور" },
       zho: { official: "厄瓜多尔共和国", common: "厄瓜多尔" },
     },
-    latlng: [-2.0, -77.5],
+    latlng: [-2, -77.5],
     landlocked: false,
     borders: ["COL", "PER"],
-    area: 276841.0,
+    area: 276841,
     demonyms: {
       eng: { f: "Ecuadorean", m: "Ecuadorean" },
       fra: { f: "Équatorienne", m: "Équatorien" },
     },
-    flag: "\uD83C\uDDEA\uD83C\uDDE8",
+    flag: "🇪🇨",
     maps: {
       googleMaps: "https://goo.gl/maps/TbX8hUW4gcbRPZiK7",
       openStreetMaps: "https://www.openstreetmap.org/relation/108089",
@@ -23428,6 +25654,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-0.22, -78.5] },
     postalCode: { format: "@####@", regex: "^([a-zA-Z]\\d{4}[a-zA-Z])$" },
+    id: 244,
   },
   {
     name: {
@@ -23483,9 +25710,9 @@ export default [
     },
     latlng: [13.46666666, 144.78333333],
     landlocked: false,
-    area: 549.0,
+    area: 549,
     demonyms: { eng: { f: "Guamanian", m: "Guamanian" } },
-    flag: "\uD83C\uDDEC\uD83C\uDDFA",
+    flag: "🇬🇺",
     maps: {
       googleMaps: "https://goo.gl/maps/Xfnq2i279b18cH3C9",
       openStreetMaps: "https://www.openstreetmap.org/relation/306001",
@@ -23506,6 +25733,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [13.48, 144.75] },
     postalCode: { format: "969##", regex: "^(969\\d{2})$" },
+    id: 245,
   },
   {
     name: {
@@ -23565,12 +25793,12 @@ export default [
     latlng: [45.16666666, 15.5],
     landlocked: false,
     borders: ["BIH", "HUN", "MNE", "SRB", "SVN"],
-    area: 56594.0,
+    area: 56594,
     demonyms: {
       eng: { f: "Croatian", m: "Croatian" },
       fra: { f: "Croate", m: "Croate" },
     },
-    flag: "\uD83C\uDDED\uD83C\uDDF7",
+    flag: "🇭🇷",
     maps: {
       googleMaps: "https://goo.gl/maps/qSG6xTKUmrYpwmGQ6",
       openStreetMaps: "https://www.openstreetmap.org/relation/214885",
@@ -23591,8 +25819,9 @@ export default [
       svg: "https://mainfacts.com/media/images/coats_of_arms/hr.svg",
     },
     startOfWeek: "monday",
-    capitalInfo: { latlng: [45.8, 16.0] },
+    capitalInfo: { latlng: [45.8, 16] },
     postalCode: { format: "HR-#####", regex: "^(?:HR)*(\\d{5})$" },
+    id: 246,
   },
   {
     name: {
@@ -23610,7 +25839,9 @@ export default [
     independent: true,
     status: "officially-assigned",
     unMember: true,
-    currencies: { SBD: { name: "Solomon Islands dollar", symbol: "$" } },
+    currencies: {
+      SBD: { name: "Solomon Islands dollar", symbol: "$" },
+    },
     idd: { root: "+6", suffixes: ["77"] },
     capital: ["Honiara"],
     altSpellings: ["SB"],
@@ -23620,7 +25851,10 @@ export default [
     translations: {
       ara: { official: "جزر سليمان", common: "جزر سليمان" },
       bre: { official: "Inizi Salomon", common: "Inizi Salomon" },
-      ces: { official: "Šalamounovy ostrovy", common: "Šalamounovy ostrovy" },
+      ces: {
+        official: "Šalamounovy ostrovy",
+        common: "Šalamounovy ostrovy",
+      },
       cym: { official: "Solomon Islands", common: "Solomon Islands" },
       deu: { official: "Salomonen", common: "Salomonen" },
       est: { official: "Saalomoni Saared", common: "Saalomoni Saared" },
@@ -23635,8 +25869,14 @@ export default [
       per: { official: "جزایر سلیمان", common: "جزایر سلیمان" },
       pol: { official: "Wyspy Salomona", common: "Wyspy Salomona" },
       por: { official: "Ilhas Salomão", common: "Ilhas Salomão" },
-      rus: { official: "Соломоновы острова", common: "Соломоновы Острова" },
-      slk: { official: "Salomonove ostrovy", common: "Salomonove ostrovy" },
+      rus: {
+        official: "Соломоновы острова",
+        common: "Соломоновы Острова",
+      },
+      slk: {
+        official: "Salomonove ostrovy",
+        common: "Salomonove ostrovy",
+      },
       spa: { official: "islas Salomón", common: "Islas Salomón" },
       srp: { official: "Соломонска Острва", common: "Соломонска Острва" },
       swe: { official: "Salomonöarna", common: "Salomonöarna" },
@@ -23644,14 +25884,14 @@ export default [
       urd: { official: "جزائر سلیمان", common: "جزائر سلیمان" },
       zho: { official: "所罗门群岛", common: "所罗门群岛" },
     },
-    latlng: [-8.0, 159.0],
+    latlng: [-8, 159],
     landlocked: false,
-    area: 28896.0,
+    area: 28896,
     demonyms: {
       eng: { f: "Solomon Islander", m: "Solomon Islander" },
       fra: { f: "Salomonienne", m: "Salomonien" },
     },
-    flag: "\uD83C\uDDF8\uD83C\uDDE7",
+    flag: "🇸🇧",
     maps: {
       googleMaps: "https://goo.gl/maps/JbPkx86Ywjv8C1n8A",
       openStreetMaps: "https://www.openstreetmap.org/relation/1857436",
@@ -23673,6 +25913,7 @@ export default [
     },
     startOfWeek: "monday",
     capitalInfo: { latlng: [-9.43, 159.95] },
+    id: 247,
   },
   {
     name: {
@@ -23724,15 +25965,15 @@ export default [
       urd: { official: "جمہوریہ ہونڈوراس", common: "ہونڈوراس" },
       zho: { official: "洪都拉斯共和国", common: "洪都拉斯" },
     },
-    latlng: [15.0, -86.5],
+    latlng: [15, -86.5],
     landlocked: false,
     borders: ["GTM", "SLV", "NIC"],
-    area: 112492.0,
+    area: 112492,
     demonyms: {
       eng: { f: "Honduran", m: "Honduran" },
       fra: { f: "Hondurienne", m: "Hondurien" },
     },
-    flag: "\uD83C\uDDED\uD83C\uDDF3",
+    flag: "🇭🇳",
     maps: {
       googleMaps: "https://goo.gl/maps/BbeJK8Sk2VkMHbdF8",
       openStreetMaps: "https://www.openstreetmap.org/relation/287670",
@@ -23755,6 +25996,7 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [14.1, -87.22] },
     postalCode: { format: "@@####", regex: "^([A-Z]{2}\\d{4})$" },
+    id: 248,
   },
   {
     name: {
@@ -23783,7 +26025,10 @@ export default [
     languages: { eng: "English" },
     translations: {
       ara: { official: "جزيرة كريسماس", common: "جزيرة كريسماس" },
-      bre: { official: "Tiriad Enez Christmas", common: "Enez Christmas" },
+      bre: {
+        official: "Tiriad Enez Christmas",
+        common: "Enez Christmas",
+      },
       ces: {
         official: "Teritorium Vánočního ostrova",
         common: "Vánoční ostrov",
@@ -23843,9 +26088,11 @@ export default [
     },
     latlng: [-10.5, 105.66666666],
     landlocked: false,
-    area: 135.0,
-    demonyms: { eng: { f: "Christmas Islander", m: "Christmas Islander" } },
-    flag: "\uD83C\uDDE8\uD83C\uDDFD",
+    area: 135,
+    demonyms: {
+      eng: { f: "Christmas Islander", m: "Christmas Islander" },
+    },
+    flag: "🇨🇽",
     maps: {
       googleMaps: "https://goo.gl/maps/ZC17hHsQZpShN5wk9",
       openStreetMaps: "https://www.openstreetmap.org/relation/6365444",
@@ -23865,13 +26112,17 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [-10.42, 105.68] },
     postalCode: { format: "####", regex: "^(\\d{4})$" },
+    id: 249,
   },
   {
     name: {
       common: "Puerto Rico",
       official: "Commonwealth of Puerto Rico",
       nativeName: {
-        eng: { official: "Commonwealth of Puerto Rico", common: "Puerto Rico" },
+        eng: {
+          official: "Commonwealth of Puerto Rico",
+          common: "Puerto Rico",
+        },
         spa: {
           official: "Estado Libre Asociado de Puerto Rico",
           common: "Puerto Rico",
@@ -23901,23 +26152,38 @@ export default [
       ara: { official: "كومنولث بويرتوريكو", common: "بويرتوريكو" },
       bre: { official: "Kenglad Puerto Rico", common: "Puerto Rico" },
       ces: { official: "Portoriko", common: "Portoriko" },
-      cym: { official: "Commonwealth of Puerto Rico", common: "Puerto Rico" },
+      cym: {
+        official: "Commonwealth of Puerto Rico",
+        common: "Puerto Rico",
+      },
       deu: { official: "Freistaat Puerto Rico", common: "Puerto Rico" },
       est: { official: "Puerto Rico Ühendus", common: "Puerto Rico" },
       fin: { official: "Puerto Rico", common: "Puerto Rico" },
       fra: { official: "Porto Rico", common: "Porto Rico" },
       hrv: { official: "Zajednica Puerto Rico", common: "Portoriko" },
       hun: { official: "Puerto Rico", common: "Puerto Rico" },
-      ita: { official: "Commonwealth di Porto Rico", common: "Porto Rico" },
-      jpn: { official: "プエルトリコのコモンウェルス", common: "プエルトリコ" },
+      ita: {
+        official: "Commonwealth di Porto Rico",
+        common: "Porto Rico",
+      },
+      jpn: {
+        official: "プエルトリコのコモンウェルス",
+        common: "プエルトリコ",
+      },
       kor: { official: "푸에르토리코", common: "푸에르토리코" },
-      nld: { official: "Gemenebest van Puerto Rico", common: "Puerto Rico" },
+      nld: {
+        official: "Gemenebest van Puerto Rico",
+        common: "Puerto Rico",
+      },
       per: { official: "قلمرو همسود پورتوریکو", common: "پورتوریکو" },
       pol: {
         official: "Wolne Stowarzyszone Państwo Portoryko",
         common: "Portoryko",
       },
-      por: { official: "Commonwealth of Puerto Rico", common: "Porto Rico" },
+      por: {
+        official: "Commonwealth of Puerto Rico",
+        common: "Porto Rico",
+      },
       rus: { official: "Содружество Пуэрто-Рико", common: "Пуэрто-Рико" },
       slk: { official: "Portorické spoločenstvo", common: "Portoriko" },
       spa: { official: "Asociado de Puerto Rico", common: "Puerto Rico" },
@@ -23929,12 +26195,12 @@ export default [
     },
     latlng: [18.25, -66.5],
     landlocked: false,
-    area: 8870.0,
+    area: 8870,
     demonyms: {
       eng: { f: "Puerto Rican", m: "Puerto Rican" },
       fra: { f: "Portoricaine", m: "Portoricain" },
     },
-    flag: "\uD83C\uDDF5\uD83C\uDDF7",
+    flag: "🇵🇷",
     maps: {
       googleMaps: "https://goo.gl/maps/sygfDbtwn389wu8x5",
       openStreetMaps: "https://www.openstreetmap.org/relation/4422604",
@@ -23952,5 +26218,6 @@ export default [
     startOfWeek: "monday",
     capitalInfo: { latlng: [18.47, -66.12] },
     postalCode: { format: "#####-####", regex: "^(\\d{9})$" },
+    id: 250,
   },
 ];

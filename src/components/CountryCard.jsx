@@ -1,10 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function CountryCard({ imageUrl, countryName, population, region, capital }) {
+function CountryCard({
+  imageUrl,
+  countryName,
+  population,
+  region,
+  capital,
+  id,
+}) {
   return (
-    <div
+    <Link
+      to={`${id}`}
       key={countryName}
-      className="p-4 bg-neutral-600 flex flex-col gap-3 items-center rounded m-2"
+      className="p-4 bg-neutral-600 flex flex-col gap-3 items-center rounded m-2 cursor-pointer"
     >
       <div>
         <img className="max-h-32" src={imageUrl} alt="countryImg" />
@@ -15,7 +24,7 @@ function CountryCard({ imageUrl, countryName, population, region, capital }) {
         <div>Region : {region}</div>
         <div>Capital : {capital}</div>
       </div>
-    </div>
+    </Link>
   );
 }
 
