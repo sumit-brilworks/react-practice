@@ -8,15 +8,32 @@ import {
   json,
   Route,
   RouterProvider,
+  ScrollRestoration,
 } from "react-router-dom";
 import ErrorBoundary from "./components/ErrorBoundary.jsx";
 import SpecificTeam from "./components/SpecificTeam.jsx";
 import SomeLAzyComponent from "./components/SomeLAzyComponent.jsx";
+import Page1 from "./components/Page1.jsx";
+import Page2 from "./components/Page2.jsx";
+import NavBar from "./components/NavBar.jsx";
+import Billings from "./components/Billings.jsx";
+import Home from "./components/Home.jsx";
+import About from "./components/About.jsx";
+import Contact from "./components/Contact.jsx";
+import Params from "./components/Params.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromChildren(
     <>
       <Route path="/" element={<App />}></Route>
+      <Route path="/:teamm" element={<Params />}></Route>
+      <Route path="/Billings" element={<Billings />}></Route>
+      <Route path="/Home" element={<Home />}></Route>
+      <Route path="/About" element={<About />}></Route>
+      <Route path="/Contact" element={<Contact />}></Route>
+      <Route path="/navbar" element={<NavBar />}></Route>
+      <Route path="/page1" element={<Page1 />}></Route>
+      <Route path="/page2" element={<Page2 />}></Route>
 
       <Route
         path="/:teamId"
